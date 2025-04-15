@@ -1,0 +1,35 @@
+{
+  "name": "ruwet",
+  "version": "0.0.1",
+  "description": "bakso",
+  "main": "start.js",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [
+    "wkwk"
+  ],
+  "author": "ivan",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-phonenumber": "^6.4.0",
+    "axios": "^1.6.7",
+    "baileys": "npm:baileys@latest",
+    "cheerio": "^1.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "jimp": "^0.22.12",
+    "jsqr": "^1.4.0",
+    "mongodb": "^6.6.2",
+    "node-fetch": "^3.3.2",
+    "node-webpmux": "^3.2.0",
+    "qrcode": "^1.5.4"
+  },
+  "resolutions": {
+    "jimp": "^0.22.12"
+  },
+  "overrides": {
+    "jimp": "^0.22.12"
+  }
+}
