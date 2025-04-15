@@ -127,12 +127,12 @@ silahkan kirim pesan: *.daftar*`)
         console.error(e)
         if (!cek.valid) await m.reply(`apikeys anda tidak valid`)
         if (!m.owner) {
-            await m.reply(`limit apikeys bot ini habis
+            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys bot ini habis
     
 silahkan lapor owner untuk beli premium apikeys`)
         }
         else {
-            await m.reply(`limit apikeys kamu habis
+            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys kamu habis
     
 silahkan beli premium apikeys`)
         }
