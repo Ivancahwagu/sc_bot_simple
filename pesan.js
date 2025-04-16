@@ -13,7 +13,7 @@ export default async function ({ messages, theo }) {
         m.chat = m.key?.remoteJid ?? "unknown";
         m.fromMe = m.key.fromMe
         m.sender = m.fromMe ? jidNormalizedUser(theo.user.id) : m.key?.participant ?? m.key?.remoteJid;
-        m.pushName ? theo.name[m.sender] = m.pushName : false
+        m.pushName ? theo.name[m.sender] = m.pushName : null
         m.id = m.key?.id ?? "unknown";
         m.group = m.chat.endsWith("@g.us");
 
@@ -74,6 +74,7 @@ export default async function ({ messages, theo }) {
             m.quoted.message = m.message[m.type].contextInfo.quotedMessage;
             m.quoted.chat = m.quoted.key.remoteJid;
             m.quoted.sender = m.quoted.fromMe ? jidNormalizedUser(theo.user.id) : m.quoted.key.participant ?? m.quoted.key.remoteJid;
+            m.quoted.name = theo.name[m.quoted.sender] ? theo.name[m.quoted.sender] : null
             m.quoted.owner = owner.some(o => m.quoted.sender.replace(/\D/g, "") === o);
             m.quoted.bot = m.quoted.id.startsWith("3EB0") && !m.quoted.name;
             m.quoted.type = m.quoted.message?.conversation ? "conversation" : Object.keys(m.quoted.message ?? {}).find(a => a.endsWith("Message") && !a.startsWith("senderKey") && !a.startsWith("protocol")) ?? null;
@@ -110,7 +111,7 @@ export default async function ({ messages, theo }) {
 
         console.log(`
 \x1b[1;36m╔════════════════════════════════════════════════╗
-║               \x1b[1;32m📩 PESAN MASUK 📩\x1b[1;36m                ║
+║               \x1b[1;32m📩 PESAN MASUK 📩\x1b[1;36m               ║
 ╠════════════════════════════════════════════════╣
 ║               ${tanggal_now().getDate()}-${tanggal_now().getMonth() + 1}-${tanggal_now().getFullYear()} ${tanggal_now().getHours().toString().padStart(2, '0')}.${tanggal_now().getMinutes().toString().padStart(2, '0')}.${tanggal_now().getSeconds().toString().padStart(2, '0')}                ║
 ╠════════════════════════════════════════════════╝

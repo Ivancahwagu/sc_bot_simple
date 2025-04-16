@@ -20,29 +20,70 @@ limit: ${db.user[m.sender].limit}` : `anda belum daftar di bot ini`, null, null,
             }
         }
     }
-    await theo.sendMedia(m.chat, image, `> *Hai, saya ${namaBot}. Saya adalah bot whatsapp yang dikembangkan oleh alfin.*
+    switch (m.command.toLowerCase()) {
+        case "menu": case "help": {
+            let { key } = await theo.sendMedia(m.chat, image, `*👋 Hai, saya ${namaBot}*
 
-Join my minecraft server
-IP  : 147.139.179.157
-Port: 19132
-Link: https://chat.whatsapp.com/JU1lMB5VZVpDto40OUlhLt
+Saya adalah bot WhatsApp yang dikembangkan oleh Ivan.
 
-*BEDROCK ONLY*
+╭───❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
+│📛 Nama Bot: *${namaBot}*
+│🎮 Server MC:
+│   ├ IP   : 147.139.179.157
+│   ├ Port : 19132
+│   └ Link : store.berapi.my.id
+│📦 Platform: *BEDROCK ONLY*
+╰─────────────
 
-(L): Fitur ini memakai limit
-(P): FItur ini khusus user premium
-*List menu:*
+📌 *Keterangan fitur:*  
+💠 (L) = Memakai limit  
+💎 (P) = Khusus pengguna premium 
+
+*📑 List Menu:*
+${tags.map((item, index) => ` ${index + 1}. *${item}*`).join(`\n`)}
+
+➤ Balas pesan ini dengan nomor menu yang ingin kamu akses.
+
+ingin semua menu?
+
+ketik: *.allmenu*
+
+_Terima kasih telah menggunakan ${namaBot}!_`, m.quo)
 
 
-${tags.map(a => `╔═══════════════════╗
-║       *${a.toUpperCase()}*      
-╠═══════════════════╣
-${menu.filter(b => b.tags == a).map(c => `║ ${m.prefix}${c.command} ${c.limit ? `(L)` : c.premium ? `(P)` : ``}`).join(`\n`)}
-╚═══════════════════╝`).join(`\n\n`)}
+            theo.menu[m.sender] = {}
+            theo.menu[m.sender][key.id] = { prefix: m.prefix, tags }
+        }
+            break
+        case "allmenu": {
+            await theo.sendMedia(m.chat, image, `🌟 *Selamat datang di ${namaBot}!*  
+Saya adalah bot WhatsApp yang dikembangkan oleh Ivan 🤖
 
-*terimakasih sudah memakai ${namaBot}*`, m.quo)
+🎮 *Join server Minecraft kami!*
+🌐 IP   : 147.139.179.157  
+📦 Port : 19132  
+🛒 Link : store.berapi.my.id  
+📱 Platform: *BEDROCK ONLY*
+
+📌 *Keterangan fitur:*  
+💠 (L) = Memakai limit  
+💎 (P) = Khusus pengguna premium  
+
+╭━━━━ *DAFTAR MENU* ━━━━╮
+${tags.map(tag => `
+╔═──────── ⋆⋅☆⋅⋆ ────────═╗
+  📂 *${tag.toUpperCase()}*
+╟──────────────────────╢
+${menu.filter(item => item.tags == tag).map(c => `┃ ⤷ *${m.prefix}${c.command}* ${c.limit ? '💠' : c.premium ? '💎' : ''}`).join('\n')}
+╚═────────────────────═╝`).join(`\n`)}
+
+🙏 *Terima kasih telah menggunakan ${namaBot}!*`, m.quo)
+
+        }
+    }
+
 }
 
 theoFitur.tags = "main"
-theoFitur.command = [`menu`, `help`]
+theoFitur.command = [`menu`, `help`, "allmenu"]
 export default theoFitur

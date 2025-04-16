@@ -1,16 +1,21 @@
 import { yts } from "../tools/scrape.js"
 
 let theoFitur = async function ({ m, theo }) {
-    if (!m.res) return await m.reply(`format salah!
-        
-contoh: ${m.prefix}${m.command} kembali pulang`)
+    if (!m.res) return await m.reply(`❌ Format salah!
+
+📌 Contoh: *${m.prefix}${m.command} kembali pulang*`)
+
     let hasil = await yts(m.res)
-    await m.reply(`${hasil.map(a => (`
-title:  ${a.title}
-durasi: ${a.durasi}
-link:   ${a.link}    
-`)).join(`\n`)}`)
+    if (!hasil.length) return await m.reply(`❌ Tidak ditemukan hasil untuk *${m.res}*`)
+
+    let teks = `🔎 *Hasil Pencarian YouTube:*\n\n` +
+        hasil.slice(0, 10).map((a, i) => `*${i + 1}. ${a.title}*
+⏱️ Durasi: ${a.durasi}
+🔗 Link: ${a.link}`).join(`\n\n`)
+
+    await m.reply(teks)
 }
+
 theoFitur.tags = "internet"
 theoFitur.command = ["youtubesearch", "yts"]
 export default theoFitur

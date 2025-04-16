@@ -6,7 +6,8 @@ let theoFitur = async function ({ m, theo }) {
     let harga = {
         limit: 100,
         premium: 1000,
-        sewa: 1000
+        sewa: 1000,
+        apikeys: 1000
     }
     let [item, jumlah] = m.res.split(" ")
     if (!item || !jumlah || !Object.keys(harga).includes(item) || isNaN(parseInt(jumlah))) return await m.reply(`format salah!

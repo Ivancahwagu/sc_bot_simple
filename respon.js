@@ -1,5 +1,4 @@
 import fs from "fs"
-import fetch from "node-fetch"
 import path from "path"
 export default async function ({ m, theo }) {
     try {
@@ -54,7 +53,6 @@ export default async function ({ m, theo }) {
                     import_file.default.fileName = pluginsRes
                     pluginsList.command.push(import_file.default)
                 }
-
             }
         }
         for (const isi_file of pluginsList.command) {
@@ -75,66 +73,64 @@ export default async function ({ m, theo }) {
                 console.log(`error di file: ${isi_file.fileName}`)
             }
         }
-
-        if ((m.prefix || m.owner) && m.command) {
-            if (!m.prefix) m.prefix = `.`
-            const fileRun = pluginsList.command.filter(a => a.command.includes(m.command.toLowerCase()))[0]
+        m.read()
+        if (m.prefix) {
+            const fileRun = pluginsList.command.find(a => a.command.includes(m.command.toLowerCase()))
             if (fileRun) {
-                if (fileRun.owner) {
-                    if (!m.owner) return await m.reply(`fitur ini khusus owner`)
+                if (fileRun.owner && !m.owner) {
+                    return await m.reply(`🚫 *Akses ditolak!*\nFitur ini hanya bisa digunakan oleh *Owner* bot.`)
                 }
                 if (fileRun.admin) {
-                    if (!m.group) return await m.reply(`fitur ini khusus grup`)
+                    if (!m.group) return await m.reply(`🚫 Fitur ini hanya bisa digunakan di *grup*.`)
                     if (!m.owner && !m.admin) {
-                        return await m.reply(`fitur ini khusus admin`)
+                        return await m.reply(`🚫 *Khusus Admin!*\nKamu bukan admin grup ini.`)
                     }
                 }
-                if (fileRun.group) {
-                    if (!m.group) return await m.reply(`fitur ini khusus grup`)
+                if (fileRun.group && !m.group) {
+                    return await m.reply(`🚫 Fitur ini hanya dapat digunakan di *grup*.`)
                 }
                 if (fileRun.botAdmin) {
-                    if (!m.group) return await m.reply(`fitur ini khusus grup`)
-                    if (!m.botAdmin) return await m.reply(`fitur ini dapat digunakan ketika bot menjadi admin di group`)
+                    if (!m.group) return await m.reply(`🚫 Fitur ini hanya dapat digunakan di *grup*.`)
+                    if (!m.botAdmin) {
+                        return await m.reply(`🚫 Bot harus menjadi *Admin* untuk menggunakan fitur ini.`)
+                    }
                 }
                 if (fileRun.premium || fileRun.limit) {
-                    if (!db.user[m.sender]) return await m.reply(`anda harus daftar dulu
-                    
-silahkan kirim pesan: *.daftar*`)
+                    if (!db.user[m.sender]) {
+                        return await m.reply(`🚫 Kamu belum terdaftar!
+        
+📌 Kirim pesan: *.daftar* untuk mendaftar.`)
+                    }
+
                     if (!m.owner) {
-                        if (fileRun.premium) {
-                            if (!db.user[m.sender].premium) return await m.reply(`fitur ini khusus premium user`)
+                        if (fileRun.premium && !db.user[m.sender].premium) {
+                            return await m.reply(`✨ *Fitur Premium!*\nKhusus untuk user premium.`)
                         }
-                        if (fileRun.limit) {
-                            if (!db.user[m.sender].premium && !m.owner) {
-                                if (db.user[m.sender].limit <= 0) return await m.reply(`limit anda habis kak😔`)
-                                db.user[m.sender].limit -= 1
+                        if (fileRun.limit && !db.user[m.sender].premium) {
+                            if (db.user[m.sender].limit <= 0) {
+                                return await m.reply(`🚫 *Limit Habis!*\nSilakan tunggu hingga reset atau beli limit.`)
                             }
+                            db.user[m.sender].limit -= 1
                         }
                     }
                 }
                 if (db.user[m.sender]) {
-                    if (Object.keys(db.user[m.sender].download.length == 3)) db.user[m.sender].download = {}
-                    if (Object.keys(db.user[m.sender].ytdl).length == 3) db.user[m.sender].ytdl = {}
+                    if (Object.keys(db.user[m.sender].download || {}).length >= 3) {
+                        db.user[m.sender].download = {}
+                    }
+                    if (Object.keys(db.user[m.sender].ytdl || {}).length >= 3) {
+                        db.user[m.sender].ytdl = {}
+                    }
                 }
+
                 await fileRun({ m, theo })
             }
         }
+
         for (const run_without_command of pluginsList.no_command) {
             await run_without_command({ m, theo })
         }
     } catch (e) {
-        let cek = await (await fetch(`${webApi}/check-api?apikeys=${apikeys}`)).json()
         console.error(e)
-        if (!cek.valid) await m.reply(`apikeys anda tidak valid`)
-        if (!m.owner) {
-            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys bot ini habis
-    
-silahkan lapor owner untuk beli premium apikeys`)
-        }
-        else {
-            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys kamu habis
-    
-silahkan beli premium apikeys`)
-        }
     }
 }

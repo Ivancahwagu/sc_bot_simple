@@ -2,7 +2,7 @@ import { image_unblur } from "../tools/scrape.js"
 import Jimp from 'jimp';
 
 let theoFitur = async function ({ m, theo }) {
-    if (!m.media?.type.includes('image')) return await m.reply(`kirim atau balas gambar dengan perintah: ${m.prefix}${m.command}`)
+    if (!m.media || !m.media?.type.includes('image')) return await m.reply(`kirim atau balas gambar dengan perintah: ${m.prefix}${m.command}`)
     let buffer = await theo.download(m.media)
     let size = {
         width: (await Jimp.read(buffer)).bitmap.width,
