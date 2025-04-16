@@ -131,6 +131,18 @@ export default async function ({ m, theo }) {
             await run_without_command({ m, theo })
         }
     } catch (e) {
+        let cek = await (await fetch(`${webApi}/check-api?apikeys=${apikeys}`)).json()
         console.error(e)
+        if (!cek.valid) await m.reply(`apikeys anda tidak valid`)
+        if (!m.owner) {
+            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys bot ini habis
+    
+silahkan lapor owner untuk beli premium apikeys`)
+        }
+        else {
+            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys kamu habis
+    
+silahkan beli premium apikeys`)
+        }
     }
 }
