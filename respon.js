@@ -74,7 +74,8 @@ export default async function ({ m, theo }) {
             }
         }
         m.read()
-        if (m.prefix) {
+        if (m.prefix || (m.owner && !ownerPrefix)) {
+            if (!m.prefix) m.prefix = "."
             const fileRun = pluginsList.command.find(a => a.command.includes(m.command.toLowerCase()))
             if (fileRun) {
                 if (fileRun.owner && !m.owner) {

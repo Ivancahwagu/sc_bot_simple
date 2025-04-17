@@ -4,14 +4,15 @@ import url from "url"
 import fetch from "node-fetch"
 
 global.__dirname = path.dirname(url.fileURLToPath(import.meta.url))
-global.namaBot = `nama bot kamu` //nama bot kamu
-global.owner = [`6282322199300`, `6288801110333`].map(a => a.replace(/[^0-9]/g, ``)) //ganti dengan nomor kamu
-global.apikeys = "axurw81xuv4" //isi dengan api anda, kalo belum ada silahkan minta admin webApi
-global.webApi = `https://store.berapi.my.id`//jangan di ubah ini bawaan nanti kalo diubah eror
-global.nomorBot = `+62 896-7609-0900`.replace(/[^0-9]/g, ``) //isi dengan nomor bot kamu
+global.namaBot = `TheoBot`
+global.owner = [`6285876830674`, `6285809011357`, /*`201027441522`*/].map(a => a.replace(/[^0-9]/g, ``))
+global.ownerPrefix = true // Ubah menjadi false agar owner bisa pakai bot tanpa prefix atau awalan seperti . ? dan lain-lain
+global.apikeys = "isi apikeys kamu disini" // APIKEYS UNTUK SCRAPE
+global.nomorBot = `+20 102 744 1522`.replace(/[^0-9]/g, ``)// Nomor bot kamu
 global.sesiPath = path.join(__dirname, `SESSION`)
 global.dataPath = path.join(__dirname, `data.json`)
 global.sampahPath = path.join(__dirname, `sampah`)
+global.webApi = `https://store.berapi.my.id`
 global.prefix = [`.`, `!`, `/`, `?`]
 if (!fs.existsSync(dataPath)) {
     fs.writeFileSync(dataPath, `{}`)
