@@ -1,5 +1,3 @@
-import { ttconvert } from "../tools/scrape.js"
-
 let theoFitur = async function ({ m, theo }) {
     if (!db.user[m.sender]) return
     if (m.quoted) {
