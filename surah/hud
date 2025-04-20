@@ -1,0 +1,617 @@
+[
+  {
+    "arab": "الۤرٰۗ كِتٰبٌ اُحْكِمَتْ اٰيٰتُهٗ ثُمَّ فُصِّلَتْ مِنْ لَّدُنْ حَكِيْمٍ خَبِيْرٍۙ ۝١",
+    "latin": "alif lâm râ, kitâbun uḫkimat âyâtuhû tsumma fushshilat mil ladun ḫakîmin khabîr",
+    "arti": "Alif Lām Rā. (Inilah) Kitab yang ayat-ayatnya telah disusun dengan rapi kemudian dijelaskan secara terperinci (dan diturunkan) dari sisi (Allah) Yang Mahabijaksana lagi Mahateliti."
+  },
+  {
+    "arab": "اَلَّا تَعْبُدُوْٓا اِلَّا اللّٰهَۗ اِنَّنِيْ لَكُمْ مِّنْهُ نَذِيْرٌ وَّبَشِيْرٌۙ ۝٢",
+    "latin": "allâ ta‘budû illallâh, innanî lakum min-hu nadzîruw wa basyîr",
+    "arti": "(Katakanlah Nabi Muhammad,) “Janganlah kamu menyembah (sesuatu), kecuali Allah. Sesungguhnya aku adalah pemberi peringatan dan pembawa berita gembira dari-Nya untukmu."
+  },
+  {
+    "arab": "وَّاَنِ اسْتَغْفِرُوْا رَبَّكُمْ ثُمَّ تُوْبُوْٓا اِلَيْهِ يُمَتِّعْكُمْ مَّتَاعًا حَسَنًا اِلٰٓى اَجَلٍ مُّسَمًّى وَّيُؤْتِ كُلَّ ذِيْ فَضْلٍ فَضْلَهٗۗ وَاِنْ تَوَلَّوْا فَاِنِّيْٓ اَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيْرٍ ۝٣",
+    "latin": "wa anistaghfirû rabbakum tsumma tûbû ilaihi yumatti‘kum matâ‘an ḫasanan ilâ ajalim musamman wa yu'ti kulla dzî fadllin fadllah, wa in tawallau fa innî akhâfu ‘alaikum ‘adzâba yauming kabîr",
+    "arti": "Mohonlah ampunan kepada Tuhanmu kemudian bertobatlah kepada-Nya, niscaya Dia akan memberi kesenangan yang baik kepadamu (di dunia) sampai waktu yang telah ditentukan (kematian) dan memberikan pahala-Nya (di akhirat) kepada setiap orang yang beramal saleh. Jika kamu berpaling, sesungguhnya aku takut kamu (akan) ditimpa azab pada hari yang besar (kiamat)."
+  },
+  {
+    "arab": "اِلَى اللّٰهِ مَرْجِعُكُمْۚ وَهُوَ عَلٰى كُلِّ شَيْءٍ قَدِيْرٌ ۝٤",
+    "latin": "ilallâhi marji‘ukum, wa huwa ‘alâ kulli syai'ing qadîr",
+    "arti": "Kepada Allahlah kembalimu. Dia Mahakuasa atas segala sesuatu.”"
+  },
+  {
+    "arab": "اَلَآ اِنَّهُمْ يَثْنُوْنَ صُدُوْرَهُمْ لِيَسْتَخْفُوْا مِنْهُۗ  اَلَا حِيْنَ يَسْتَغْشُوْنَ ثِيَابَهُمْۙ يَعْلَمُ مَا يُسِرُّوْنَ وَمَا يُعْلِنُوْنَۚ اِنَّهٗ عَلِيْمٌ ۢ بِذَاتِ الصُّدُوْرِ ۝٥",
+    "latin": "alâ innahum yatsnûna shudûrahum liyastakhfû min-h, alâ ḫîna yastaghsyûna tsiyâbahum ya‘lamu mâ yusirrûna wa mâ yu‘linûn, innahû ‘alîmum bidzâtish-shudûr",
+    "arti": "Ketahuilah bahwa sesungguhnya mereka menutupi (apa yang ada dalam) dada mereka untuk menyembunyikan diri dari-Nya. Ketahuilah bahwa ketika mereka menyelimuti dirinya dengan kain, Dia mengetahui apa yang mereka sembunyikan dan apa yang mereka nyatakan. Sesungguhnya Dia Maha Mengetahui (segala) isi hati."
+  },
+  {
+    "arab": "۞ وَمَا مِنْ دَاۤبَّةٍ فِى الْاَرْضِ اِلَّا عَلَى اللّٰهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَاۗ كُلٌّ فِيْ كِتٰبٍ مُّبِيْنٍ ۝٦",
+    "latin": "wa mâ min dâbbatin fil-ardli illâ ‘alallâhi rizquhâ wa ya‘lamu mustaqarrahâ wa mustauda‘ahâ, kullun fî kitâbim mubîn",
+    "arti": "Tidak satu pun hewan yang bergerak di atas bumi melainkan dijamin rezekinya oleh Allah. Dia mengetahui tempat kediamannya dan tempat penyimpanannya. Semua (tertulis) dalam Kitab yang nyata (Lauh Mahfuz)."
+  },
+  {
+    "arab": "وَهُوَ الَّذِيْ خَلَقَ السَّمٰوٰتِ وَالْاَرْضَ فِيْ سِتَّةِ اَيَّامٍ وَّكَانَ عَرْشُهٗ عَلَى الْمَاۤءِ لِيَبْلُوَكُمْ اَيُّكُمْ اَحْسَنُ عَمَلًاۗ وَلَىِٕنْ قُلْتَ اِنَّكُمْ مَّبْعُوْثُوْنَ مِنْۢ بَعْدِ الْمَوْتِ لَيَقُوْلَنَّ الَّذِيْنَ كَفَرُوْٓا اِنْ هٰذَٓا اِلَّا سِحْرٌ مُّبِيْنٌ ۝٧",
+    "latin": "wa huwalladzî khalaqas-samâwâti wal-ardla fî sittati ayyâmiw wa kâna ‘arsyuhû ‘alal-mâ'i liyabluwakum ayyukum aḫsanu ‘amalâ, wa la'ing qulta innakum mab‘ûtsûna mim ba‘dil-mauti layaqûlannalladzîna kafarû in hâdzâ illâ siḫrum mubîn",
+    "arti": "Dialah yang telah menciptakan langit dan bumi dalam enam masa serta (sebelum itu) ʻArasy-Nya di atas air. (Penciptaan itu dilakukan) untuk menguji kamu, siapakah di antara kamu yang lebih baik amalnya. Sungguh, jika engkau (Nabi Muhammad) berkata, “Sesungguhnya kamu akan dibangkitkan setelah mati,” niscaya orang-orang kafir akan berkata, “Ini (Al-Qur’an) tidak lain kecuali sihir yang nyata.”"
+  },
+  {
+    "arab": "وَلَىِٕنْ اَخَّرْنَا عَنْهُمُ الْعَذَابَ اِلٰٓى اُمَّةٍ مَّعْدُوْدَةٍ لَّيَقُوْلُنَّ مَا يَحْبِسُهٗۗ اَلَا يَوْمَ يَأْتِيْهِمْ لَيْسَ مَصْرُوْفًا عَنْهُمْ وَحَاقَ بِهِمْ مَّا كَانُوْا بِهٖ يَسْتَهْزِءُوْنَࣖ ۝٨",
+    "latin": "wa la'in akhkharnâ ‘an-humul-‘adzâba ilâ ummatim ma‘dûdatil layaqûlunna mâ yaḫbisuh, alâ yauma ya'tîhim laisa mashrûfan ‘an-hum wa ḫâqa bihim mâ kânû bihî yastahzi'ûn",
+    "arti": "Sungguh, jika Kami tangguhkan azab dari mereka sampai waktu tertentu, niscaya mereka akan berkata, “Apakah yang menghalanginya?” Ketahuilah, ketika datang kepada mereka, azab itu tidaklah dapat dipalingkan dari mereka. Mereka dikepung oleh (azab) yang dahulu mereka selalu memperolok-olokkannya."
+  },
+  {
+    "arab": "وَلَىِٕنْ اَذَقْنَا الْاِنْسَانَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنٰهَا مِنْهُۚ اِنَّهٗ لَيَـُٔوْسٌ كَفُوْرٌ ۝٩",
+    "latin": "wa la'in adzaqnal-insâna minnâ raḫmatan tsumma naza‘nâhâ min-h, innahû laya'ûsung kafûr",
+    "arti": "Sungguh, jika Kami cicipkan kepada manusia suatu rahmat dari Kami kemudian Kami cabut kembali darinya, sesungguhnya dia menjadi sangat berputus asa lagi sangat kufur (terhadap nikmat Allah)."
+  },
+  {
+    "arab": "وَلَىِٕنْ اَذَقْنٰهُ نَعْمَاۤءَ بَعْدَ ضَرَّاۤءَ مَسَّتْهُ لَيَقُوْلَنَّ ذَهَبَ السَّيِّاٰتُ عَنِّيْۗ اِنَّهٗ لَفَرِحٌ فَخُوْرٌۙ ۝١٠",
+    "latin": "wa la'in adzaqnâhu na‘mâ'a ba‘da dlarrâ'a massat-hu layaqûlanna dzahabas-sayyi'âtu ‘annî, innahû lafariḫun fakhûr",
+    "arti": "Sungguh, jika Kami cicipkan kepadanya (manusia) suatu nikmat setelah bencana yang menimpanya, niscaya dia akan berkata, “Telah hilang keburukan itu dariku.” Sesungguhnya dia sangat gembira lagi sangat membanggakan diri."
+  },
+  {
+    "arab": "اِلَّا الَّذِيْنَ صَبَرُوْا وَعَمِلُوا الصّٰلِحٰتِۗ اُولٰۤىِٕكَ لَهُمْ مَّغْفِرَةٌ وَّاَجْرٌ كَبِيْرٌ ۝١١",
+    "latin": "illalladzîna shabarû wa ‘amilush-shâliḫât, ulâ'ika lahum maghfiratuw wa ajrung kabîr",
+    "arti": "Kecuali, orang-orang yang sabar dan beramal saleh, bagi mereka ampunan dan pahala yang besar."
+  },
+  {
+    "arab": "فَلَعَلَّكَ تَارِكٌۢ بَعْضَ مَا يُوْحٰىٓ اِلَيْكَ وَضَاۤىِٕقٌۢ بِهٖ صَدْرُكَ اَنْ يَّقُوْلُوْا لَوْلَآ اُنْزِلَ عَلَيْهِ كَنْزٌ اَوْ جَاۤءَ مَعَهٗ مَلَكٌۗ اِنَّمَآ اَنْتَ نَذِيْرٌۗ وَاللّٰهُ عَلٰى كُلِّ شَيْءٍ وَّكِيْلٌۗ ۝١٢",
+    "latin": "fa la‘allaka târikum ba‘dla mâ yûḫâ ilaika wa dlâ'iqum bihî shadruka ay yaqûlû lau lâ unzila ‘alaihi kanzun au jâ'a ma‘ahû malak, innamâ anta nadzîr, wallâhu ‘alâ kulli syai'iw wakîl",
+    "arti": "Boleh jadi engkau (Nabi Muhammad) hendak meninggalkan sebagian dari apa yang diwahyukan kepadamu dan dadamu menjadi sempit karena (takut) mereka mengatakan, “Mengapa tidak diturunkan kepadanya harta (kekayaan) atau datang malaikat bersamanya?”  Sesungguhnya engkau hanyalah seorang pemberi peringatan dan Allah adalah pemelihara segala sesuatu."
+  },
+  {
+    "arab": "اَمْ يَقُوْلُوْنَ افْتَرٰىهُۗ قُلْ فَأْتُوْا بِعَشْرِ سُوَرٍ مِّثْلِهٖ مُفْتَرَيٰتٍ وَّادْعُوْا مَنِ اسْتَطَعْتُمْ مِّنْ دُوْنِ اللّٰهِ اِنْ كُنْتُمْ صٰدِقِيْنَ ۝١٣",
+    "latin": "am yaqûlûnaftarâh, qul fa'tû bi‘asyri suwarim mitslihî muftarayâtiw wad‘û manistatha‘tum min dûnillâhi ing kuntum shâdiqîn",
+    "arti": "Bahkan, apakah mereka mengatakan, “Dia (Nabi Muhammad) telah membuat-buat (Al-Qur’an) itu.” Katakanlah, “(Kalau demikian,) datangkanlah sepuluh surah semisal dengannya (Al-Qur’an) yang dibuat-buat dan ajaklah siapa saja yang kamu sanggup (mengundangnya) selain Allah, jika kamu orang-orang yang benar.”"
+  },
+  {
+    "arab": "فَاِلَّمْ يَسْتَجِيْبُوْا لَكُمْ فَاعْلَمُوْٓا اَنَّمَآ اُنْزِلَ بِعِلْمِ اللّٰهِ وَاَنْ لَّآ اِلٰهَ اِلَّا هُوَۚ فَهَلْ اَنْتُمْ مُّسْلِمُوْنَ ۝١٤",
+    "latin": "fa il lam yastajîbû lakum fa‘lamû annamâ unzila bi‘ilmillâhi wa al lâ ilâha illâ huw, fa hal antum muslimûn",
+    "arti": "Jika mereka tidak memenuhi ajakanmu, (katakanlah,) “Ketahuilah sesungguhnya ia (Al-Qur’an) itu diturunkan dengan ilmu Allah dan (ketahui pula) bahwa tidak ada tuhan kecuali Dia. Apakah kamu mau berserah diri (masuk Islam)?”"
+  },
+  {
+    "arab": "مَنْ كَانَ يُرِيْدُ الْحَيٰوةَ الدُّنْيَا وَزِيْنَتَهَا نُوَفِّ اِلَيْهِمْ اَعْمَالَهُمْ فِيْهَا وَهُمْ فِيْهَا لَا يُبْخَسُوْنَ ۝١٥",
+    "latin": "mang kâna yurîdul-ḫayâtad-dun-yâ wa zînatahâ nuwaffi ilaihim a‘mâlahum fîhâ wa hum fîhâ lâ yubkhasûn",
+    "arti": "Siapa yang menghendaki kehidupan dunia dan perhiasannya, pasti Kami berikan kepada mereka (balasan) perbuatan mereka di dalamnya dengan sempurna dan mereka di dunia tidak akan dirugikan."
+  },
+  {
+    "arab": "اُولٰۤىِٕكَ الَّذِيْنَ لَيْسَ لَهُمْ فِى الْاٰخِرَةِ اِلَّا النَّارُۖ وَحَبِطَ مَا صَنَعُوْا فِيْهَا وَبٰطِلٌ مَّا كَانُوْا يَعْمَلُوْنَ ۝١٦",
+    "latin": "ulâ'ikalladzîna laisa lahum fil-âkhirati illan-nâru wa ḫabitha mâ shana‘û fîhâ wa bâthilum mâ kânû ya‘malûn",
+    "arti": "Mereka itulah orang-orang yang tidak memperoleh (sesuatu) di akhirat kecuali neraka, sia-sialah apa yang telah mereka usahakan (di dunia), dan batallah apa yang dahulu selalu mereka kerjakan. "
+  },
+  {
+    "arab": "اَفَمَنْ كَانَ عَلٰى بَيِّنَةٍ مِّنْ رَّبِّهٖ وَيَتْلُوْهُ شَاهِدٌ مِّنْهُ وَمِنْ قَبْلِهٖ كِتٰبُ مُوْسٰىٓ اِمَامًا وَّرَحْمَةًۗ  اُولٰۤىِٕكَ يُؤْمِنُوْنَ بِهٖۗ وَمَنْ يَّكْفُرْ بِهٖ مِنَ الْاَحْزَابِ فَالنَّارُ مَوْعِدُهٗ فَلَا تَكُ فِيْ مِرْيَةٍ مِّنْهُ اِنَّهُ الْحَقُّ مِنْ رَّبِّكَ وَلٰكِنَّ اَكْثَرَ النَّاسِ لَا يُؤْمِنُوْنَ ۝١٧",
+    "latin": "a fa mang kâna ‘alâ bayyinatim mir rabbihî wa yatlûhu syâhidum min-hu wa ming qablihî kitâbu mûsâ imâmaw wa raḫmah, ulâ'ika yu'minûna bih, wa may yakfur bihî minal-aḫzâbi fan-nâru mau‘iduhû fa lâ taku fî miryatim min-hu innahul-ḫaqqu mir rabbika wa lâkinna aktsaran-nâsi lâ yu'minûn",
+    "arti": "Apakah orang yang sudah mempunyai bukti yang nyata (Al-Qur’an) dari Tuhannya, diikuti oleh saksi dari-Nya, dan sebelumnya sudah ada pula Kitab Musa yang menjadi pedoman dan rahmat; mereka beriman kepadanya (sama dengan orang kafir yang hanya menginginkan kehidupan dunia)? Siapa yang mengingkarinya (Al-Qur’an) dari golongan-golongan (penentang Rasulullah), nerakalah tempat kembalinya. Oleh karena itu, janganlah engkau ragu terhadap Al-Qur’an. Sesungguhnya ia (Al-Qur’an) itu kebenaran dari Tuhanmu, tetapi kebanyakan manusia tidak beriman."
+  },
+  {
+    "arab": "وَمَنْ اَظْلَمُ مِمَّنِ افْتَرٰى عَلَى اللّٰهِ كَذِبًاۗ اُولٰۤىِٕكَ يُعْرَضُوْنَ عَلٰى رَبِّهِمْ وَيَقُوْلُ الْاَشْهَادُ هٰٓؤُلَاۤءِ الَّذِيْنَ كَذَبُوْا عَلٰى رَبِّهِمْۚ  اَلَا لَعْنَةُ اللّٰهِ عَلَى الظّٰلِمِيْنَۙ ۝١٨",
+    "latin": "wa man adhlamu mim maniftarâ ‘alallâhi kadzibâ, ulâ'ika yu‘radlûna ‘alâ rabbihim wa yaqûlul-asy-hâdu hâ'ulâ'illadzîna kadzabû ‘alâ rabbihim, alâ la‘natullâhi ‘aladh-dhâlimîn",
+    "arti": "Siapakah yang lebih zalim daripada orang yang mengada-adakan suatu kebohongan terhadap Allah? Mereka itu akan dihadapkan kepada tuhan mereka dan para saksi akan berkata, “Orang-orang inilah yang telah berbohong terhadap tuhan mereka.” Ketahuilah, laknat Allah (ditimpakan) kepada orang-orang zalim."
+  },
+  {
+    "arab": "الَّذِيْنَ يَصُدُّوْنَ عَنْ سَبِيْلِ اللّٰهِ وَيَبْغُوْنَهَا عِوَجًاۗ وَهُمْ بِالْاٰخِرَةِ هُمْ كٰفِرُوْنَ ۝١٩",
+    "latin": "alladzîna yashuddûna ‘an sabîlillâhi wa yabghûnahâ ‘iwajâ, wa hum bil-âkhirati hum kâfirûn",
+    "arti": "(Yaitu) mereka yang menghalang-halangi dari jalan Allah dan menghendaki agar jalan itu bengkok. Mereka itulah orang-orang yang kufur terhadap hari akhir."
+  },
+  {
+    "arab": "اُولٰۤىِٕكَ لَمْ يَكُوْنُوْا مُعْجِزِيْنَ فِى الْاَرْضِ وَمَا كَانَ لَهُمْ مِّنْ دُوْنِ اللّٰهِ مِنْ اَوْلِيَاۤءَۘ يُضٰعَفُ لَهُمُ الْعَذَابُۗ مَا كَانُوْا يَسْتَطِيْعُوْنَ السَّمْعَ وَمَا كَانُوْا يُبْصِرُوْنَ ۝٢٠",
+    "latin": "ulâ'ika lam yakûnû mu‘jizîna fil-ardli wa mâ kâna lahum min dûnillâhi min auliyâ', yudlâ‘afu lahumul-‘adzâb, mâ kânû yastathî‘ûnas-sam‘a wa mâ kânû yubshirûn",
+    "arti": "Mereka tidak mampu menghalangi (siksaan Allah) di bumi dan tidak akan ada bagi mereka penolong selain Allah. Azab itu akan dilipatgandakan kepada mereka (di akhirat kelak). Mereka tidak mampu mendengar (kebenaran) dan tidak dapat melihat (kekuasaan Allah)."
+  },
+  {
+    "arab": "اُولٰۤىِٕكَ الَّذِيْنَ خَسِرُوْٓا اَنْفُسَهُمْ وَضَلَّ عَنْهُمْ مَّا كَانُوْا يَفْتَرُوْنَ ۝٢١",
+    "latin": "ulâ'ikalladzîna khasirû anfusahum wa dlalla ‘an-hum mâ kânû yaftarûn",
+    "arti": "Mereka itulah orang-orang yang merugikan dirinya sendiri dan lenyaplah dari mereka sesuatu (sesembahan) yang selalu mereka ada-adakan."
+  },
+  {
+    "arab": "لَاجَرَمَ اَنَّهُمْ فِى الْاٰخِرَةِ هُمُ الْاَخْسَرُوْنَ ۝٢٢",
+    "latin": "lâ jarama annahum fil-âkhirati humul-akhsarûn",
+    "arti": "Tidak diragukan bahwa sesungguhnya mereka (kelak) di akhirat adalah orang-orang yang paling merugi."
+  },
+  {
+    "arab": "اِنَّ الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ وَاَخْبَتُوْٓا اِلٰى رَبِّهِمْۙ اُولٰۤىِٕكَ اَصْحٰبُ الْجَنَّةِۚ هُمْ فِيْهَا خٰلِدُوْنَ ۝٢٣",
+    "latin": "innalladzîna âmanû wa ‘amilush-shâliḫâti wa akhbatû ilâ rabbihim ulâ'ika ash-ḫâbul-jannah, hum fîhâ khâlidûn",
+    "arti": "Sesungguhnya orang-orang yang beriman dan beramal saleh serta merendahkan diri kepada Tuhan, mereka itulah para penghuni surga. Mereka kekal di dalamnya."
+  },
+  {
+    "arab": "۞ مَثَلُ الْفَرِيْقَيْنِ كَالْاَعْمٰى وَالْاَصَمِّ وَالْبَصِيْرِ وَالسَّمِيْعِۗ هَلْ يَسْتَوِيٰنِ مَثَلًاۗ اَفَلَا تَذَكَّرُوْنَࣖ ۝٢٤",
+    "latin": "matsalul-farîqaini kal-a‘mâ wal-ashammi wal-bashîri was-samî‘, hal yastawiyâni matsalâ, a fa lâ tadzakkarûn",
+    "arti": "Perumpamaan kedua golongan (kafir dan mukmin) seperti orang buta dan orang tuli dengan orang yang dapat melihat dan yang dapat mendengar. Samakah kedua golongan itu? Apakah kamu tidak mengambil pelajaran?"
+  },
+  {
+    "arab": "وَلَقَدْ اَرْسَلْنَا نُوْحًا اِلٰى قَوْمِهٖٓ اِنِّيْ لَكُمْ نَذِيْرٌ مُّبِيْنٌۙ ۝٢٥",
+    "latin": "wa laqad arsalnâ nûḫan ilâ qaumihî innî lakum nadzîrum mubîn",
+    "arti": "Sungguh, Kami benar-benar telah mengutus Nuh kepada kaumnya. (Dia berkata,) “Sesungguhnya aku adalah pemberi peringatan yang nyata bagi kamu"
+  },
+  {
+    "arab": "اَنْ لَّا تَعْبُدُوْٓا اِلَّا اللّٰهَۖ اِنِّيْٓ اَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ اَلِيْمٍ ۝٢٦",
+    "latin": "al lâ ta‘budû illallâh, innî akhâfu ‘alaikum ‘adzâba yaumin alîm",
+    "arti": "agar kamu tidak menyembah (sesuatu) kecuali Allah. Sesungguhnya aku khawatir bahwa kamu akan ditimpa azab (pada) hari yang (siksanya) sangat pedih.”"
+  },
+  {
+    "arab": "فَقَالَ الْمَلَاُ الَّذِيْنَ كَفَرُوْا مِنْ قَوْمِهٖ مَا نَرٰىكَ اِلَّا بَشَرًا مِّثْلَنَا وَمَا نَرٰىكَ اتَّبَعَكَ اِلَّا الَّذِيْنَ هُمْ اَرَاذِلُنَا بَادِيَ الرَّأْيِۚ وَمَا نَرٰى لَكُمْ عَلَيْنَا مِنْ فَضْلٍ ۢ بَلْ نَظُنُّكُمْ كٰذِبِيْنَ ۝٢٧",
+    "latin": "fa qâlal-mala'ulladzîna kafarû ming qaumihî mâ narâka illâ basyaram mitslanâ wa mâ narâkattaba‘aka illalladzîna hum arâdzilunâ bâdiyar-ra'y, wa mâ narâ lakum ‘alainâ min fadllim bal nadhunnukum kâdzibîn",
+    "arti": "Maka, berkatalah para pemuka yang kufur dari kaumnya, “Kami tidak melihat engkau, melainkan hanyalah seorang manusia (biasa) seperti kami. Kami tidak melihat orang yang mengikuti engkau, melainkan orang-orang yang hina dina di antara kami yang lekas percaya begitu saja. Kami tidak melihat kamu memiliki suatu kelebihan apa pun atas kami, bahkan kami menganggap kamu adalah para pembohong.”"
+  },
+  {
+    "arab": "قَالَ يٰقَوْمِ اَرَءَيْتُمْ اِنْ كُنْتُ عَلٰى بَيِّنَةٍ مِّنْ رَّبِّيْ وَاٰتٰىنِيْ رَحْمَةً مِّنْ عِنْدِهٖ فَعُمِّيَتْ عَلَيْكُمْۗ اَنُلْزِمُكُمُوْهَا وَاَنْتُمْ لَهَا كٰرِهُوْنَ ۝٢٨",
+    "latin": "qâla yâ qaumi a ra'aitum ing kuntu ‘alâ bayyinatim mir rabbî wa âtânî raḫmatam min ‘indihî fa ‘ummiyat ‘alaikum, a nulzimukumûhâ wa antum lahâ kârihûn",
+    "arti": "Dia (Nuh) berkata, “Wahai kaumku, apa pendapatmu jika aku mempunyai bukti yang nyata dari Tuhanku dan Dia menganugerahiku rahmat dari sisi-Nya, tetapi (rahmat itu) disamarkan bagimu? Apakah kami akan memaksamu untuk menerimanya, padahal kamu tidak menyukainya?"
+  },
+  {
+    "arab": "وَيٰقَوْمِ لَآ اَسْـَٔلُكُمْ عَلَيْهِ مَالًاۗ اِنْ اَجْرِيَ اِلَّا عَلَى اللّٰهِ وَمَآ اَنَا۠ بِطَارِدِ الَّذِيْنَ اٰمَنُوْاۗ اِنَّهُمْ مُّلٰقُوْا رَبِّهِمْ وَلٰكِنِّيْٓ اَرٰىكُمْ قَوْمًا تَجْهَلُوْنَ ۝٢٩",
+    "latin": "wa yâ qaumi lâ as'alukum ‘alaihi mâlâ, in ajriya illâ ‘alallâhi wa mâ ana bithâridilladzîna âmanû, innahum mulâqû rabbihim wa lâkinnî arâkum qauman taj-halûn",
+    "arti": "Wahai kaumku, aku tidak meminta kepadamu harta (sedikit pun sebagai imbalan) atas seruanku. Imbalanku hanyalah dari Allah dan aku sekali-kali tidak akan mengusir orang-orang yang beriman. Sesungguhnya mereka akan bertemu dengan Tuhannya (di akhirat), tetapi aku memandangmu sebagai kaum yang bodoh."
+  },
+  {
+    "arab": "وَيٰقَوْمِ مَنْ يَّنْصُرُنِيْ مِنَ اللّٰهِ اِنْ طَرَدْتُّهُمْۗ اَفَلَا تَذَكَّرُوْنَ ۝٣٠",
+    "latin": "wa yâ qaumi may yanshurunî minallâhi in tharattuhum, a fa lâ tadzakkarûn",
+    "arti": "Wahai kaumku, siapakah yang akan menolongku dari (azab) Allah jika aku mengusir mereka (orang-orang yang beriman itu)? Apakah kamu tidak mengambil pelajaran?"
+  },
+  {
+    "arab": "وَلَآ اَقُوْلُ لَكُمْ عِنْدِيْ خَزَاۤىِٕنُ اللّٰهِ وَلَآ اَعْلَمُ الْغَيْبَ وَلَآ اَقُوْلُ اِنِّيْ مَلَكٌ وَّلَآ اَقُوْلُ لِلَّذِيْنَ تَزْدَرِيْٓ اَعْيُنُكُمْ لَنْ يُّؤْتِيَهُمُ اللّٰهُ خَيْرًاۗ اَللّٰهُ اَعْلَمُ بِمَا فِيْٓ اَنْفُسِهِمْۚ اِنِّيْٓ اِذًا لَّمِنَ الظّٰلِمِيْنَ ۝٣١",
+    "latin": "wa lâ aqûlu lakum ‘indî khazâ'inullâhi wa lâ a‘lamul-ghaiba wa lâ aqûlu innî malakuw wa lâ aqûlu lilladzîna tazdarî a‘yunukum lay yu'tiyahumullâhu khairâ, allâhu a‘lamu bimâ fî anfusihim, innî idzal laminadh-dhâlimîn",
+    "arti": "Aku tidak mengatakan kepadamu bahwa aku mempunyai perbendaharaan (rezeki) Allah. Aku tidak mengetahui yang gaib dan tidak (pula) mengatakan bahwa sesungguhnya aku adalah malaikat. Aku tidak (juga) mengatakan kepada orang-orang yang dipandang hina oleh penglihatanmu bahwa Allah tidak akan memberikan kebaikan kepada mereka. Allah lebih mengetahui apa yang ada pada diri mereka. Jika demikian, sesungguhnya aku benar-benar termasuk orang-orang yang zalim.”"
+  },
+  {
+    "arab": "قَالُوْا يٰنُوْحُ قَدْ جَادَلْتَنَا فَاَ كْثَرْتَ جِدَالَنَا فَأْتِنَا بِمَا تَعِدُنَآ اِنْ كُنْتَ مِنَ الصّٰدِقِيْنَ ۝٣٢",
+    "latin": "qâlû yâ nûḫu qad jâdaltana fa aktsarta jidâlana fa'tinâ bimâ ta‘idunâ ing kunta minash-shâdiqîn",
+    "arti": "Mereka berkata, “Wahai Nuh, sungguh engkau telah berbantah dengan kami dan engkau telah memperpanjang bantahanmu terhadap kami. Maka, datangkanlah kepada kami azab yang engkau ancamkan jika kamu termasuk orang-orang yang benar.”"
+  },
+  {
+    "arab": "قَالَ اِنَّمَا يَأْتِيْكُمْ بِهِ اللّٰهُ اِنْ شَاۤءَ وَمَآ اَنْتُمْ بِمُعْجِزِيْنَ ۝٣٣",
+    "latin": "qâla innamâ ya'tîkum bihillâhu in syâ'a wa mâ antum bimu‘jizîn",
+    "arti": "Dia (Nuh) menjawab, “Sesungguhnya hanya Allah yang akan mendatangkannya (azab) kepadamu jika Dia menghendaki dan sekali-kali kamu tidak akan dapat melepaskan diri (darinya)."
+  },
+  {
+    "arab": "وَلَا يَنْفَعُكُمْ نُصْحِيْٓ اِنْ اَرَدْتُّ اَنْ اَنْصَحَ لَكُمْ اِنْ كَانَ اللّٰهُ يُرِيْدُ اَنْ يُّغْوِيَكُمْۗ هُوَ رَبُّكُمْۗ وَاِلَيْهِ تُرْجَعُوْنَۗ ۝٣٤",
+    "latin": "wa lâ yanfa‘ukum nush-ḫî in arattu an anshaḫa lakum ing kânallâhu yurîdu ay yughwiyakum, huwa rabbukum, wa ilaihi turja‘ûn",
+    "arti": "Nasihatku tidak akan bermanfaat bagimu sekalipun aku ingin menasihatimu, sekiranya Allah hendak menyesatkan kamu. Dia adalah Tuhanmu dan hanya kepada-Nyalah kamu dikembalikan.”"
+  },
+  {
+    "arab": "اَمْ يَقُوْلُوْنَ افْتَرٰىهُۗ قُلْ اِنِ افْتَرَيْتُهٗ فَعَلَيَّ اِجْرَامِيْ وَاَنَا۠ بَرِيْۤءٌ مِّمَّا تُجْرِمُوْنَࣖ ۝٣٥",
+    "latin": "am yaqûlûnaftarâh, qul iniftaraituhû fa ‘alayya ijrâmî wa ana barî'um mimmâ tujrimûn",
+    "arti": "Bahkan, mereka (orang kafir Makkah) berkata, “Dia cuma mengada-adakannya (Al-Qur’an).” Katakanlah (Nabi Muhammad), “Jika aku mengada-adakannya, akulah yang akan memikul dosanya dan aku berlepas diri dari dosa yang kamu perbuat.”"
+  },
+  {
+    "arab": "وَاُوْحِيَ اِلٰى نُوْحٍ اَنَّهٗ لَنْ يُّؤْمِنَ مِنْ قَوْمِكَ اِلَّا مَنْ قَدْ اٰمَنَ فَلَا تَبْتَىِٕسْ بِمَا كَانُوْا يَفْعَلُوْنَۖ ۝٣٦",
+    "latin": "wa ûḫiya ilâ nûḫin annahû lay yu'mina ming qaumika illâ mang qad âmana fa lâ tabta'is bimâ kânû yaf‘alûn",
+    "arti": "Diwahyukan (oleh Allah) kepada Nuh, “(Ketahuilah) bahwa tidak akan beriman di antara kaummu, kecuali orang yang benar-benar telah beriman. Maka, janganlah engkau bersedih atas apa yang selalu mereka perbuat."
+  },
+  {
+    "arab": "وَاصْنَعِ الْفُلْكَ بِاَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَاطِبْنِيْ فِى الَّذِيْنَ ظَلَمُوْاۚ اِنَّهُمْ مُّغْرَقُوْنَ ۝٣٧",
+    "latin": "washna‘il-fulka bi'a‘yuninâ wa waḫyinâ wa lâ tukhâthibnî filladzîna dhalamû, innahum mughraqûn",
+    "arti": "Buatlah bahtera dengan pengawasan dan petunjuk wahyu Kami dan janganlah engkau bicarakan (lagi) dengan-Ku tentang (nasib) orang-orang yang zalim. Sesungguhnya mereka itu akan ditenggelamkan.”"
+  },
+  {
+    "arab": "وَيَصْنَعُ الْفُلْكَۗ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَاٌ مِّنْ قَوْمِهٖ سَخِرُوْا مِنْهُۗ قَالَ اِنْ تَسْخَرُوْا مِنَّا فَاِنَّا نَسْخَرُ مِنْكُمْ كَمَا تَسْخَرُوْنَۗ ۝٣٨",
+    "latin": "wa yashna‘ul-fulk, wa kullamâ marra ‘alaihi mala'um ming qaumihî sakhirû min-h, qâla in taskharû minnâ fa innâ naskharu mingkum kamâ taskharûn",
+    "arti": "Mulailah dia (Nuh) membuat bahtera itu. Setiap kali para pemuka kaumnya berjalan melewatinya, mereka mengejeknya. Dia (Nuh) berkata, “Jika kamu mengejek kami, sesungguhnya kami pun akan mengejekmu sebagaimana kamu mengejek (kami)."
+  },
+  {
+    "arab": "فَسَوْفَ تَعْلَمُوْنَۙ مَنْ يَّأْتِيْهِ عَذَابٌ يُّخْزِيْهِ وَيَحِلُّ عَلَيْهِ عَذَابٌ مُّقِيْمٌ ۝٣٩",
+    "latin": "fa saufa ta‘lamûna may ya'tîhi ‘adzâbuy yukhzîhi wa yaḫillu ‘alaihi ‘adzâbum muqîm",
+    "arti": "Maka, kelak kamu mengetahui siapa (di antara kita) yang akan ditimpa azab yang menghinakan dan (siapa pula) yang akan ditimpa azab yang kekal.”"
+  },
+  {
+    "arab": "حَتّٰىٓ اِذَا جَاۤءَ اَمْرُنَا وَفَارَ التَّنُّوْرُۙ قُلْنَا احْمِلْ فِيْهَا مِنْ كُلٍّ زَوْجَيْنِ اثْنَيْنِ وَاَهْلَكَ اِلَّا مَنْ سَبَقَ عَلَيْهِ الْقَوْلُ وَمَنْ اٰمَنَۗ وَمَآ اٰمَنَ مَعَهٗٓ اِلَّا قَلِيْلٌ ۝٤٠",
+    "latin": "ḫattâ idzâ jâ'a amrunâ wa fârat-tannûru qulnaḫmil fîhâ ming kullin zaujainitsnaini wa ahlaka illâ man sabaqa ‘alaihil-qaulu wa man âman, wa mâ âmana ma‘ahû illâ qalîl",
+    "arti": "(Demikianlah,) hingga apabila perintah Kami datang (untuk membinasakan mereka) dan tanur (tungku) telah memancarkan air, Kami berfirman, “Muatkanlah ke dalamnya (bahtera itu) dari masing-masing (jenis hewan) sepasang-sepasang (jantan dan betina), keluargamu kecuali orang yang telah terkena ketetapan terdahulu (akan ditenggelamkan), dan (muatkan pula) orang yang beriman.” Ternyata tidak beriman bersamanya (Nuh), kecuali hanya sedikit."
+  },
+  {
+    "arab": "۞ وَقَالَ ارْكَبُوْا فِيْهَا بِسْمِ اللّٰهِ مَجْرٰ۪ىهَا وَمُرْسٰىهَاۗ اِنَّ رَبِّيْ لَغَفُوْرٌ رَّحِيْمٌ ۝٤١",
+    "latin": "wa qâlarkabû fîhâ bismillâhi majr)hâ wa mursâhâ, inna rabbî laghafûrur raḫîm",
+    "arti": "Dia (Nuh) berkata, “Naiklah kamu semua ke dalamnya (bahtera) dengan (menyebut) nama Allah pada waktu berlayar dan berlabuhnya! Sesungguhnya Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang.”"
+  },
+  {
+    "arab": "وَهِيَ تَجْرِيْ بِهِمْ فِيْ مَوْجٍ كَالْجِبَالِۗ وَنَادٰى نُوْحُ  ࣙابْنَهٗ وَكَانَ فِيْ مَعْزِلٍ يّٰبُنَيَّ ارْكَبْ مَّعَنَا وَلَا تَكُنْ مَّعَ الْكٰفِرِيْنَ ۝٤٢",
+    "latin": "wa hiya tajrî bihim fî maujing kal-jibâl, wa nâdâ nûḫunibnahû wa kâna fî ma‘ziliy yâ bunayyarkam ma‘anâ wa lâ takum ma‘al-kâfirîn",
+    "arti": "Bahtera itu berlayar membawa mereka dalam gelombang laksana gunung-gunung. Nuh memanggil anaknya, sedang dia (anak itu) berada di tempat (yang jauh) terpencil, “Wahai anakku, naiklah (ke bahtera) bersama kami dan janganlah engkau bersama orang-orang kafir.”"
+  },
+  {
+    "arab": "قَالَ سَاٰوِيْٓ اِلٰى جَبَلٍ يَّعْصِمُنِيْ مِنَ الْمَاۤءِۗ قَالَ لَا عَاصِمَ الْيَوْمَ مِنْ اَمْرِ اللّٰهِ اِلَّا مَنْ رَّحِمَۚ وَحَالَ بَيْنَهُمَا الْمَوْجُ فَكَانَ مِنَ الْمُغْرَقِيْنَ ۝٤٣",
+    "latin": "qâla sa'âwî ilâ jabaliy ya‘shimunî minal-mâ', qâla lâ ‘âshimal-yauma min amrillâhi illâ mar raḫim, wa ḫâla bainahumal-mauju fa kâna minal-mughraqîn",
+    "arti": "Dia (anaknya) menjawab, “Aku akan berlindung ke gunung yang dapat menyelamatkanku dari air (bah).” (Nuh) berkata, “Tidak ada penyelamat pada hari ini dari ketetapan Allah kecuali siapa yang dirahmati oleh-Nya.” Gelombang menjadi penghalang antara keduanya, maka jadilah dia (anak itu) termasuk orang-orang yang ditenggelamkan."
+  },
+  {
+    "arab": "وَقِيْلَ يٰٓاَرْضُ ابْلَعِيْ مَاۤءَكِ وَيٰسَمَاۤءُ اَقْلِعِيْ وَغِيْضَ الْمَاۤءُ وَقُضِيَ الْاَمْرُ وَاسْتَوَتْ عَلَى الْجُوْدِيِّ وَقِيْلَ بُعْدًا لِّلْقَوْمِ الظّٰلِمِيْنَ ۝٤٤",
+    "latin": "wa qîla yâ ardlubla‘î mâ'aki wa yâ samâ'u aqli‘î wa ghîdlal-mâ'u wa qudliyal-amru wastawat ‘alal-jûdiyyi wa qîla bu‘dal lil-qaumidh-dhâlimîn",
+    "arti": "Difirmankan (oleh Allah), “Wahai bumi, telanlah airmu dan wahai langit, berhentilah (mencurahkan hujan).” Air pun disurutkan dan urusan (pembinasaan para pendurhaka) pun diselesaikan dan (kapal itu pun) berlabuh di atas gunung Judiy, dan dikatakan, “Kebinasaanlah bagi kaum yang zalim.”"
+  },
+  {
+    "arab": "وَنَادٰى نُوْحٌ رَّبَّهٗ فَقَالَ رَبِّ اِنَّ ابْنِيْ مِنْ اَهْلِيْۚ وَاِنَّ وَعْدَكَ الْحَقُّ وَاَنْتَ اَحْكَمُ الْحٰكِمِيْنَ ۝٤٥",
+    "latin": "wa nâdâ nûḫur rabbahû fa qâla rabbi innabnî min ahlî, wa inna wa‘dakal-ḫaqqu wa anta aḫkamul-ḫâkimîn",
+    "arti": "Nuh memohon kepada Tuhannya seraya berkata, “Ya Tuhanku, sesungguhnya anakku adalah termasuk keluargaku dan sesungguhnya janji-Mu itu pasti benar. Engkau adalah hakim yang paling adil.”"
+  },
+  {
+    "arab": "قَالَ يٰنُوْحُ اِنَّهٗ لَيْسَ مِنْ اَهْلِكَۚ اِنَّهٗ عَمَلٌ غَيْرُ صَالِحٍ فَلَا تَسْـَٔلْنِ مَا لَيْسَ لَكَ بِهٖ عِلْمٌۗ اِنِّيْٓ اَعِظُكَ اَنْ تَكُوْنَ مِنَ الْجٰهِلِيْنَ ۝٤٦",
+    "latin": "qâla yâ nûḫu innahû laisa min ahlik, innahû ‘amalun ghairu shâliḫin fa lâ tas'alni mâ laisa laka bihî ‘ilm, innî a‘idhuka an takûna minal-jâhilîn",
+    "arti": "Dia (Allah) berfirman, “Wahai Nuh, sesungguhnya dia bukanlah termasuk keluargamu karena perbuatannya sungguh tidak baik. Oleh karena itu, janganlah engkau memohon kepada-Ku sesuatu yang tidak engkau ketahui (hakikatnya). Sesungguhnya Aku menasihatimu agar engkau tidak termasuk orang-orang bodoh.”"
+  },
+  {
+    "arab": "قَالَ رَبِّ اِنِّيْٓ اَعُوْذُ بِكَ اَنْ اَسْـَٔلَكَ مَا لَيْسَ لِيْ بِهٖ عِلْمٌۗ وَاِلَّا تَغْفِرْ لِيْ وَتَرْحَمْنِيْٓ اَكُنْ مِّنَ الْخٰسِرِيْنَ ۝٤٧",
+    "latin": "qâla rabbi innî a‘ûdzu bika an as'alaka mâ laisa lî bihî ‘ilm, wa illâ taghfir lî wa tar-ḫamnî akum minal-khâsirîn",
+    "arti": "(Nuh) berkata, “Ya Tuhanku, sesungguhnya aku berlindung kepada-Mu untuk memohon sesuatu yang aku tidak mengetahui (hakikatnya). Kalau Engkau tidak mengampuniku dan (tidak) menaruh belas kasihan kepadaku, niscaya aku termasuk orang-orang yang merugi.”"
+  },
+  {
+    "arab": "قِيْلَ يٰنُوْحُ اهْبِطْ بِسَلٰمٍ مِّنَّا وَبَرَكٰتٍ عَلَيْكَ وَعَلٰٓى اُمَمٍ مِّمَّنْ مَّعَكَۗ وَاُمَمٌ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُمْ مِّنَّا عَذَابٌ اَلِيْمٌ ۝٤٨",
+    "latin": "qîla yâ nûḫuhbith bisalâmim minnâ wa barakâtin ‘alaika wa ‘alâ umamim mim mam ma‘ak, wa umamun sanumatti‘uhum tsumma yamassuhum minnâ ‘adzâbun alîm",
+    "arti": "Dikatakan (melalui wahyu), “Wahai Nuh, turunlah (dari bahteramu) dengan penuh keselamatan dari Kami dan penuh keberkahan atasmu serta umat-umat (mukmin) yang bersamamu. Ada pula umat-umat (kafir) yang Kami beri kesenangan (dalam kehidupan dunia), kemudian mereka akan ditimpa azab dari Kami yang sangat pedih.”"
+  },
+  {
+    "arab": "تِلْكَ مِنْ اَنْۢبَاۤءِ الْغَيْبِ نُوْحِيْهَآ اِلَيْكَۚ مَا كُنْتَ تَعْلَمُهَآ اَنْتَ وَلَا قَوْمُكَ مِنْ قَبْلِ هٰذَاۚ فَاصْبِرْۚ اِنَّ الْعَاقِبَةَ لِلْمُتَّقِيْنَࣖ ۝٤٩",
+    "latin": "tilka min ambâ'il-ghaibi nûḫîhâ ilaîk, mâ kunta ta‘lamuhâ anta wa lâ qaumuka ming qabli hâdzâ, fashbir, innal-‘âqibata lil-muttaqîn",
+    "arti": "Itu adalah sebagian dari berita-berita gaib yang Kami wahyukan kepadamu (Nabi Muhammad). Tidak pernah engkau mengetahuinya dan tidak (pula) kaummu sebelum ini. Maka, bersabarlah. Sesungguhnya kesudahan (yang baik) adalah bagi orang-orang yang bertakwa."
+  },
+  {
+    "arab": "وَاِلٰى عَادٍ اَخَاهُمْ هُوْدًاۗ قَالَ يٰقَوْمِ اعْبُدُوا اللّٰهَ مَا لَكُمْ مِّنْ اِلٰهٍ غَيْرُهٗۗ اِنْ اَنْتُمْ اِلَّا مُفْتَرُوْنَ ۝٥٠",
+    "latin": "wa ilâ ‘âdin akhâhum hûdâ, qâla yâ qaumi‘budullâha mâ lakum min ilâhin ghairuh, in antum illâ muftarûn",
+    "arti": "Kepada (kaum) ‘Ad (Kami utus) saudara mereka, Hud. Dia berkata, “Wahai kaumku, sembahlah Allah! Sekali-kali tidak ada tuhan bagimu selain Dia. (Selama ini) kamu hanyalah mengada-ada (dengan mempersekutukan Allah)."
+  },
+  {
+    "arab": "يٰقَوْمِ لَآ اَسْـَٔلُكُمْ عَلَيْهِ اَجْرًاۗ اِنْ اَجْرِيَ اِلَّا عَلَى الَّذِيْ فَطَرَنِيْۗ اَفَلَا تَعْقِلُوْنَ ۝٥١",
+    "latin": "yâ qaumi lâ as'alukum ‘alaihi ajrâ, in ajriya illâ ‘alalladzî fatharanî, a fa lâ ta‘qilûn",
+    "arti": "(Hud berkata,) “Wahai kaumku, aku tidak meminta kepadamu imbalan (sedikit pun) atas (seruanku) ini. Imbalanku hanyalah dari (Tuhan) yang telah menciptakanku. Apakah kamu tidak mengerti?"
+  },
+  {
+    "arab": "وَيٰقَوْمِ اسْتَغْفِرُوْا رَبَّكُمْ ثُمَّ تُوْبُوْٓا اِلَيْهِ يُرْسِلِ السَّمَاۤءَ عَلَيْكُمْ مِّدْرَارًا وَّيَزِدْكُمْ قُوَّةً اِلٰى قُوَّتِكُمْ وَلَا تَتَوَلَّوْا مُجْرِمِيْنَ ۝٥٢",
+    "latin": "wa yâ qaumistaghfirû rabbakum tsumma tûbû ilaihi yursilis-samâ'a ‘alaikum midrâraw wa yazidkum quwwatan ilâ quwwatikum wa lâ tatawallau mujrimîn",
+    "arti": "Wahai kaumku, mohonlah ampunan kepada Tuhanmu kemudian bertobatlah kepada-Nya! Niscaya Dia akan menurunkan untukmu hujan yang sangat deras, menambahkan kekuatan melebihi kekuatanmu, dan janganlah kamu berpaling menjadi orang-orang yang berdosa.”"
+  },
+  {
+    "arab": "قَالُوْا يٰهُوْدُ مَاجِئْتَنَا بِبَيِّنَةٍ وَّمَا نَحْنُ بِتَارِكِيْٓ  اٰلِهَتِنَا عَنْ قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِيْنَ ۝٥٣",
+    "latin": "qâlû yâ hûdu mâ ji'tanâ bibayyinatiw wa mâ naḫnu bitârikî âlihatinâ ‘ang qaulika wa mâ naḫnu laka bimu'minîn",
+    "arti": "Mereka (kaum ‘Ad) berkata, “Wahai Hud, engkau tidak mendatangkan suatu bukti yang nyata kepada kami dan kami tidak akan (pernah) meninggalkan sembahan kami karena perkataanmu serta kami tidak akan (pernah) percaya kepadamu."
+  },
+  {
+    "arab": "اِنْ نَّقُوْلُ اِلَّا اعْتَرٰىكَ بَعْضُ اٰلِهَتِنَا بِسُوْۤءٍۗ قَالَ اِنِّيْٓ اُشْهِدُ اللّٰهَ وَاشْهَدُوْٓا اَنِّيْ بَرِيْۤءٌ مِّمَّا تُشْرِكُوْنَ ۝٥٤",
+    "latin": "in naqûlu illa‘tarâka ba‘dlu âlihatinâ bisû', qâla innî usy-hidullâha wasy-hadû annî barî'um mimmâ tusyrikûn",
+    "arti": "Kami hanya mengatakan bahwa sebagian sembahan kami telah menimpakan penyakit gila atas dirimu.” Dia (Hud) menjawab, “Sesungguhnya aku menjadikan Allah (sebagai) saksi dan saksikanlah bahwa aku berlepas diri dari apa yang kamu persekutukan"
+  },
+  {
+    "arab": "مِنْ دُوْنِهٖ فَكِيْدُوْنِيْ جَمِيْعًا ثُمَّ لَا تُنْظِرُوْنِ ۝٥٥",
+    "latin": "min dûnihî fa kîdûnî jamî‘an tsumma lâ tundhirûn",
+    "arti": "dengan (tuhan-tuhan) selain Dia. Oleh karena itu, lakukanlah semua tipu dayamu terhadapku dan janganlah kamu tunda-tunda lagi."
+  },
+  {
+    "arab": "اِنِّيْ تَوَكَّلْتُ عَلَى اللّٰهِ رَبِّيْ وَرَبِّكُمْۗ مَا مِنْ دَاۤبَّةٍ اِلَّا هُوَ اٰخِذٌۢ بِنَاصِيَتِهَاۗ اِنَّ رَبِّيْ عَلٰى صِرَاطٍ مُّسْتَقِيْمٍ ۝٥٦",
+    "latin": "innî tawakkaltu ‘alallâhi rabbî wa rabbikum, mâ min dâbbatin illâ huwa âkhidzum binâshiyatihâ, inna rabbî ‘alâ shirâthim mustaqîm",
+    "arti": "Sesungguhnya aku bertawakal kepada Allah Tuhanku dan Tuhanmu. Tidak satu pun makhluk yang bergerak (di atas bumi) melainkan Dialah yang memegang ubun-ubunnya (menguasainya). Sesungguhnya Tuhanku di jalan yang lurus (adil)."
+  },
+  {
+    "arab": "فَاِنْ تَوَلَّوْا فَقَدْ اَبْلَغْتُكُمْ مَّآ اُرْسِلْتُ بِهٖٓ اِلَيْكُمْۗ وَيَسْتَخْلِفُ رَبِّيْ قَوْمًا غَيْرَكُمْۗ وَلَا تَضُرُّوْنَهٗ شَيْـًٔاۗ اِنَّ رَبِّيْ عَلٰى كُلِّ شَيْءٍ حَفِيْظٌ ۝٥٧",
+    "latin": "fa in tawallau fa qad ablaghtukum mâ ursiltu bihî ilaikum, wa yastakhlifu rabbî qauman ghairakum, wa lâ tadlurrûnahû syai'â, inna rabbî ‘alâ kulli syai'in ḫafîdh",
+    "arti": "Maka, jika kamu berpaling, sungguh aku telah menyampaikan kepadamu apa yang menjadi tugasku sebagai rasul kepadamu. Tuhanku akan mengganti kamu dengan kaum yang lain, sedangkan kamu tidak dapat mendatangkan mudarat kepada-Nya sedikit pun. Sesungguhnya Tuhanku Maha Pemelihara segala sesuatu.” "
+  },
+  {
+    "arab": "وَلَمَّا جَاۤءَ اَمْرُنَا نَجَّيْنَا هُوْدًا وَّالَّذِيْنَ اٰمَنُوْا مَعَهٗ بِرَحْمَةٍ مِّنَّاۚ وَنَجَّيْنٰهُمْ مِّنْ عَذَابٍ غَلِيْظٍ ۝٥٨",
+    "latin": "wa lammâ jâ'a amrunâ najjainâ hûdaw walladzîna âmanû ma‘ahû biraḫmatim minnâ, wa najjainâhum min ‘adzâbin ghalîdh",
+    "arti": "Ketika keputusan (azab) Kami datang, Kami selamatkan Hud dan orang-orang yang beriman bersamanya dengan rahmat Kami. Kami selamatkan (pula) mereka (di akhirat) dari azab yang dahsyat."
+  },
+  {
+    "arab": "وَتِلْكَ عَادٌۖ جَحَدُوْا بِاٰيٰتِ رَبِّهِمْ وَعَصَوْا رُسُلَهٗ وَاتَّبَعُوْٓا اَمْرَ كُلِّ جَبَّارٍ عَنِيْدٍ ۝٥٩",
+    "latin": "wa tilka ‘âdun jaḫadû bi'âyâti rabbihim wa ‘ashau rusulahû wattaba‘û amra kulli jabbârin ‘anîd",
+    "arti": "Itulah (kaum) ‘Ad. Mereka mengingkari tanda-tanda (kekuasaan) Tuhan, mendurhakai rasul-rasul-Nya, dan menuruti perintah semua penguasa yang sewenang-wenang lagi keras kepala."
+  },
+  {
+    "arab": "وَاُتْبِعُوْا فِيْ هٰذِهِ الدُّنْيَا لَعْنَةً وَّيَوْمَ الْقِيٰمَةِۗ اَلَآ اِنَّ عَادًا كَفَرُوْا رَبَّهُمْۗ اَلَا بُعْدًا لِّعَادٍ قَوْمِ هُوْدٍࣖ ۝٦٠",
+    "latin": "wa utbi‘û fî hâdzihid-dun-yâ la‘nataw wa yaumal-qiyâmah, alâ inna ‘âdang kafarû rabbahum, alâ bu‘dal li‘âding qaumi hûd",
+    "arti": "Mereka selalu diikuti dengan laknat di dunia ini dan (begitu pula kelak) di hari Kiamat. Ingatlah, sesungguhnya (kaum) ‘Ad itu kufur kepada Tuhan mereka. Ingatlah bahwa (kaum) ‘Ad, yakni (kaum) Hud, benar-benar telah binasa."
+  },
+  {
+    "arab": "۞ وَاِلٰى ثَمُوْدَ اَخَاهُمْ صٰلِحًاۘ قَالَ يٰقَوْمِ اعْبُدُوا اللّٰهَ مَا لَكُمْ مِّنْ اِلٰهٍ غَيْرُهٗۗ هُوَ اَنْشَاَكُمْ مِّنَ الْاَرْضِ وَاسْتَعْمَرَكُمْ فِيْهَا فَاسْتَغْفِرُوْهُ ثُمَّ تُوْبُوْٓا اِلَيْهِۗ اِنَّ رَبِّيْ قَرِيْبٌ مُّجِيْبٌ ۝٦١",
+    "latin": "wa ilâ tsamûda akhâhum shâliḫâ, qâla yâ qaumi‘budullâha mâ lakum min ilâhin ghairuh, huwa ansya'akum minal-ardli wasta‘marakum fîhâ fastaghfirûhu tsumma tûbû ilaîh, inna rabbî qarîbum mujîb",
+    "arti": "Kepada (kaum) Samud (Kami utus) saudara mereka, Saleh. Dia berkata, “Wahai kaumku, sembahlah Allah! Sekali-kali tidak ada tuhan bagimu selain Dia. Dia telah menciptakanmu dari bumi (tanah) dan menjadikanmu pemakmurnya. Oleh karena itu, mohonlah ampunan kepada-Nya, kemudian bertobatlah kepada-Nya. Sesungguhnya Tuhanku sangat dekat lagi Maha Memperkenankan (doa hamba-Nya).”"
+  },
+  {
+    "arab": "قَالُوْا يٰصٰلِحُ قَدْ كُنْتَ فِيْنَا مَرْجُوًّا قَبْلَ هٰذَآ اَتَنْهٰىنَآ اَنْ نَّعْبُدَ مَا يَعْبُدُ اٰبَاۤؤُنَا وَاِنَّنَا لَفِيْ شَكٍّ مِّمَّا تَدْعُوْنَآ اِلَيْهِ مُرِيْبٍ ۝٦٢",
+    "latin": "qâlû yâ shâliḫu qad kunta fînâ marjuwwang qabla hâdzâ a tan-hânâ an na‘buda mâ ya‘budu âbâ'unâ wa innanâ lafî syakkim mimmâ tad‘ûnâ ilaihi murîb",
+    "arti": "Mereka (kaum Samud) berkata, “Wahai Saleh, sebelum ini engkau benar-benar merupakan orang yang diharapkan di tengah-tengah kami. Apakah engkau melarang kami menyembah apa yang disembah oleh nenek moyang kami? Sesungguhnya kami benar-benar dalam keraguan yang menggelisahkan terhadap apa (agama) yang engkau serukan kepada kami.”"
+  },
+  {
+    "arab": "قَالَ يٰقَوْمِ اَرَءَيْتُمْ اِنْ كُنْتُ عَلٰى بَيِّنَةٍ مِّنْ رَّبِّيْۗ وَاٰتٰىنِيْ مِنْهُ رَحْمَةً فَمَنْ يَّنْصُرُنِيْ مِنَ اللّٰهِ اِنْ عَصَيْتُهٗۗ فَمَا تَزِيْدُوْنَنِيْ غَيْرَ تَخْسِيْرٍ ۝٦٣",
+    "latin": "qâla yâ qaumi a ra'aitum ing kuntu ‘alâ bayyinatim mir rabbî, wa âtânî min-hu raḫmatan fa may yanshurunî minallâhi in ‘ashaituh, fa mâ tazîdûnanî ghaira takhsîr",
+    "arti": "Dia (Saleh) berkata, “Wahai kaumku, jelaskan pendapatmu jika aku mempunyai bukti yang nyata dari Tuhanku dan Dia memberikan kepadaku rahmat (kenabian). Siapa yang akan menolongku dari (azab) Allah jika aku mendurhakai-Nya? Kamu tidak akan pernah menambah apa pun untukku selain kerugian."
+  },
+  {
+    "arab": "وَيٰقَوْمِ هٰذِهٖ نَاقَةُ اللّٰهِ لَكُمْ اٰيَةً فَذَرُوْهَا تَأْكُلْ فِيْٓ اَرْضِ اللّٰهِ وَلَا تَمَسُّوْهَا بِسُوْۤءٍ فَيَأْخُذَكُمْ عَذَابٌ قَرِيْبٌ ۝٦٤",
+    "latin": "wa yâ qaumi hâdzihî nâqatullâhi lakum âyatan fa dzarûhâ ta'kul fî ardlillâhi wa lâ tamassûhâ bisû'in fa ya'khudzakum ‘adzâbung qarîb",
+    "arti": "Wahai kaumku, inilah unta betina dari Allah sebagai mukjizat untukmu. Oleh karena itu, biarkanlah dia makan di bumi Allah dan janganlah kamu memperlakukannya dengan buruk yang akan menyebabkan kamu segera ditimpa azab.”"
+  },
+  {
+    "arab": "فَعَقَرُوْهَا فَقَالَ تَمَتَّعُوْا فِيْ دَارِكُمْ ثَلٰثَةَ اَيَّامٍۗ ذٰلِكَ وَعْدٌ غَيْرُ مَكْذُوْبٍ ۝٦٥",
+    "latin": "fa ‘aqarûhâ fa qâla tamatta‘û fî dârikum tsalâtsata ayyâm, dzâlika wa‘dun ghairu makdzûb",
+    "arti": "Mereka lalu menyembelih unta itu. Maka, dia (Saleh) berkata, “Bersukarialah kamu semua di rumahmu selama tiga hari. Itu adalah janji yang tidak dapat didustakan.”"
+  },
+  {
+    "arab": "فَلَمَّا جَاۤءَ اَمْرُنَا نَجَّيْنَا صٰلِحًا وَّالَّذِيْنَ اٰمَنُوْا مَعَهٗ بِرَحْمَةٍ مِّنَّا وَمِنْ خِزْيِ يَوْمِىِٕذٍۗ اِنَّ رَبَّكَ هُوَ الْقَوِيُّ الْعَزِيْزُ ۝٦٦",
+    "latin": "fa lammâ jâ'a amrunâ najjainâ shâliḫaw walladzîna âmanû ma‘ahû biraḫmatim minnâ wa min khizyi yaumi'idz, inna rabbaka huwal-qawiyyul-‘azîz",
+    "arti": "Ketika keputusan Kami datang, Kami menyelamatkan Saleh dan orang-orang yang beriman bersamanya berkat rahmat dari Kami serta (Kami menyelamatkannya juga) dari kehinaan hari itu. Sesungguhnya Tuhanmu, Dialah Yang Mahakuat lagi Mahaperkasa."
+  },
+  {
+    "arab": "وَاَخَذَ الَّذِيْنَ ظَلَمُوا الصَّيْحَةُ فَاَصْبَحُوْا فِيْ دِيَارِهِمْ جٰثِمِيْنَۙ ۝٦٧",
+    "latin": "wa akhadzalladzîna dhalamush-shaiḫatu fa ashbaḫû fî diyârihim jâtsimîn",
+    "arti": "Suara yang menggelegar juga menimpa orang-orang zalim itu, sehingga mereka mati bergelimpangan di rumah-rumah mereka."
+  },
+  {
+    "arab": "كَاَنْ لَّمْ يَغْنَوْا فِيْهَاۗ اَلَآ اِنَّ ثَمُوْدَا۠ كَفَرُوْا رَبَّهُمْۗ اَلَا بُعْدًا لِّثَمُوْدَࣖ ۝٦٨",
+    "latin": "ka'al lam yaghnau fîhâ, alâ inna tsamûda kafarû rabbahum, alâ bu‘dal litsamûd",
+    "arti": "(Negeri itu tampak tanpa bekas sama sekali) seakan-akan mereka belum pernah tinggal di sana. Ingatlah sesungguhnya (kaum) Samud telah mengingkari Tuhan mereka. Ingatlah, bahwa (kaum) Samud telah binasa."
+  },
+  {
+    "arab": "وَلَقَدْ جَاۤءَتْ رُسُلُنَآ اِبْرٰهِيْمَ بِالْبُشْرٰى قَالُوْا سَلٰمًاۖ قَالَ سَلٰمٌ فَمَا لَبِثَ اَنْ جَاۤءَ بِعِجْلٍ حَنِيْذٍ ۝٦٩",
+    "latin": "wa laqad jâ'at rusulunâ ibrâhîma bil-busyrâ qâlû salâmâ, qâla salâmun fa mâ labitsa an jâ'a bi‘ijlin ḫanîdz",
+    "arti": "Sungguh, utusan Kami (malaikat) benar-benar telah datang kepada Ibrahim dengan membawa kabar gembira. Mereka mengucapkan, “Selamat.” Dia (Ibrahim) menjawab, “Selamat.” Tidak lama kemudian, Ibrahim datang dengan membawa (suguhan) daging anak sapi yang dipanggang."
+  },
+  {
+    "arab": "فَلَمَّا رَآٰ اَيْدِيَهُمْ لَا تَصِلُ اِلَيْهِ نَكِرَهُمْ وَاَوْجَسَ مِنْهُمْ خِيْفَةًۗ قَالُوْا لَا تَخَفْ اِنَّآ اُرْسِلْنَآ اِلٰى قَوْمِ لُوْطٍۗ ۝٧٠",
+    "latin": "fa lammâ ra'â aidiyahum lâ tashilu ilaihi nakirahum wa aujasa min-hum khîfah, qâlû lâ takhaf innâ ursilnâ ilâ qaumi lûth",
+    "arti": "Ketika (Ibrahim) melihat tangan mereka tidak menjamahnya, dia mencurigai dan memendam rasa takut kepada mereka. Mereka (malaikat) berkata, “Jangan takut! Sesungguhnya kami diutus kepada kaum Lut (untuk menghancurkan mereka).”"
+  },
+  {
+    "arab": "وَامْرَاَتُهٗ قَاۤىِٕمَةٌ فَضَحِكَتْ فَبَشَّرْنٰهَا بِاِسْحٰقَۙ وَمِنْ وَّرَاۤءِ اِسْحٰقَ يَعْقُوْبَ ۝٧١",
+    "latin": "wamra'atuhû qâ'imatun fa dlaḫikat fa basysyarnâhâ bi'is-ḫâqa wa miw warâ'i is-ḫâqa ya‘qûb",
+    "arti": "Istrinya berdiri, lalu tersenyum. Kemudian, Kami sampaikan kepadanya kabar gembira tentang (kelahiran) Ishaq dan setelah Ishaq (akan lahir) Ya‘qub (putra Ishaq)."
+  },
+  {
+    "arab": "قَالَتْ يٰوَيْلَتٰىٓ ءَاَلِدُ وَاَنَا۠ عَجُوْزٌ وَّهٰذَا بَعْلِيْ شَيْخًاۗ اِنَّ هٰذَا لَشَيْءٌ عَجِيْبٌ ۝٧٢",
+    "latin": "qâlat yâ wailatâ a alidu wa ana ‘ajûzuw wa hâdzâ ba‘lî syaikhâ, inna hâdzâ lasyai'un ‘ajîb",
+    "arti": "Dia (istrinya) berkata, “Sungguh mengherankan! Mungkinkah aku akan melahirkan (anak) padahal aku sudah tua dan suamiku ini sudah renta? Sesungguhnya ini benar-benar sesuatu yang ajaib.”"
+  },
+  {
+    "arab": "قَالُوْٓا اَتَعْجَبِيْنَ مِنْ اَمْرِ اللّٰهِ رَحْمَتُ اللّٰهِ وَبَرَكٰتُهٗ عَلَيْكُمْ اَهْلَ الْبَيْتِۗ اِنَّهٗ حَمِيْدٌ مَّجِيْدٌ ۝٧٣",
+    "latin": "qâlû a ta‘jabîna min amrillâhi raḫmatullâhi wa barakâtuhû ‘alaikum ahlal-baît, innahû ḫamîdum majîd",
+    "arti": "Mereka (para malaikat) berkata, “Apakah engkau merasa heran dengan ketetapan Allah? (Itu adalah) rahmat dan berkah Allah (yang) dicurahkan kepada kamu, wahai ahlulbait! Sesungguhnya Dia Maha Terpuji lagi Maha Mulia.”"
+  },
+  {
+    "arab": "فَلَمَّا ذَهَبَ عَنْ اِبْرٰهِيْمَ الرَّوْعُ وَجَاۤءَتْهُ الْبُشْرٰى يُجَادِلُنَا فِيْ قَوْمِ لُوْطٍ ۝٧٤",
+    "latin": "fa lammâ dzahaba ‘an ibrâhîmar-rau‘u wa jâ'at-hul-busyrâ yujâdilunâ fî qaumi lûth",
+    "arti": "Maka, ketika rasa takut telah hilang dari Ibrahim dan kabar gembira telah datang kepadanya, dia pun bermujadalah (berdiskusi) dengan (malaikat) Kami tentang kaum Lut."
+  },
+  {
+    "arab": "اِنَّ اِبْرٰهِيْمَ لَحَلِيْمٌ اَوَّاهٌ مُّنِيْبٌ ۝٧٥",
+    "latin": "inna ibrâhîma laḫalîmun awwâhum munîb",
+    "arti": "Sesungguhnya Ibrahim benar-benar penyantun, pengiba, lagi suka kembali (kepada Allah)."
+  },
+  {
+    "arab": "يٰٓاِبْرٰهِيْمُ اَعْرِضْ عَنْ هٰذَاۚ اِنَّهٗ قَدْ جَاۤءَ اَمْرُ رَبِّكَۚ وَاِنَّهُمْ اٰتِيْهِمْ عَذَابٌ غَيْرُ مَرْدُوْدٍ ۝٧٦",
+    "latin": "yâ ibrâhîmu a‘ridl ‘an hâdzâ, innahû qad jâ'a amru rabbik, wa innahum âtîhim ‘adzâbun ghairu mardûd",
+    "arti": "(Malaikat berkata,) “Wahai Ibrahim, berpalinglah dari (mujadalah) ini! Sesungguhnya ketetapan Tuhanmu benar-benar telah datang. Sesungguhnya mereka akan ditimpa azab yang tidak dapat ditolak.”"
+  },
+  {
+    "arab": "وَلَمَّا جَاۤءَتْ رُسُلُنَا لُوْطًا سِيْۤءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَّقَالَ هٰذَا يَوْمٌ عَصِيْبٌ ۝٧٧",
+    "latin": "wa lammâ jâ'at rusulunâ lûthan sî'a bihim wa dlâqa bihim dzar‘aw wa qâla hâdzâ yaumun ‘ashîb",
+    "arti": "Ketika para utusan Kami (malaikat) itu datang kepada Lut, dia merasa gundah dan dadanya terasa sempit karena (kedatangan) mereka. Dia (Lut) berkata, “Ini hari yang sangat sulit.”"
+  },
+  {
+    "arab": "وَجَاۤءَهٗ قَوْمُهٗ يُهْرَعُوْنَ اِلَيْهِۗ وَمِنْ قَبْلُ كَانُوْا يَعْمَلُوْنَ السَّيِّاٰتِۗ قَالَ يٰقَوْمِ هٰٓؤُلَاۤءِ بَنَاتِيْ هُنَّ اَطْهَرُ لَكُمْ فَاتَّقُوا اللّٰهَ وَلَا تُخْزُوْنِ فِيْ ضَيْفِيْۗ  اَلَيْسَ مِنْكُمْ رَجُلٌ رَّشِيْدٌ ۝٧٨",
+    "latin": "wa jâ'ahû qaumuhû yuhra‘ûna ilaîh, wa ming qablu kânû ya‘malûnas-sayyi'ât, qâla yâ qaumi hâ'ulâ'i banatî hunna ath-haru lakum fattaqullâha wa lâ tukhzûni fî dlaifî, a laisa mingkum rajulur rasyîd",
+    "arti": "Kaumnya bergegas datang menemuinya. Sejak dahulu mereka selalu melakukan perbuatan-perbuatan keji. Lut berkata, “Wahai kaumku, inilah putri-putri (negeri)-ku. Mereka lebih suci bagimu (untuk dinikahi). Maka, bertakwalah kepada Allah dan janganlah kamu mencemarkan (nama)-ku di hadapan tamuku ini. Tidak adakah di antaramu orang yang berakal sehat?”"
+  },
+  {
+    "arab": "قَالُوْا لَقَدْ عَلِمْتَ مَا لَنَا فِيْ بَنٰتِكَ مِنْ حَقٍّۚ وَاِنَّكَ لَتَعْلَمُ مَا نُرِيْدُ ۝٧٩",
+    "latin": "qâlû laqad ‘alimta mâ lanâ fî banâtika min ḫaqq, wa innaka lata‘lamu mâ nurîd",
+    "arti": "Mereka menjawab, “Sungguh, engkau pasti tahu bahwa kami tidak mempunyai keinginan (syahwat) terhadap putri-putrimu dan engkau tentu mengetahui apa yang (sebenarnya) kami inginkan.”"
+  },
+  {
+    "arab": "قَالَ لَوْ اَنَّ لِيْ بِكُمْ قُوَّةً اَوْ اٰوِيْٓ اِلٰى رُكْنٍ شَدِيْدٍ ۝٨٠",
+    "latin": "qâla lau anna lî bikum quwwatan au âwî ilâ ruknin syadîd",
+    "arti": "Dia (Lut) berkata, “Sekiranya aku mempunyai kekuatan untuk menghalangi (perbuatan)-mu atau aku dapat berlindung kepada kerabat yang kuat (tentu aku lakukan).”"
+  },
+  {
+    "arab": "قَالُوْا يٰلُوْطُ اِنَّا رُسُلُ رَبِّكَ لَنْ يَّصِلُوْٓا اِلَيْكَ فَاَسْرِ بِاَهْلِكَ بِقِطْعٍ مِّنَ الَّيْلِ وَلَا يَلْتَفِتْ مِنْكُمْ اَحَدٌ اِلَّا امْرَاَتَكَۗ اِنَّهٗ مُصِيْبُهَا مَآ اَصَابَهُمْۗ اِنَّ مَوْعِدَهُمُ الصُّبْحُۗ اَلَيْسَ الصُّبْحُ بِقَرِيْبٍ ۝٨١",
+    "latin": "qâlû yâ lûthu innâ rusulu rabbika lay yashilû ilaika fa asri bi'ahlika biqith‘im minal-laili wa lâ yaltafit mingkum aḫadun illamra'atak, innahû mushîbuhâ mâ ashâbahum, inna mau‘idahumush-shub-h, a laisash-shub-ḫu biqarîb",
+    "arti": "Mereka (para malaikat) berkata, “Wahai Lut, sesungguhnya kami adalah para utusan Tuhanmu. Mereka tidak akan dapat mengganggumu (karena mereka akan dibinasakan). Oleh karena itu, pergilah beserta keluargamu pada sebagian malam (dini hari) dan jangan ada seorang pun di antara kamu yang menoleh ke belakang, kecuali istrimu (janganlah kamu ajak pergi karena telah berkhianat). Sesungguhnya dia akan terkena (siksaan) yang menimpa mereka dan sesungguhnya saat (kehancuran) mereka terjadi pada waktu subuh. Bukankah subuh itu sudah dekat?”"
+  },
+  {
+    "arab": "فَلَمَّا جَاۤءَ اَمْرُنَا جَعَلْنَا عَالِيَهَا سَافِلَهَا وَاَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّنْ سِجِّيْلٍ مَّنْضُوْدٍ ۝٨٢",
+    "latin": "fa lammâ jâ'a amrunâ ja‘alnâ ‘âliyahâ sâfilahâ wa amtharnâ ‘alaihâ ḫijâratam min sijjîlim mandlûd",
+    "arti": "Maka, ketika keputusan Kami datang, Kami menjungkirbalikkannya (negeri kaum Lut) dan Kami menghujani mereka dengan batu dari tanah yang terbakar secara bertubi-tubi. "
+  },
+  {
+    "arab": "مُسَوَّمَةً عِنْدَ رَبِّكَۗ وَمَا هِيَ مِنَ الظّٰلِمِيْنَ بِبَعِيْدٍࣖ ۝٨٣",
+    "latin": "musawwamatan ‘inda rabbik, wa mâ hiya minadh-dhâlimîna biba‘îd",
+    "arti": "(Batu-batu itu) diberi tanda dari sisi Tuhanmu. Siksaan itu tiadalah jauh dari orang yang zalim."
+  },
+  {
+    "arab": "۞ وَاِلٰى مَدْيَنَ اَخَاهُمْ شُعَيْبًاۗ قَالَ يٰقَوْمِ اعْبُدُوا اللّٰهَ مَا لَكُمْ مِّنْ اِلٰهٍ غَيْرُهٗۗ وَلَا تَنْقُصُوا الْمِكْيَالَ وَالْمِيْزَانَ اِنِّيْٓ اَرٰىكُمْ بِخَيْرٍ وَّاِنِّيْٓ اَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيْطٍ ۝٨٤",
+    "latin": "wa ilâ madyana akhâhum syu‘aibâ, qâla yâ qaumi‘budullâha mâ lakum min ilâhin ghairuh, wa lâ tangqushul-mikyâla wal-mîzâna innî arâkum bikhairiw wa innî akhâfu ‘alaikum ‘adzâba yaumim muḫîth",
+    "arti": "Kepada (penduduk) Madyan (Kami utus) saudara mereka, Syuʻaib. Dia berkata, “Wahai kaumku, sembahlah Allah! Tidak ada tuhan bagimu selain Dia. Janganlah kamu kurangi takaran dan timbangan! Sesungguhnya Aku melihat kamu dalam keadaan yang baik (makmur). Sesungguhnya aku khawatir kamu akan ditimpa azab pada hari yang meliputi (dan membinasakanmu, yaitu hari Kiamat)."
+  },
+  {
+    "arab": "وَيٰقَوْمِ اَوْفُوا الْمِكْيَالَ وَالْمِيْزَانَ بِالْقِسْطِ وَلَا تَبْخَسُوا النَّاسَ اَشْيَاۤءَهُمْ وَلَا تَعْثَوْا فِى الْاَرْضِ مُفْسِدِيْنَ ۝٨٥",
+    "latin": "wa yâ qaumi auful-mikyâla wal-mîzâna bil-qisthi wa lâ tabkhasun-nâsa asy-yâ'ahum wa lâ ta‘tsau fil-ardli mufsidîn",
+    "arti": "Wahai kaumku, penuhilah takaran dan timbangan dengan adil! Janganlah kamu merugikan manusia akan hak-hak mereka dan janganlah kamu membuat kejahatan di bumi dengan menjadi perusak!"
+  },
+  {
+    "arab": "بَقِيَّتُ اللّٰهِ خَيْرٌ لَّكُمْ اِنْ كُنْتُمْ مُّؤْمِنِيْنَ ەۚ وَمَآ اَنَا۠ عَلَيْكُمْ بِحَفِيْظٍ ۝٨٦",
+    "latin": "baqiyyatullâhi khairul lakum ing kuntum mu'minîn, wa mâ ana ‘alaikum biḫafîdh",
+    "arti": "Apa yang tersisa (dari keuntungan yang halal) yang dianugerahkan Allah lebih baik bagimu jika kamu orang-orang beriman. Aku bukanlah pengawas atas dirimu.”"
+  },
+  {
+    "arab": "قَالُوْا يٰشُعَيْبُ اَصَلٰوتُكَ تَأْمُرُكَ اَنْ نَّتْرُكَ مَا يَعْبُدُ اٰبَاۤؤُنَآ اَوْ اَنْ نَّفْعَلَ فِيْٓ اَمْوَالِنَا مَا نَشٰۤؤُاۗ اِنَّكَ لَاَنْتَ الْحَلِيْمُ الرَّشِيْدُ ۝٨٧",
+    "latin": "qâlû yâ syu‘aibu a shalâtuka ta'muruka an natruka mâ ya‘budu âbâ'unâ au an naf‘ala fî amwâlinâ mâ nasyâ', innaka la'antal-ḫalîmur-rasyîd",
+    "arti": "Mereka berkata, “Wahai Syuʻaib, apakah salatmu (agamamu) yang menyuruhmu agar kami meninggalkan apa yang disembah nenek moyang kami atau melarang kami mengelola harta menurut cara yang kami kehendaki? (Benarkah demikian, padahal) sesungguhnya engkau benar-benar orang yang sangat penyantun lagi cerdas?”"
+  },
+  {
+    "arab": "قَالَ يٰقَوْمِ اَرَءَيْتُمْ اِنْ كُنْتُ عَلٰى بَيِّنَةٍ مِّنْ رَّبِّيْ وَرَزَقَنِيْ مِنْهُ رِزْقًا حَسَنًا وَّمَآ اُرِيْدُ اَنْ اُخَالِفَكُمْ اِلٰى مَآ اَنْهٰىكُمْ عَنْهُۗ اِنْ اُرِيْدُ اِلَّا الْاِصْلَاحَ مَا اسْتَطَعْتُۗ وَمَا تَوْفِيْقِيْٓ اِلَّا بِاللّٰهِۗ عَلَيْهِ تَوَكَّلْتُ وَاِلَيْهِ اُنِيْبُ ۝٨٨",
+    "latin": "qâla yâ qaumi a ra'aitum ing kuntu ‘alâ bayyinatim mir rabbî wa razaqanî min-hu rizqan ḫasanaw wa mâ urîdu an ukhâlifakum ilâ mâ an-hâkum ‘an-h, in urîdu illal-ishlâḫa mastatha‘t, wa mâ taufîqî illâ billâh, ‘alaihi tawakkaltu wa ilaihi unîb",
+    "arti": "Dia (Syuʻaib) berkata, “Wahai kaumku, jelaskan pendapatmu jika aku mempunyai bukti yang nyata dari Tuhanku dan Dia menganugerahiku rezeki yang baik (pantaskah aku menyalahi perintah-Nya). Aku (sebenarnya) tidak ingin berbeda sikap denganmu (lalu melakukan) apa yang aku sendiri larang. Aku hanya bermaksud (mendatangkan) perbaikan sesuai dengan kesanggupanku. Tidak ada kemampuan bagiku (untuk mendatangkan perbaikan) melainkan dengan (pertolongan) Allah. Kepada-Nya aku bertawakal dan kepada-Nya (pula) aku kembali."
+  },
+  {
+    "arab": "وَيٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِيْٓ اَنْ يُّصِيْبَكُمْ مِّثْلُ مَآ اَصَابَ قَوْمَ نُوْحٍ اَوْ قَوْمَ هُوْدٍ اَوْ قَوْمَ صٰلِحٍۗ وَمَا قَوْمُ لُوْطٍ مِّنْكُمْ بِبَعِيْدٍ ۝٨٩",
+    "latin": "wa yâ qaumi lâ yajrimannakum syiqâqî ay yushîbakum mitslu mâ ashâba qauma nûḫin au qauma hûdin au qauma shâliḫ, wa mâ qaumu lûthim mingkum biba‘îd",
+    "arti": "Wahai kaumku, janganlah sekali-kali pertentanganku (denganmu) menyebabkan apa yang menimpa kaum Nuh, kaum Hud, atau kaum Saleh juga menimpamu, sedangkan (tempat dan masa kebinasaan) kaum Lut tidak jauh dari kamu."
+  },
+  {
+    "arab": "وَاسْتَغْفِرُوْا رَبَّكُمْ ثُمَّ تُوْبُوْٓا اِلَيْهِۗ اِنَّ رَبِّيْ رَحِيْمٌ وَّدُوْدٌ ۝٩٠",
+    "latin": "wastaghfirû rabbakum tsumma tûbû ilaîh, inna rabbî raḫîmuw wadûd",
+    "arti": "Mohonlah ampunan kepada Tuhanmu kemudian bertobatlah kepada-Nya. Sesungguhnya Tuhanku Maha Penyayang lagi Maha Mencintai.”"
+  },
+  {
+    "arab": "قَالُوْا يٰشُعَيْبُ مَا نَفْقَهُ كَثِيْرًا مِّمَّا تَقُوْلُ وَاِنَّا لَنَرٰىكَ فِيْنَا ضَعِيْفًاۗ وَلَوْلَا رَهْطُكَ لَرَجَمْنٰكَۖ وَمَآ اَنْتَ عَلَيْنَا بِعَزِيْزٍ ۝٩١",
+    "latin": "qâlû yâ syu‘aibu mâ nafqahu katsîram mimmâ taqûlu wa innâ lanarâka fînâ dla‘îfâ, walau lâ rahthuka larajamnâka wa mâ anta ‘alainâ bi‘azîz",
+    "arti": "Mereka berkata, “Wahai Syuʻaib, Kami tidak banyak mengerti apa yang engkau katakan itu, sedangkan kami sesungguhnya memandang engkau sebagai seorang yang lemah di antara kami. Kalau tidak karena keluargamu, tentu kami telah melemparimu (dengan batu), sedangkan engkau pun bukan seorang yang berpengaruh atas kami.”"
+  },
+  {
+    "arab": "قَالَ يٰقَوْمِ اَرَهْطِيْٓ اَعَزُّ عَلَيْكُمْ مِّنَ اللّٰهِۗ وَاتَّخَذْتُمُوْهُ وَرَاۤءَكُمْ ظِهْرِيًّاۗ اِنَّ رَبِّيْ بِمَا تَعْمَلُوْنَ مُحِيْطٌ ۝٩٢",
+    "latin": "qâla yâ qaumi a rahthî a‘azzu ‘alaikum minallâh, wattakhadztumûhu warâ'akum dhihriyyâ, inna rabbî bimâ ta‘malûna muḫîth",
+    "arti": "Dia (Syuʻaib) menjawab, “Wahai kaumku, apakah keluargaku kamu pandang lebih terhormat daripada Allah sehingga kamu menempatkan-Nya di belakangmu (menyepelekan-Nya)? Sesungguhnya (pengetahuan) Tuhanku meliputi apa yang kamu kerjakan."
+  },
+  {
+    "arab": "وَيٰقَوْمِ اعْمَلُوْا عَلٰى مَكَانَتِكُمْ اِنِّيْ عَامِلٌۗ سَوْفَ تَعْلَمُوْنَۙ مَنْ يَّأْتِيْهِ عَذَابٌ يُّخْزِيْهِ وَمَنْ هُوَ كَاذِبٌۗ وَارْتَقِبُوْٓا اِنِّيْ مَعَكُمْ رَقِيْبٌ ۝٩٣",
+    "latin": "wa yâ qaumi‘malû ‘alâ makânatikum innî ‘âmil, saufa ta‘lamûna may ya'tîhi ‘adzâbuy yukhzîhi wa man huwa kâdzib, wartaqibû innî ma‘akum raqîb",
+    "arti": "Wahai kaumku, berbuatlah apa yang bisa kamu lakukan! Sesungguhnya aku pun berbuat (hal yang sama). Kelak kamu mengetahui siapa yang akan ditimpa azab yang menghinakannya dan siapa yang pendusta. Tunggulah (akibat perbuatanmu), sesungguhnya aku pun akan menunggu bersamamu!”"
+  },
+  {
+    "arab": "وَلَمَّا جَاۤءَ اَمْرُنَا نَجَّيْنَا شُعَيْبًا وَّالَّذِيْنَ اٰمَنُوْا مَعَهٗ بِرَحْمَةٍ مِّنَّاۚ وَاَخَذَتِ الَّذِيْنَ ظَلَمُوا الصَّيْحَةُ فَاَصْبَحُوْا فِيْ دِيَارِهِمْ جٰثِمِيْنَۙ ۝٩٤",
+    "latin": "wa lammâ jâ'a amrunâ najjainâ syu‘aibaw walladzîna âmanû ma‘ahû biraḫmatim minnâ, wa akhadzatilladzîna dhalamush-shaiḫatu fa ashbaḫû fî diyârihim jâtsimîn",
+    "arti": "Ketika keputusan Kami (untuk menghancurkan mereka) datang, Kami selamatkan Syuʻaib dan orang-orang yang beriman bersamanya dengan rahmat Kami. Adapun orang-orang yang zalim, mereka dibinasakan oleh suara yang menggelegar sehingga mati bergelimpangan di rumah-rumah mereka."
+  },
+  {
+    "arab": "كَاَنْ لَّمْ يَغْنَوْا فِيْهَاۗ اَلَا بُعْدًا لِّمَدْيَنَ كَمَا بَعِدَتْ ثَمُوْدُࣖ ۝٩٥",
+    "latin": "ka'al lam yaghnau fîhâ, alâ bu‘dal limadyana kamâ ba‘idat tsamûd",
+    "arti": "(Negeri itu tak berbekas) seolah-olah mereka tidak pernah tinggal di sana. Ingatlah, (penduduk) Madyan binasa sebagaimana juga (kaum) Samud."
+  },
+  {
+    "arab": "وَلَقَدْ اَرْسَلْنَا مُوْسٰى بِاٰيٰتِنَا وَسُلْطٰنٍ مُّبِيْنٍۙ ۝٩٦",
+    "latin": "wa laqad arsalnâ mûsâ bi'âyâtinâ wa sulthânim mubîn",
+    "arti": "Sungguh, Kami benar-benar telah mengutus Musa dengan (membawa) ayat-ayat (mukjizat) Kami dan keterangan yang nyata"
+  },
+  {
+    "arab": "اِلٰى فِرْعَوْنَ وَملَا۟ىِٕهٖ فَاتَّبَعُوْٓا اَمْرَ فِرْعَوْنَۚ وَمَآ اَمْرُ فِرْعَوْنَ بِرَشِيْدٍ ۝٩٧",
+    "latin": "ilâ fir‘auna wa mala'ihî fattaba‘û amra fir‘aûn, wa mâ amru fir‘auna birasyîd",
+    "arti": "kepada Fir‘aun dan para pemuka kaumnya, tetapi (justru) mereka mengikuti perintah Fir‘aun, padahal perintah Fir‘aun sama sekali bukanlah (perintah) yang benar."
+  },
+  {
+    "arab": "يَقْدُمُ قَوْمَهٗ يَوْمَ الْقِيٰمَةِ فَاَوْرَدَهُمُ النَّارَۗ وَبِئْسَ الْوِرْدُ الْمَوْرُوْدُ ۝٩٨",
+    "latin": "yaqdumu qaumahû yaumal-qiyâmati fa auradahumun-nâr, wa bi'sal-wirdul-maurûd",
+    "arti": "(Fir‘aun) berjalan di depan kaumnya di hari Kiamat, lalu membawa mereka masuk neraka. Itulah seburuk-buruk tempat yang dimasuki."
+  },
+  {
+    "arab": "وَاُتْبِعُوْا فِيْ هٰذِهٖ لَعْنَةً وَّيَوْمَ الْقِيٰمَةِۗ بِئْسَ الرِّفْدُ الْمَرْفُوْدُ ۝٩٩",
+    "latin": "wa utbi‘û fî hâdzihî la‘nataw wa yaumal-qiyâmah, bi'sar-rifdul-marfûd",
+    "arti": "Mereka diikuti dengan laknat di sini (dunia) dan (kelak) di hari Kiamat. (Laknat) itu seburuk-buruk pemberian yang diserahkan."
+  },
+  {
+    "arab": "ذٰلِكَ مِنْ اَنْۢبَاۤءِ الْقُرٰى نَقُصُّهٗ عَلَيْكَ مِنْهَا قَاۤىِٕمٌ وَّحَصِيْدٌ ۝١٠٠",
+    "latin": "dzâlika min ambâ'il-qurâ naqushshuhû ‘alaika min-hâ qâ'imuw wa ḫashîd",
+    "arti": "Itu adalah sebagian berita tentang negeri-negeri (yang telah dibinasakan) yang Kami ceritakan kepadamu (Nabi Muhammad). Di sebagian negeri-negeri itu masih berdiri peninggalan-peninggalannya dan ada (pula) yang telah musnah."
+  },
+  {
+    "arab": "وَمَا ظَلَمْنٰهُمْ وَلٰكِنْ ظَلَمُوْٓا اَنْفُسَهُمْ فَمَآ اَغْنَتْ عَنْهُمْ اٰلِهَتُهُمُ الَّتِيْ يَدْعُوْنَ مِنْ دُوْنِ اللّٰهِ مِنْ شَيْءٍ لَّمَّا جَاۤءَ اَمْرُ رَبِّكَۗ وَمَا زَادُوْهُمْ غَيْرَ تَتْبِيْبٍ ۝١٠١",
+    "latin": "wa mâ dhalamnâhum wa lâkin dhalamû anfusahum fa mâ aghnat ‘an-hum âlihatuhumullatî yad‘ûna min dûnillâhi min syai'il lammâ jâ'a amru rabbik, wa mâ zâdûhum ghaira tatbîb",
+    "arti": "Kami tidak menzalimi mereka, tetapi merekalah yang menzalimi diri sendiri. Maka, tidak bermanfaat sedikit pun bagi mereka sembahan yang mereka sembah selain Allah saat siksaan Tuhanmu datang. (Sembahan) itu tak lain (justru) hanya menambah kebinasaan bagi mereka."
+  },
+  {
+    "arab": "وَكَذٰلِكَ اَخْذُ رَبِّكَ اِذَآ اَخَذَ الْقُرٰى وَهِيَ ظَالِمَةٌۗ اِنَّ اَخْذَهٗٓ اَلِيْمٌ شَدِيْدٌ ۝١٠٢",
+    "latin": "wa kadzâlika akhdzu rabbika idzâ akhadzal-qurâ wa hiya dhâlimah, inna akhdzahû alîmun syadîd",
+    "arti": "Demikianlah siksaan Tuhanmu apabila Dia mengazab (penduduk) negeri-negeri yang berbuat zalim. Sesungguhnya siksaan-Nya sangat pedih lagi sangat berat."
+  },
+  {
+    "arab": "اِنَّ فِيْ ذٰلِكَ لَاٰيَةً لِّمَنْ خَافَ عَذَابَ الْاٰخِرَةِۗ ذٰلِكَ يَوْمٌ مَّجْمُوْعٌۙ لَّهُ النَّاسُ وَذٰلِكَ يَوْمٌ مَّشْهُوْدٌ ۝١٠٣",
+    "latin": "inna fî dzâlika la'âyatal liman khâfa ‘adzâbal-âkhirah, dzâlika yaumum majmû‘ul lahun-nâsu wa dzâlika yaumum masy-hûd",
+    "arti": "Sesungguhnya pada yang demikian itu terdapat pelajaran bagi orang yang takut pada azab akhirat. Itu adalah hari ketika semua manusia dikumpulkan (untuk dihisab) dan itu adalah hari yang disaksikan (oleh semua makhluk)."
+  },
+  {
+    "arab": "وَمَا نُؤَخِّرُهٗٓ اِلَّا لِاَجَلٍ مَّعْدُوْدٍۗ ۝١٠٤",
+    "latin": "wa mâ nu'akhkhiruhû illâ li'ajalim ma‘dûd",
+    "arti": "Kami tidak akan menundanya, kecuali sampai waktu yang sudah ditentukan."
+  },
+  {
+    "arab": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ اِلَّا بِاِذْنِهٖۚ فَمِنْهُمْ شَقِيٌّ وَّسَعِيْدٌ ۝١٠٥",
+    "latin": "yauma ya'ti lâ takallamu nafsun illâ bi'idznih, fa min-hum syaqiyyuw wa sa‘îd",
+    "arti": "Ketika hari itu datang, tidak seorang pun yang berbicara, kecuali dengan izin-Nya. Maka, di antara mereka ada yang sengsara dan ada yang berbahagia."
+  },
+  {
+    "arab": "فَاَمَّا الَّذِيْنَ شَقُوْا فَفِى النَّارِ لَهُمْ فِيْهَا زَفِيْرٌ وَّشَهِيْقٌۙ ۝١٠٦",
+    "latin": "fa ammalladzîna syaqû fa fin-nâri lahum fîhâ zafîruw wa syahîq",
+    "arti": "Adapun orang-orang yang sengsara, maka (ia berada) di dalam neraka. Di sana mereka mengeluarkan dan menarik nafas dengan merintih."
+  },
+  {
+    "arab": "خٰلِدِيْنَ فِيْهَا مَا دَامَتِ السَّمٰوٰتُ وَالْاَرْضُ اِلَّا مَا شَاۤءَ رَبُّكَۗ اِنَّ رَبَّكَ فَعَّالٌ لِّمَا يُرِيْدُ ۝١٠٧",
+    "latin": "khâlidîna fîhâ mâ dâmatis-samâwâtu wal-ardlu illâ mâ syâ'a rabbuk, inna rabbaka fa‘‘âlul limâ yurîd",
+    "arti": "Mereka kekal di dalamnya selama masih ada langit dan bumi, kecuali jika Tuhanmu menghendaki (yang lain). Sesungguhnya Tuhanmu Maha Melaksanakan apa yang Dia kehendaki."
+  },
+  {
+    "arab": "۞ وَاَمَّا الَّذِيْنَ سُعِدُوْا فَفِى الْجَنَّةِ خٰلِدِيْنَ فِيْهَا مَا دَامَتِ السَّمٰوٰتُ وَالْاَرْضُ اِلَّا مَا شَاۤءَ رَبُّكَۗ عَطَاۤءً غَيْرَ مَجْذُوْذٍ ۝١٠٨",
+    "latin": "wa ammalladzîna su‘idû fa fil-jannati khâlidîna fîhâ mâ dâmatis-samâwâtu wal-ardlu illâ mâ syâ'a rabbuk, ‘athâ'an ghaira majdzûdz",
+    "arti": "Adapun orang-orang yang berbahagia, maka (ia berada) di dalam surga. Mereka kekal di dalamnya selama masih ada langit dan bumi, kecuali jika Tuhanmu menghendaki (yang lain) sebagai karunia yang tidak putus-putusnya."
+  },
+  {
+    "arab": "فَلَا تَكُ فِيْ مِرْيَةٍ مِّمَّا يَعْبُدُ هٰٓؤُلَاۤءِۗ مَا يَعْبُدُوْنَ اِلَّا كَمَا يَعْبُدُ اٰبَاۤؤُهُمْ مِّنْ قَبْلُۗ وَاِنَّا لَمُوَفُّوْهُمْ نَصِيْبَهُمْ غَيْرَ مَنْقُوْصٍࣖ ۝١٠٩",
+    "latin": "fa lâ taku fî miryatim mimmâ ya‘budu hâ'ulâ', mâ ya‘budûna illâ kamâ ya‘budu âbâ'uhum ming qabl, wa innâ lamuwaffûhum nashîbahum ghaira mangqûsh",
+    "arti": "Maka, janganlah engkau (Nabi Muhammad) ragu-ragu tentang (kebatilan) apa yang mereka sembah. Mereka tiada lain hanya menyembah sebagaimana nenek moyang mereka dahulu. Kami pasti akan menyempurnakan balasan mereka tanpa dikurangi sedikit pun."
+  },
+  {
+    "arab": "وَلَقَدْ اٰتَيْنَا مُوْسَى الْكِتٰبَ فَاخْتُلِفَ فِيْهِۗ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِنْ رَّبِّكَ لَقُضِيَ بَيْنَهُمْۚ وَاِنَّهُمْ لَفِيْ شَكٍّ مِّنْهُ مُرِيْبٍ ۝١١٠",
+    "latin": "wa laqad âtainâ mûsal-kitâba fakhtulifa fîh, walau lâ kalimatun sabaqat mir rabbika laqudliya bainahum, wa innahum lafî syakkim min-hu murîb",
+    "arti": "Sungguh, Kami benar-benar telah menganugerahkan Kitab (Taurat) kepada Musa, lalu ia (kitab itu) diperselisihkan. Seandainya tidak ada ketetapan yang terdahulu dari Tuhanmu (bahwa orang-orang yang mendustakan Al-Qur’an akan ditunda penyiksaannya), niscaya telah dilaksanakan hukuman di antara mereka. Sesungguhnya mereka benar-benar dalam kebimbangan dan keraguan terhadapnya."
+  },
+  {
+    "arab": "وَاِنَّ كُلًّا لَّمَّا لَيُوَفِّيَنَّهُمْ رَبُّكَ اَعْمَالَهُمْۗ اِنَّهٗ بِمَا يَعْمَلُوْنَ خَبِيْرٌ ۝١١١",
+    "latin": "wa inna kullal lammâ layuwaffiyannahum rabbuka a‘mâlahum, innahû bimâ ya‘malûna khabîr",
+    "arti": "Sesungguhnya kepada setiap (yang berselisih itu) Tuhanmu pasti akan memberi balasan secara penuh atas perbuatan mereka. Sesungguhnya Dia Mahateliti terhadap apa yang mereka kerjakan."
+  },
+  {
+    "arab": "فَاسْتَقِمْ كَمَآ اُمِرْتَ وَمَنْ تَابَ مَعَكَ وَلَا تَطْغَوْاۗ اِنَّهٗ بِمَا تَعْمَلُوْنَ بَصِيْرٌ ۝١١٢",
+    "latin": "fastaqim kamâ umirta wa man tâba ma‘aka wa lâ tathghau, innahû bimâ ta‘malûna bashîr",
+    "arti": "Maka, tetaplah (di jalan yang benar), sebagaimana engkau (Nabi Muhammad) telah diperintahkan. Begitu pula orang yang bertobat bersamamu. Janganlah kamu melampaui batas! Sesungguhnya Dia Maha Melihat apa yang kamu kerjakan."
+  },
+  {
+    "arab": "وَلَا تَرْكَنُوْٓا اِلَى الَّذِيْنَ ظَلَمُوْا فَتَمَسَّكُمُ النَّارُۙ وَمَا لَكُمْ مِّنْ دُوْنِ اللّٰهِ مِنْ اَوْلِيَاۤءَ ثُمَّ لَا تُنْصَرُوْنَ ۝١١٣",
+    "latin": "wa lâ tarkanû ilalladzîna dhalamû fa tamassakumun-nâru wa mâ lakum min dûnillâhi min auliyâ'a tsumma lâ tunsharûn",
+    "arti": "Janganlah kamu cenderung kepada orang-orang yang zalim sehingga menyebabkan api neraka menyentuhmu, sedangkan kamu tidak mempunyai seorang penolong pun selain Allah, kemudian kamu tidak akan diberi pertolongan."
+  },
+  {
+    "arab": "وَاَقِمِ الصَّلٰوةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِّنَ الَّيْلِۗ اِنَّ الْحَسَنٰتِ يُذْهِبْنَ السَّيِّاٰتِۗ ذٰلِكَ ذِكْرٰى لِلذّٰكِرِيْنَ ۝١١٤",
+    "latin": "wa aqimish-shalâta tharafayin-nahâri wa zulafam minal-laîl, innal-ḫasanâti yudz-hibnas-sayyi'ât, dzâlika dzikrâ lidz-dzâkirîn",
+    "arti": "Dirikanlah salat pada kedua ujung hari (pagi dan petang) dan pada bagian-bagian malam. Sesungguhnya perbuatan-perbuatan baik menghapus kesalahan-kesalahan. Itu adalah peringatan bagi orang-orang yang selalu mengingat (Allah)."
+  },
+  {
+    "arab": "وَاصْبِرْ فَاِنَّ اللّٰهَ لَا يُضِيْعُ اَجْرَ الْمُحْسِنِيْنَ ۝١١٥",
+    "latin": "washbir fa innallâha lâ yudlî‘u ajral-muḫsinîn",
+    "arti": "Bersabarlah, karena sesungguhnya Allah tidak akan menyia-nyiakan pahala orang yang berbuat kebaikan."
+  },
+  {
+    "arab": "فَلَوْلَا كَانَ مِنَ الْقُرُوْنِ مِنْ قَبْلِكُمْ اُولُوْا بَقِيَّةٍ يَّنْهَوْنَ عَنِ الْفَسَادِ فِى الْاَرْضِ اِلَّا قَلِيْلًا مِّمَّنْ اَنْجَيْنَا مِنْهُمْۚ وَاتَّبَعَ الَّذِيْنَ ظَلَمُوْا مَآ اُتْرِفُوْا فِيْهِ وَكَانُوْا مُجْرِمِيْنَ ۝١١٦",
+    "latin": "falau lâ kâna minal-qurûni ming qablikum ulû baqiyyatiy yan-hauna ‘anil-fasâdi fil-ardli illâ qalîlam mim man anjainâ min-hum, wattaba‘alladzîna dhalamû mâ utrifû fîhi wa kânû mujrimîn",
+    "arti": "Maka, mengapa tidak ada di antara generasi sebelum kamu sekelompok orang yang mempunyai keutamaan yang melarang (berbuat) kerusakan di bumi, kecuali sebagian kecil, yaitu orang yang telah Kami selamatkan di antara mereka? Orang-orang yang zalim hanya mementingkan kenikmatan dan kemewahan dan mereka adalah orang-orang yang berdosa."
+  },
+  {
+    "arab": "وَمَا كَانَ رَبُّكَ لِيُهْلِكَ الْقُرٰى بِظُلْمٍ وَّاَهْلُهَا مُصْلِحُوْنَ ۝١١٧",
+    "latin": "wa mâ kâna rabbuka liyuhlikal-qurâ bidhulmiw wa ahluhâ mushliḫûn",
+    "arti": "Tuhanmu tidak akan membinasakan negeri-negeri secara zalim sedangkan penduduknya berbuat kebaikan."
+  },
+  {
+    "arab": "وَلَوْ شَاۤءَ رَبُّكَ لَجَعَلَ النَّاسَ اُمَّةً وَّاحِدَةً وَّلَا يَزَالُوْنَ مُخْتَلِفِيْنَۙ ۝١١٨",
+    "latin": "walau syâ'a rabbuka laja‘alan-nâsa ummataw wâḫidataw wa lâ yazâlûna mukhtalifîn",
+    "arti": "Jika Tuhanmu menghendaki, tentu Dia akan menjadikan manusia umat yang satu. Namun, mereka senantiasa berselisih (dalam urusan agama),"
+  },
+  {
+    "arab": "اِلَّا مَنْ رَّحِمَ رَبُّكَۗ وَلِذٰلِكَ خَلَقَهُمْۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَاَمْلَـَٔنَّ جَهَنَّمَ مِنَ الْجِنَّةِ وَالنَّاسِ اَجْمَعِيْنَ ۝١١٩",
+    "latin": "illâ mar raḫima rabbuk, wa lidzâlika khalaqahum, wa tammat kalimatu rabbika la'amla'anna jahannama minal-jinnati wan-nâsi ajma‘în",
+    "arti": "kecuali orang yang dirahmati oleh Tuhanmu. Menurut (kehendak-Nya) itulah Allah menciptakan mereka. Kalimat (keputusan) Tuhanmu telah tetap, “Aku pasti akan memenuhi (neraka) Jahanam (dengan pendurhaka) dari kalangan jin dan manusia semuanya.”"
+  },
+  {
+    "arab": "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ اَنْۢبَاۤءِ الرُّسُلِ مَا نُثَبِّتُ بِهٖ فُؤَادَكَ وَجَاۤءَكَ فِيْ هٰذِهِ الْحَقُّ وَمَوْعِظَةٌ وَّذِكْرٰى لِلْمُؤْمِنِيْنَ ۝١٢٠",
+    "latin": "wa kullan naqushshu ‘alaika min ambâ'ir-rusuli mâ nutsabbitu bihî fu'âdaka wa jâ'aka fî hâdzihil-ḫaqqu wa mau‘idhatuw wa dzikrâ lil-mu'minîn",
+    "arti": "Semua kisah rasul-rasul Kami ceritakan kepadamu (Nabi Muhammad), yaitu kisah-kisah yang dengannya Kami teguhkan hatimu. Di dalamnya telah diberikan kepadamu (segala) kebenaran, nasihat, dan peringatan bagi orang-orang mukmin."
+  },
+  {
+    "arab": "وَقُلْ لِّلَّذِيْنَ لَا يُؤْمِنُوْنَ اعْمَلُوْا عَلٰى مَكَانَتِكُمْۗ اِنَّا عٰمِلُوْنَۙ ۝١٢١",
+    "latin": "wa qul lilladzîna lâ yu'minûna‘malû ‘alâ makânatikum, innâ ‘âmilûn",
+    "arti": "Katakanlah (Nabi Muhammad) kepada orang-orang yang tidak beriman, “Berbuatlah menurut kemampuanmu. Kami pun benar-benar akan berbuat (seperti demikian)"
+  },
+  {
+    "arab": "وَانْتَظِرُوْاۚ اِنَّا مُنْتَظِرُوْنَ ۝١٢٢",
+    "latin": "wantadhirû, innâ muntadhirûn",
+    "arti": "dan tunggulah. Sesungguhnya kami pun menunggu.”"
+  },
+  {
+    "arab": "وَلِلّٰهِ غَيْبُ السَّمٰوٰتِ وَالْاَرْضِ وَاِلَيْهِ يُرْجَعُ الْاَمْرُ كُلُّهٗ فَاعْبُدْهُ وَتَوَكَّلْ عَلَيْهِۗ وَمَا رَبُّكَ بِغَافِلٍ عَمَّا تَعْمَلُوْنَࣖ ۝١٢٣",
+    "latin": "wa lillâhi ghaibus-samâwâti wal-ardli wa ilaihi yurja‘ul-amru kulluhû fa‘bud-hu wa tawakkal ‘alaîh, wa mâ rabbuka bighâfilin ‘ammâ ta‘malûn",
+    "arti": "Milik Allahlah (pengetahuan tentang) yang gaib (di) langit dan (di) bumi. Kepada-Nyalah segala urusan dikembalikan. Maka, sembahlah Dia dan bertawakallah kepada-Nya. Tuhanmu tidak akan lengah terhadap apa yang kamu kerjakan."
+  }
+]

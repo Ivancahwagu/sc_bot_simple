@@ -1,26 +1,35 @@
 import { pindl } from "../tools/scrape.js"
 
 let theoFitur = async ({ m, theo }) => {
+    if (!m.res.includes("pin") || !m.res.includes("https://")) {
+        return m.reply(`📌 *Format salah!*
 
-    if (!m.res.includes("pin") || !m.res.includes("https://")) return m.reply(`format salah!
-        
-contoh: ${m.prefix}${m.command} https://pin.it/S7ATWEmOd`)
+Contoh penggunaan:
+${m.prefix}${m.command} https://pin.it/S7ATWEmOd`)
+    }
+
     let data = await pindl(m.res)
     if (data) {
         let no = 1
-        let dl = []
-        for (const i of data.link) {
-            dl.push({
-                url: i.url,
-                type: i.kualitas
-            })
-        }
-        let { key } = await m.reply(`
-${data.title}
-${dl.map(a => `${no++}. ${a.type.trim()}`).join('\n')}
+        let pilihan = data.link.map(a => ({
+            url: a.url,
+            type: a.kualitas
+        }))
 
-pilih salah satu nomor dan balas pesan ini dnegan nomor yang kamu inginkan`)
-        db.user[m.sender].download[key.id] = dl
+        let listFormat = pilihan.map(a => `${no++}. ${a.type.trim()}`).join('\n')
+
+        let { key } = await m.reply(`📥 *Pinterest Downloader*
+
+🖼️ Judul: ${data.title}
+
+🔢 Pilih kualitas yang kamu inginkan:
+${listFormat}
+
+💬 Balas pesan ini dengan nomor pilihanmu untuk mendownload.`)
+
+        db.user[m.sender].download[key.id] = pilihan
+    } else {
+        m.reply(`❌ Gagal mengambil data dari URL tersebut. Pastikan link Pinterest-nya benar dan publik.`)
     }
 }
 

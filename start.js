@@ -21,8 +21,8 @@ async function start(file) {
         }
     })
     p.on(`exit`, async function (code) {
+        start(file)
         console.log(`sistem mati dengan kode: ${code}`)
-        await start(file)
     })
 }
 start(`connect.js`)

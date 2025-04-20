@@ -1,0 +1,392 @@
+[
+  {
+    "arab": "اَلرَّحْمٰنُۙ ۝١",
+    "latin": "ar-raḫmân",
+    "arti": "(Allah) Yang Maha Pengasih,"
+  },
+  {
+    "arab": "عَلَّمَ الْقُرْاٰنَۗ ۝٢",
+    "latin": "‘allamal-qur'ân",
+    "arti": "telah mengajarkan Al-Qur’an."
+  },
+  {
+    "arab": "خَلَقَ الْاِنْسَانَۙ ۝٣",
+    "latin": "khalaqal-insân",
+    "arti": "Dia menciptakan manusia."
+  },
+  {
+    "arab": "عَلَّمَهُ الْبَيَانَ ۝٤",
+    "latin": "‘allamahul-bayân",
+    "arti": "Dia mengajarinya pandai menjelaskan."
+  },
+  {
+    "arab": "اَلشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍۙ ۝٥",
+    "latin": "asy-syamsu wal-qamaru biḫusbân",
+    "arti": "Matahari dan bulan (beredar) sesuai dengan perhitungan."
+  },
+  {
+    "arab": "وَّالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ ۝٦",
+    "latin": "wan-najmu wasy-syajaru yasjudân",
+    "arti": "Tetumbuhan dan pepohonan tunduk (kepada-Nya)."
+  },
+  {
+    "arab": "وَالسَّمَاۤءَ رَفَعَهَا وَوَضَعَ الْمِيْزَانَۙ ۝٧",
+    "latin": "was-samâ'a rafa‘ahâ wa wadla‘al-mîzân",
+    "arti": "Langit telah Dia tinggikan dan Dia telah menciptakan timbangan (keadilan dan keseimbangan)"
+  },
+  {
+    "arab": "اَلَّا تَطْغَوْا فِى الْمِيْزَانِ ۝٨",
+    "latin": "allâ tathghau fil-mîzân",
+    "arti": "agar kamu tidak melampaui batas dalam timbangan itu."
+  },
+  {
+    "arab": "وَاَقِيْمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيْزَانَ ۝٩",
+    "latin": "wa aqîmul-wazna bil-qisthi wa lâ tukhsirul-mîzân",
+    "arti": "Tegakkanlah timbangan itu dengan adil dan janganlah kamu mengurangi timbangan itu."
+  },
+  {
+    "arab": "وَالْاَرْضَ وَضَعَهَا لِلْاَنَامِۙ ۝١٠",
+    "latin": "wal-ardla wadla‘ahâ lil-anâm",
+    "arti": "Bumi telah Dia bentangkan untuk makhluk(-Nya)."
+  },
+  {
+    "arab": "فِيْهَا فَاكِهَةٌ وَّالنَّخْلُ ذَاتُ الْاَكْمَامِۖ ۝١١",
+    "latin": "fîhâ fâkihatuw wan-nakhlu dzâtul-akmâm",
+    "arti": "Padanya terdapat buah-buahan dan pohon kurma yang mempunyai kelopak mayang,"
+  },
+  {
+    "arab": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُۚ ۝١٢",
+    "latin": "wal-ḫabbu dzul-‘ashfi war-raiḫân",
+    "arti": "biji-bijian yang berkulit, dan bunga-bunga yang harum baunya."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝١٣",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "خَلَقَ الْاِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ ۝١٤",
+    "latin": "khalaqal-insâna min shalshâling kal-fakhkhâr",
+    "arti": "Dia telah menciptakan manusia dari tanah kering seperti tembikar."
+  },
+  {
+    "arab": "وَخَلَقَ الْجَاۤنَّ مِنْ مَّارِجٍ مِّنْ نَّارٍۚ ۝١٥",
+    "latin": "wa khalaqal-jânna mim mârijim min nâr",
+    "arti": "Dia juga telah menciptakan jin dari nyala api tanpa asap."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝١٦",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِۚ ۝١٧",
+    "latin": "rabbul-masyriqaini wa rabbul-maghribaîn",
+    "arti": "(Dialah) Tuhan kedua tempat terbit (matahari pada musim panas dan musim dingin) dan Tuhan kedua tempat terbenam (matahari pada kedua musim itu). "
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝١٨",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيٰنِۙ ۝١٩",
+    "latin": "marajal-baḫraini yaltaqiyân",
+    "arti": "Dia membiarkan dua laut (tawar dan asin) bertemu."
+  },
+  {
+    "arab": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيٰنِۚ ۝٢٠",
+    "latin": "bainahumâ barzakhul lâ yabghiyân",
+    "arti": "Di antara keduanya ada pembatas yang tidak dilampaui oleh masing-masing."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٢١",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُۚ ۝٢٢",
+    "latin": "yakhruju min-humal-lu'lu'u wal-marjân",
+    "arti": "Dari keduanya keluar mutiara dan marjan."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٢٣",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "وَلَهُ الْجَوَارِ الْمُنْشَاٰتُ فِى الْبَحْرِ كَالْاَعْلَامِۚ ۝٢٤",
+    "latin": "wa lahul-jawâril-munsya'âtu fil-baḫri kal-a‘lâm",
+    "arti": "Milik-Nyalah (bahtera) buatan manusia yang berlayar di laut laksana gunung-gunung."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِࣖ ۝٢٥",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "كُلُّ مَنْ عَلَيْهَا فَانٍۖ ۝٢٦",
+    "latin": "kullu man ‘alaihâ fân",
+    "arti": "Semua yang ada di atasnya (bumi) itu akan binasa."
+  },
+  {
+    "arab": "وَّيَبْقٰى وَجْهُ رَبِّكَ ذُو الْجَلٰلِ وَالْاِكْرَامِۚ ۝٢٧",
+    "latin": "wa yabqâ waj-hu rabbika dzul-jalâli wal-ikrâm",
+    "arti": "(Akan tetapi,) wajah (zat) Tuhanmu yang memiliki kebesaran dan kemuliaan tetap kekal."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٢٨",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "يَسْـَٔلُهٗ مَنْ فِى السَّمٰوٰتِ وَالْاَرْضِۗ  كُلَّ يَوْمٍ هُوَ فِيْ شَأْنٍۚ ۝٢٩",
+    "latin": "yas'aluhû man fis-samâwâti wal-ardl, kulla yaumin huwa fî sya'n",
+    "arti": "Siapa yang ada di langit dan bumi selalu meminta kepada-Nya. Setiap hari Dia menangani urusan."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٣٠",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "سَنَفْرُغُ لَكُمْ اَيُّهَ الثَّقَلٰنِۚ ۝٣١",
+    "latin": "sanafrughu lakum ayyuhats-tsaqalân",
+    "arti": "Kami akan mencurahkan perhatian kepadamu, wahai manusia dan jin."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٣٢",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "يٰمَعْشَرَ الْجِنِّ وَالْاِنْسِ اِنِ اسْتَطَعْتُمْ اَنْ تَنْفُذُوْا مِنْ اَقْطَارِ السَّمٰوٰتِ وَالْاَرْضِ فَانْفُذُوْاۗ  لَا تَنْفُذُوْنَ اِلَّا بِسُلْطٰنٍۚ ۝٣٣",
+    "latin": "yâ ma‘syaral-jinni wal-insi inistatha‘tum an tanfudzû min aqthâris-samâwâti wal-ardli fanfudzû, lâ tanfudzûna illâ bisulthân",
+    "arti": "Wahai segenap jin dan manusia, jika kamu sanggup menembus (melintasi) penjuru langit dan bumi, tembuslah. Kamu tidak akan mampu menembusnya, kecuali dengan kekuatan (dari Allah). "
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٣٤",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّنْ نَّارٍۙ وَّنُحَاسٌ فَلَا تَنْتَصِرَانِۚ ۝٣٥",
+    "latin": "yursalu ‘alaikumâ syuwâdhum min nâriw wa nuḫâsun fa lâ tantashirân",
+    "arti": "Kepadamu, (wahai jin dan manusia,) disemburkan nyala api dan (ditumpahkan) cairan tembaga panas sehingga kamu tidak dapat menyelamatkan diri."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٣٦",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فَاِذَا انْشَقَّتِ السَّمَاۤءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِۚ ۝٣٧",
+    "latin": "fa idzansyaqqatis-samâ'u fa kânat wardatang kad-dihân",
+    "arti": "Maka, apabila langit terbelah, lalu (warnanya) menjadi merah mawar seperti (kilauan) minyak, (terjadilah kengerian yang hebat)."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٣٨",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فَيَوْمَئِذٍ لَّا يُسْـَٔلُ عَنْ ذَنْۢبِهٖٓ اِنْسٌ وَّلَا جَاۤنٌّۚ ۝٣٩",
+    "latin": "fa yauma'idzil lâ yus'alu ‘an dzambihî insuw wa lâ jânn",
+    "arti": "Maka, pada hari itu manusia dan jin tidak ditanya tentang dosanya."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٤٠",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "يُعْرَفُ الْمُجْرِمُوْنَ بِسِيْمٰهُمْ فَيُؤْخَذُ بِالنَّوَاصِيْ وَالْاَقْدَامِۚ ۝٤١",
+    "latin": "yu‘raful-mujrimûna bisîmâhum fa yu'khadzu bin-nawâshî wal-aqdâm",
+    "arti": "Para pendosa dikenali dengan tanda-tandanya, lalu direnggut ubun-ubun dan kakinya."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٤٢",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "هٰذِهٖ جَهَنَّمُ الَّتِيْ يُكَذِّبُ بِهَا الْمُجْرِمُوْنَۘ ۝٤٣",
+    "latin": "hâdzihî jahannamullatî yukadzdzibu bihal-mujrimûn",
+    "arti": "Inilah (neraka) Jahanam yang didustakan oleh para pendosa."
+  },
+  {
+    "arab": "يَطُوْفُوْنَ بَيْنَهَا وَبَيْنَ حَمِيْمٍ اٰنٍۚ ۝٤٤",
+    "latin": "yathûfûna bainahâ wa baina ḫamîmin ân",
+    "arti": "Mereka bolak-balik di antaranya (api neraka) dan air mendidih yang sangat panas."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِࣖ ۝٤٥",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "وَلِمَنْ خَافَ مَقَامَ رَبِّهٖ جَنَّتٰنِۚ ۝٤٦",
+    "latin": "wa liman khâfa maqâma rabbihî jannatân",
+    "arti": "Bagi siapa yang takut pada keagungan Tuhannya disediakan dua surga."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۙ ۝٤٧",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "ذَوَاتَآ اَفْنَانٍۚ ۝٤٨",
+    "latin": "dzawâtâ afnân",
+    "arti": "Kedua surga itu mempunyai (pepohonan) yang bercabang-cabang."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٤٩",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فِيْهِمَا عَيْنٰنِ تَجْرِيٰنِۚ ۝٥٠",
+    "latin": "fîhimâ ‘ainâni tajriyân",
+    "arti": "Di dalam kedua (surga) itu terdapat dua mata air yang memancar."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٥١",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فِيْهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجٰنِۚ ۝٥٢",
+    "latin": "fîhimâ ming kulli fâkihatin zaujân",
+    "arti": "Di dalam kedua (surga) itu terdapat aneka buah-buahan yang berpasang-pasangan. "
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٥٣",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "مُتَّكِـِٕيْنَ عَلٰى فُرُشٍ ۢ بَطَاۤىِٕنُهَا مِنْ اِسْتَبْرَقٍۗ وَجَنَا الْجَنَّتَيْنِ دَانٍۚ ۝٥٤",
+    "latin": "muttaki'îna ‘alâ furusyim bathâ'inuhâ min istabraq, wa janal-jannataini dân",
+    "arti": "Mereka berbaring di atas permadani yang bagian dalamnya (terbuat) dari sutera tebal. Buah-buahan di kedua surga itu (dapat) dipetik dari dekat. "
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٥٥",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فِيْهِنَّ قٰصِرٰتُ الطَّرْفِۙ لَمْ يَطْمِثْهُنَّ اِنْسٌ قَبْلَهُمْ وَلَا جَاۤنٌّۚ ۝٥٦",
+    "latin": "fîhinna qâshirâtuth-tharfi lam yathmits-hunna insung qablahum wa lâ jânn",
+    "arti": "Di dalamnya ada (bidadari) yang membatasi pandangan (hanya untuk pasangannya) yang tidak pernah disentuh oleh manusia sebelum mereka dan tidak (pula) oleh jin."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٥٧",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "كَاَنَّهُنَّ الْيَاقُوْتُ وَالْمَرْجَانُۚ ۝٥٨",
+    "latin": "ka'annahunnal-yâqûtu wal-marjân",
+    "arti": "Seakan-akan mereka itu permata yakut dan marjan."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٥٩",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "هَلْ جَزَاۤءُ الْاِحْسَانِ اِلَّا الْاِحْسَانُۚ ۝٦٠",
+    "latin": "hal jazâ'ul-iḫsâni illal-iḫsân",
+    "arti": "Adakah balasan kebaikan selain kebaikan (pula)?"
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٦١",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "وَمِنْ دُوْنِهِمَا جَنَّتٰنِۚ ۝٦٢",
+    "latin": "wa min dûnihimâ jannatân",
+    "arti": "Selain dari kedua (surga) itu ada dua surga (lagi)."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۙ ۝٦٣",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "مُدْهَاۤمَّتٰنِۚ ۝٦٤",
+    "latin": "mud-hâmmatân",
+    "arti": "Kedua surga itu (terlihat warnanya) hijau tua."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِ ۝٦٥",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فِيْهِمَا عَيْنٰنِ نَضَّاخَتٰنِۚ ۝٦٦",
+    "latin": "fîhimâ ‘ainâni nadldlâkhatân",
+    "arti": "Di dalam keduanya ada dua mata air yang memancar tanpa henti."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٦٧",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فِيْهِمَا فَاكِهَةٌ وَّنَخْلٌ وَّرُمَّانٌۚ ۝٦٨",
+    "latin": "fîhimâ fâkihatuw wa nakhluw wa rummân",
+    "arti": "Di dalam keduanya ada buah-buahan (antara lain) kurma dan delima."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٦٩",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "فِيْهِنَّ خَيْرٰتٌ حِسَانٌۚ ۝٧٠",
+    "latin": "fîhinna khairâtun ḫisân",
+    "arti": "Di dalamnya ada (bidadari) yang mulia (akhlaknya) lagi jelita."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٧١",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "حُوْرٌ مَّقْصُوْرٰتٌ فِى الْخِيَامِۚ ۝٧٢",
+    "latin": "ḫûrum maqshûrâtun fil-khiyâm",
+    "arti": "Bidadari-bidadari yang dipingit dalam kemah-kemah."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٧٣",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "لَمْ يَطْمِثْهُنَّ اِنْسٌ قَبْلَهُمْ وَلَا جَاۤنٌّۚ ۝٧٤",
+    "latin": "lam yathmits-hunna insung qablahum wa lâ jânn",
+    "arti": "Mereka tidak pernah disentuh oleh manusia sebelum mereka dan tidak (pula) oleh jin."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٧٥",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "مُتَّكِـِٕيْنَ عَلٰى رَفْرَفٍ خُضْرٍ وَّعَبْقَرِيٍّ حِسَانٍۚ ۝٧٦",
+    "latin": "muttaki'îna ‘alâ rafrafin khudlriw wa ‘abqariyyin ḫisân",
+    "arti": "Mereka bertelekan pada bantal-bantal yang hijau dan permadani-permadani yang indah."
+  },
+  {
+    "arab": "فَبِاَيِّ اٰلَاۤءِ رَبِّكُمَا تُكَذِّبٰنِۚ ۝٧٧",
+    "latin": "fa bi'ayyi âlâ'i rabbikumâ tukadzdzibân",
+    "arti": "Maka, nikmat Tuhanmu manakah yang kamu dustakan (wahai jin dan manusia)?"
+  },
+  {
+    "arab": "تَبٰرَكَ اسْمُ رَبِّكَ ذِى الْجَلٰلِ وَالْاِكْرَامِࣖ ۝٧٨",
+    "latin": "tabârakasmu rabbika dzil-jalâli wal-ikrâm",
+    "arti": "Mahaberkah nama Tuhanmu Pemilik keagungan dan kemuliaan."
+  }
+]

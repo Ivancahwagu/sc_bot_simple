@@ -111,9 +111,9 @@ export default async function ({ messages, theo }) {
 
         console.log(`
 \x1b[1;36m╔════════════════════════════════════════════════╗
-║               \x1b[1;32m📩 PESAN MASUK 📩\x1b[1;36m               ║
+║               \x1b[1;32m📩 PESAN MASUK 📩\x1b[1;36m               
 ╠════════════════════════════════════════════════╣
-║               ${tanggal_now().getDate()}-${tanggal_now().getMonth() + 1}-${tanggal_now().getFullYear()} ${tanggal_now().getHours().toString().padStart(2, '0')}.${tanggal_now().getMinutes().toString().padStart(2, '0')}.${tanggal_now().getSeconds().toString().padStart(2, '0')}                ║
+║               ${tanggal_now().getDate()}-${tanggal_now().getMonth() + 1}-${tanggal_now().getFullYear()} ${tanggal_now().getHours().toString().padStart(2, '0')}.${tanggal_now().getMinutes().toString().padStart(2, '0')}.${tanggal_now().getSeconds().toString().padStart(2, '0')}                
 ╠════════════════════════════════════════════════╝
 ║ \x1b[1;33mNama    \x1b[0m: \x1b[1;32m${m.bot ? theo.user.name : m.name}\x1b[0m
 ║ \x1b[1;33mSender  \x1b[0m: \x1b[1;34m${m.sender}\x1b[0m   
@@ -131,7 +131,7 @@ export default async function ({ messages, theo }) {
 ║ \x1b[1;37m${m.text ? m.text.split(`\n`).join(`\n║ `) : "📭 (Pesan kosong)"}\x1b[0m
 ╚════════════════════════════════════════════════╝
  `);
-
+        // console.log(m.message[m.type])
         await (await import(`file://${__dirname}/send.js?v=${Date.now()}`)).default({ theo });
         await (await import(`file://${__dirname}/respon.js?v=${Date.now()}`)).default({ m, theo });
         if (m.command?.toLowerCase() !== "restart") return savedb();

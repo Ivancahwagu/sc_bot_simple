@@ -3,28 +3,32 @@ import { selisih_waktu_now } from "../tools/func.js"
 let theoFitur = async function ({ m, theo }) {
     let premium = Object.entries(db['user'])
         .filter(([_, data]) => data.premium)
-        .map(([_, data]) => {
-            let data_premium = {}
-
+        .map(([id, data]) => {
+            let info = {}
             if (typeof data.premium === "number") {
-
-                data_premium.premium = selisih_waktu_now(data.premium)
-                return [_, data_premium]
+                info.premium = selisih_waktu_now(data.premium)
             } else {
-
-                data_premium.premium = data.premium;
-                return [_, data_premium]
+                info.premium = data.premium // misalnya "permanen"
             }
-        });
+            return [id, info]
+        })
+
+    if (premium.length === 0) return await m.reply("📭 Belum ada user premium yang terdaftar.")
 
     let no = 1
-    await m.reply(`list premium user:
-${premium.map(a => `${no++}. @${a[0].replace(/[^0-9]/g, ``)} ${a[1].premium}`).join(`\n`)}`, {
+    let isi = premium.map(([id, info]) => {
+        return `${no++}. @${id.replace(/[^0-9]/g, '')}  •  ${info.premium}`
+    }).join('\n')
+
+    await m.reply(`👑 *List Premium User* 👑
+
+${isi}`, {
         contextInfo: {
-            mentionedJid: premium.map(a => a[0])
+            mentionedJid: premium.map(([id]) => id)
         }
     })
 }
+
 theoFitur.tags = "owner"
 theoFitur.command = ["listprem"]
 theoFitur.owner = true

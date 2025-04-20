@@ -27,11 +27,12 @@ limit: ${db.user[m.sender].limit}` : `anda belum daftar di bot ini`, null, null,
 Saya adalah bot WhatsApp yang dikembangkan oleh Ivan.
 
 ╭───❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
-│📛 Nama Bot: *${namaBot}*
+│🤖 Nama Bot: *${namaBot}*
+│📱 Total User: *${Object.keys(db.user).length}*
 │🎮 Server MC:
 │   ├ IP   : 147.139.179.157
 │   ├ Port : 19132
-│   └ Link : store.berapi.my.id
+│   └ Website : store.berapi.my.id
 │📦 Platform: *BEDROCK ONLY*
 ╰─────────────
 
@@ -57,13 +58,17 @@ _Terima kasih telah menggunakan ${namaBot}!_`, m.quo)
             break
         case "allmenu": {
             await theo.sendMedia(m.chat, image, `🌟 *Selamat datang di ${namaBot}!*  
-Saya adalah bot WhatsApp yang dikembangkan oleh Ivan 🤖
+Saya adalah bot WhatsApp yang dikembangkan oleh Ivan 
 
-🎮 *Join server Minecraft kami!*
-🌐 IP   : 147.139.179.157  
-📦 Port : 19132  
-🛒 Link : store.berapi.my.id  
-📱 Platform: *BEDROCK ONLY*
+╭───❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
+│🤖 Nama Bot: *${namaBot}*
+│📱 Total User: *${Object.keys(db.user).length}*
+│🎮 Server MC:
+│   ├ IP   : 147.139.179.157
+│   ├ Port : 19132
+│   └ Website : store.berapi.my.id
+│📦 Platform: *BEDROCK ONLY*
+╰─────────────
 
 📌 *Keterangan fitur:*  
 💠 (L) = Memakai limit  
