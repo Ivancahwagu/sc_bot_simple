@@ -12,8 +12,12 @@ global.nomorBot = `+20 102 744 1522`.replace(/[^0-9]/g, ``)// Nomor bot kamu
 global.sesiPath = path.join(__dirname, `SESSION`)
 global.dataPath = path.join(__dirname, `data.json`)
 global.sampahPath = path.join(__dirname, `sampah`)
+global.surahPath = path.join(__dirname, 'surah')
 global.webApi = `https://store.berapi.my.id`
 global.prefix = [`.`, `!`, `/`, `?`]
+if (!fs.existsSync(surahPath)) {
+    fs.mkdirSync(surahPath)
+}
 if (!fs.existsSync(dataPath)) {
     fs.writeFileSync(dataPath, `{}`)
 }
