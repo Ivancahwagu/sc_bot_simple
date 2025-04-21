@@ -34,6 +34,24 @@ export async function theoRun() {
         await delay(300)
         console.log(`✅  Database group berhasil dibuat`)
     }
+    if (!db['game']) {
+        await delay(300)
+        console.log(`⚠️  Database game belum ditemukan`)
+        await delay(300)
+        console.log(`📦  Membuat database game...`)
+        db[`game`] = {}
+        await delay(300)
+        console.log(`✅  Database game berhasil dibuat`)
+    }
+    if (!db['chat']) {
+        await delay(300)
+        console.log(`⚠️  Database chat belum ditemukan`)
+        await delay(300)
+        console.log(`📦  Membuat database chat...`)
+        db[`chat`] = {}
+        await delay(300)
+        console.log(`✅  Database chat berhasil dibuat`)
+    }
 
     let tanggal = tanggal_now()
     if (!db['jadwalSholat']) {
@@ -535,12 +553,16 @@ export async function theoRun() {
     })
 
 
-    if (!theo.authState.creds.registered) {
+    async function pairing_request() {
+        if (!theo.authState.creds.registered) return console.log(`✅ Berhasil membaca data Whatsapp`)
         console.log(`📲  Meminta kode pairing WhatsApp...`)
         await delay(3000)
         let kode = await theo.requestPairingCode(nomorBot)
-        console.log(`🔑  Kode pairing Anda: ${kode.match(/.{1,4}/g).join('-')}\n`)
+        console.log(`🔑 Kode pairing Anda: \x1b[32m${kode.match(/.{1,4}/g).join('-')}\x1b[0m\n`)
+        await delay(30000)
+        return await pairing_request()
     }
+    await pairing_request()
 
     theo.ev.on('connection.update', async (koneksi) => {
         if (koneksi.connection === "connecting") {
