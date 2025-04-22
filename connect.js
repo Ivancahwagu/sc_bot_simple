@@ -554,15 +554,24 @@ export async function theoRun() {
 
 
     async function pairing_request() {
-        if (!theo.authState.creds.registered) return console.log(`✅ Berhasil membaca data Whatsapp`)
-        console.log(`📲  Meminta kode pairing WhatsApp...`)
-        await delay(3000)
-        let kode = await theo.requestPairingCode(nomorBot)
-        console.log(`🔑 Kode pairing Anda: \x1b[32m${kode.match(/.{1,4}/g).join('-')}\x1b[0m\n`)
-        await delay(30000)
-        return await pairing_request()
+        if (!theo.authState.creds.registered) {
+            console.log(`📲  Meminta kode pairing WhatsApp...`)
+            await delay(3000)
+            let kode = await theo.requestPairingCode(nomorBot)
+            console.log(`🔑 Kode pairing Anda: \x1b[32m${kode.match(/.{1,4}/g).join('-')}\x1b[0m\n`)
+        } else {
+            console.log(`✅ Sudah terhubung ke WhatsApp, tidak perlu pairing ulang.`)
+        }
     }
+
     await pairing_request()
+
+    setInterval(async () => {
+        if (!theo.authState.creds.registered) {
+            await pairing_request()
+        }
+    }, 60000) // 60 detik = 60000 ms
+
 
     theo.ev.on('connection.update', async (koneksi) => {
         if (koneksi.connection === "connecting") {
@@ -721,47 +730,48 @@ ${pelaku ? '\n' + pelaku : ''}
         if (group_update.desc) isi_gc.desc = group_update.subject
     })
 
-    //Pengingat sholat
-    setInterval(async () => {
-        let new_hari = tanggal_now()
-        if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== new_hari.getDay()) {
-            db[`jadwalSholat`] = {
-                hari: new_hari.getDay(),
-                sholat: await jadwal_sholat()
+    if (theo.authState.creds.registered) {
+        //Pengingat sholat
+        setInterval(async () => {
+            let new_hari = tanggal_now()
+            if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== new_hari.getDay()) {
+                db[`jadwalSholat`] = {
+                    hari: new_hari.getDay(),
+                    sholat: await jadwal_sholat()
+                }
+                savedb()
             }
-            savedb()
-        }
-        if (db['jadwalSholat'].sholat) {
-            const now = tanggal_now();
-            const jam = now.getHours().toString().padStart(2, '0');
-            const menit = now.getMinutes().toString().padStart(2, '0');
-            const waktuNow = `${jam}:${menit}`;
+            if (db['jadwalSholat'].sholat) {
+                const now = tanggal_now();
+                const jam = now.getHours().toString().padStart(2, '0');
+                const menit = now.getMinutes().toString().padStart(2, '0');
+                const waktuNow = `${jam}:${menit}`;
 
-            let list_gc = Object.keys(db.group);
-            let list_sholat = Object.keys(db['jadwalSholat'].sholat);
+                let list_gc = Object.keys(db.group);
+                let list_sholat = Object.keys(db['jadwalSholat'].sholat);
 
-            for (const waktu_sholat of list_sholat) {
-                let db_sholat = db.jadwalSholat.sholat[waktu_sholat];
-                if (!db_sholat.notif && db_sholat.waktu === waktuNow) {
-                    console.log(`Mengingatkan sholat ${waktu_sholat}`);
-                    db_sholat.notif = true;
-                    savedb();
+                for (const waktu_sholat of list_sholat) {
+                    let db_sholat = db.jadwalSholat.sholat[waktu_sholat];
+                    if (!db_sholat.notif && db_sholat.waktu === waktuNow) {
+                        console.log(`Mengingatkan sholat ${waktu_sholat}`);
+                        db_sholat.notif = true;
+                        savedb();
 
-                    for (const id_gc of list_gc) {
-                        let db_gc = db.group[id_gc];
+                        for (const id_gc of list_gc) {
+                            let db_gc = db.group[id_gc];
 
-                        if (!db_gc.banned || db_gc.sewa) {
-                            let metadata
-                            if (theo.group[id_gc]) {
-                                metadata = theo.group[id_gc]
-                            } else {
-                                metadata = await theo.groupMetadata(id_gc)
-                                theo.group[id_gc] = metadata
-                            }
-                            if (metadata) {
-                                const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
+                            if (!db_gc.banned || db_gc.sewa) {
+                                let metadata
+                                if (theo.group[id_gc]) {
+                                    metadata = theo.group[id_gc]
+                                } else {
+                                    metadata = await theo.groupMetadata(id_gc)
+                                    theo.group[id_gc] = metadata
+                                }
+                                if (metadata) {
+                                    const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
 
-                                const pesan = `🕌 *Waktunya Sholat ${waktu_sholat.toUpperCase()}*${hariJumat ? '\nLaki-laki, jangan lupa sholat Jumat ya!' : ''}
+                                    const pesan = `🕌 *Waktunya Sholat ${waktu_sholat.toUpperCase()}*${hariJumat ? '\nLaki-laki, jangan lupa sholat Jumat ya!' : ''}
                             
 ⏰ *${waktuNow}* — Saatnya berhenti sejenak dari dunia. Allah memanggilmu. 🤍
 
@@ -774,44 +784,43 @@ ${pelaku ? '\n' + pelaku : ''}
 
 🤲 Semoga setiap sujudmu hari ini menjadi penyejuk jiwa dan pembuka keberkahan. Aamiin.`
 
-                                await delay(1000)
-                                await theo.sendMessage(id_gc, { text: pesan });
-                            }
+                                    await delay(1000)
+                                    await theo.sendMessage(id_gc, { text: pesan });
+                                }
 
+                            }
                         }
                     }
+                    if (db_sholat.notif && parseInt(db_sholat.waktu.split(`:`).join("")) < parseInt(waktuNow.split(`:`).join(""))) {
+                        console.log(`Reset notif sholat ${waktu_sholat} di: ${waktuNow}`);
+                        db_sholat.notif = false;
+                        savedb();
+                    }
                 }
-                if (db_sholat.notif && parseInt(db_sholat.waktu.split(`:`).join("")) < parseInt(waktuNow.split(`:`).join(""))) {
-                    console.log(`Reset notif sholat ${waktu_sholat} di: ${waktuNow}`);
-                    db_sholat.notif = false;
-                    savedb();
+            }
+        }, 5000);
+        setInterval(() => {
+            Object.keys(db.user).forEach(async (users) => {
+                let user = db.user[users]
+                if (user.premium && typeof user.premium === "number" && user.premium !== "permanen" && user.premium < int_tanggal_now()) {
+                    user.premium = false
+                    await theo.sendMessage(users, {
+                        text: `📢 * Notifikasi Premium *\n\nMasa aktif premium kamu telah * berakhir * 😔\n\nJangan khawatir! Kamu masih bisa daftar ulang kapan saja untuk menikmati fitur eksklusif kembali 🌟`
+                    })
                 }
-            }
-        }
-    }, 5000);
+            })
 
-    setInterval(() => {
-        Object.keys(db.user).forEach(async (users) => {
-            let user = db.user[users]
-            if (user.premium && typeof user.premium === "number" && user.premium !== "permanen" && user.premium < int_tanggal_now()) {
-                user.premium = false
-                await theo.sendMessage(users, {
-                    text: `📢 * Notifikasi Premium *\n\nMasa aktif premium kamu telah * berakhir * 😔\n\nJangan khawatir! Kamu masih bisa daftar ulang kapan saja untuk menikmati fitur eksklusif kembali 🌟`
-                })
-            }
-        })
-
-        Object.keys(db.group).forEach(async (groups) => {
-            let data_group = db.group[groups]
-            if (data_group.sewa && typeof data_group.sewa === "number" && data_group.sewa !== "permanen" && data_group.sewa < int_tanggal_now()) {
-                data_group.sewa = false
-                await theo.sendMessage(groups, {
-                    text: `📢 * Notifikasi Sewa Grup *\n\nMasa sewa bot di grup ini telah * berakhir * 😔\n\nSilakan hubungi owner untuk memperpanjang layanan.Terima kasih atas penggunaannya! 🙏`
-                })
-            }
-        })
-    }, 30000)
-
+            Object.keys(db.group).forEach(async (groups) => {
+                let data_group = db.group[groups]
+                if (data_group.sewa && typeof data_group.sewa === "number" && data_group.sewa !== "permanen" && data_group.sewa < int_tanggal_now()) {
+                    data_group.sewa = false
+                    await theo.sendMessage(groups, {
+                        text: `📢 * Notifikasi Sewa Grup *\n\nMasa sewa bot di grup ini telah * berakhir * 😔\n\nSilakan hubungi owner untuk memperpanjang layanan.Terima kasih atas penggunaannya! 🙏`
+                    })
+                }
+            })
+        }, 30000)
+    }
     theo.ev.on('creds.update', saveCreds)
 }
 await theoRun()
