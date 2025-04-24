@@ -14,6 +14,9 @@ global.dataPath = path.join(__dirname, `data.json`)
 global.sampahPath = path.join(__dirname, `sampah`)
 global.surahPath = path.join(__dirname, 'surah')
 global.webApi = `https://party-mc.fun`
+global.youtube_chanel = `https://www.youtube.com/channel/UCNLkbDNckYj1GpJ-7x5fnMQ`
+global.instagram = `https://www.instagram.com/ivantheo159/`
+global.github = `https://github.com/Ivancahwagu`
 global.prefix = [`.`, `!`, `/`, `?`]
 if (!fs.existsSync(surahPath)) {
     fs.mkdirSync(surahPath)
