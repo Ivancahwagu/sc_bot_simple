@@ -64,16 +64,18 @@ export function getUUID() {
 }
 
 export function tanggal_now(waktu) {
-    let date = waktu ? new Date(waktu) : new Date(); // waktu input atau waktu sekarang
-    const utcTime = date.getTime() + (date.getTimezoneOffset() * 60000); // konversi ke UTC
-    const jakartaOffset = 7 * 60 * 60000; // UTC+7
-    return new Date(utcTime + jakartaOffset); // waktu Jakarta
+    let date = new Date(waktu ? waktu : Date.now());
+    let WIB = new Date(date.toLocaleString("en-US", {
+        timeZone: "Asia/Jakarta"
+    })); // UTC+7
+    return WIB // waktu Jakarta
 }
 export function int_tanggal_now(waktu) {
-    let date = waktu ? new Date(waktu) : new Date(); // waktu input atau waktu sekarang
-    const utcTime = date.getTime() + (date.getTimezoneOffset() * 60000); // konversi ke UTC
-    const jakartaOffset = 7 * 60 * 60000; // UTC+7
-    return utcTime + jakartaOffset
+    let date = new Date(waktu ? waktu : Date.now());
+    let WIB = new Date(date.toLocaleString("en-US", {
+        timeZone: "Asia/Jakarta"
+    }));
+    return WIB.getTime();
 }
 
 export function selisih_waktu_now(targetTimestamp) {
@@ -90,4 +92,13 @@ export function selisih_waktu_now(targetTimestamp) {
     const menit = totalMenit % 60;
 
     return `${hari} hari, ${jam} jam, dan ${menit} menit`;
+}
+
+export function getUptime() {
+    const total = Math.floor(process.uptime())
+    const hari = Math.floor(total / 86400)
+    const jam = Math.floor((total % 86400) / 3600)
+    const menit = Math.floor((total % 3600) / 60)
+    const detik = total % 60
+    return `${hari} hari ${jam} jam ${menit} menit ${detik} detik`
 }

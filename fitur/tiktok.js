@@ -22,10 +22,7 @@ Pilih jenis media yang ingin kamu unduh:
 ${link.map(a => `${no++}. ${a.type.trim()}`).join('\n')}
 
 📌 *Balas pesan ini dengan nomor yang kamu pilih untuk mulai download.*`)
-
         db.user[m.sender].download[key.id] = link
-        console.log(hasil)
-
     } catch (e) {
         console.error(e)
         await m.reply(`❌ Gagal mengunduh video TikTok. Pastikan link valid dan coba lagi nanti.`)

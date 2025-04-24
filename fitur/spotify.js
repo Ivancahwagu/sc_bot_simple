@@ -1,7 +1,7 @@
 import { spotify } from "../tools/scrape.js";
 
 let theoFitur = async ({ m, theo }) => {
-    if (!m.res.includes("spotify")) {
+    if (!/^https:\/\/open\.spotify\.com\/track\/[a-zA-Z0-9]+/.test(m.res)) {
         return await m.reply(
             `❌ *Format salah!* \n\n` +
             `Contoh: ${m.prefix}${m.command} link track Spotify`
@@ -26,10 +26,10 @@ let theoFitur = async ({ m, theo }) => {
                     newsletterName: '⫷_____😸 ' + namaBot + ' 😸_____⫸'
                 },
                 externalAdReply: {
-                    thumbnailUrl: hasil.thumbnail,
+                    thumbnail: await getBuffer(hasil.thumbnail),
+                    thumbnailUrl: hasil.link,
                     mediaType: 1,
                     title: hasil.title,
-                    body: hasil.artist,
                     renderLargerThumbnail: true,
                     sourceUrl: m.res
                 }

@@ -38,11 +38,13 @@ export default async function ({ m, theo }) {
 
         for (const pluginsRes of pluginsFile) {
             if (pluginsRes.startsWith(`_`)) {
-                let import_file = await import(`file://${path.join(__dirname, `fitur`, pluginsRes)}?v=${Date.now()}`)
+                let import_file = await import(`file://${path.join(__dirname, `fitur`, pluginsRes)}?v=${Date.now()}`).catch(e => {
+                    console.log(e)
+                    return false
+                })
                 if (import_file.default) {
                     import_file.default.fileName = pluginsRes
-                    pluginsList.no_command.push(import_file.
-                        default)
+                    pluginsList.no_command.push(import_file.default)
                 }
             } else {
                 let import_file = await import(`file://${path.join(__dirname, `fitur`, pluginsRes)}?v=${Date.now()}`).catch(e => {
@@ -58,7 +60,7 @@ export default async function ({ m, theo }) {
         for (const isi_file of pluginsList.command) {
             try {
                 for (const list_command of isi_file.command) {
-                    menu.push({
+                    await menu.push({
                         command: list_command,
                         tags: isi_file.tags,
                         limit: isi_file.limit,
@@ -90,13 +92,16 @@ export default async function ({ m, theo }) {
                 if (fileRun.group && !m.group) {
                     return await m.reply(`🚫 Fitur ini hanya dapat digunakan di *grup*.`)
                 }
+                if (fileRun.private && m.group) {
+                    return await m.reply(`🚫 Fitur ini hanya dapat digunakan di *private chat*.`)
+                }
                 if (fileRun.botAdmin) {
                     if (!m.group) return await m.reply(`🚫 Fitur ini hanya dapat digunakan di *grup*.`)
                     if (!m.botAdmin) {
                         return await m.reply(`🚫 Bot harus menjadi *Admin* untuk menggunakan fitur ini.`)
                     }
                 }
-                if (fileRun.premium || fileRun.limit) {
+                if (fileRun.premium || fileRun.limit || fileRun.daftar) {
                     if (!db.user[m.sender]) {
                         return await m.reply(`🚫 Kamu belum terdaftar!
         
@@ -132,8 +137,8 @@ export default async function ({ m, theo }) {
             await run_without_command({ m, theo })
         }
     } catch (e) {
-        let cek = await (await fetch(`${webApi}/check-api?apikeys=${apikeys}`)).json()
         console.error(e)
+        let cek = await (await fetch(`${webApi}/check-api?apikeys=${apikeys}`)).json()
         if (!cek.valid) await m.reply(`apikeys anda tidak valid`)
         if (!m.owner) {
             if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys bot ini habis

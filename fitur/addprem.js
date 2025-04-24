@@ -2,7 +2,7 @@ import { int_tanggal_now } from "../tools/func.js";
 
 let theoFitur = async function ({ m, theo }) {
     let [nomor, jumlah_hari] = m.res.split('|');
-
+    nomor = nomor.replace(/[^0-9]/g, '')
     if (!nomor || isNaN(parseInt(nomor)) || !jumlah_hari ||
         (isNaN(parseInt(jumlah_hari)) && jumlah_hari !== "permanen")) {
         return await m.reply(
@@ -11,7 +11,7 @@ let theoFitur = async function ({ m, theo }) {
         );
     }
 
-    nomor = nomor.replace(/[^0-9]/g, '') + '@s.whatsapp.net';
+    nomor = nomor + '@s.whatsapp.net';
     jumlah_hari = parseInt(jumlah_hari);
 
     if (!db.user[nomor]) {

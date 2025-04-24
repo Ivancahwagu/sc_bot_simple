@@ -3,7 +3,7 @@ import Pino from "pino"
 import "./setting.js"
 import fs from "fs"
 import { int_tanggal_now, tanggal_now } from "./tools/func.js"
-import { jadwal_sholat, list_kota } from "./tools/scrape.js"
+import { jadwal_sholat_kota, list_kota } from "./tools/scrape.js"
 import path from "path"
 console.log(`\n📂  Menjalankan bot di direktori: ${__dirname}`)
 console.log(`🚀  Mengaktifkan *${namaBot}*...`)
@@ -57,13 +57,13 @@ export async function theoRun() {
     if (!db['jadwalSholat']) {
         db[`jadwalSholat`] = {
             hari: tanggal.getDay(),
-            sholat: await jadwal_sholat()
+            sholat: await jadwal_sholat_kota(`rembang`)
         }
     }
     if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== tanggal.getDay()) {
         db[`jadwalSholat`] = {
             hari: tanggal.getDay(),
-            sholat: await jadwal_sholat()
+            sholat: await jadwal_sholat_kota(`rembang`)
         }
     }
     savedb()
@@ -82,7 +82,17 @@ export async function theoRun() {
         browser: Browsers.ubuntu('Chrome'),
         auth: state,
         printQRInTerminal: false,
-        logger: Pino({ level: 'silent' })
+        logger: Pino({ level: 'silent' }),
+        syncFullHistory: true,
+        appStateMacVerification: {
+            patch: true,
+            snapshot: true,
+        },
+        generateHighQualityLinkPreview: true,
+        shouldSyncHistoryMessage: function (isi) {
+            console.log(`memuat chat: \x1b[32m${isi.progress}%`)
+            return !!isi.syncType
+        }
     })
 
     theo.group = {}
@@ -726,18 +736,20 @@ ${pelaku ? '\n' + pelaku : ''}
             }
         }
         let isi_gc = theo.group[group_update.id]
-        if (group_update.subject) isi_gc.subject = group_update.subject
-        if (group_update.desc) isi_gc.desc = group_update.subject
+        let action = Object.keys(group_update).filter(a => a !== `id` && a !== `author`)
+        for (const update_value of action) {
+            console.log(update_value)
+            isi_gc[update_value] = group_update[update_value]
+        }
     })
 
     if (theo.authState.creds.registered) {
-        //Pengingat sholat
         setInterval(async () => {
             let new_hari = tanggal_now()
             if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== new_hari.getDay()) {
                 db[`jadwalSholat`] = {
                     hari: new_hari.getDay(),
-                    sholat: await jadwal_sholat()
+                    sholat: await jadwal_sholat_kota(`rembang`)
                 }
                 savedb()
             }
@@ -771,21 +783,26 @@ ${pelaku ? '\n' + pelaku : ''}
                                 if (metadata) {
                                     const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
 
-                                    const pesan = `🕌 *Waktunya Sholat ${waktu_sholat.toUpperCase()}*${hariJumat ? '\nLaki-laki, jangan lupa sholat Jumat ya!' : ''}
-                            
-⏰ *${waktuNow}* — Saatnya berhenti sejenak dari dunia. Allah memanggilmu. 🤍
+                                    const pesan = `🕌 *Telah masuk waktu Sholat ${waktu_sholat.toUpperCase()}*${hariJumat ? '\nHari Jumat yang mulia, mari kita sempurnakan dengan Sholat Jumat bagi yang wajib.' : ''}
 
-🛁 Ambil wudhu. 🌿 Tenangkan hati. Berdiri menghadap-Nya dengan penuh kesadaran.
+⏰ *${waktuNow}* — Saat yang agung telah tiba. Luangkan sejenak dari urusan dunia, karena panggilan Allah adalah yang utama. 🤍
 
-✨ *Sholat tepat waktu* itu:
-- 🌟 Menenangkan jiwa,
-- 📖 Menguatkan iman,
-- 🛡️ Menjaga hati dari lalai.
+🧼 Segarkan diri dengan wudhu, tenangkan hati, dan hadirkan niat untuk berdiri menghadap-Nya dalam kekhusyukan.
 
-🤲 Semoga setiap sujudmu hari ini menjadi penyejuk jiwa dan pembuka keberkahan. Aamiin.`
+✨ *Sholat tepat waktu* adalah:
+- 🌿 Penyejuk hati dalam lelah dan gelisah,
+- 📖 Penguat iman di tengah cobaan,
+- 🛡️ Pelindung jiwa dari kelalaian.
+
+🤲 Semoga setiap gerakan dan doa dalam sholatmu hari ini menjadi jalan menuju keberkahan dan ridha-Nya. Aamiin.`
+
 
                                     await delay(1000)
-                                    await theo.sendMessage(id_gc, { text: pesan });
+                                    await theo.sendMessage(id_gc, {
+                                        text: pesan, contextInfo: {
+                                            mentionedJid: metadata.participants.map(a => a.id)
+                                        }
+                                    });
                                 }
 
                             }
@@ -799,6 +816,8 @@ ${pelaku ? '\n' + pelaku : ''}
                 }
             }
         }, 5000);
+
+        //kadaluarsa user
         setInterval(() => {
             Object.keys(db.user).forEach(async (users) => {
                 let user = db.user[users]

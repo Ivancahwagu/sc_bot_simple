@@ -9,6 +9,7 @@ export default async function ({ messages, theo }) {
 
         let m = messages.messages[0];
         if (!m.message) return
+        m.message[`ephemeralMessage`] ? m.message = m.message[`ephemeralMessage`].message : m.message
         m.name = m.pushName ?? "Tanpa Nama";
         m.chat = m.key?.remoteJid ?? "unknown";
         m.fromMe = m.key.fromMe

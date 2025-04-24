@@ -22,7 +22,7 @@ export async function yts(input) {
 
     let { data } = await axios.post(webApi + "/api/yts", {
         query: input,
-        apikeys: apikeys
+        apikeys
     })
 
     return data
@@ -33,7 +33,7 @@ export async function youtube(url, quality) {
     let { data } = await axios.post(webApi + "/api/youtube", {
         url: url,
         quality: quality,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -41,7 +41,7 @@ export async function youtube(url, quality) {
 export async function ttdl(url) {
     let { data } = await axios.post(webApi + "/api/tiktok", {
         url: url,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -50,14 +50,14 @@ export async function ttdl(url) {
 export async function igdl(link) {
     let { data } = await axios.post(webApi + "/api/instagram", {
         url: link,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
 export async function fbdl(url) {
     let { data } = await axios.post(webApi + "/api/facebook", {
         url: url,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -65,7 +65,7 @@ export async function fbdl(url) {
 export async function pindl(query) {
     let { data } = await axios.post(webApi + "/api/pinterest", {
         url: query,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -78,7 +78,21 @@ export async function ai(nomor, nama, payload, text, namaBot) {
         data_ai: payload, //kamu bisa melanjutkan percakapan sebelumnya dengan mengisi ini dengan data payload yang dihasilkan
         query: text,
         namaBot: namaBot,
-        apikeys: apikeys
+        apikeys
+    })
+
+    console.log(data)
+    return data
+}
+export async function ai_fast(nomor, nama, payload, text, namaBot) {
+
+    let { data } = await axios.post(webApi + "/api/ai-fast", {
+        nama: nama,
+        nomor: nomor,
+        data_ai: payload, //kamu bisa melanjutkan percakapan sebelumnya dengan mengisi ini dengan data payload yang dihasilkan
+        query: text,
+        namaBot: namaBot,
+        apikeys
     })
 
     console.log(data)
@@ -91,7 +105,7 @@ export async function tts(text, no = 1) {
 
         let { data } = await axios.post(webApi + "/api/tts1", {
             query: text,
-            apikeys: apikeys
+            apikeys
         }, {
             responseType: "arraybuffer"
         })
@@ -103,7 +117,7 @@ export async function tts(text, no = 1) {
 
         let { data } = await axios.post(webApi + "/api/tts2", {
             query: text,
-            apikeys: apikeys
+            apikeys
         }, {
             responseType: "arraybuffer"
         })
@@ -163,7 +177,7 @@ export async function toVillager(buffer) {
 export async function remove_bg(buffer) {
     let { data } = await axios.post(webApi + "/api/removebg", {
         buffer: buffer,
-        apikeys: apikeys
+        apikeys
     }, {
         responseType: "arraybuffer"
     })
@@ -173,7 +187,7 @@ export async function remove_bg(buffer) {
 export async function image_hd(buffer) {
     let { data } = await axios.post(webApi + "/api/hd", {
         buffer: buffer,
-        apikeys: apikeys
+        apikeys
     }, {
         responseType: "arraybuffer"
     })
@@ -185,7 +199,7 @@ export async function image_hd(buffer) {
 export async function image_unblur(buffer) {
     let { data } = await axios.post(webApi + "/api/unblur", {
         buffer: buffer,
-        apikeys: apikeys
+        apikeys
     }, {
         responseType: "arraybuffer"
     })
@@ -195,7 +209,7 @@ export async function image_unblur(buffer) {
 export async function pinterest_search(text) {
     let { data } = await axios.post(webApi + "/api/pinsearch", {
         query: text,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -204,7 +218,7 @@ export async function pinterest_search(text) {
 export async function spotify(url) {
     let { data } = await axios.post(webApi + "/api/spotify", {
         url: url,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -214,7 +228,7 @@ export async function spotify(url) {
 export async function encjs(code) {
     let { data } = await axios.post(webApi + "/api/encjs", {
         query: code,
-        apikeys: apikeys
+        apikeys
     })
     return data
 }
@@ -222,7 +236,31 @@ export async function encjs(code) {
 export async function upload_to_url(buffer) {
     let { data } = await axios.post(webApi + "/api/upload", {
         buffer,
-        apikeys: apikeys
+        apikeys
+    })
+    return data
+}
+
+export async function emojiMix(emoji1, emoji2) {
+    if (!emoji1 || !emoji2) return false
+    let { data } = await axios.post(`${webApi}/api/emojimix`, {
+        query: `${emoji1}+${emoji2}`,
+        apikeys
+    }, {
+        responseType: "arraybuffer"
+    })
+
+    return data
+}
+
+export async function create_img_ai(query, nomor) {
+    nomor = parseInt(nomor)
+    if (nomor > 9) return false
+    if (1 > nomor) return false
+    let { data } = await axios.post(`${webApi}/api/imgai`, {
+        query, nomor, apikeys
+    }, {
+        responseType: "arraybuffer"
     })
     return data
 }

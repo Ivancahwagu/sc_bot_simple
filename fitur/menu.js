@@ -1,94 +1,129 @@
-import { textImageAdvanced } from "../tools/image.js"
+import { textImageAdvanced } from "../tools/image.js";
 import PhoneNumber from "awesome-phonenumber";
 import fs from 'fs';
+import { getUptime } from './../tools/func.js';
 
 let theoFitur = async function ({ m, theo }) {
-    // console.log(menu)
-    let image = await textImageAdvanced(fs.readFileSync(__dirname + `/img/menu.jpg`), `${namaBot}`, 934, 538, `./font/menu.fnt`, `center`, `top`, 50, 50, 70, 50)
-    image = await textImageAdvanced(image, db.user[m.sender] ? `nama: ${m.name}
-status: ${m.owner ? `owner` : db.user[m.sender]?.premium ? `premium` : `free user`}
-nomor: ${PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber(`international`)}
-limit: ${db.user[m.sender].limit}` : `anda belum daftar di bot ini`, null, null, `./font/menu2.fnt`, `left`, `top`, 260, 260, 150, 50)
-    let waktu = new Date(Date.now())
-    image = await textImageAdvanced(image, `${waktu.getDate()}/${waktu.getMonth() + 1}/${waktu.getFullYear()}`, null, null, `./font/menu2.fnt`, `left`, `top`, 20, 20, 20, 20)
-    image = await textImageAdvanced(image, `Created by Ivan`, null, null, `./font/menu2.fnt`, `right`, `bottom`, 20, 20, 20, 20)
-    let tags = []
-    for (const tag of menu) {
-        if (tag.tags) {
-            if (!tags.includes(tag.tags)) {
-                tags.push(tag.tags)
-            }
-        }
-    }
+    const waktu = new Date();
+    const userData = db.user[m.sender];
+    const nomorUser = PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber(`international`);
+    const statusUser = m.owner ? `👑 Owner` : userData?.premium ? `💎 Premium` : `🧑‍💻 Free User`;
+
+    let image = await textImageAdvanced(
+        fs.readFileSync(__dirname + `/img/menu.jpg`),
+        `${namaBot}`, 934, 538,
+        `./font/menu.fnt`, `center`, `top`, 50, 50, 70, 50
+    );
+
+    image = await textImageAdvanced(
+        image,
+        userData
+            ? `Nama: ${m.name}
+Status: ${statusUser}
+Nomor: ${nomorUser}
+Limit: ${userData.limit}`
+            : `Anda belum terdaftar di bot ini.`,
+        null, null,
+        `./font/menu2.fnt`, `left`, `top`, 260, 260, 150, 50
+    );
+
+    image = await textImageAdvanced(image, `${waktu.getDate()}/${waktu.getMonth() + 1}/${waktu.getFullYear()}`, null, null, `./font/menu2.fnt`, `left`, `top`, 20, 20, 20, 20);
+    image = await textImageAdvanced(image, `Created by Ivan`, null, null, `./font/menu2.fnt`, `right`, `bottom`, 20, 20, 20, 20);
+
+    const tags = [...new Set(menu.filter(tag => tag.tags).map(tag => tag.tags))];
+
+    const deskripsi = `🌟 *Selamat datang di ${namaBot}!*  
+
+╭─❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
+│🤖 Nama Bot: *${namaBot}*
+│📜 Total Fitur: *${fs.readdirSync(__dirname + `/fitur`).filter(a => !a.startsWith(`_`)).length}*
+│📱 Total User: *${Object.keys(db.user).length}*
+│🎮 Server MC:
+│   ├ IP   : 147.139.179.157
+│   ├ Port : 19132
+│   └ URL  : ${webApi}/mc
+│📦 Platform: *BEDROCK ONLY*
+╰─────────────
+
+🕐 *Runtime:*  
+${getUptime()}
+
+📢 *JASA PEMBUATAN WEBSITE, BOT, API*  
+🌐 https://www.dins.my.id  
+✅ Amanah, Terpercaya  
+💰 Harga Terjangkau  
+🙋 Admin Ramah
+
+👥 Mau gabung ke grup ${namaBot}?  
+🔗 https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`;
+
     switch (m.command.toLowerCase()) {
-        case "menu": case "help": {
-            let { key } = await theo.sendMedia(m.chat, image, `*👋 Hai, saya ${namaBot}*
+        case "menu":
+        case "help":
+            var { key } = await theo.sendMedia(m.chat, image, `${deskripsi}
 
-Saya adalah bot WhatsApp yang dikembangkan oleh Ivan.
+📌 *Petunjuk:*
+💠 = Fitur memakai limit  
+💎 = Fitur khusus Premium
 
-╭───❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
-│🤖 Nama Bot: *${namaBot}*
-│📱 Total User: *${Object.keys(db.user).length}*
-│🎮 Server MC:
-│   ├ IP   : 147.139.179.157
-│   ├ Port : 19132
-│   └ Website : store.berapi.my.id
-│📦 Platform: *BEDROCK ONLY*
-╰─────────────
+📑 *List Menu:*
+${tags.map((item, i) => ` ${i + 1}. *${item}*`).join(`\n`)}
 
-📌 *Keterangan fitur:*  
-💠 (L) = Memakai limit  
-💎 (P) = Khusus pengguna premium 
+📝 *Balas pesan ini* dengan angka menu yang ingin kamu buka.
 
-*📑 List Menu:*
-${tags.map((item, index) => ` ${index + 1}. *${item}*`).join(`\n`)}
+📂 Lihat semua fitur:
+➤ *${m.prefix}allmenu*`, m.quo, {
+                contextInfo: {
+                    externalAdReply: {
+                        thumbnail: fs.readFileSync(__dirname + `/img/thumb.png`),
+                        showAdAttribution: true,
+                        mediaType: 1,
+                        title: namaBot,
+                        renderLargerThumbnail: true,
+                        sourceUrl: `https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`,
+                        thumbnailUrl: `https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`,
+                    }
+                }
+            });
 
-➤ Balas pesan ini dengan nomor menu yang ingin kamu akses.
+            theo.menu[m.sender] = {
+                [key.id]: { prefix: m.prefix, tags }
+            };
+            break;
 
-ingin semua menu?
+        case "allmenu":
+            await theo.sendMedia(m.chat, image, `${deskripsi}
 
-ketik: *.allmenu*
+📌 *Keterangan:*
+💠 = Memakai limit  
+💎 = Khusus pengguna premium  
 
-_Terima kasih telah menggunakan ${namaBot}!_`, m.quo)
-
-
-            theo.menu[m.sender] = {}
-            theo.menu[m.sender][key.id] = { prefix: m.prefix, tags }
-        }
-            break
-        case "allmenu": {
-            await theo.sendMedia(m.chat, image, `🌟 *Selamat datang di ${namaBot}!*  
-Saya adalah bot WhatsApp yang dikembangkan oleh Ivan 
-
-╭───❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
-│🤖 Nama Bot: *${namaBot}*
-│📱 Total User: *${Object.keys(db.user).length}*
-│🎮 Server MC:
-│   ├ IP   : 147.139.179.157
-│   ├ Port : 19132
-│   └ Website : store.berapi.my.id
-│📦 Platform: *BEDROCK ONLY*
-╰─────────────
-
-📌 *Keterangan fitur:*  
-💠 (L) = Memakai limit  
-💎 (P) = Khusus pengguna premium  
-
-╭━━━━ *DAFTAR MENU* ━━━━╮
+╭───🎉 *DAFTAR MENU* ───╮
 ${tags.map(tag => `
-╔═──────── ⋆⋅☆⋅⋆ ────────═╗
-  📂 *${tag.toUpperCase()}*
-╟──────────────────────╢
-${menu.filter(item => item.tags == tag).map(c => `┃ ⤷ *${m.prefix}${c.command}* ${c.limit ? '💠' : c.premium ? '💎' : ''}`).join('\n')}
-╚═────────────────────═╝`).join(`\n`)}
+╭─❏ *${tag.toUpperCase()}*
+${menu
+                    .filter(item => item.tags === tag)
+                    .map(c => `│ ⤷ ${m.prefix}${c.command} ${c.limit ? '💠' : c.premium ? '💎' : ''}`)
+                    .join('\n')}
+╰───────────────╯`).join('\n\n')}
+_Terima kasih telah menggunakan ${namaBot}!_`, m.quo, {
+                contextInfo: {
+                    externalAdReply: {
+                        thumbnail: fs.readFileSync(__dirname + `/img/thumb.png`),
+                        showAdAttribution: true,
+                        mediaType: 1,
+                        title: namaBot,
+                        renderLargerThumbnail: true,
+                        sourceUrl: `https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`,
+                        thumbnailUrl: `https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`,
+                    }
+                }
+            });
+            break;
 
-🙏 *Terima kasih telah menggunakan ${namaBot}!*`, m.quo)
-
-        }
     }
+};
 
-}
-
-theoFitur.tags = "main"
-theoFitur.command = [`menu`, `help`, "allmenu"]
-export default theoFitur
+theoFitur.tags = "main";
+theoFitur.command = ["menu", "help", "allmenu"];
+export default theoFitur;

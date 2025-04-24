@@ -1,3 +1,5 @@
+import { create_img_ai } from "../tools/scrape.js";
+
 let theoFitur = async function ({ m, theo }) {
     if (!db.user[m.sender]) return;
 
@@ -13,9 +15,14 @@ let theoFitur = async function ({ m, theo }) {
 
             await m.react(`⏳`);
             let data = db.user[m.sender].download[m.quoted.id][no - 1];
-            data.type?.toLowerCase().includes(`hd`)
-                ? await m.reply(`⚡ *Kualitas HD terdeteksi!* \n🙏 Maaf, untuk menghindari overload bot, gunakan link berikut untuk mengunduh:\n${data.url}`)
-                : await theo.sendMedia(m.chat, data.url, `📩 Media berhasil dikirim!`, m.quo);
+            if (data.aspect_ratio) {
+                let hasil = await create_img_ai(data.prompt, no)
+                await theo.sendMedia(m.chat, hasil, `✅ Gambar berhasil dibuat berdasarkan deskripsi:\n\n📝 "${data.prompt}"`, m.quo)
+            } else {
+                data.type?.toLowerCase().includes(`hd`)
+                    ? await m.reply(`⚡ *Kualitas HD terdeteksi!* \n🙏 Maaf, untuk menghindari overload bot, gunakan link berikut untuk mengunduh:\n${data.url}`)
+                    : await theo.sendMedia(m.chat, data.url, `📩 Media berhasil dikirim!`, m.quo);
+            }
         }
     }
 };
