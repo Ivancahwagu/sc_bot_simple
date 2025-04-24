@@ -1,18 +1,5 @@
 let theoFitur = async function ({ m, theo }) {
     await m.reply(`📦 *TUTORIAL INSTALL SCRIPT BOT DI TERMUX*
-pkg update -y && pkg upgrade -y
-pkg install nodejs -y
-pkg install ffmpeg -y
-pkg install unzip -y
-pkg install git -y
-termux-setup-storage
-mkdir bot
-cd bot
-git clone https://github.com/Ivancahwagu/sc_bot_simple
-cd sc_bot_simple
-nano setting.js (untuk edit file)
-npm i
-npm start
 
 📌 *Note:*
 - Pastikan file ZIP script bot sudah diekstrak ke Termux.
