@@ -7,7 +7,7 @@ let theoFitur = async function ({ m, theo }) {
     const waktu = new Date();
     const userData = db.user[m.sender];
     const nomorUser = PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber(`international`);
-    const statusUser = m.owner ? `👑 Owner` : userData?.premium ? `💎 Premium` : `🧑‍💻 Free User`;
+    const statusUser = m.owner ? `Owner` : userData?.premium ? `Premium` : `Free User`;
 
     let image = await textImageAdvanced(
         fs.readFileSync(__dirname + `/img/menu.jpg`),
