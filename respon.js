@@ -114,7 +114,7 @@ export default async function ({ m, theo }) {
                         }
                         if (fileRun.limit && !db.user[m.sender].premium) {
                             if (db.user[m.sender].limit <= 0) {
-                                return await m.reply(`🚫 *Limit Habis!*\nSilakan tunggu hingga reset atau beli limit.`)
+                                return await m.reply(`🚫 *Limit Habis!*\nSilakan tunggu limit terisi 1 setiap 30 detik / beli premium / beli limit.`)
                             }
                             db.user[m.sender].limit -= 1
                         }

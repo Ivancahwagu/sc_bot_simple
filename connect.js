@@ -826,6 +826,11 @@ ${pelaku ? '\n' + pelaku : ''}
                     await theo.sendMessage(users, {
                         text: `📢 * Notifikasi Premium *\n\nMasa aktif premium kamu telah * berakhir * 😔\n\nJangan khawatir! Kamu masih bisa daftar ulang kapan saja untuk menikmati fitur eksklusif kembali 🌟`
                     })
+                    savedb()
+                }
+                if (user.limit < 5) {
+                    user.limit += 1
+                    savedb()
                 }
             })
 
@@ -836,6 +841,7 @@ ${pelaku ? '\n' + pelaku : ''}
                     await theo.sendMessage(groups, {
                         text: `📢 * Notifikasi Sewa Grup *\n\nMasa sewa bot di grup ini telah * berakhir * 😔\n\nSilakan hubungi owner untuk memperpanjang layanan.Terima kasih atas penggunaannya! 🙏`
                     })
+                    savedb()
                 }
             })
         }, 30000)
