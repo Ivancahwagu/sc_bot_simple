@@ -1,5 +1,6 @@
 export default async function theoFitur({ m, theo }) {
     if (m.quoted) {
+        if (m.prefix) return
         if (!theo.menu[m.sender]) return
         let menu_res = theo.menu[m.sender][m.quoted.id]
         if (menu_res) {

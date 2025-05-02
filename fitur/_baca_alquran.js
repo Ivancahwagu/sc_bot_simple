@@ -3,6 +3,7 @@ import path from "path";
 
 export default async function theoFitur({ m, theo }) {
     if (m.quoted) {
+        if (m.prefix) return
         if (!theo.use_surah[m.sender]) return;
         if (!theo.use_surah[m.sender][m.quoted.id]) return;
 

@@ -38,11 +38,12 @@ Limit: ${userData.limit}`
 │🤖 Nama Bot: *${namaBot}*
 │📜 Total Fitur: *${fs.readdirSync(__dirname + `/fitur`).filter(a => !a.startsWith(`_`)).length}*
 │📱 Total User: *${Object.keys(db.user).length}*
+│🌐 Web Api: *${webApi}*
 │🎮 Server MC:
 │   ├ IP   : 147.139.179.157
 │   ├ Port : 19132
-│   └ URL  : ${webApi}/mc
-│📦 Platform: *BEDROCK ONLY*
+│   ├ URL  : ${webApi}/mc
+│   └ Platform: *BEDROCK ONLY*
 ╰─────────────
 📽️ chanel yt: *${youtube_chanel}*
 📷 instagram: *${instagram}*
@@ -58,7 +59,7 @@ ${getUptime()}
 🙋 Admin Ramah
 
 👥 Mau gabung ke grup ${namaBot}?  
-🔗 https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`;
+🔗 ${link_gc}`;
 
     switch (m.command.toLowerCase()) {
         case "menu":

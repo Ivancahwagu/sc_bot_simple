@@ -1,3 +1,6 @@
+import PhoneNumber from "awesome-phonenumber";
+
+
 export function getRandom(jumlah) {
     return Math.floor(Math.random() * parseInt(jumlah))
 }
@@ -101,4 +104,10 @@ export function getUptime() {
     const menit = Math.floor((total % 3600) / 60)
     const detik = total % 60
     return `${hari} hari ${jam} jam ${menit} menit ${detik} detik`
+}
+
+
+export function number_to_international(value) {
+    const nomorUser = PhoneNumber(`+` + value.replace(/[^0-9]/g, ``)).getNumber(`international`);
+    return nomorUser
 }

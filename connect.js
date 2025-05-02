@@ -2,7 +2,7 @@ import theoBot, { useMultiFileAuthState, jidNormalizedUser, fetchLatestBaileysVe
 import Pino from "pino"
 import "./setting.js"
 import fs from "fs"
-import { int_tanggal_now, tanggal_now } from "./tools/func.js"
+import { tanggal_now, random_huruf_besar_nomor } from "./tools/func.js"
 import { jadwal_sholat_kota, list_kota } from "./tools/scrape.js"
 import path from "path"
 console.log(`\n📂  Menjalankan bot di direktori: ${__dirname}`)
@@ -43,6 +43,10 @@ export async function theoRun() {
         await delay(300)
         console.log(`✅  Database game berhasil dibuat`)
     }
+    if (!db.game.ttt) db.game.ttt = {};
+    if (!db.game.pertanyaan) db.game.pertanyaan = {};
+    if (!db.game.family100) db.game.family100 = {};
+    if (!db.game.kotak_rahasia) db.game.kotak_rahasia = {};
     if (!db['chat']) {
         await delay(300)
         console.log(`⚠️  Database chat belum ditemukan`)
@@ -79,22 +83,24 @@ export async function theoRun() {
     const theo = await theoBot.default({
         markOnlineOnConnect: false,
         version,
-        browser: Browsers.ubuntu('Chrome'),
+        browser: Browsers.windows('Firefox'),
         auth: state,
         printQRInTerminal: false,
         logger: Pino({ level: 'silent' }),
         syncFullHistory: true,
-        appStateMacVerification: {
-            patch: true,
-            snapshot: true,
-        },
         generateHighQualityLinkPreview: true,
-        shouldSyncHistoryMessage: function (isi) {
-            console.log(`memuat chat: \x1b[32m${isi.progress}%`)
-            return !!isi.syncType
-        }
+        // shouldSyncHistoryMessage: function (isi) {
+        //     console.log(`memuat chat: \x1b[32m${isi.progress}%`)
+        // }
     })
-
+    theo.sendMessage2 = theo.sendMessage
+    theo.sendMessage = async function (jid, isi, bebas) {
+        return await theo.sendMessage2(
+            jid,
+            { ...isi }, bebas?.messageId ? { ...bebas } : { messageId: `THEO-${random_huruf_besar_nomor(17)}`, ...bebas }
+        );
+    };
+    await (await import(`file://${__dirname}/send.js?v=${Date.now()}`)).default({ theo });
     theo.group = {}
     theo.name = {}
     theo.menu = {}
@@ -615,7 +621,8 @@ export async function theoRun() {
                 fitur: {
                     antilink: false,
                     antiluar: false,
-                    detect: false
+                    detect: false,
+                    antibot: false
                 },
                 banned: true,
                 premium: false,
@@ -624,22 +631,32 @@ export async function theoRun() {
         }
         let isi_gc = theo.group[group_update.id]
         let db_gc = db.group[group_update.id].fitur.detect
+        let pp = await getBuffer(await theo.profilePictureUrl(group_update.id, 'image').catch(e => `https://i.pinimg.com/736x/c5/d7/46/c5d7462a672e07ee74f81ef1a5ee518a.jpg`))
         switch (group_update.action) {
             case "demote": {
                 for (const member of group_update.participants) {
                     const pelaku = group_update.author && group_update.author !== member ? `📌 *Yang melakukan tindakan ini:* @${group_update.author.replace(/[^0-9]/g, '')}` : ''
                     if (db_gc) await theo.sendMessage(group_update.id, {
-                        text: `⬇️ *ADMIN DICOPOT*
-        
-👥 Grup: *${isi_gc.subject}*
-👤 @${member.replace(/[^0-9]/g, '')}
-${pelaku ? '\n' + pelaku : ''}
+                        text: `┏━〔 *ADMIN DICABUT* 〕━┓
+┃ 📌 Grup: *${isi_gc.subject}*
+┃ 👤 @${member.replace(/[^0-9]/g, '')}
+${pelaku ? `┃ ⚙️ Oleh: @${group_update.author.replace(/[^0-9]/g, '')}` : ''}
+┗━━━━━━━━━━━━━━━━━━━┛
 
-❌ Sekarang bukan admin lagi. Tetap semangat jadi member yang solid! 💪`,
+📍 Sekarang kamu kembali jadi member biasa.
+Tetap semangat & aktif ya! 🙌`,
                         contextInfo: {
-                            mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])]
+                            mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])],
+                            externalAdReply: {
+                                title: 'Bot Aktif 24 Jam',
+                                body: namaBot,
+                                thumbnailUrl: 'https://www.youtube.com/@theo_dev-id',
+                                sourceUrl: 'https://www.youtube.com/@theo_dev-id',
+                                showAdAttribution: true
+                            }
                         }
                     })
+
 
                     isi_gc.participants = isi_gc.participants.filter(a => a.id !== member)
                     isi_gc.participants.push({ id: member, admin: null })
@@ -651,18 +668,25 @@ ${pelaku ? '\n' + pelaku : ''}
                 for (const member of group_update.participants) {
                     const pelaku = group_update.author && group_update.author !== member ? `📌 *Yang menaikkan jabatan:* @${group_update.author.replace(/[^0-9]/g, '')}` : ''
                     if (db_gc) await theo.sendMessage(group_update.id, {
-                        text: `⬆️ *NAIK JABATAN!*
-        
-👥 Grup: *${isi_gc.subject}*
-👤 @${member.replace(/[^0-9]/g, '')}
-${pelaku ? '\n' + pelaku : ''}
+                        text: `┏━〔 *ADMIN BARU!* 〕━┓
+┃ 📌 Grup: *${isi_gc.subject}*
+┃ 🧑‍💼 @${member.replace(/[^0-9]/g, '')}
+${pelaku ? `┃ ⚙️ Oleh: @${group_update.author.replace(/[^0-9]/g, '')}` : ''}
+┗━━━━━━━━━━━━━━━━━━━┛
 
-✅ Selamat! Kini kamu adalah bagian dari tim admin. 🚀`,
+✨ Selamat! Kini kamu resmi menjadi admin.
+Tunjukkan kepemimpinan terbaikmu 💼`,
                         contextInfo: {
-                            mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])]
+                            mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])],
+                            externalAdReply: {
+                                title: 'BOT WHATSAPP',
+                                body: namaBot,
+                                thumbnailUrl: 'https://www.youtube.com/@theo_dev-id',
+                                sourceUrl: 'https://www.youtube.com/@theo_dev-id',
+                                showAdAttribution: true
+                            }
                         }
                     })
-
                     isi_gc.participants = isi_gc.participants.filter(a => a.id !== member)
                     isi_gc.participants.push({ id: member, admin: 'admin' })
                 }
@@ -673,18 +697,24 @@ ${pelaku ? '\n' + pelaku : ''}
                 for (const member of group_update.participants) {
                     const pelaku = group_update.author && group_update.author !== member ? `📌 *Dikeluarkan oleh:* @${group_update.author.replace(/[^0-9]/g, '')}` : ''
                     if (db_gc) await theo.sendMessage(group_update.id, {
-                        text: `🚪 *ANGGOTA TELAH KELUAR*
+                        text: `┏━〔 *ANGGOTA KELUAR* 〕━┓
+┃ 📌 Grup: *${isi_gc.subject}*
+┃ 👋 @${member.replace(/[^0-9]/g, '')}
+${pelaku ? `┃ ❌ Dikeluarkan oleh: @${group_update.author.replace(/[^0-9]/g, '')}` : ''}
+┗━━━━━━━━━━━━━━━━━━━┛
 
-👥 Grup: *${isi_gc.subject}*
-👤 @${member.replace(/[^0-9]/g, '')}
-${pelaku ? '\n' + pelaku : ''}
-
-👋 Semoga sukses di luar sana!`,
+🚪 Terima kasih telah menjadi bagian dari grup ini.`,
                         contextInfo: {
-                            mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])]
+                            mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])],
+                            externalAdReply: {
+                                title: 'Goodbye!',
+                                body: namaBot,
+                                thumbnailUrl: 'https://www.youtube.com/@theo_dev-id',
+                                sourceUrl: 'https://www.youtube.com/@theo_dev-id',
+                                showAdAttribution: true
+                            }
                         }
                     })
-
                     isi_gc.participants = isi_gc.participants.filter(a => a.id !== member)
                 }
                 break
@@ -702,6 +732,9 @@ ${pelaku ? '\n' + pelaku : ''}
 
 🌟 Semoga betah dan aktif di sini ya! Jangan malu buat nyapa 😊`,
                         contextInfo: {
+                            externalAdReply: {
+                                shoeAdAttribution: true
+                            },
                             mentionedJid: [member, ...(group_update.author && group_update.author !== member ? [group_update.author] : [])]
                         }
                     })
@@ -728,7 +761,8 @@ ${pelaku ? '\n' + pelaku : ''}
                 fitur: {
                     antilink: false,
                     antiluar: false,
-                    detect: false
+                    detect: false,
+                    antibot: false
                 },
                 banned: true,
                 premium: false,
@@ -745,106 +779,8 @@ ${pelaku ? '\n' + pelaku : ''}
 
     if (theo.authState.creds.registered) {
         setInterval(async () => {
-            let new_hari = tanggal_now()
-            if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== new_hari.getDay()) {
-                db[`jadwalSholat`] = {
-                    hari: new_hari.getDay(),
-                    sholat: await jadwal_sholat_kota(`rembang`)
-                }
-                savedb()
-            }
-            if (db['jadwalSholat'].sholat) {
-                const now = tanggal_now();
-                const jam = now.getHours().toString().padStart(2, '0');
-                const menit = now.getMinutes().toString().padStart(2, '0');
-                const waktuNow = `${jam}:${menit}`;
-
-                let list_gc = Object.keys(db.group);
-                let list_sholat = Object.keys(db['jadwalSholat'].sholat);
-
-                for (const waktu_sholat of list_sholat) {
-                    let db_sholat = db.jadwalSholat.sholat[waktu_sholat];
-                    if (!db_sholat.notif && db_sholat.waktu === waktuNow) {
-                        console.log(`Mengingatkan sholat ${waktu_sholat}`);
-                        db_sholat.notif = true;
-                        savedb();
-
-                        for (const id_gc of list_gc) {
-                            let db_gc = db.group[id_gc];
-
-                            if (!db_gc.banned || db_gc.sewa) {
-                                let metadata
-                                if (theo.group[id_gc]) {
-                                    metadata = theo.group[id_gc]
-                                } else {
-                                    metadata = await theo.groupMetadata(id_gc)
-                                    theo.group[id_gc] = metadata
-                                }
-                                if (metadata) {
-                                    const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
-
-                                    const pesan = `🕌 *Telah masuk waktu Sholat ${waktu_sholat.toUpperCase()}*${hariJumat ? '\nHari Jumat yang mulia, mari kita sempurnakan dengan Sholat Jumat bagi yang wajib.' : ''}
-
-⏰ *${waktuNow}* — Saat yang agung telah tiba. Luangkan sejenak dari urusan dunia, karena panggilan Allah adalah yang utama. 🤍
-
-🧼 Segarkan diri dengan wudhu, tenangkan hati, dan hadirkan niat untuk berdiri menghadap-Nya dalam kekhusyukan.
-
-✨ *Sholat tepat waktu* adalah:
-- 🌿 Penyejuk hati dalam lelah dan gelisah,
-- 📖 Penguat iman di tengah cobaan,
-- 🛡️ Pelindung jiwa dari kelalaian.
-
-🤲 Semoga setiap gerakan dan doa dalam sholatmu hari ini menjadi jalan menuju keberkahan dan ridha-Nya. Aamiin.`
-
-
-                                    await delay(1000)
-                                    await theo.sendMessage(id_gc, {
-                                        text: pesan, contextInfo: {
-                                            mentionedJid: metadata.participants.map(a => a.id)
-                                        }
-                                    });
-                                }
-
-                            }
-                        }
-                    }
-                    if (db_sholat.notif && parseInt(db_sholat.waktu.split(`:`).join("")) < parseInt(waktuNow.split(`:`).join(""))) {
-                        console.log(`Reset notif sholat ${waktu_sholat} di: ${waktuNow}`);
-                        db_sholat.notif = false;
-                        savedb();
-                    }
-                }
-            }
-        }, 5000);
-
-        //kadaluarsa user
-        setInterval(() => {
-            Object.keys(db.user).forEach(async (users) => {
-                let user = db.user[users]
-                if (user.premium && typeof user.premium === "number" && user.premium !== "permanen" && user.premium < int_tanggal_now()) {
-                    user.premium = false
-                    await theo.sendMessage(users, {
-                        text: `📢 * Notifikasi Premium *\n\nMasa aktif premium kamu telah * berakhir * 😔\n\nJangan khawatir! Kamu masih bisa daftar ulang kapan saja untuk menikmati fitur eksklusif kembali 🌟`
-                    })
-                    savedb()
-                }
-                if (user.limit < 5) {
-                    user.limit += 1
-                    savedb()
-                }
-            })
-
-            Object.keys(db.group).forEach(async (groups) => {
-                let data_group = db.group[groups]
-                if (data_group.sewa && typeof data_group.sewa === "number" && data_group.sewa !== "permanen" && data_group.sewa < int_tanggal_now()) {
-                    data_group.sewa = false
-                    await theo.sendMessage(groups, {
-                        text: `📢 * Notifikasi Sewa Grup *\n\nMasa sewa bot di grup ini telah * berakhir * 😔\n\nSilakan hubungi owner untuk memperpanjang layanan.Terima kasih atas penggunaannya! 🙏`
-                    })
-                    savedb()
-                }
-            })
-        }, 30000)
+            await (await import(`file://${__dirname}/db_check.js?v=${Date.now()}`)).default({ theo }).catch(e => console.log(e))
+        }, 5000)
     }
     theo.ev.on('creds.update', saveCreds)
 }

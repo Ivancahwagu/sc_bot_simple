@@ -14,17 +14,7 @@ let theoFitur = async ({ m, theo }) => {
         pesan = await theo.sendMedia("status@broadcast", mediaData, m.res, {
             statusJidList: Object.keys(db.user),
         }, {
-            ptt: true,
-            contextInfo: {
-                forwardingScore: 1,
-                mentionedJid: [m.sender],
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363181509677367@newsletter',
-                    serverMessageId: 113,
-                    newsletterName: 'SANSBOT'
-                }
-            }
+            ptt: true
         })
     } else {
         pesan = await theo.sendMessage("status@broadcast", {

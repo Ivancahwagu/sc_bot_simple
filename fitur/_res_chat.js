@@ -15,7 +15,17 @@ export default async function theoFitur({ m, theo }) {
                     }
                 }
                 // console.log(m)
-                await theo.forward(nomor, m)
+                await theo.forward(nomor, m, {
+                    contextInfo: {
+                        forwardingScore: 1,
+                        isForwarded: true,
+                        forwardedNewsletterMessageInfo: {
+                            newsletterJid: '120363181509677367@newsletter',
+                            serverMessageId: null,
+                            newsletterName: '📨 Dari Chat Rahasia'
+                        }
+                    }
+                })
             }
         } else {
             if (m.command) {

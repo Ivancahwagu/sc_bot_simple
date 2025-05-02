@@ -11,6 +11,7 @@ let theoFitur = async function ({ m, theo }) {
     }
 
     let hasil = await igdl(m.res);
+    if (hasil.length == 0) return await m.reply(`❌ *Media tidak ditemukan*`)
     let no_dl = 1;
 
     hasil = hasil.map(a => ({ url: a.url, type: `File ${no_dl++}` }));
@@ -19,13 +20,16 @@ let theoFitur = async function ({ m, theo }) {
         return await theo.sendMedia(
             m.chat,
             hasil[0].url,
-            `✨ *Berhasil mengunduh media Instagram!*`,
+            `✨ *Berhasil mengunduh media Instagram!*
+        
+🌐 title: ${hasil[0].title}`,
             m.quo
         );
     }
 
     let { key } = await m.reply(
-        `📥 *${namaBot} INSTAGRAM DOWNLOADER* \n\n` +
+        `📥 *${namaBot} INSTAGRAM DOWNLOADER* \n` +
+        `🌐 title: ${hasil[0].title}\n\n` +
         `${hasil.map(a => `${no++}. ${a.type}`).join('\n')} \n\n` +
         `⚡ Balas pesan ini dengan nomor media yang Anda inginkan.`
     );

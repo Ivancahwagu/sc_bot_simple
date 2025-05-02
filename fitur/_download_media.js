@@ -1,8 +1,8 @@
-import { create_img_ai } from "../tools/scrape.js";
+import { create_img_ai, id_to_en } from "../tools/scrape.js";
 
 let theoFitur = async function ({ m, theo }) {
     if (!db.user[m.sender]) return;
-
+    if (m.prefix) return
     if (m.quoted) {
         if (db.user[m.sender].download[m.quoted.id]) {
             let no = parseInt(m.text);
@@ -16,7 +16,7 @@ let theoFitur = async function ({ m, theo }) {
             await m.react(`⏳`);
             let data = db.user[m.sender].download[m.quoted.id][no - 1];
             if (data.aspect_ratio) {
-                let hasil = await create_img_ai(data.prompt, no)
+                let hasil = await create_img_ai(await id_to_en(data.prompt), no)
                 await theo.sendMedia(m.chat, hasil, `✅ Gambar berhasil dibuat berdasarkan deskripsi:\n\n📝 "${data.prompt}"`, m.quo)
             } else {
                 data.type?.toLowerCase().includes(`hd`)

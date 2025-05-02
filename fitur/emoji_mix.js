@@ -11,7 +11,7 @@ contoh: ${m.prefix}${m.command} 😅+😙`)
         packName: `[ ${namaBot} ] Sticker Dibuat Oleh : `, packPublish: `Ivan`, isAiSticker: 1, isLottie: 1
     }
     let result = await emojiMix(emoji1.replace(/ /, ''), emoji2.replace(/ /, ''))
-    let mime = await cekMetadata(result)
+    let mime = await cekMetadata(await getBuffer(result))
     let res = await writeExif({ mimetype: mime.mimetype, data: mime.buffer }, exif)
     await m.reply({ sticker: res })
 }

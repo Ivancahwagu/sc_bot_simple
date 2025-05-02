@@ -1,6 +1,5 @@
 let theoFitur = async function ({ m, theo }) {
     await m.reply(`📦 *TUTORIAL INSTALL SCRIPT BOT DI TERMUX*
-
 📌 *Note:*
 - Pastikan file ZIP script bot sudah diekstrak ke Termux.
 - Script ini berjalan di Node.js. versi 18 keatas

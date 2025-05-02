@@ -11,7 +11,8 @@ let theoFitur = async function ({ m, theo }) {
         banned: false,
         download: {},
         ytdl: {},
-        ai: []
+        ai: [],
+        afk: false
     }
 
     await theo.sendMessage(m.chat, {

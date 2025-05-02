@@ -1,3 +1,6 @@
+import { generateWAMessageFromContent } from "baileys"
+import pkg from "baileys"
+let { proto } = pkg
 import * as scrape from "../tools/scrape.js"
 import axios from "axios"
 import * as cheerio from "cheerio"
@@ -8,7 +11,7 @@ export default async function theoFitur({ m, theo }) {
     if (m.owner) {
         if (!m.command) return
         switch (m.command.toLowerCase()) {
-            case ">": case "=>": case "eval": {
+            case ">": case "=>": case "eval": case ")": {
                 let hasil
                 try {
                     hasil = m.res.includes(`await`) ? await eval(`(async ()=>{ ${m.res} })()`) : await eval(`${m.res}`)

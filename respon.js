@@ -2,33 +2,41 @@ import fs from "fs"
 import path from "path"
 export default async function ({ m, theo }) {
     try {
-        if (m.bot) return
         if (!m.owner) {
-            if (db.user[m.sender]) {
-                if (db.user[m.sender].banned) return
-            }
-            if (db.group[m.chat]) {
-                if (db.group[m.chat].fitur.antilink) {
-                    if (!m.admin) {
-                        if (/https:\/\/chat.whatsapp.com/.test(m.text)) {
+            const user = db.user[m.sender];
+            const group = db.group[m.chat];
+            if (group) {
+                if (group.banned && !group.sewa) return;
+                if (group.fitur.antilink && !m.admin) {
+                    const isLink = /https:\/\/chat\.whatsapp\.com/.test(m.text);
+                    if (isLink) {
+                        const linkGc = await theo.getLinkGc(m.chat);
+                        if (!m.text.includes(linkGc)) {
                             if (m.botAdmin) {
-                                let linkgc = await theo.getLinkGc(m.chat)
-                                if (!m.text.includes(linkgc)) await theo.delete(m.chat, m)
+                                await theo.delete(m.chat, m);
+                            } else {
+                                await m.reply(`⚠️ *Link grup lain terdeteksi!*\nNamun bot tidak bisa menghapusnya karena belum menjadi admin.`);
                             }
                         }
                     }
                 }
-                if (db.group[m.chat].fitur.antiluar) {
-                    if (!m.admin) {
-                        if (!m.sender.startsWith("62")) {
-                            await m.reply(`orang luar ngapain join kesini🗿`)
-                            if (m.botAdmin) await theo.delete(m.chat, m)
-                        }
+                if (group.fitur.antiluar && !m.admin) {
+                    if (!m.sender.startsWith('62')) {
+                        await m.reply(`🚫 Maaf, hanya pengguna dengan nomor +62 (Indonesia) yang diperbolehkan.\nOrang luar ngapain join kesini? 🗿`);
+                        if (m.botAdmin) await theo.delete(m.chat, m);
                     }
                 }
-                if (db.group[m.chat].banned && !db.group[m.chat].sewa) return
+                if (group.fitur.antibot) {
+                    if (m.bot && !m.fromMe) {
+                        await m.reply(`🚫 Maaf, Bot lain tidak diizinkan masuk disini`)
+                        if (m.botAdmin) await theo.updateGc(m.chat, m.sender, 'remove')
+                    }
+                }
             }
+            if (user?.banned) return;
         }
+        if (m.bot) return
+
         let pluginsFile = fs.readdirSync(path.join(__dirname, `fitur`)).filter(a => a.endsWith(`.js`) || a.endsWith(`.ejs`))
         global.menu = []
         let pluginsList = {

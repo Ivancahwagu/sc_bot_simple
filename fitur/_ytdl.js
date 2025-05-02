@@ -2,8 +2,8 @@ import { youtube } from "../tools/scrape.js";
 
 let theoFitur = async function ({ m, theo }) {
     if (m.quoted) {
+        if (m.prefix) return
         if (!db.user[m.sender]) return;
-
         if (db.user[m.sender].ytdl[m.quoted.id]) {
             let q = [
                 '128kbps',
@@ -36,7 +36,7 @@ let theoFitur = async function ({ m, theo }) {
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
                                     newsletterJid: '120363181509677367@newsletter',
-                                    serverMessageId: 113,
+                                    serverMessageId: null,
                                     newsletterName: '⫷_____😸 ' + namaBot + ' 😸_____⫸'
                                 },
                                 externalAdReply: {
@@ -52,14 +52,7 @@ let theoFitur = async function ({ m, theo }) {
                     );
                 }
 
-                res.download = await getBuffer(res.download);
 
-                if (!res.download) {
-                    return await m.reply(
-                        `❌ Maaf, proses gagal! ` +
-                        `Coba pilih kualitas lain dan ulangi lagi.`
-                    );
-                }
 
                 await theo.sendMedia(
                     m.chat,
@@ -73,7 +66,7 @@ let theoFitur = async function ({ m, theo }) {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363181509677367@newsletter',
-                                serverMessageId: 113,
+                                serverMessageId: null,
                                 newsletterName: '⫷_____😸 ' + namaBot + ' 😸_____⫸'
                             },
                             externalAdReply: {
@@ -86,7 +79,13 @@ let theoFitur = async function ({ m, theo }) {
                             }
                         }
                     }
-                );
+                ).catch(async error => {
+                    return await m.reply(
+                        `❌ Maaf, proses gagal! ` +
+                        `Coba ulangi lagi.`
+                    );
+                })
+
             }
         }
     }

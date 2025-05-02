@@ -22,7 +22,7 @@ let theoFitur = async ({ m, theo }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363181509677367@newsletter',
-                    serverMessageId: 113,
+                    serverMessageId: null,
                     newsletterName: '⫷_____😸 ' + namaBot + ' 😸_____⫸'
                 },
                 externalAdReply: {
