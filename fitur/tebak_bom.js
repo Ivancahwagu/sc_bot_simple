@@ -70,12 +70,12 @@ ${isGameStarted
 
             const { key: { id } } = await m.reply(`💥 *Game Dimulai! Hati-hati Membuka Kotak, Jangan Sampai Kena Bom!*
 
-                📦 Berikut adalah daftar kotak yang tersedia:
-                ${game.kotak.map((v, i) => (i % kotakxkotak === kotakxkotak - 1 ? `${v}\n` : `${v}`)).join("")}
-                
-                🎲 Giliran @${game.player[game.giliran - 1].split(`@`)[0]}
-                📩 *Balas pesan ini* dengan nomor kotak yang ingin kamu buka.
-                ⌛ Jika kamu terlalu lama, pemain lain bisa ketik *eliminasi* untuk menyingkirkanmu.`, {
+📦 Berikut adalah daftar kotak yang tersedia:
+${game.kotak.map((v, i) => (i % kotakxkotak === kotakxkotak - 1 ? `${v}\n` : `${v}`)).join("")}
+
+🎲 Giliran @${game.player[game.giliran - 1].split(`@`)[0]}
+📩 *Balas pesan ini* dengan nomor kotak yang ingin kamu buka.
+⌛ Jika kamu terlalu lama, pemain lain bisa ketik *eliminasi* untuk menyingkirkanmu.`, {
                 contextInfo: {
                     mentionedJid: [game.player[game.giliran - 1]]
                 }
