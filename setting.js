@@ -12,7 +12,7 @@ global.owner = [
 ]// Ubah menjadi nomor owner kamu
     .map(a => a.replace(/[^0-9]/g, ``))
 global.ownerPrefix = true // Ubah menjadi false agar owner bisa pakai bot tanpa prefix atau awalan seperti . ? dan lain-lain
-global.apikeys = "your apikeys" // APIKEYS KAMU.  Jika belum ada, hubungi 085876830674
+global.apikeys = "i8as9fryvp6" // APIKEYS KAMU.  Jika belum ada, hubungi 085876830674
 global.nomorBot = `+20 102 744 1522`// Nomor bot kamu
     .replace(/[^0-9]/g, ``)
 global.sesiPath = path.join(__dirname, `SESSION`)
