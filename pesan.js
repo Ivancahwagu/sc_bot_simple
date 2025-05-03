@@ -35,12 +35,10 @@ export default async function ({ messages, theo }) {
                 if (!db.group[m.chat]) {
                     db.group[m.chat] = {
                         fitur: {
-                            fitur: {
-                                antilink: false,
-                                antiluar: false,
-                                detect: false,
-                                antibot: false
-                            }
+                            antilink: false,
+                            antiluar: false,
+                            detect: false,
+                            antibot: false
                         },
                         banned: true,
                         premium: false,
