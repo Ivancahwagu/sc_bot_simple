@@ -1,4 +1,4 @@
-export default async function theoFitur({ m, theo, menu }) {
+export default async function theoFitur({ m, theo }) {
     if (m.quoted) {
         if (m.prefix) return
         if (!theo.menu[m.sender]) return
