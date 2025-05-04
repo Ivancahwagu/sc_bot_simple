@@ -80,6 +80,7 @@ let theoFitur = async function ({ m, theo }) {
                         }
                     }
                 ).catch(async error => {
+                    console.log(error)
                     return await m.reply(
                         `❌ Maaf, proses gagal! ` +
                         `Coba ulangi lagi.`

@@ -213,8 +213,8 @@ Giliran @${ttt_game.giliran.split('@')[0]}`, {
                 }
             }
             //TEBAKBOM
-            if (db.game.kotak_rahasia[m.chat]) {
-                let game = db.game.kotak_rahasia[m.chat]
+            if (db.game.tebak_bom[m.chat]) {
+                let game = db.game.tebak_bom[m.chat]
 
                 if (game.status === "playing") {
                     let isPemain = game.player.includes(m.sender)
@@ -308,7 +308,7 @@ ${tampilKotak}
                 let kotak = game.kotak
                 db.user[pemenang].limit += 15
                 game.eliminasi.forEach(player => db.user[player].limit -= 5)
-                delete db.game.kotak_rahasia[m.chat]
+                delete db.game.tebak_bom[m.chat]
 
                 return await m.reply(`🏁 *Permainan Telah Usai!*
 

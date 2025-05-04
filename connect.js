@@ -46,7 +46,7 @@ export async function theoRun() {
     if (!db.game.ttt) db.game.ttt = {};
     if (!db.game.pertanyaan) db.game.pertanyaan = {};
     if (!db.game.family100) db.game.family100 = {};
-    if (!db.game.kotak_rahasia) db.game.kotak_rahasia = {};
+    if (!db.game.tebak_bom) db.game.tebak_bom = {};
     if (!db['chat']) {
         await delay(300)
         console.log(`⚠️  Database chat belum ditemukan`)
@@ -93,6 +93,9 @@ export async function theoRun() {
         //     console.log(`memuat chat: \x1b[32m${isi.progress}%`)
         // }
     })
+    theo.createId = function () {
+        return `THEO-${random_huruf_besar_nomor(17)}`
+    }
     theo.sendMessage2 = theo.sendMessage
     theo.sendMessage = async function (jid, isi, bebas) {
         return await theo.sendMessage2(

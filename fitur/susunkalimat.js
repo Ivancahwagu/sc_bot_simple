@@ -1,19 +1,21 @@
 import fs from "fs";
 import path from "path";
-import { getRandom } from "../tools/func.js";
+import { getRandom, int_tanggal_now } from "../tools/func.js";
 
 let theoFitur = async function ({ m, theo }) {
     if (db.game.pertanyaan[m.chat]) {
         await theo.sendText(m.chat, `⚠️ Masih ada soal yang belum dijawab kak!\n\nSilakan jawab dulu soal sebelumnya ya.`, { quoted: db.game.pertanyaan[m.chat].pesan_soal });
     } else {
-        let soalPath = path.join(__dirname, "games", "tebakkata.json");
+        let soalPath = path.join(__dirname, "games", "susunkalimat.json");
         let dataSoal = JSON.parse(fs.readFileSync(soalPath, "utf-8"));
         let soal = dataSoal[getRandom(dataSoal.length)];
 
         let pesan_soal = await m.reply(
-            `🎯 *Tebak Kata!*
+            `🎯 *Susun Kalimat!*
 
-${soal.pertanyaan}
+${soal.pertanyaan.join(' ')}
+
+⏱️ Waktu: 30 detik
 
 📌 *Catatan:*
 - Jawaban bisa mengandung spasi
@@ -27,6 +29,7 @@ Ketik jawabanmu sekarang!`
             pertanyaan: soal.pertanyaan,
             jawaban: soal.jawaban,
             pesan_soal: pesan_soal,
+            expired: int_tanggal_now() + 30 * 1000
         };
     }
 };
@@ -34,6 +37,6 @@ Ketik jawabanmu sekarang!`
 theoFitur.tags = "game";
 theoFitur.daftar = true;
 theoFitur.group = true;
-theoFitur.command = ["tebakkata"];
+theoFitur.command = ["susunkalimat"];
 
 export default theoFitur;

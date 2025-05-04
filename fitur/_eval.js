@@ -1,6 +1,4 @@
-import { generateWAMessageFromContent } from "baileys"
-import pkg from "baileys"
-let { proto } = pkg
+import { generateWAMessageFromContent, prepareWAMessageMedia } from "baileys"
 import * as scrape from "../tools/scrape.js"
 import axios from "axios"
 import * as cheerio from "cheerio"

@@ -22,14 +22,14 @@ let theoFitur = async function ({ m, theo }) {
             hasil[0].url,
             `✨ *Berhasil mengunduh media Instagram!*
         
-🌐 title: ${hasil[0].title}`,
+🌐 name: ${hasil[0]?.author?.name}`,
             m.quo
         );
     }
 
     let { key } = await m.reply(
         `📥 *${namaBot} INSTAGRAM DOWNLOADER* \n` +
-        `🌐 title: ${hasil[0].title}\n\n` +
+        `🌐 name: ${hasil[0]?.author?.name}\n\n` +
         `${hasil.map(a => `${no++}. ${a.type}`).join('\n')} \n\n` +
         `⚡ Balas pesan ini dengan nomor media yang Anda inginkan.`
     );

@@ -3,7 +3,7 @@ import { int_tanggal_now } from "../tools/func.js";
 let theoFitur = async function ({ m, theo }) {
     const kotakxkotak = 10;
     const totalKotak = kotakxkotak * kotakxkotak;
-    let game = db.game.kotak_rahasia[m.chat];
+    let game = db.game.tebak_bom[m.chat];
 
     // Jika game belum dibuat
     if (!game) {
@@ -19,7 +19,7 @@ let theoFitur = async function ({ m, theo }) {
             status: "waiting",
             giliran: 1
         };
-        db.game.kotak_rahasia[m.chat] = game;
+        db.game.tebak_bom[m.chat] = game;
 
         return await m.reply(`🎮 *Game Tebak Bom Telah Dibuat!*
 

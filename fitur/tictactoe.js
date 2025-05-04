@@ -42,29 +42,6 @@ ${ttt_game.player.map(
                         mentionedJid: ttt_game.player.map(a => a.id)
                     }
                 });
-            } else {
-                await m.reply(`⚠️ *PENGHAPUSAN DATA GAME*
-Masih ada game yang sedang berlangsung sudah lebih dari 5 menit.
-${ttt_game.player.map(
-                    a => `@${a.id.split(`@`)[0]}`
-                ).join(' VS ')}
-🔴 Data game anda akan dihapus`, {
-                    contextInfo: {
-                        mentionedJid: ttt_game.player.map(a => a.id)
-                    }
-                });
-                delete db.game.ttt[m.chat]
-                db.game.ttt[id] = {
-                    papan: [`1️⃣`, '2️⃣', '3️⃣', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣'],
-                    status: 'waiting',
-                    player: [{ id: m.sender, icon: '⭕' }],
-                    giliran: m.sender
-                };
-                await m.reply(`🎮 *TicTacToe Game Dibuat!*
-
-Menunggu lawan untuk bergabung...
-
-Ketik *${m.prefix + m.command}* untuk bergabung ke game ini!`);
             }
         }
 

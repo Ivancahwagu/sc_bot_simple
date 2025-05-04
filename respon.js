@@ -84,6 +84,9 @@ export default async function ({ m, theo }) {
             }
         }
         m.read()
+        for (const run_without_command of pluginsList.no_command) {
+            await run_without_command({ m, theo }).catch(e => { console.log(`plugins tanpa command ada yang error`, e) })
+        }
         if (m.prefix || (m.owner && !ownerPrefix)) {
             if (!m.prefix) m.prefix = "."
             const fileRun = pluginsList.command.find(a => a.command.includes(m.command.toLowerCase()))
@@ -136,13 +139,17 @@ export default async function ({ m, theo }) {
                         db.user[m.sender].ytdl = {}
                     }
                 }
+                await m.react('🟡'); // Mulai proses
 
-                await fileRun({ m, theo })
+                try {
+                    await fileRun({ m, theo });
+                    await m.react('🟢'); // Berhasil
+                } catch (e) {
+                    console.error(`❌ Error saat menjalankan fileRun dengan command:`, e);
+                    await m.react('🔴');
+                }
+
             }
-        }
-
-        for (const run_without_command of pluginsList.no_command) {
-            await run_without_command({ m, theo })
         }
     } catch (e) {
         console.error(e)
