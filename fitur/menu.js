@@ -73,7 +73,7 @@ ${getUptime()}
 📑 *List Menu:*
 ${tags.map((item, i) => ` ${i + 1}. *${item}*`).join(`\n`)}
 
-📝 *Balas pesan ini* dengan angka menu yang ingin kamu buka.
+📝 *Balas pesan ini* dengan angka atau nama menu yang ingin kamu buka.
 
 📂 Lihat semua fitur:
 ➤ *${m.prefix}allmenu*`, m.quo, {
