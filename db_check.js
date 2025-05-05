@@ -155,7 +155,7 @@ Silakan mulai ulang game jika masih ingin bermain.`, null, {
                         if (game.expired < int_tanggal_now()) {
                             await theo.sendText(jid, `⚠️ *PENGHAPUSAN DATA GAME*
 Masih ada game yang sedang berlangsung sudah lebih dari 5 menit.
-${ttt_game.player.map(
+${game.player.map(
                                 a => `@${a.id.split(`@`)[0]}`
                             ).join(' VS ')}
 🔴 Data game anda akan dihapus`, null, {
