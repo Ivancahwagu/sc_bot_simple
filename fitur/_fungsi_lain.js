@@ -15,7 +15,7 @@ export default async function theoFitur({ m, theo }) {
 
     let afkList = Object.keys(db.user)
         .filter(a => db.user[a].afk)
-        .filter(b => b.includes(m.quoted?.sender) || m.text.includes(b.split('@')[0]));
+        .filter(b => b.includes(m.quoted?.sender) || m.text ? m.text.includes(b.split('@')[0]) : false);
 
     if (afkList.length > 0) {
         let teks = `🚫 *Jangan ganggu mereka yang sedang AFK!*\n\n` +
@@ -306,7 +306,7 @@ ${tampilKotak}
             async function akhiriGame(m, game) {
                 let pemenang = game.player[0]
                 let kotak = game.kotak
-                db.user[pemenang].limit += 15
+                db.user[pemenang].limit += 10
                 game.eliminasi.forEach(player => db.user[player].limit -= 5)
                 delete db.game.tebak_bom[m.chat]
 
@@ -315,7 +315,7 @@ ${tampilKotak}
 ${kotak.map((v, i) => (i % Math.sqrt(kotak.length) === Math.sqrt(kotak.length) - 1 ? `${v}\n` : `${v}`)).join('')}
 
 👑 *Pemenang Terakhir yang Bertahan:* @${pemenang.split('@')[0]}
-🎁 *Hadiah:* +15 Limit
+🎁 *Hadiah:* +10 Limit
 
 💀 *Yang Gugur:* -5 Limit
 

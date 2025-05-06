@@ -21,7 +21,8 @@ export default async function ({ m, theo }) {
                     }
                 }
                 if (group.fitur.antiluar && !m.admin) {
-                    if (!m.sender.startsWith('62')) {
+                    let nomor = m.sender.replace(/[^0-9]/g, '')
+                    if (m.sender && !nomor.startsWith('62')) {
                         await m.reply(`🚫 Maaf, hanya pengguna dengan nomor +62 (Indonesia) yang diperbolehkan.\nOrang luar ngapain join kesini? 🗿`);
                         if (m.botAdmin) await theo.delete(m.chat, m);
                     }
@@ -83,7 +84,7 @@ export default async function ({ m, theo }) {
                 console.log(`error di file: ${isi_file.fileName}`)
             }
         }
-        m.read()
+        await m.read()
         for (const run_without_command of pluginsList.no_command) {
             await run_without_command({ m, theo }).catch(e => { console.log(`plugins tanpa command ada yang error`, e) })
         }

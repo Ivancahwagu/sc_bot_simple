@@ -11,7 +11,8 @@ export default async function theoFitur({ m, theo }) {
 
         if (isNaN(nomor)) {
             if (menu_res.tags.includes(teks)) {
-                let fiturList = menu.filter(b => b.tags === teks)
+                let fiturList = menu
+                    .filter(b => b.tags === teks)
                     .map(c => `│• *${menu_res.prefix}${c.command}* ${c.limit ? '💠' : c.premium ? '💎' : ''}`)
                     .join('\n')
 

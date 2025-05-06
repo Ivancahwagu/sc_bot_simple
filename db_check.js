@@ -35,34 +35,26 @@ export default async function ({ theo }) {
                         }
                         if (metadata) {
                             const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
-                            const pesan = `📢 *Panggilan Ilahi Telah Tiba*
+                            const pesan = `🔔 *Pengingat Sholat*
 
-🕌 *Sholat ${waktu_sholat.toUpperCase()}* — ${waktuNow}
-
-${hariJumat ? `📿 *Hari Jumat Mubarak* — Bagi para pria Muslim, inilah waktu mulia untuk menunaikan *Sholat Jumat*. Jangan lewatkan keutamaannya.` : ''}
-
-📌 Saatnya:
-- Menghentikan urusan dunia,
-- Menyambut panggilan Allah dengan hati yang khusyuk,
-- Menyucikan diri dan menguatkan iman.
-
-💡 *Mengapa Sholat Tepat Waktu Penting?*
-- Menenangkan jiwa dari hiruk pikuk dunia,
-- Menghapus dosa dan menyegarkan ruhani,
-- Menguatkan hubunganmu dengan Sang Pencipta.
-
-🤲 Semoga setiap langkah menuju masjid dicatat sebagai amal, dan setiap sujud menjadi penghapus dosa. *Aamiin.*`;
+Pesan ini ditujukan untuk member grup 
+*${theo.group[id_gc].subject}* 
+yang beragama *Islam*.
+🕌 *Waktunya Sholat ${waktu_sholat.toUpperCase()}* — ${waktuNow}
+${hariJumat ? `📿 Bagi para pria Muslim, inilah waktu mulia untuk menunaikan *Sholat Jumat*. Jangan lewatkan keutamaannya.\n` : ''}⏳ Tinggalkan sejenak aktivitasmu, mari tunaikan kewajiban ini.
+📿 *Sholatlah sebelum engkau disholatkan.*
+🤲 Semoga Allah menerima ibadahmu hari ini. *Aamiin.*`;
                             await delay(1000);
                             await theo.sendMessage(id_gc, {
                                 text: pesan,
-                                contextInfo: {
-                                    externalAdReply: {
-                                        title: "Panggilan Sholat",
-                                        body: "Jangan tunda, sholatlah sebelum disholatkan.",
-                                        thumbnailUrl: "https://i.ytimg.com/vi/lhXfp3O8y8A/maxresdefault.jpg",
-                                        sourceUrl: "https://www.youtube.com/@theo_dev-id"
-                                    }
-                                }
+                                // contextInfo: {
+                                //     externalAdReply: {
+                                //         title: "Panggilan Sholat",
+                                //         body: "Jangan tunda, sholatlah sebelum disholatkan.",
+                                //         thumbnailUrl: "https://i.ytimg.com/vi/lhXfp3O8y8A/maxresdefault.jpg",
+                                //         sourceUrl: "https://www.youtube.com/@theo_dev-id"
+                                //     }
+                                // }
                             });
                         }
                     }
@@ -96,7 +88,7 @@ Hubungi owner sekarang untuk memperpanjang masa aktifmu 💼`
             savedb();
         }
         if (user.limit < 5) {
-            user.limit += 0.5;
+            user.limit += 0.1;
             savedb();
         }
     });
@@ -174,7 +166,7 @@ ${game.player.map(
                     let game = db.game[tipeGame][jid]
                     if (game.expired < int_tanggal_now()) {
                         await theo.sendText(jid, `⏱️ "*WAKTU HABIS*"
-                            
+
 Jawaban: *${game.jawaban}*`, game.pesan_soal)
                         delete db.game[tipeGame][jid]
                     }
