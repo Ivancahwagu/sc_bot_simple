@@ -305,3 +305,8 @@ export async function id_to_en(text) {
     let hasil = data.target.text
     return hasil
 }
+
+export async function npm_search(query) {
+    let { data } = await axios.get(`https://www.npmjs.com/search/suggestions?q=${query.split(" ").join("+").split(`\n`).join("+")}`)
+    return data
+}
