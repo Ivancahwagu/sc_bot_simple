@@ -1,3 +1,5 @@
+import os from 'os'
+
 let theoFitur = async function ({ m, theo }) {
     function getUptime() {
         const total = Math.floor(process.uptime())
@@ -5,19 +7,23 @@ let theoFitur = async function ({ m, theo }) {
         const jam = Math.floor((total % 86400) / 3600)
         const menit = Math.floor((total % 3600) / 60)
         const detik = total % 60
-        return `${hari} hari ${jam} jam ${menit} menit ${detik} detik`
+        return `${hari} Hari ${jam} Jam ${menit} Menit ${detik} Detik`
     }
-
-    let info = `
-╭───[ 🤖 *INFO BOT* ]
+    const mem = process.memoryUsage()
+    const usedMemMB = (mem.rss / 1024 / 1024).toFixed(2)
+    const info = `
+╭─〔 🤖 *INFO BOT* 〕
 │📦 *Tipe:* ${theo.type}
-│💻 *Versi:* ${theo.ws.config.version}
-│🌐 *Browser:* ${theo.ws.config.browser}
-│👤 *Nama:* ${theo.user.name}
+│🧠 *Nama:* ${theo.user.name}
+│💻 *Versi WhatsApp:* ${theo.ws.config.version.join('.')}
+│🌐 *Browser:* ${theo.ws.config.browser[1]}
+│⚙️ *Platform:* ${os.platform()}
+│📊 *CPU:* ${os.cpus()[0].model}
+│🧠 *RAM digunakan:* ${usedMemMB} MB
+│⏱️ *Aktif selama:* ${getUptime()}
+│📡 *Hostname:* ${os.hostname()}
+│📍 *NodeJS:* ${process.version}
 ╰───────────────
-
-⏱️ *Bot aktif selama:*
-${getUptime()}
 `.trim()
 
     await m.reply(info)

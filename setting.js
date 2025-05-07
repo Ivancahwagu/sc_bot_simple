@@ -4,16 +4,18 @@ import url from "url"
 import fetch from "node-fetch"
 
 global.__dirname = path.dirname(url.fileURLToPath(import.meta.url))
-global.namaBot = `TheoBot`
+global.namaBot = `TheoBot v2`
 global.owner = [
-    // `6285876830674`,
-    // `6285809011357`,
+    `+6281316235253`,
+    `+62 821-9566-0082`,
+    `+6285876830674`,
+    `+6285876830674`,
     `201027441522`
 ]// Ubah menjadi nomor owner kamu
     .map(a => a.replace(/[^0-9]/g, ``))
 global.ownerPrefix = true // Ubah menjadi false agar owner bisa pakai bot tanpa prefix atau awalan seperti . ? dan lain-lain
 global.apikeys = "i8as9fryvp6" // APIKEYS KAMU.  Jika belum ada, hubungi 085876830674
-global.nomorBot = `+20 102 744 1522`// Nomor bot kamu
+global.nomorBot = `+6281316235253`// Nomor bot kamu
     .replace(/[^0-9]/g, ``)
 global.sesiPath = path.join(__dirname, `SESSION`)
 global.dataPath = path.join(__dirname, `data.json`)

@@ -94,15 +94,22 @@ export async function theoRun() {
         // }
     })
     theo.createId = function () {
-        return `THEO-${random_huruf_besar_nomor(17)}`
-    }
-    theo.sendMessage2 = theo.sendMessage
-    theo.sendMessage = async function (jid, isi, bebas) {
-        return await theo.sendMessage2(
-            jid,
-            { ...isi }, bebas?.messageId ? { ...bebas } : { messageId: `THEO-${random_huruf_besar_nomor(17)}`, ...bebas }
-        );
+        return `THEO-${random_huruf_besar_nomor(17)}`;
     };
+    theo.sendMessage2 = theo.sendMessage;
+    theo.sendMessage = async function (jid, isi, bebas = {}) {
+        const messageId = bebas.messageId || theo.createId();
+        isi.contextInfo ??= {};
+        isi.contextInfo.forwardingScore ??= 1;
+        isi.contextInfo.isForwarded ??= true;
+        isi.contextInfo.forwardedNewsletterMessageInfo ??= {};
+        isi.contextInfo.forwardedNewsletterMessageInfo.newsletterJid ??= '120363181509677367@newsletter';
+        isi.contextInfo.forwardedNewsletterMessageInfo.serverMessageId ??= null;
+        isi.contextInfo.forwardedNewsletterMessageInfo.newsletterName ??= `💻 ${namaBot} by theo_dev`;
+        return await theo.sendMessage2(jid, isi, { messageId, ...bebas });
+    };
+
+
     await (await import(`file://${__dirname}/send.js?v=${Date.now()}`)).default({ theo });
     theo.group = {}
     theo.name = {}
@@ -647,6 +654,7 @@ export async function theoRun() {
         setInterval(async () => {
             await (await import(`file://${__dirname}/db_check.js?v=${Date.now()}`)).default({ theo }).catch(e => console.log(e))
         }, 5000)
+
     }
     theo.ev.on('creds.update', saveCreds)
 }

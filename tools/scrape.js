@@ -15,8 +15,12 @@ export async function getBuffer(url) {
     }
 }
 
+
 export function getYtId(url) {
-    return url.includes(`https://www.youtube.com/watch?v=`) ? url.split("https://www.youtube.com/watch?v=")[1].split("&")[0] : url.includes("https://youtu.be/") ? url.split("https://youtu.be/")[1].split('?')[0] : url
+    return url.includes(`https://www.youtube.com/watch?v=`) ? url.split("https://www.youtube.com/watch?v=")[1].split("&")[0] : url.includes("https://youtu.be/") ? url.split("https://youtu.be/")[1].split('?')[0] : url.includes(`shorts/`) ? url.split(`shorts/`)[1].split('?')[0] : url
+}
+export function getThumbnailYt(url) {
+    return `https://i.ytimg.com/vi_webp/${getYtId(url)}/sddefault.webp`
 }
 export async function yts(input) {
 

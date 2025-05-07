@@ -4,6 +4,7 @@ import fs from 'fs';
 import { getUptime } from './../tools/func.js';
 
 let theoFitur = async function ({ m, theo }) {
+    let menu = global.menu
     const waktu = new Date();
     const userData = db.user[m.sender];
     const nomorUser = PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber(`international`);
