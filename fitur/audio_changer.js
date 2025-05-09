@@ -1,5 +1,6 @@
 import Ffmpeg from 'fluent-ffmpeg';
 import { PassThrough } from 'stream';
+import { toMp3 } from '../tools/file.js';
 let effects = {
     // Efek asli (atau dengan nama lebih simpel)
     bass: "equalizer=f=50:width_type=h:width=100:g=10",
@@ -78,7 +79,7 @@ let effects = {
     autowah: "bandpass=f=1000:width=800,lowpass=f=2000,highpass=f=500,volume=1.1",
     vocal_reduce: "pan=stereo|c0=c0-c1|c1=c0-c1" // Sebelumnya vocal_reducer_pan
 };
-async function audioChanger(inputBuffer, effect, outputFormat = 'mp3') {
+async function audioChanger(inputBuffer, effect) {
     return new Promise((resolve, reject) => {
         const inputStream = new PassThrough();
         inputStream.end(inputBuffer);
@@ -88,13 +89,12 @@ async function audioChanger(inputBuffer, effect, outputFormat = 'mp3') {
             chunks.push(chunk);
         });
         outputStream.on('end', () => {
-            resolve(Buffer.concat(chunks));
+            toMp3(Buffer.concat(chunks)).then(res => resolve(res))
         });
         outputStream.on('error', (err) => {
             reject(new Error(`Error pada output stream: ${err.message || err}`));
         });
         const command = Ffmpeg(inputStream)
-            .outputFormat(outputFormat)
             .on('error', (err, stdout, stderr) => {
                 console.error('FFmpeg stdout:', stdout);
                 console.error('FFmpeg stderr:', stderr);

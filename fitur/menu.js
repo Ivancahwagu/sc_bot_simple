@@ -110,7 +110,7 @@ ${menu
                     .filter(item => item.tags === tag)
                     .map(c => `│ ⤷ ${m.prefix}${c.command} ${c.limit ? '💠' : c.premium ? '💎' : ''}`)
                     .join('\n')}
-╰───────────────╯`).join('\n\n')}
+╰──`).join('\n\n')}
 _Terima kasih telah menggunakan ${namaBot}!_`, m.quo, {
                 contextInfo: {
                     externalAdReply: {
