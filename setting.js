@@ -4,7 +4,7 @@ import url from "url"
 import fetch from "node-fetch"
 
 global.__dirname = path.dirname(url.fileURLToPath(import.meta.url))
-global.namaBot = `TheoBot v2`
+global.namaBot = `TheoBot v2` //NAMA BOT
 global.owner = [
     `+6281316235253`,
     `+62 821-9566-0082`,
@@ -26,6 +26,24 @@ global.youtube_chanel = `https://www.youtube.com/channel/UCNLkbDNckYj1GpJ-7x5fnM
 global.instagram = `https://www.instagram.com/ivantheo159/`
 global.github = `https://github.com/Ivancahwagu`
 global.link_gc = `https://chat.whatsapp.com/HB5oAs0zKnbAdM9XBzZEop`
+
+/* PAYMENT */
+global.payment = {
+    dana: [
+        "085876830674"
+    ],
+    shopee: [
+        "085876830674"
+    ],
+    pulsa: [
+        "085876830674",
+        "085809011357"
+    ],
+    bank: [
+        { name: `Jago`, no_rek: `102562261745` }
+    ],
+}
+
 global.prefix = [`.`, `!`, `/`, `?`]
 if (!fs.existsSync(surahPath)) {
     fs.mkdirSync(surahPath)
@@ -53,3 +71,6 @@ global.getBuffer = async function (url) {
 global.delay = async function (ms) {
     return new Promise((resolve) => setTimeout(resolve, ms))
 }
+
+/* BASE DATABASE */
+global.struktur_db = (await import(`file://${__dirname}/struktur_database.js?v=${Date.now()}`)).default()

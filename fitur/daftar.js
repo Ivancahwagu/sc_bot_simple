@@ -5,15 +5,7 @@ let theoFitur = async function ({ m, theo }) {
         }, m.quo)
     }
 
-    db.user[m.sender] = {
-        limit: 30,
-        premium: false,
-        banned: false,
-        download: {},
-        ytdl: {},
-        ai: [],
-        afk: false
-    }
+    db.user[m.sender] = global.struktur_db.user
 
     await theo.sendMessage(m.chat, {
         text: `🎉 *Pendaftaran Berhasil!*
@@ -30,5 +22,5 @@ Ketik *.menu* untuk melihat semua fitur yang tersedia!
 }
 
 theoFitur.tags = "main"
-theoFitur.command = [`daftar`, `login`]
+theoFitur.command = [`daftar`, `login`, `reg`, `register`]
 export default theoFitur

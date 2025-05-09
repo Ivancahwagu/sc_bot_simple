@@ -1,6 +1,8 @@
 import fs from "fs"
 import path from "path"
 export default async function ({ m, theo }) {
+    sinkronkanData(db.user, global.struktur_db.user)
+    sinkronkanData(db.group, global.struktur_db.group)
     try {
         if (!m.owner) {
             const user = db.user[m.sender];
@@ -14,6 +16,7 @@ export default async function ({ m, theo }) {
                         if (!m.text.includes(linkGc)) {
                             if (m.botAdmin) {
                                 await theo.delete(m.chat, m);
+                                await theo.sendText(m.chat, `🚫 Selain *Admin* dan *Pemilik Bot* Dilarang kirim link ggrup lain di grup ini`)
                             } else {
                                 await m.reply(`⚠️ *Link grup lain terdeteksi!*\nNamun bot tidak bisa menghapusnya karena belum menjadi admin.`);
                             }
@@ -27,10 +30,19 @@ export default async function ({ m, theo }) {
                         if (m.botAdmin) await theo.delete(m.chat, m);
                     }
                 }
-                if (group.fitur.antibot) {
+                if (group.fitur.antibot && !m.admin) {
                     if (m.bot && !m.fromMe) {
                         await m.reply(`🚫 Maaf, Bot lain tidak diizinkan masuk disini`)
                         if (m.botAdmin) await theo.updateGc(m.chat, m.sender, 'remove')
+                    }
+                }
+                const tipeTerlarang = ["foto", "sticker", "video", "audio"]
+                for (const tipe of tipeTerlarang) {
+                    if (group.fitur["anti" + tipe] && !m.admin && new RegExp(tipe).test(m.type)) {
+                        if (m.botAdmin) {
+                            await theo.delete(m.chat, m)
+                            await theo.sendText(m.chat, `🚫 Selain *Admin* dan *Pemilik Bot* Dilarang kirim pesan ${tipe} di grup ini`)
+                        }
                     }
                 }
             }
@@ -165,6 +177,28 @@ silahkan lapor owner untuk beli premium apikeys`)
             if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys kamu habis
     
 silahkan beli premium apikeys`)
+        }
+    }
+}
+function sinkronkanData(data, struktur) {
+    for (const id in data) {
+        // Hapus properti yang tidak ada di struktur
+        for (const key in data[id]) {
+            if (!(key in struktur)) delete data[id][key]
+        }
+
+        // Isi properti yang kurang
+        for (const key in struktur) {
+            if (typeof struktur[key] === "object") {
+                if (!data[id][key]) data[id][key] = {}
+                for (const value of Object.keys(struktur[key])) {
+                    if (!data[id][key][value]) data[id][key][value] = struktur[key][value]
+                }
+            } else {
+                if (!(key in data[id])) {
+                    data[id][key] = struktur[key]
+                }
+            }
         }
     }
 }

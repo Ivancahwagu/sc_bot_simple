@@ -9,15 +9,14 @@ let theoFitur = async function ({ m, theo }) {
     }
 
     let hasil = await fbdl(m.res);
-    let dl = hasil.media.map(a => ({ url: a.url, type: a.kualitas }));
     let no = 1;
     let { key } = await m.reply(
         `📥 *${namaBot} FACEBOOK DOWNLOADER* \n\n` +
-        `${dl.map(a => `${no++}. ${a.type}`).join(`\n`)} \n\n` +
+        `${hasil.map(a => `${no++}. ${a.type}`).join(`\n`)} \n\n` +
         `⚡ Balas pesan ini dengan nomor yang Anda inginkan.`
     );
 
-    db.user[m.sender].download[key.id] = dl;
+    db.user[m.sender].download[key.id] = hasil;
 };
 
 theoFitur.limit = true;

@@ -38,6 +38,6 @@ Silakan scan QRIS di atas untuk melakukan pembayaran ya kak.
 Terima kasih telah menggunakan ${namaBot} 👌`, m.quo)
 }
 
-theoFitur.tags = "main"
-theoFitur.command = ["beli", "buy"]
+theoFitur.tags = "store"
+theoFitur.command = ["beli", "buy", "toko", "store"]
 export default theoFitur

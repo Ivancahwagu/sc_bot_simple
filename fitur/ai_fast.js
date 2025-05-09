@@ -1,9 +1,6 @@
 import { ai_fast } from "../tools/scrape.js"
 
 let theoFitur = async ({ m, theo }) => {
-    if (!m.res && m.command.toLowerCase() === "bot") return await m.reply(`apalah... bot bot bot bot....
-        
-kalo nomor ini online lama.... berarti botnya aktif pe'a`)
     if (!m.res) return await m.reply(`format salah!
     
 contoh: ${m.prefix}${m.command} pertanyaan`)

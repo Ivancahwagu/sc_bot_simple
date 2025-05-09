@@ -1,11 +1,11 @@
 import { generateWAMessageFromContent, prepareWAMessageMedia } from "baileys"
-import * as scrape from "../tools/scrape.js"
 import axios from "axios"
 import * as cheerio from "cheerio"
 import fs from "fs"
 import path from "path"
 import util from "util"
 export default async function theoFitur({ m, theo }) {
+    let scrape = await import(`file://${__dirname}/tools/scrape.js?v=${Date.now()}`)
     if (m.owner) {
         if (!m.command) return
         switch (m.command.toLowerCase()) {

@@ -1,1 +1,215 @@
-(function (_0x170df2, _0x584ecf) { const _0xab4524 = _0x41d8, _0x27a346 = _0x170df2(); while (!![]) { try { const _0x5aef27 = -parseInt(_0xab4524(0xa9)) / 0x1 * (-parseInt(_0xab4524(0x7a)) / 0x2) + -parseInt(_0xab4524(0xb0)) / 0x3 + -parseInt(_0xab4524(0x6e)) / 0x4 * (parseInt(_0xab4524(0x8a)) / 0x5) + -parseInt(_0xab4524(0xce)) / 0x6 * (parseInt(_0xab4524(0xcf)) / 0x7) + -parseInt(_0xab4524(0xa1)) / 0x8 + parseInt(_0xab4524(0x9d)) / 0x9 * (parseInt(_0xab4524(0x98)) / 0xa) + parseInt(_0xab4524(0xa6)) / 0xb * (parseInt(_0xab4524(0x7b)) / 0xc); if (_0x5aef27 === _0x584ecf) break; else _0x27a346['push'](_0x27a346['shift']()); } catch (_0x37bfdf) { _0x27a346['push'](_0x27a346['shift']()); } } }(_0x166e, 0x9c189), function (_0x173d6d, _0x3d5a15) { const _0x4f44bd = _0x41d8, _0x21a1ff = _0x120f, _0x23e7a8 = _0x173d6d(); while (!![]) { try { const _0x1f0396 = -parseInt(_0x21a1ff(0x168)) / 0x1 + -parseInt(_0x21a1ff(0x16b)) / 0x2 + parseInt(_0x21a1ff(0x15c)) / 0x3 * (-parseInt(_0x21a1ff(0x185)) / 0x4) + -parseInt(_0x21a1ff(0x157)) / 0x5 * (-parseInt(_0x21a1ff(0x188)) / 0x6) + parseInt(_0x21a1ff(0x162)) / 0x7 + -parseInt(_0x21a1ff(0x172)) / 0x8 * (parseInt(_0x21a1ff(0x18b)) / 0x9) + parseInt(_0x21a1ff(0x14e)) / 0xa; if (_0x1f0396 === _0x3d5a15) break; else _0x23e7a8['push'](_0x23e7a8[_0x4f44bd(0xcc)]()); } catch (_0x14c996) { _0x23e7a8[_0x4f44bd(0xab)](_0x23e7a8[_0x4f44bd(0xcc)]()); } } }(_0x1b5d, 0xd96da)); function _0x41d8(_0x27bc60, _0x2e17e7) { const _0x166e31 = _0x166e(); return _0x41d8 = function (_0x41d83e, _0x34f9bb) { _0x41d83e = _0x41d83e - 0x68; let _0x479f78 = _0x166e31[_0x41d83e]; return _0x479f78; }, _0x41d8(_0x27bc60, _0x2e17e7); } function _0x1b5d() { const _0xaa4fe1 = _0x41d8, _0x38c814 = [_0xaa4fe1(0xa5), 'recording', _0xaa4fe1(0x72), _0xaa4fe1(0xac), _0xaa4fe1(0x84), 'unblock', _0xaa4fe1(0x8c), _0xaa4fe1(0x7c), _0xaa4fe1(0x75), _0xaa4fe1(0x85), _0xaa4fe1(0x94), '12xnBiWq', _0xaa4fe1(0x9a), _0xaa4fe1(0x7d), _0xaa4fe1(0x88), _0xaa4fe1(0xbf), _0xaa4fe1(0x9e), _0xaa4fe1(0x97) + 'Hi', 'name', _0xaa4fe1(0xbe), _0xaa4fe1(0xc4), _0xaa4fe1(0x6f), 'forward', _0xaa4fe1(0xb8), _0xaa4fe1(0x81), 'unlocked', _0xaa4fe1(0xc8), 'groupUpdat', _0xaa4fe1(0x92), _0xaa4fe1(0xae), _0xaa4fe1(0xb9), _0xaa4fe1(0x99), _0xaa4fe1(0xa2), _0xaa4fe1(0xa4), _0xaa4fe1(0xa3), _0xaa4fe1(0x6b), _0xaa4fe1(0xcd), _0xaa4fe1(0x95), _0xaa4fe1(0xc9), _0xaa4fe1(0x6d), _0xaa4fe1(0xb3), _0xaa4fe1(0x76), _0xaa4fe1(0x83), _0xaa4fe1(0xc1), _0xaa4fe1(0xc0), 'eDescripti', _0xaa4fe1(0x86) + _0xaa4fe1(0x9f), 'setNameGc', _0xaa4fe1(0x90), _0xaa4fe1(0xbc), _0xaa4fe1(0x79), _0xaa4fe1(0xc3), 'p.net', _0xaa4fe1(0xc7), _0xaa4fe1(0x80), '2923210aRc' + _0xaa4fe1(0x69), 'key', 'cement', _0xaa4fe1(0x6a), _0xaa4fe1(0x89), _0xaa4fe1(0x77) + _0xaa4fe1(0x8f), _0xaa4fe1(0x70), _0xaa4fe1(0xaa), _0xaa4fe1(0xad), _0xaa4fe1(0x6c), 'p.com/', '8129366Txt' + _0xaa4fe1(0xcb), _0xaa4fe1(0x71), _0xaa4fe1(0xb4), _0xaa4fe1(0xc6), 'sendMedia', _0xaa4fe1(0xab), _0xaa4fe1(0x91) + 'ky', 'relayMessa', _0xaa4fe1(0xb6), _0xaa4fe1(0xbd) + 'XCC', _0xaa4fe1(0xa7), _0xaa4fe1(0x68), _0xaa4fe1(0x74), _0xaa4fe1(0xbb), _0xaa4fe1(0x93), _0xaa4fe1(0x73), _0xaa4fe1(0xb1), _0xaa4fe1(0x8b), _0xaa4fe1(0xa0), _0xaa4fe1(0xaf), _0xaa4fe1(0xba), 'desc', _0xaa4fe1(0xa8), 'groupInvit']; return _0x1b5d = function () { return _0x38c814; }, _0x1b5d(); } import { downloadMediaMessage, generateWAMessageFromContent, jidNormalizedUser, prepareWAMessageMedia } from 'baileys'; import _0x35d927 from 'pino'; import { cekMetadata, toMp3 } from './tools/file.js'; import _0x4e18e1 from 'awesome-phonenumber'; function _0x166e() { const _0x392857 = ['ext', '144rDrNjo', '@s.whatsap', 'updateProf', 'eInvite', 'setEditGc', 'composing', 'sendPresen', 'trim', 'ileStatus', '1704117RRJ', 'setBukaGc', 'sendKontak', '923204JsQExF', '13944HQcLxw', 'updateBloc', 'not_announ', 'split', 'groupUpdat', 'kStatus', 'eSubject', 'groupRevok', 'cipantsUpd', 'mimetype', 'admin', '21106540Ys', 'setpp', '12JMbUJn', 'setLinkGc', '177050hteRrS', 'https://wa', 'buffer', '\x0aURL:', 'CELL;type=', 'bIV', '\x0aORG:', '695453CWDC', 'updateGc', 'locked', '3.0\x0aN:;', 'label', ';;;\x0aFN:', '889371GatV', '10waGYnn', 'object', 'updateMedi', 'replace', 'ilePicture', '4256937aLaVhf', 'download', 'kwDA', 'sendMessag', '8767360PdEtoh', 'groupSetti', 'audio', 'BEGIN:VCAR', '\x0aTEL;type=', '24838heqsZc', '\x20kontak', 'internatio', '2LOnJxr', 'at.whatsap', 'push', 'ileName', 'https://ch', 'delete', 'sedang', '915831EwUBzY', '24IdteWf', '.me/', 'now', '\x0aEND:VCARD', 'parseMenti', 'paused', 'number', 'getNumber', 'getLinkGc', 'message', 'sendText', 'nal', '1709326RRU', 'groupParti', 'map', 'block', 'available', 'p.com/', 'aMessage', 'isBuffer', 'matchAll', 'ate', 'silent', 'VOICE;waid', 'setDescGc', 'D\x0aVERSION:', 'auC', 'shift', 'WhatsApp', '2022yYzPpX', '14637SsqqIq', 'ngUpdate', 'Vlu', 'unavailabl', 'ceUpdate', 'length']; _0x166e = function () { return _0x392857; }; return _0x166e(); } function _0x120f(_0x4fa4a6, _0x277e40) { const _0x45db36 = _0x1b5d(); return _0x120f = function (_0x5b56c8, _0xbfff8) { _0x5b56c8 = _0x5b56c8 - 0x13b; let _0x471fa3 = _0x45db36[_0x5b56c8]; return _0x471fa3; }, _0x120f(_0x4fa4a6, _0x277e40); } export default async function ({ theo }) { const _0x552728 = _0x41d8, _0x44e19d = _0x120f; theo[_0x44e19d(0x18a)] = async function (pesan) { const _0x4c4d91 = _0x44e19d; let buffer = await downloadMediaMessage(pesan, _0x4c4d91(0x180), {}, { 'logger': _0x35d927({ 'level': _0x4c4d91(0x155) }), 'reuploadRequest': theo[_0x4c4d91(0x186) + _0x4c4d91(0x153)] }); return buffer; }, theo[_0x44e19d(0x16f)] = async function (jid, text, quoted = {}, more = {}) { const _0x330494 = _0x44e19d; return await theo[_0x330494(0x174) + 'e'](jid, { 'text': text, ...more }, { ...quoted }); }, theo[_0x44e19d(0x166)] = async function (jid, media, text = '', quoted = {}, more = {}) { const _0xa4894 = _0x41d8, _0x1d4269 = _0x44e19d; if (!Buffer[_0x1d4269(0x18e)](media)) media = await getBuffer(media); const data = await cekMetadata(media), type = data[_0x1d4269(0x17e)][_0xa4894(0x7e)]('/')[0x0], filename = Date[_0x1d4269(0x148)]() + '.' + data[_0x1d4269(0x147)], baseOptions = { 'mimetype': data['mimetype'], 'fileName': filename, ...more }; theo[_0xa4894(0xaf)](jid, type === _0x1d4269(0x142) ? 0x4 : 0x3); const content = { 'image': { 'image': data[_0x1d4269(0x180)], 'caption': text, ...baseOptions }, 'video': { 'video': data[_0x1d4269(0x180)], 'caption': text, ...baseOptions }, 'audio': { 'audio': data[_0x1d4269(0x180)], ...baseOptions } }; if (!content[type]) return await theo[_0x1d4269(0x174) + 'e'](jid, { 'text': text, ...more }, { ...quoted }); return theo[_0x1d4269(0x174) + 'e'](jid, content[type], { ...quoted }); }, theo[_0x44e19d(0x152)] = async (jid, kontak = [], quoted = {}) => { const _0x1b36a4 = _0x41d8, _0x3dc7f8 = _0x44e19d; let listkontak = []; for (let item of kontak) { let number = typeof item === 'string' ? item : item[_0x1b36a4(0xb7)], nama = typeof item === _0x3dc7f8(0x13f) && item[_0x3dc7f8(0x18c)] ? item[_0x3dc7f8(0x18c)] : _0x4e18e1('+' + number)[_0x3dc7f8(0x191)](_0x3dc7f8(0x178) + _0x3dc7f8(0x151)), label = typeof item === _0x3dc7f8(0x13f) && item[_0x3dc7f8(0x145)] ? item[_0x1b36a4(0x95)] : _0x3dc7f8(0x144); number = number[_0x1b36a4(0x9b)](/[^0-9]/g, ''); let international = _0x4e18e1('+' + number)[_0x3dc7f8(0x191)](_0x3dc7f8(0x178) + _0x3dc7f8(0x151)), url = _0x3dc7f8(0x173) + _0x1b36a4(0xb2) + number, vcard = (_0x3dc7f8(0x141) + _0x1b36a4(0xca) + _0x3dc7f8(0x184) + nama + _0x1b36a4(0x96) + nama + _0x3dc7f8(0x150) + label + (_0x3dc7f8(0x17a) + _0x1b36a4(0x8e) + _0x3dc7f8(0x194) + '=') + number + ':' + international + _0x1b36a4(0x8d) + url + _0x3dc7f8(0x164))[_0x3dc7f8(0x182)](); listkontak[_0x3dc7f8(0x167)]({ 'vcard': vcard, 'displayName': nama }); } return await theo[_0x3dc7f8(0x174) + 'e'](jid, { 'contacts': { 'displayName': listkontak[_0x3dc7f8(0x160)] + _0x3dc7f8(0x16c), 'contacts': listkontak } }, { ...quoted }); }, theo[_0x552728(0x87)] = async function (jid, pp) { const _0x1b2111 = _0x552728, _0x2b7df6 = _0x44e19d; return await theo[_0x2b7df6(0x15d) + _0x1b2111(0x9c)](jid, pp); }, theo[_0x44e19d(0x13c)] = async function (jid, member, action) { const _0x18ffda = _0x44e19d; return await theo[_0x18ffda(0x18d) + _0x18ffda(0x14a) + _0x18ffda(0x165)](jid, [member], action); }, theo[_0x44e19d(0x14f)] = async function (jid, text) { const _0x1ce572 = _0x552728, _0xcbad7d = _0x44e19d; return await theo[_0x1ce572(0x7f) + _0xcbad7d(0x192)](jid, text); }, theo[_0x44e19d(0x146)] = async function (jid, text) { const _0x279c90 = _0x44e19d; return await theo[_0x279c90(0x13b) + _0x279c90(0x14d) + 'on'](jid, text); }, theo[_0x552728(0x78)] = async function (jid, boolean) { const _0x1edd63 = _0x44e19d; return await theo[_0x1edd63(0x140) + _0x1edd63(0x16d)](jid, boolean ? _0x1edd63(0x187) + _0x1edd63(0x159) : 'announceme' + 'nt'); }, theo[_0x44e19d(0x17c)] = async function (jid, text) { const _0x245fa6 = _0x552728, _0x1da6cb = _0x44e19d; return await theo[_0x245fa6(0xa2) + _0x245fa6(0x68)](jid, text === _0x1da6cb(0x183) ? _0x1da6cb(0x170) : _0x1da6cb(0x193)); }, theo[_0x44e19d(0x13e)] = async function (jid) { const _0x3c3246 = _0x552728, _0xc86eb0 = _0x44e19d; return _0x3c3246(0xad) + _0xc86eb0(0x15e) + _0x3c3246(0xc2) + await theo[_0xc86eb0(0x179) + 'eCode'](jid); }, theo[_0x44e19d(0x15b)] = async function (jid) { const _0x5e195b = _0x552728, _0x567920 = _0x44e19d; return _0x567920(0x15f) + _0x567920(0x15e) + _0x567920(0x161) + await theo[_0x5e195b(0x82) + _0x567920(0x163)](jid); }, theo[_0x44e19d(0x175)] = async function (jid, nomor) { const _0x4c59d6 = _0x44e19d; let list = [_0x4c59d6(0x15a) + 'e', _0x4c59d6(0x14b), _0x4c59d6(0x171), _0x4c59d6(0x17b), _0x4c59d6(0x16a)]; return await theo[_0x4c59d6(0x16e) + _0x4c59d6(0x143)](list[parseInt(nomor - 0x1)], jid); }, theo[_0x44e19d(0x18c)] = async function (nama) { const _0x292512 = _0x552728, _0x48f680 = _0x44e19d; return await theo[_0x292512(0x70) + _0x48f680(0x17d)](nama); }, theo[_0x44e19d(0x177)] = async function (text) { const _0xc814e0 = _0x44e19d; return await theo[_0xc814e0(0x15d) + _0xc814e0(0x149)](text); }, theo[_0x44e19d(0x13d)] = async function (jid, pesan) { const _0x70bdcf = _0x44e19d; return await theo[_0x70bdcf(0x174) + 'e'](jid, { 'delete': pesan[_0x70bdcf(0x158)] }); }, theo[_0x44e19d(0x190)] = async function (jid, m, more = {}) { const _0x2c4eee = _0x44e19d; return await theo[_0x2c4eee(0x169) + 'ge'](jid, m[_0x2c4eee(0x176)], { 'messageId': m[_0x2c4eee(0x158)]['id'], ...more }); }, theo[_0x552728(0xb5) + 'on'] = async function (text) { const _0x234f4d = _0x552728, _0x1f5b49 = _0x44e19d; return [...text[_0x234f4d(0xc5)](/@([0-9]{5,16}|0)/g)][_0x1f5b49(0x189)](v => v[0x1] + (_0x1f5b49(0x18f) + _0x1f5b49(0x154))) || []; }, theo[_0x44e19d(0x14c)] = async function (nomor) { const _0x65f3a5 = _0x552728, _0x4d97ef = _0x44e19d; return await theo[_0x4d97ef(0x181) + _0x4d97ef(0x156)](nomor, _0x65f3a5(0xc0)); }, theo[_0x44e19d(0x17f)] = async function (nomor) { const _0x134ae4 = _0x552728, _0x150d24 = _0x44e19d; return await theo[_0x134ae4(0x7c) + _0x134ae4(0x80)](nomor, _0x150d24(0x17f)); }; }
+import { downloadMediaMessage, generateWAMessageFromContent, jidNormalizedUser, prepareWAMessageMedia } from "baileys"
+import Pino from 'pino';
+import { cekMetadata, toMp3 } from "./tools/file.js";
+import PhoneNumber from 'awesome-phonenumber';
+
+export default async function ({ theo }) {
+    theo.download = async function (pesan) {
+        let buffer = await downloadMediaMessage(pesan, `buffer`, {}, { logger: Pino({ "level": `silent` }), reuploadRequest: theo.updateMediaMessage })
+        return buffer
+    }
+    theo.sendText = async function (jid, text, quoted = {}, more = {}) {
+        return await theo.sendMessage(jid, { text: text, ...more }, { ...quoted })
+    }
+    theo.sendMedia = async function (jid, media, text = '', quoted = {}, more = {}) {
+        if (!Buffer.isBuffer(media)) media = await getBuffer(media)
+
+        const data = await cekMetadata(media)
+        const type = data.mimetype.split('/')[0]
+        const filename = `${Date.now()}.${data.ext}`
+        const baseOptions = { mimetype: data.mimetype, fileName: filename, ...more }
+        theo.sedang(jid, type === 'audio' ? 4 : 3)
+        const content = {
+            image: { image: data.buffer, caption: text, ...baseOptions },
+            video: { video: data.buffer, caption: text, ...baseOptions },
+            audio: { audio: data.buffer, ...baseOptions }
+        }
+        if (!content[type]) return await theo.sendMessage(jid, { text: text, ...more }, { ...quoted })
+        return theo.sendMessage(jid, content[type], { ...quoted })
+    }
+
+    theo.sendKontak = async (jid, kontak = [], quoted = {}) => {
+        let listkontak = []
+        for (let item of kontak) {
+            let number = typeof item === 'string' ? item : item.number
+            let nama = typeof item === 'object' && item.name ? item.name : PhoneNumber("+" + number).getNumber("international")
+            let label = typeof item === 'object' && item.label ? item.label : "WhatsApp"
+            number = number.replace(/[^0-9]/g, '')
+            let international = PhoneNumber("+" + number).getNumber("international")
+            let url = `https://wa.me/${number}`
+            let vcard = `BEGIN:VCARD
+VERSION:3.0
+N:;${nama};;;
+FN:${nama}
+ORG:${label}
+TEL;type=CELL;type=VOICE;waid=${number}:${international}
+URL:${url}
+END:VCARD`.trim()
+            listkontak.push({ vcard, displayName: nama })
+        }
+        return await theo.sendMessage(jid, {
+            contacts: {
+                displayName: `${listkontak.length} kontak`,
+                contacts: listkontak,
+            }
+        }, { ...quoted })
+    }
+
+    // theo.sendButton = async function (jid, button, media, header, footer, text, quoted, more) {
+    // if (Buffer.isBuffer(media)) {
+    // const { mimetype, buffer } = await cekMetadata(media);
+    // theo.sedang(jid, mimetype.includes("audio") ? 4 : 3);
+
+    // if (mimetype.includes("image")) {
+    // media = {
+    // header: proto.Message.InteractiveMessage.Header.create({
+    // hasMediaAttachment: true, ...(await prepareWAMessageMedia({ image: media }, { upload: theo.waUploadToServer }))
+    // }),
+    // };
+    // } else if (mimetype.includes("video")) {
+    // media = {
+    // header: proto.Message.InteractiveMessage.Header.create({
+    // hasMediaAttachment: true, ...(await prepareWAMessageMedia({ video: media }, { upload: theo.waUploadToServer }))
+    // }),
+    // };
+    // } else if (mimetype.includes("audio")) {
+    // let res = await toMp3(buffer);
+    // media = {
+    // header: proto.Message.InteractiveMessage.Header.create({
+    // hasMediaAttachment: true, ...(await prepareWAMessageMedia({ audio: res }, { upload: theo.waUploadToServer }))
+    // })
+    // };
+    // }
+    // } else {
+    // media = {};
+    // }
+    // let button_value = []
+    // button.forEach(async a => {
+    // if (a.name == "url") {
+    // button_value.push({ name: "cta_url", buttonParamsJson: JSON.stringify({ display_text: a.text, url: a.url, merchant_url: `https://www.google.com` }) })
+    // } else if (a.name == "reply") {
+    // button_value.push({ name: "quick_reply", buttonParamsJson: JSON.stringify({ display_text: a.text, title: a.title, id: a.id }) })
+    // }
+    // else if (a.name == "select") {
+    // button_value.push({ name: "single_select", buttonParamsJson: JSON.stringify({ title: a.title, sections: a.sections.map(a => ({ title: a.title, highlight_label: a.label, rows: a.rows })) }) })
+    // }
+    // else if (a.name == "copy") {
+    // button_value.push({
+    // name: "cta_copy",
+    // buttonParamsJson: JSON.stringify({
+    // display_text: a.text,
+    // id: nomor_random(9),
+    // copy_code: a.copy
+    // })
+    // })
+    // }
+    // })
+    // console.log(button_value)
+
+    // const message = generateWAMessageFromContent(jid, {
+    // viewOnceMessage: {
+    // message: {
+    // "messageContextInfo": {
+    // "deviceListMetadata": {},
+    // "deviceListMetadataVersion": 2
+    // },
+    // interactiveMessage: proto.Message.InteractiveMessage.create({
+    // ...more, body: proto.Message.InteractiveMessage.Body.create({
+    // text: text
+    // }),
+    // footer: proto.Message.InteractiveMessage.Footer.create({
+    // text: footer
+    // }),
+    // nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
+    // buttons: [{
+    // "name": "cta_url",
+    // "buttonParamsJson": `{\"display_text\":\"Login Server Panel\",\"url\":\"https://party-mc.fun\",\"merchant_url\":\"https://www.google.com\"}`
+    // },
+    // {
+    // "name": "cta_copy",
+    // "buttonParamsJson": `{\"display_text\":\"Copy Username\",\"id\":\"123456789\",\"copy_code\":\"oke\"}`
+    // },
+    // {
+    // "name": "cta_copy",
+    // "buttonParamsJson": `{\"display_text\":\"Copy Password\",\"id\":\"123456789\",\"copy_code\":\"asu\"}`
+    // }]
+    // })
+    // })
+    // }
+    // }
+    // }, { userJid: jidNormalizedUser(theo.user.id), ...quoted })
+    // console.log(message)
+
+    // return await theo.relayMessage(message.key.remoteJid, message.message, {
+    // messageId: message.key.id
+    // });
+    // }
+
+    theo.deleteChat = async function (jid, message) {
+        return await theo.chatModify({
+            delete: true,
+            lastMessages: [
+                {
+                    key: message.key,
+                    messageTimestamp: message.messageTimestamp
+                }
+            ]
+        },
+            jid
+        )
+
+    }
+    theo.setpp = async function (jid, pp) {
+        return await theo.updateProfilePicture(jid, pp)
+    }
+    theo.infoLinkGc = async function (link = "") {
+        let code = link.split(`https://chat.whatsapp.com/`)[1].match(/.{0,22}/)[0]
+        return await theo.groupGetInviteInfo(code)
+    }
+    theo.updateGc = async function (jid, member, action) {
+        return await theo.groupParticipantsUpdate(jid, [member], action)
+    }
+    theo.setNameGc = async function (jid, text) {
+        return await theo.groupUpdateSubject(jid, text)
+    }
+    theo.setDescGc = async function (jid, text) {
+        return await theo.groupUpdateDescription(jid, text)
+    }
+    theo.setBukaGc = async function (jid, boolean) {
+        return await theo.groupSettingUpdate(jid, boolean ? 'not_announcement' : 'announcement')
+    }
+    theo.setEditGc = async function (jid, text) {
+        return await theo.groupSettingUpdate(jid, text === "admin" ? 'locked' : 'unlocked')
+    }
+    theo.getLinkGc = async function (jid) {
+        return `https://chat.whatsapp.com/` + await theo.groupInviteCode(jid)
+    }
+    theo.setLinkGc = async function (jid) {
+        return `https://chat.whatsapp.com/` + await theo.groupRevokeInvite(jid)
+    }
+    theo.sedang = async function (jid, nomor) {
+        let list = ['unavailable', 'available', 'composing', 'recording', 'paused']
+        return await theo.sendPresenceUpdate(list[parseInt(nomor - 1)], jid)
+    }
+    theo.name = async function (nama) {
+        return await theo.updateProfileName(nama)
+    }
+    theo.desc = async function (text) {
+        return await theo.updateProfileStatus(text)
+    }
+    theo.delete = async function (jid, pesan) {
+        return await theo.sendMessage(jid, { delete: pesan.key })
+    }
+    theo.forward = async function (jid, m, more = {}) {
+        return await theo.relayMessage(jid, m.message, { messageId: m.key.id, ...more })
+    }
+    theo.parseMention = async function (text) {
+        return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net') || [];
+    }
+    theo.block = async function (nomor) {
+        return await theo.updateBlockStatus(nomor, "block")
+    }
+    theo.unblock = async function (nomor) {
+        return await theo.updateBlockStatus(nomor, "unblock")
+    }
+}

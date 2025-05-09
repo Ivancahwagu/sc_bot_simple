@@ -1,8 +1,8 @@
 import { jidNormalizedUser } from "baileys";
 import { random_huruf_kecil_nomor, tanggal_now } from "./tools/func.js";
 import fs from "fs";
-
 export default async function ({ messages, theo }) {
+    global.struktur_db = (await import(`file://${__dirname}/struktur_database.js?v=${Date.now()}`)).default()
     try {
         if (!messages.messages || messages.messages.length === 0) {
             throw new Error("Pesan kosong atau tidak valid!");
@@ -33,17 +33,7 @@ export default async function ({ messages, theo }) {
                 m.admin = m.listAdmin.includes(m.sender)
                 m.botAdmin = m.listAdmin.includes(jidNormalizedUser(theo.user.id))
                 if (!db.group[m.chat]) {
-                    db.group[m.chat] = {
-                        fitur: {
-                            antilink: false,
-                            antiluar: false,
-                            detect: false,
-                            antibot: false
-                        },
-                        banned: true,
-                        premium: false,
-                        sewa: false
-                    }
+                    db.group[m.chat] = global.struktur_db.group
                 }
             } catch {
                 m.metadata = null;

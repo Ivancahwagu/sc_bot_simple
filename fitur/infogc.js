@@ -8,7 +8,7 @@ let theoFitur = async function ({ m, theo }) {
 │ 🏷️ Nama Grup : ${data_gc.subject}
 │ 👥 Jumlah Anggota : ${data_gc.participants.length}
 │ 🚫 Banned : ${db_gc.banned ? `✅ Ya` : `❌ Tidak`}
-│ ⏳ Sewa : ${typeof db_gc.sewa == "number" ? selisih_waktu_now(db_gc.sewa) : `❌ Tidak`}
+│ ⏳ Sewa : ${typeof db_gc.sewa == "number" ? selisih_waktu_now(db_gc.sewa) : typeof db_gc.sewa == "string" ? db_gc.sewa : `❌ Tidak`}
 │ 💎 Premium : ${db_gc.premium ? `✅ Aktif` : `❌ Tidak`}
 │⚙️ Fitur Grup :
 ${fitur_gc.map(a => `│ ▸ ${a} : ${db_gc.fitur[a] ? `✅` : `❌`}`).join(`\n`)}

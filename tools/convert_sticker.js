@@ -1,8 +1,3 @@
-/**
-   * Create By Mhankbarbar
-   * Contact -
-   * Follow https://github.com/MhankBarBar
-*/
 import fs from "fs"
 import ff from "fluent-ffmpeg"
 import webp from "node-webpmux"

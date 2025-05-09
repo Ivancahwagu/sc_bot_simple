@@ -31,9 +31,9 @@ export default async function ({ theo }) {
                             metadata = theo.group[id_gc];
                         } else {
                             metadata = await theo.groupMetadata(id_gc);
-                            theo.group[id_gc] = metadata;
                         }
                         if (metadata) {
+                            theo.group[id_gc] = metadata;
                             const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
                             const pesan = `🔔 *Pengingat Sholat*
 
@@ -47,14 +47,14 @@ ${hariJumat ? `📿 Bagi para pria Muslim, inilah waktu mulia untuk menunaikan *
                             await delay(1000);
                             await theo.sendMessage(id_gc, {
                                 text: pesan,
-                                // contextInfo: {
-                                //     externalAdReply: {
-                                //         title: "Panggilan Sholat",
-                                //         body: "Jangan tunda, sholatlah sebelum disholatkan.",
-                                //         thumbnailUrl: "https://i.ytimg.com/vi/lhXfp3O8y8A/maxresdefault.jpg",
-                                //         sourceUrl: "https://www.youtube.com/@theo_dev-id"
-                                //     }
-                                // }
+                                contextInfo: {
+                                    externalAdReply: {
+                                        title: "Panggilan Sholat",
+                                        body: "Jangan tunda, sholatlah sebelum disholatkan.",
+                                        thumbnailUrl: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/69/2024/03/13/IMG_20240313_202025-4271336681.jpg",
+                                        sourceUrl: "https://www.youtube.com/@theo_dev-id"
+                                    }
+                                }
                             });
                         }
                     }

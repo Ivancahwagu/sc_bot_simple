@@ -89,9 +89,31 @@ export async function theoRun() {
         logger: Pino({ level: 'silent' }),
         syncFullHistory: true,
         generateHighQualityLinkPreview: true,
-        // shouldSyncHistoryMessage: function (isi) {
-        //     console.log(`memuat chat: \x1b[32m${isi.progress}%`)
-        // }
+        shouldSyncHistoryMessage: function (isi) {
+            console.log(`memuat chat: \x1b[32m${isi.progress}%`)
+        },
+        // patchMessageBeforeSending: (message) => {
+        //     const requiresPatch = !!(
+        //         message.buttonsMessage
+        //         || message.templateMessage
+        //         || message.listMessage
+        //     );
+        //     if (requiresPatch) {
+        //         message = {
+        //             viewOnceMessage: {
+        //                 message: {
+        //                     messageContextInfo: {
+        //                         deviceListMetadataVersion: 2,
+        //                         deviceListMetadata: {},
+        //                     },
+        //                     ...message,
+        //                 },
+        //             },
+        //         };
+        //     }
+
+        //     return message;
+        // },
     })
     theo.createId = function () {
         return `THEO-${random_huruf_besar_nomor(17)}`;
@@ -630,17 +652,7 @@ export async function theoRun() {
             theo.group[group_update.id] = metadata
         }
         if (!db.group[group_update.id]) {
-            db.group[group_update.id] = {
-                fitur: {
-                    antilink: false,
-                    antiluar: false,
-                    detect: false,
-                    antibot: false
-                },
-                banned: true,
-                premium: false,
-                sewa: false
-            }
+            db.group[group_update.id] = global.struktur_db.group
         }
         let isi_gc = theo.group[group_update.id]
         let action = Object.keys(group_update).filter(a => a !== `id` && a !== `author`)

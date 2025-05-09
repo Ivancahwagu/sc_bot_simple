@@ -1,29 +1,39 @@
 let theoFitur = async function ({ m, theo }) {
-    if (!m.res) return await m.reply(`⚠️ Format salah!
+    if (!m.res) {
+        return await m.reply(`❗ *Format Salah!*
 
-Contoh penggunaan:
-${m.prefix + m.command} Pengumuman`)
+Gunakan perintah ini untuk broadcast ke seluruh pengguna bot.
+
+📌 *Contoh:*
+\`${m.prefix + m.command} Bot maintenance jam 7 malam\``);
+    }
 
     let sukses = 0;
     for (let user of Object.keys(db.user)) {
         try {
-            await theo.sendText(user, `Hai @${user.split("@")[0]}
+            await theo.sendText(user, `🔔 *PENGUMUMAN BOT*
 
-📢 *Pengumuman:*
-${m.res}`, m.quo, {
+Hai *@${user.split("@")[0]}*, ada informasi penting dari owner! 📢
+
+━━━━━━━━━━━━━━━
+${m.res}
+━━━━━━━━━━━━━━━
+
+🙏 Terima kasih atas perhatianmu!`, m.quo, {
                 contextInfo: {
                     mentionedJid: [user]
                 }
             });
             sukses++;
-            await delay(1000); // kasih delay biar tidak di-detect spam
+            await delay(1000); // hindari spam detection
         } catch (err) {
-            console.error(`Gagal kirim ke ${user}:`, err);
+            console.error(`❌ Gagal kirim ke ${user}:`, err);
         }
     }
-    await m.reply(`✅ Broadcast selesai!
 
-Berhasil mengirim ke ${sukses} user.`);
+    await m.reply(`✅ *Broadcast Selesai!*
+
+Berhasil mengirim pesan ke *${sukses}* pengguna.`);
 }
 
 theoFitur.tags = "owner";
