@@ -1,0 +1,410 @@
+[
+    {
+        "pertanyaan": "5 + 7",
+        "jawaban": "12"
+    },
+    {
+        "pertanyaan": "10 - 3",
+        "jawaban": "7"
+    },
+    {
+        "pertanyaan": "8 * 2",
+        "jawaban": "16"
+    },
+    {
+        "pertanyaan": "36 / 6",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "9 + 8",
+        "jawaban": "17"
+    },
+    {
+        "pertanyaan": "15 - 5",
+        "jawaban": "10"
+    },
+    {
+        "pertanyaan": "7 * 4",
+        "jawaban": "28"
+    },
+    {
+        "pertanyaan": "24 / 3",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "3 + 5",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "20 - 6",
+        "jawaban": "14"
+    },
+    {
+        "pertanyaan": "12 * 3",
+        "jawaban": "36"
+    },
+    {
+        "pertanyaan": "48 / 8",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "6 + 7",
+        "jawaban": "13"
+    },
+    {
+        "pertanyaan": "10 - 4",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "5 * 3",
+        "jawaban": "15"
+    },
+    {
+        "pertanyaan": "32 / 4",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "8 + 9",
+        "jawaban": "17"
+    },
+    {
+        "pertanyaan": "19 - 9",
+        "jawaban": "10"
+    },
+    {
+        "pertanyaan": "7 * 5",
+        "jawaban": "35"
+    },
+    {
+        "pertanyaan": "56 / 7",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "13 + 7",
+        "jawaban": "20"
+    },
+    {
+        "pertanyaan": "22 - 8",
+        "jawaban": "14"
+    },
+    {
+        "pertanyaan": "6 * 6",
+        "jawaban": "36"
+    },
+    {
+        "pertanyaan": "72 / 9",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "10 + 14",
+        "jawaban": "24"
+    },
+    {
+        "pertanyaan": "16 - 9",
+        "jawaban": "7"
+    },
+    {
+        "pertanyaan": "9 * 3",
+        "jawaban": "27"
+    },
+    {
+        "pertanyaan": "63 / 7",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "11 + 5",
+        "jawaban": "16"
+    },
+    {
+        "pertanyaan": "28 - 6",
+        "jawaban": "22"
+    },
+    {
+        "pertanyaan": "8 * 8",
+        "jawaban": "64"
+    },
+    {
+        "pertanyaan": "81 / 9",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "12 + 4",
+        "jawaban": "16"
+    },
+    {
+        "pertanyaan": "24 - 8",
+        "jawaban": "16"
+    },
+    {
+        "pertanyaan": "7 * 9",
+        "jawaban": "63"
+    },
+    {
+        "pertanyaan": "45 / 5",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "3 + 6",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "19 - 7",
+        "jawaban": "12"
+    },
+    {
+        "pertanyaan": "6 * 7",
+        "jawaban": "42"
+    },
+    {
+        "pertanyaan": "54 / 6",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "18 + 12",
+        "jawaban": "30"
+    },
+    {
+        "pertanyaan": "26 - 13",
+        "jawaban": "13"
+    },
+    {
+        "pertanyaan": "5 * 6",
+        "jawaban": "30"
+    },
+    {
+        "pertanyaan": "72 / 8",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "10 + 19",
+        "jawaban": "29"
+    },
+    {
+        "pertanyaan": "30 - 5",
+        "jawaban": "25"
+    },
+    {
+        "pertanyaan": "7 * 6",
+        "jawaban": "42"
+    },
+    {
+        "pertanyaan": "56 / 8",
+        "jawaban": "7"
+    },
+    {
+        "pertanyaan": "4 + 9",
+        "jawaban": "13"
+    },
+    {
+        "pertanyaan": "21 - 4",
+        "jawaban": "17"
+    },
+    {
+        "pertanyaan": "6 * 4",
+        "jawaban": "24"
+    },
+    {
+        "pertanyaan": "36 / 6",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "15 + 15",
+        "jawaban": "30"
+    },
+    {
+        "pertanyaan": "20 - 7",
+        "jawaban": "13"
+    },
+    {
+        "pertanyaan": "9 * 2",
+        "jawaban": "18"
+    },
+    {
+        "pertanyaan": "48 / 6",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "17 + 5",
+        "jawaban": "22"
+    },
+    {
+        "pertanyaan": "33 - 12",
+        "jawaban": "21"
+    },
+    {
+        "pertanyaan": "10 * 10",
+        "jawaban": "100"
+    },
+    {
+        "pertanyaan": "100 / 10",
+        "jawaban": "10"
+    },
+    {
+        "pertanyaan": "9 + 14",
+        "jawaban": "23"
+    },
+    {
+        "pertanyaan": "18 - 9",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "12 * 4",
+        "jawaban": "48"
+    },
+    {
+        "pertanyaan": "64 / 8",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "7 + 13",
+        "jawaban": "20"
+    },
+    {
+        "pertanyaan": "19 - 11",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "8 * 6",
+        "jawaban": "48"
+    },
+    {
+        "pertanyaan": "72 / 12",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "15 + 10",
+        "jawaban": "25"
+    },
+    {
+        "pertanyaan": "21 - 7",
+        "jawaban": "14"
+    },
+    {
+        "pertanyaan": "10 * 6",
+        "jawaban": "60"
+    },
+    {
+        "pertanyaan": "50 / 5",
+        "jawaban": "10"
+    },
+    {
+        "pertanyaan": "3 + 4",
+        "jawaban": "7"
+    },
+    {
+        "pertanyaan": "16 - 5",
+        "jawaban": "11"
+    },
+    {
+        "pertanyaan": "9 * 4",
+        "jawaban": "36"
+    },
+    {
+        "pertanyaan": "45 / 9",
+        "jawaban": "5"
+    },
+    {
+        "pertanyaan": "8 + 6",
+        "jawaban": "14"
+    },
+    {
+        "pertanyaan": "27 - 9",
+        "jawaban": "18"
+    },
+    {
+        "pertanyaan": "5 * 7",
+        "jawaban": "35"
+    },
+    {
+        "pertanyaan": "56 / 7",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "10 + 8",
+        "jawaban": "18"
+    },
+    {
+        "pertanyaan": "22 - 3",
+        "jawaban": "19"
+    },
+    {
+        "pertanyaan": "4 * 4",
+        "jawaban": "16"
+    },
+    {
+        "pertanyaan": "36 / 4",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "14 + 10",
+        "jawaban": "24"
+    },
+    {
+        "pertanyaan": "18 - 4",
+        "jawaban": "14"
+    },
+    {
+        "pertanyaan": "12 * 5",
+        "jawaban": "60"
+    },
+    {
+        "pertanyaan": "48 / 12",
+        "jawaban": "4"
+    },
+    {
+        "pertanyaan": "15 + 5",
+        "jawaban": "20"
+    },
+    {
+        "pertanyaan": "20 - 12",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "4 * 5",
+        "jawaban": "20"
+    },
+    {
+        "pertanyaan": "30 / 5",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "2 + 10",
+        "jawaban": "12"
+    },
+    {
+        "pertanyaan": "10 - 3",
+        "jawaban": "7"
+    },
+    {
+        "pertanyaan": "6 * 6",
+        "jawaban": "36"
+    },
+    {
+        "pertanyaan": "72 / 9",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "14 + 4",
+        "jawaban": "18"
+    },
+    {
+        "pertanyaan": "10 - 7",
+        "jawaban": "3"
+    },
+    {
+        "pertanyaan": "9 * 2",
+        "jawaban": "18"
+    },
+    {
+        "pertanyaan": "36 / 6",
+        "jawaban": "6"
+    },
+    {
+        "pertanyaan": "4 + 9",
+        "jawaban": "13"
+    },
+    {
+        "pertanyaan": "18 - 5",
+        "jawaban": "13"
+    }
+]

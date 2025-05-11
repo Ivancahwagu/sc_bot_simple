@@ -5,7 +5,7 @@ export default async function ({ theo }) {
     if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== new_hari.getDay()) {
         db[`jadwalSholat`] = {
             hari: new_hari.getDay(),
-            sholat: await jadwal_sholat_kota(`rembang`)
+            sholat: await jadwal_sholat_kota(global.kota)
 
         };
         savedb();
@@ -18,53 +18,53 @@ export default async function ({ theo }) {
         let list_gc = Object.keys(db.group);
         let list_sholat = Object.keys(db['jadwalSholat'].sholat);
         for (const waktu_sholat of list_sholat) {
-            let db_sholat = db.jadwalSholat.sholat[waktu_sholat];
-            if (!db_sholat.notif && db_sholat.waktu === waktuNow) {
-                console.log(`Mengingatkan sholat ${waktu_sholat}`);
-                db_sholat.notif = true;
-                savedb();
-                for (const id_gc of list_gc) {
-                    let db_gc = db.group[id_gc];
-                    if (!db_gc.banned || db_gc.sewa) {
+            let sholat = db['jadwalSholat'].sholat[waktu_sholat]
+            if (sholat.waktu === waktuNow) {
+                if (!sholat.notif) {
+                    console.log(`ingatkan notif sholat ${waktu_sholat} di: ${waktuNow}`);
+                    db['jadwalSholat'].sholat[waktu_sholat].notif = true
+                    savedb()
+                    for (const id_group of list_gc) {
                         let metadata;
-                        if (theo.group[id_gc]) {
-                            metadata = theo.group[id_gc];
+                        if (theo.group[id_group]) {
+                            metadata = theo.group[id_group];
                         } else {
-                            metadata = await theo.groupMetadata(id_gc);
-                            theo.group[id_gc] = metadata;
+                            metadata = await theo.groupMetadata(id_group);
+                            theo.group[id_group] = metadata;
                         }
                         if (metadata) {
-                            const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
-                            const pesan = `🔔 *Pengingat Sholat*
+                            if (db.group[id_group].sewa || !db.group[id_group].banned) {
+                                const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
+                                const pesan = `🔔 *Pengingat Sholat*
 
 Pesan ini ditujukan untuk member grup 
-*${theo.group[id_gc].subject}* 
+*${theo.group[id_group].subject}* 
 yang beragama *Islam*.
 🕌 *Waktunya Sholat ${waktu_sholat.toUpperCase()}* — ${waktuNow}
 ${hariJumat ? `📿 Bagi para pria Muslim, inilah waktu mulia untuk menunaikan *Sholat Jumat*. Jangan lewatkan keutamaannya.\n` : ''}⏳ Tinggalkan sejenak aktivitasmu, mari tunaikan kewajiban ini.
 📿 *Sholatlah sebelum engkau disholatkan.*
 🤲 Semoga Allah menerima ibadahmu hari ini. *Aamiin.*`;
-                            await delay(1000);
-                            await theo.sendMessage(id_gc, {
-                                text: pesan,
-                                // contextInfo: {
-                                //     externalAdReply: {
-                                //         title: "Panggilan Sholat",
-                                //         body: "Jangan tunda, sholatlah sebelum disholatkan.",
-                                //         thumbnailUrl: "https://i.ytimg.com/vi/lhXfp3O8y8A/maxresdefault.jpg",
-                                //         sourceUrl: "https://www.youtube.com/@theo_dev-id"
-                                //     }
-                                // }
-                            });
+                                await delay(1000);
+                                await theo.sendText(id_group, pesan, null, {
+                                    contextInfo: {
+                                        externalAdReply: {
+                                            title: "Panggilan Sholat",
+                                            body: "Jangan tunda, sholatlah sebelum disholatkan.",
+                                            thumbnailUrl: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/69/2024/03/13/IMG_20240313_202025-4271336681.jpg",
+                                            sourceUrl: "https://www.youtube.com/@theo_dev-id"
+                                        }
+                                    }
+                                });
+                            }
                         }
                     }
                 }
-            }
-
-            if (db_sholat.notif && parseInt(db_sholat.waktu.split(`:`).join("")) < parseInt(waktuNow.split(`:`).join(""))) {
-                console.log(`Reset notif sholat ${waktu_sholat} di: ${waktuNow}`);
-                db_sholat.notif = false;
-                savedb();
+            } else {
+                if (sholat.notif && parseInt(sholat.waktu.split(`:`).join("")) < parseInt(waktuNow.split(`:`).join(""))) {
+                    console.log(`Reset notif sholat ${waktu_sholat} di: ${waktuNow}`);
+                    db['jadwalSholat'].sholat[waktu_sholat].notif = false;
+                    savedb();
+                }
             }
         }
     }
@@ -119,7 +119,7 @@ Untuk tetap menggunakan fitur bot:
                     if (game.status === "playing") {
                         if (game.expired < int_tanggal_now()) {
                             await theo.sendText(jid, `⏰ *Game Berlangsung Terlalu Lama!*
-            
+
 🧑‍🤝‍🧑 Pemain yang masih aktif:
 ${game.player.map(a => `• @${a.split(`@`)[0]}`).join('\n')}
 

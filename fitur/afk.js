@@ -5,10 +5,7 @@ let theoFitur = async function ({ m, theo }) {
     await m.reply(`🌙 *AFK Aktif!*
 
 📌 *Alasan:* ${alasan}
-⏰ Statusmu akan ditampilkan saat ada yang menandaimu.
-
-Ketik \`.kembali\` untuk menonaktifkan AFK.
-`);
+⏰ Statusmu akan ditampilkan saat ada yang menandaimu.`);
 }
 
 theoFitur.tags = "fun";

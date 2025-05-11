@@ -1,0 +1,502 @@
+[
+    {
+        "pertanyaan": "r-e-k-d-o-t",
+        "kategori": "pekerjaan",
+        "jawaban": "dokter"
+    },
+    {
+        "pertanyaan": "u-r-g-u",
+        "kategori": "pekerjaan",
+        "jawaban": "guru"
+    },
+    {
+        "pertanyaan": "i-l-p-t-o",
+        "kategori": "pekerjaan",
+        "jawaban": "pilot"
+    },
+    {
+        "pertanyaan": "i-o-s-l-p-i",
+        "kategori": "pekerjaan",
+        "jawaban": "polisi"
+    },
+    {
+        "pertanyaan": "g-k-u-c-i-n",
+        "kategori": "hewan",
+        "jawaban": "kucing"
+    },
+    {
+        "pertanyaan": "e-j-l-d-e-n-a",
+        "kategori": "benda",
+        "jawaban": "jendela"
+    },
+    {
+        "pertanyaan": "a-w-r-e-p-a-t",
+        "kategori": "pekerjaan",
+        "jawaban": "perawat"
+    },
+    {
+        "pertanyaan": "k-b-u-u",
+        "kategori": "benda",
+        "jawaban": "buku"
+    },
+    {
+        "pertanyaan": "t-r-e-n-a-t-a",
+        "kategori": "pekerjaan",
+        "jawaban": "tentara"
+    },
+    {
+        "pertanyaan": "j-g-h-a-a",
+        "kategori": "hewan",
+        "jawaban": "gajah"
+    },
+    {
+        "pertanyaan": "g-n-m-g-a-a",
+        "kategori": "buah",
+        "jawaban": "mangga"
+    },
+    {
+        "pertanyaan": "g-s-n-i-a-p",
+        "kategori": "buah",
+        "jawaban": "pisang"
+    },
+    {
+        "pertanyaan": "i-e-m",
+        "kategori": "makanan",
+        "jawaban": "mie"
+    },
+    {
+        "pertanyaan": "n-i-a-k",
+        "kategori": "hewan",
+        "jawaban": "ikan"
+    },
+    {
+        "pertanyaan": "u-p-i-n-t",
+        "kategori": "benda",
+        "jawaban": "pintu"
+    },
+    {
+        "pertanyaan": "s-a-t",
+        "kategori": "benda",
+        "jawaban": "tas"
+    },
+    {
+        "pertanyaan": "p-u-m-a-l",
+        "kategori": "benda",
+        "jawaban": "lampu"
+    },
+    {
+        "pertanyaan": "u-g-l-i-a",
+        "kategori": "makanan",
+        "jawaban": "gulai"
+    },
+    {
+        "pertanyaan": "p-l-e-a",
+        "kategori": "buah",
+        "jawaban": "apel"
+    },
+    {
+        "pertanyaan": "m-e-k-u-p-o-r-t",
+        "kategori": "benda",
+        "jawaban": "komputer"
+    },
+    {
+        "pertanyaan": "a-s-g-i-n",
+        "kategori": "hewan",
+        "jawaban": "singa"
+    },
+    {
+        "pertanyaan": "a-s-n-n-a",
+        "kategori": "buah",
+        "jawaban": "nanas"
+    },
+    {
+        "pertanyaan": "r-i-s-u-k",
+        "kategori": "benda",
+        "jawaban": "kursi"
+    },
+    {
+        "pertanyaan": "g-b-u-n-r-u",
+        "kategori": "hewan",
+        "jawaban": "burung"
+    },
+    {
+        "pertanyaan": "m-a-a-y",
+        "kategori": "makanan",
+        "jawaban": "ayam"
+    },
+    {
+        "pertanyaan": "t-i-r-o",
+        "kategori": "makanan",
+        "jawaban": "roti"
+    },
+    {
+        "pertanyaan": "r-u-l-a",
+        "kategori": "hewan",
+        "jawaban": "ular"
+    },
+    {
+        "pertanyaan": "k-b-e-e-b",
+        "kategori": "hewan",
+        "jawaban": "bebek"
+    },
+    {
+        "pertanyaan": "e-p-a-n",
+        "kategori": "benda",
+        "jawaban": "pena"
+    },
+    {
+        "pertanyaan": "k-l-c-n-i-e-i",
+        "kategori": "hewan",
+        "jawaban": "kelinci"
+    },
+    {
+        "pertanyaan": "j-a-m",
+        "kategori": "benda",
+        "jawaban": "jam"
+    },
+    {
+        "pertanyaan": "d-n-a-r-n-e-g",
+        "kategori": "makanan",
+        "jawaban": "rendang"
+    },
+    {
+        "pertanyaan": "h-e-t",
+        "kategori": "makanan",
+        "jawaban": "teh"
+    },
+    {
+        "pertanyaan": "e-k-u",
+        "kategori": "makanan",
+        "jawaban": "kue"
+    },
+    {
+        "pertanyaan": "k-u-r-e-j",
+        "kategori": "buah",
+        "jawaban": "jeruk"
+    },
+    {
+        "pertanyaan": "a-y-p-p-e-a",
+        "kategori": "buah",
+        "jawaban": "pepaya"
+    },
+    {
+        "pertanyaan": "d-u-a-n-i-r",
+        "kategori": "buah",
+        "jawaban": "durian"
+    },
+    {
+        "pertanyaan": "k-o-b-s-a",
+        "kategori": "makanan",
+        "jawaban": "bakso"
+    },
+    {
+        "pertanyaan": "n-e-d-o-s",
+        "kategori": "pekerjaan",
+        "jawaban": "dosen"
+    },
+    {
+        "pertanyaan": "j-a-m-e",
+        "kategori": "benda",
+        "jawaban": "meja"
+    },
+    {
+        "pertanyaan": "n-u-b-a-s",
+        "kategori": "benda",
+        "jawaban": "sabun"
+    },
+    {
+        "pertanyaan": "r-u-s-a-k",
+        "kategori": "benda",
+        "jawaban": "kasur"
+    },
+    {
+        "pertanyaan": "s-e-v-i-i-t-l-e",
+        "kategori": "benda",
+        "jawaban": "televisi"
+    },
+    {
+        "pertanyaan": "p-u-s-a",
+        "kategori": "benda",
+        "jawaban": "sapu"
+    },
+    {
+        "pertanyaan": "u-s-p-i-a",
+        "kategori": "benda",
+        "jawaban": "pisau"
+    },
+    {
+        "pertanyaan": "k-n-d-e-s-o",
+        "kategori": "benda",
+        "jawaban": "sendok"
+    },
+    {
+        "pertanyaan": "g-r-u-p-a",
+        "kategori": "benda",
+        "jawaban": "garpu"
+    },
+    {
+        "pertanyaan": "l-i-b-o-m",
+        "kategori": "benda",
+        "jawaban": "mobil"
+    },
+    {
+        "pertanyaan": "r-t-m-o-o",
+        "kategori": "benda",
+        "jawaban": "motor"
+    },
+    {
+        "pertanyaan": "t-n-e-s-r-e",
+        "kategori": "benda",
+        "jawaban": "senter"
+    },
+    {
+        "pertanyaan": "g-o-b-e-n",
+        "kategori": "benda",
+        "jawaban": "obeng"
+    },
+    {
+        "pertanyaan": "a-i-e-b-a-r-t",
+        "kategori": "benda",
+        "jawaban": "baterai"
+    },
+    {
+        "pertanyaan": "a-e-k-a-r-m",
+        "kategori": "benda",
+        "jawaban": "kamera"
+    },
+    {
+        "pertanyaan": "t-e-n-p-r-i-r",
+        "kategori": "benda",
+        "jawaban": "printer"
+    },
+    {
+        "pertanyaan": "i-r-m-e-a-l",
+        "kategori": "benda",
+        "jawaban": "lemari"
+    },
+    {
+        "pertanyaan": "t-a-n-l-a-b",
+        "kategori": "benda",
+        "jawaban": "bantal"
+    },
+    {
+        "pertanyaan": "i-n-g-u-l-g",
+        "kategori": "benda",
+        "jawaban": "guling"
+    },
+    {
+        "pertanyaan": "t-u-m-i-l-s-e",
+        "kategori": "benda",
+        "jawaban": "selimut"
+    },
+    {
+        "pertanyaan": "u-d-k-h-a-n",
+        "kategori": "benda",
+        "jawaban": "handuk"
+    },
+    {
+        "pertanyaan": "b-s-t-u-a",
+        "kategori": "benda",
+        "jawaban": "sabut"
+    },
+    {
+        "pertanyaan": "u-k-k-e-r-r-p",
+        "kategori": "makanan",
+        "jawaban": "kerupuk"
+    },
+    {
+        "pertanyaan": "t-o-s-o",
+        "kategori": "makanan",
+        "jawaban": "soto"
+    },
+    {
+        "pertanyaan": "w-n-a-r-o",
+        "kategori": "makanan",
+        "jawaban": "rawon"
+    },
+    {
+        "pertanyaan": "s-n-a-i",
+        "kategori": "makanan",
+        "jawaban": "nasi"
+    },
+    {
+        "pertanyaan": "l-e-e-l",
+        "kategori": "hewan",
+        "jawaban": "lele"
+    },
+    {
+        "pertanyaan": "l-u-b-e-t",
+        "kategori": "hewan",
+        "jawaban": "belut"
+    },
+    {
+        "pertanyaan": "c-k-c-i-a",
+        "kategori": "hewan",
+        "jawaban": "cicak"
+    },
+    {
+        "pertanyaan": "a-n-a-s-g",
+        "kategori": "hewan",
+        "jawaban": "angsa"
+    },
+    {
+        "pertanyaan": "i-t-k-i",
+        "kategori": "hewan",
+        "jawaban": "itik"
+    },
+    {
+        "pertanyaan": "i-u-r-h-a-m-a",
+        "kategori": "hewan",
+        "jawaban": "harimau"
+    },
+    {
+        "pertanyaan": "a-y-u-a-b",
+        "kategori": "hewan",
+        "jawaban": "buaya"
+    },
+    {
+        "pertanyaan": "n-g-a-e-l",
+        "kategori": "hewan",
+        "jawaban": "elang"
+    },
+    {
+        "pertanyaan": "g-a-n-r-u-b-a",
+        "kategori": "hewan",
+        "jawaban": "beruang"
+    },
+    {
+        "pertanyaan": "z-a-r-b-e",
+        "kategori": "hewan",
+        "jawaban": "zebra"
+    },
+    {
+        "pertanyaan": "u-a-t-n",
+        "kategori": "hewan",
+        "jawaban": "unta"
+    },
+    {
+        "pertanyaan": "a-g-a-l-e-s-r-i",
+        "kategori": "hewan",
+        "jawaban": "serigala"
+    },
+    {
+        "pertanyaan": "a-c-n-a-m",
+        "kategori": "hewan",
+        "jawaban": "macan"
+    },
+    {
+        "pertanyaan": "b-n-g-i-m-k-a",
+        "kategori": "hewan",
+        "jawaban": "kambing"
+    },
+    {
+        "pertanyaan": "i-p-s-a",
+        "kategori": "hewan",
+        "jawaban": "sapi"
+    },
+    {
+        "pertanyaan": "d-a-a-n-p",
+        "kategori": "hewan",
+        "jawaban": "panda"
+    },
+    {
+        "pertanyaan": "u-b-r-k-e-a",
+        "kategori": "hewan",
+        "jawaban": "kerbau"
+    },
+    {
+        "pertanyaan": "i-r-t-a-p",
+        "kategori": "hewan",
+        "jawaban": "tapir"
+    },
+    {
+        "pertanyaan": "a-k-a-g-g",
+        "kategori": "hewan",
+        "jawaban": "gagak"
+    },
+    {
+        "pertanyaan": "m-i-r-p-a-t-e",
+        "kategori": "hewan",
+        "jawaban": "merpati"
+    },
+    {
+        "pertanyaan": "l-a-i-w-a-r-a-j",
+        "kategori": "hewan",
+        "jawaban": "rajawali"
+    },
+    {
+        "pertanyaan": "g-r-k-n-e-a",
+        "kategori": "benda",
+        "jawaban": "anggrek"
+    },
+    {
+        "pertanyaan": "r-m-a-w-a",
+        "kategori": "benda",
+        "jawaban": "mawar"
+    },
+    {
+        "pertanyaan": "e-l-i-m-a-t",
+        "kategori": "benda",
+        "jawaban": "melati"
+    },
+    {
+        "pertanyaan": "e-r-a-i-t-t-a",
+        "kategori": "benda",
+        "jawaban": "teratai"
+    },
+    {
+        "pertanyaan": "u-p-e-a-t-s",
+        "kategori": "benda",
+        "jawaban": "sepatu"
+    },
+    {
+        "pertanyaan": "o-a-s-k",
+        "kategori": "benda",
+        "jawaban": "kaos"
+    },
+    {
+        "pertanyaan": "e-n-a-a-c-l",
+        "kategori": "benda",
+        "jawaban": "celana"
+    },
+    {
+        "pertanyaan": "i-o-p-t",
+        "kategori": "benda",
+        "jawaban": "topi"
+    },
+    {
+        "pertanyaan": "k-e-j-a-t",
+        "kategori": "benda",
+        "jawaban": "jaket"
+    },
+    {
+        "pertanyaan": "g-n-u-a-r-s",
+        "kategori": "benda",
+        "jawaban": "sarung"
+    },
+    {
+        "pertanyaan": "t-i-a-k",
+        "kategori": "benda",
+        "jawaban": "ikat"
+    },
+    {
+        "pertanyaan": "k-e-s-i-r",
+        "kategori": "benda",
+        "jawaban": "keris"
+    },
+    {
+        "pertanyaan": "t-i-n-p-u",
+        "kategori": "benda",
+        "jawaban": "pintu"
+    },
+    {
+        "pertanyaan": "t-e-s-s-i-r",
+        "kategori": "benda",
+        "jawaban": "resti"
+    },
+    {
+        "pertanyaan": "a-l-e-c-i-p",
+        "kategori": "benda",
+        "jawaban": "pelican"
+    }
+]

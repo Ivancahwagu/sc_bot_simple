@@ -18,11 +18,16 @@ export default function get_StrukturDb() {
                 antifoto: false,
                 antisticker: false,
                 antivideo: false,
-                antiaudio: false
+                antiaudio: false,
+                antimedia: false
             },
             banned: true,
             premium: false,
             sewa: false
+        },
+        config: {
+            anticall: true,
+            silent: false
         }
     }
 }

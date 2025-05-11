@@ -2,8 +2,8 @@ import theoBot, { useMultiFileAuthState, jidNormalizedUser, fetchLatestBaileysVe
 import Pino from "pino"
 import "./setting.js"
 import fs from "fs"
-import { tanggal_now, random_huruf_besar_nomor } from "./tools/func.js"
-import { jadwal_sholat_kota, list_kota } from "./tools/scrape.js"
+import { random_huruf_besar_nomor } from "./tools/func.js"
+import { list_kota } from "./tools/scrape.js"
 import path from "path"
 console.log(`\n📂  Menjalankan bot di direktori: ${__dirname}`)
 console.log(`🚀  Mengaktifkan *${namaBot}*...`)
@@ -15,68 +15,13 @@ export async function theoRun() {
 👤 Nomor owner : ${owner.join(', ')}
 `)
 
-    if (!db[`user`]) {
-        await delay(300)
-        console.log(`⚠️  Database user belum ditemukan`)
-        await delay(300)
-        console.log(`📦  Membuat database user...`)
-        db[`user`] = {}
-        await delay(300)
-        console.log(`✅  Database user berhasil dibuat`)
-    }
-
-    if (!db[`group`]) {
-        await delay(300)
-        console.log(`⚠️  Database group belum ditemukan`)
-        await delay(300)
-        console.log(`📦  Membuat database group...`)
-        db[`group`] = {}
-        await delay(300)
-        console.log(`✅  Database group berhasil dibuat`)
-    }
-    if (!db['game']) {
-        await delay(300)
-        console.log(`⚠️  Database game belum ditemukan`)
-        await delay(300)
-        console.log(`📦  Membuat database game...`)
-        db[`game`] = {}
-        await delay(300)
-        console.log(`✅  Database game berhasil dibuat`)
-    }
-    if (!db.game.ttt) db.game.ttt = {};
-    if (!db.game.pertanyaan) db.game.pertanyaan = {};
-    if (!db.game.family100) db.game.family100 = {};
-    if (!db.game.tebak_bom) db.game.tebak_bom = {};
-    if (!db['chat']) {
-        await delay(300)
-        console.log(`⚠️  Database chat belum ditemukan`)
-        await delay(300)
-        console.log(`📦  Membuat database chat...`)
-        db[`chat`] = {}
-        await delay(300)
-        console.log(`✅  Database chat berhasil dibuat`)
-    }
-
-    let tanggal = tanggal_now()
-    if (!db['jadwalSholat']) {
-        db[`jadwalSholat`] = {
-            hari: tanggal.getDay(),
-            sholat: await jadwal_sholat_kota(`rembang`)
-        }
-    }
-    if (!Object.keys(db[`jadwalSholat`]).includes(`hari`) || db[`jadwalSholat`]?.hari !== tanggal.getDay()) {
-        db[`jadwalSholat`] = {
-            hari: tanggal.getDay(),
-            sholat: await jadwal_sholat_kota(`rembang`)
-        }
-    }
     savedb()
     await delay(300)
     console.log(`💾  Database berhasil dimuat dari file\n`)
 
     const { version, isLatest } = await fetchLatestBaileysVersion()
     const { state, saveCreds } = await useMultiFileAuthState(sesiPath)
-
+    if (!isLatest) return process.send("restart")
     console.log(`📦  Versi Baileys: ${version}
 🔍Versi terbaru: ${isLatest ? '✅ Iya' : '❌ Tidak'}\n`)
 
@@ -608,7 +553,7 @@ export async function theoRun() {
             let kode = await theo.requestPairingCode(nomorBot)
             console.log(`🔑 Kode pairing Anda: \x1b[32m${kode.match(/.{1,4}/g).join('-')}\x1b[0m\n`)
         } else {
-            console.log(`✅ Sudah terhubung ke WhatsApp, tidak perlu pairing ulang.`)
+            console.log(`✅ Sudah terhubung ke WhatsApp ${theo.user.name}, tidak perlu pairing ulang.`)
         }
     }
 
@@ -629,7 +574,7 @@ export async function theoRun() {
 
         if (koneksi.connection === "open") {
             await delay(300)
-            console.log(`✅  Berhasil terhubung ke WhatsApp!`)
+            console.log(`✅ Berhasil terhubung ke WhatsApp!`)
         }
 
         if (koneksi.connection === "close") {
@@ -662,12 +607,17 @@ export async function theoRun() {
         }
     })
 
+    theo.ev.on('call', async ([call]) => {
+        await (await import(`file://${__dirname}/action_call.js?v=${Date.now()}`)).default({ call, theo }).catch(e => console.log(e))
+    })
+
     if (theo.authState.creds.registered) {
         setInterval(async () => {
             await (await import(`file://${__dirname}/db_check.js?v=${Date.now()}`)).default({ theo }).catch(e => console.log(e))
         }, 5000)
 
     }
+
     theo.ev.on('creds.update', saveCreds)
 }
 await theoRun()

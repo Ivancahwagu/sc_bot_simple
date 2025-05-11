@@ -11,11 +11,9 @@ let theoFitur = async function ({ m, theo }) {
         let soal = dataSoal[getRandom(dataSoal.length)];
 
         let pesan_soal = await m.reply(
-            `🎯 *Susun Kalimat!*
+            `${soal.pertanyaan.join(' ')}
 
-${soal.pertanyaan.join(' ')}
-
-⏱️ Waktu: 30 detik
+⏱️ Waktu: 1 menit
 
 📌 *Catatan:*
 - Jawaban bisa mengandung spasi
@@ -26,10 +24,9 @@ Ketik jawabanmu sekarang!`
         );
 
         db.game.pertanyaan[m.chat] = {
-            pertanyaan: soal.pertanyaan,
             jawaban: soal.jawaban,
             pesan_soal: pesan_soal,
-            expired: int_tanggal_now() + 30 * 1000
+            expired: int_tanggal_now() + 60 * 1000
         };
     }
 };

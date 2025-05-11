@@ -13,7 +13,7 @@ export default async function theoFitur({ m, theo }) {
             if (menu_res.tags.includes(teks)) {
                 let fiturList = menu
                     .filter(b => b.tags === teks)
-                    .map(c => `│• *${menu_res.prefix}${c.command}* ${c.limit ? '💠' : c.premium ? '💎' : ''}`)
+                    .map(c => `│• *${menu_res.prefix}${c.command}* ${c.limit ? '🪙' : c.premium ? '🔑' : c.admin ? '⚙️' : c.owner ? '👑' : ''}`)
                     .join('\n')
 
                 return await m.reply(`╭─❖  *${teks.toUpperCase()}*\n│ Berikut daftar fitur:\n${fiturList}\n╰───────────────`)

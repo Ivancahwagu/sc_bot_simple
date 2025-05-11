@@ -16,6 +16,7 @@ let theoFitur = async function ({ m, theo }) {
     let sewa
     let info_gc = await theo.infoLinkGc(link)
     if (!info_gc) return await m.reply(`❗ Gagal mendapatkan info group`)
+    if (!db.group[info_gc]) db.group[info_gc.id] = struktur_db.group
     if (!isNaN(parseInt(jumlah_hari))) {
         sewa = hari(jumlah_hari);
         if (typeof db.group[info_gc.id].sewa === "number" && db.group[info_gc.id].sewa > int_tanggal_now()) {

@@ -22,23 +22,15 @@ let theoFitur = async function ({ m, theo }) {
 
                 if (res.title.toLowerCase().includes(`playlist`) ||
                     res.title.toLowerCase().includes(`kumpulan`) ||
-                    kualitas === q[4] || kualitas === q[5] || kualitas === q[6]) {
+                    kualitas.endsWith("p")) {
 
                     return await m.reply(
-                        `⚠️ *File besar terdeteksi!* \n\n` +
-                        `Ukuran melampaui batas maksimal pengunduhan. ` +
+                        `⚠️ *File video terdeteksi!* \n\n` +
+                        `Untuk mencegah overlaod.` +
                         `Gunakan link berikut untuk mengunduh secara manual:\n` +
                         `${res.download}`,
                         {
                             contextInfo: {
-                                forwardingScore: 1,
-                                mentionedJid: [m.sender],
-                                isForwarded: true,
-                                forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363181509677367@newsletter',
-                                    serverMessageId: null,
-                                    newsletterName: '⫷_____😸 ' + namaBot + ' 😸_____⫸'
-                                },
                                 externalAdReply: {
                                     thumbnailUrl: res.thumbnail,
                                     mediaType: 1,

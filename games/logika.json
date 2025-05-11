@@ -1,0 +1,418 @@
+[
+    {
+        "pertanyaan": "Jika dua apel lebih berat daripada satu apel, dan satu apel lebih berat daripada sepotong jeruk, maka mana yang lebih berat?",
+        "jawaban": "dua apel"
+    },
+    {
+        "pertanyaan": "Jika semua burung dapat terbang, dan penguin adalah burung, apakah penguin dapat terbang?",
+        "jawaban": "tidak"
+    },
+    {
+        "pertanyaan": "Budi lebih tinggi dari Ali, dan Ali lebih tinggi dari Cici. Siapa yang paling tinggi?",
+        "jawaban": "Budi"
+    },
+    {
+        "pertanyaan": "Sebuah kotak berisi tiga bola merah dan dua bola biru. Jika satu bola diambil secara acak, apa kemungkinan bola yang diambil adalah bola merah?",
+        "jawaban": "3/5"
+    },
+    {
+        "pertanyaan": "Jika 5 orang menunggu di antrian dan setiap orang berlari menuju pintu secara bersamaan, berapa orang yang akan melewati pintu?",
+        "jawaban": "5 orang"
+    },
+    {
+        "pertanyaan": "Jika semua kucing memiliki ekor dan seekor binatang adalah kucing, apakah binatang itu memiliki ekor?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika dua mobil bergerak dengan kecepatan sama dan satu mobil lebih berat dari yang lain, mobil mana yang akan lebih cepat?",
+        "jawaban": "kedua mobil akan sama cepat"
+    },
+    {
+        "pertanyaan": "Jika A lebih tinggi dari B, dan B lebih tinggi dari C, maka siapa yang lebih tinggi antara A dan C?",
+        "jawaban": "A"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 3 buku dan memberi 1 buku kepada teman, berapa buku yang saya miliki?",
+        "jawaban": "2 buku"
+    },
+    {
+        "pertanyaan": "Semua pohon memiliki daun. Sebuah tumbuhan adalah pohon. Apakah tumbuhan itu memiliki daun?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika dua angka ditambah dan hasilnya adalah 10, dan salah satu angka tersebut adalah 6, berapa angka yang satunya?",
+        "jawaban": "4"
+    },
+    {
+        "pertanyaan": "Jika A lebih cepat dari B dan B lebih cepat dari C, siapa yang paling cepat?",
+        "jawaban": "A"
+    },
+    {
+        "pertanyaan": "Jika dua orang berjalan bersama di jalan yang sama dengan kecepatan sama, siapa yang lebih dulu sampai?",
+        "jawaban": "mereka akan sampai pada waktu yang sama"
+    },
+    {
+        "pertanyaan": "Jika lima orang duduk di sebuah meja, dan dua orang berdiri, berapa orang yang sedang duduk?",
+        "jawaban": "3 orang"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 10 apel dan makan 3, berapa banyak apel yang tersisa?",
+        "jawaban": "7 apel"
+    },
+    {
+        "pertanyaan": "Jika saya memiliki dua tangan dan setiap tangan memiliki 5 jari, berapa banyak jari yang saya miliki?",
+        "jawaban": "10 jari"
+    },
+    {
+        "pertanyaan": "Jika semua anjing adalah mamalia dan ada seekor hewan yang adalah anjing, apakah hewan itu mamalia?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika 3 pensil dihargai 15 ribu, berapa harga 1 pensil?",
+        "jawaban": "5 ribu"
+    },
+    {
+        "pertanyaan": "Jika sebuah bola tenis lebih kecil dari bola sepak, dan bola sepak lebih kecil dari bola basket, maka bola tenis adalah yang terkecil, atau bola basket yang terkecil?",
+        "jawaban": "bola tenis"
+    },
+    {
+        "pertanyaan": "Jika dua kucing memakan satu ikan, berapa banyak ikan yang akan dimakan oleh 4 kucing?",
+        "jawaban": "2 ikan"
+    },
+    {
+        "pertanyaan": "Jika sebuah motor berjalan lebih cepat dari mobil dan mobil berjalan lebih cepat dari sepeda, siapa yang berjalan lebih cepat?",
+        "jawaban": "motor"
+    },
+    {
+        "pertanyaan": "Jika semua bunga berwarna, dan bunga mawar adalah bunga, apakah bunga mawar berwarna?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika dua orang mempunyai 3 kue, dan satu orang memberikan satu kue kepada yang lainnya, berapa banyak kue yang dimiliki oleh orang kedua?",
+        "jawaban": "2 kue"
+    },
+    {
+        "pertanyaan": "Jika A lebih besar dari B, dan B lebih besar dari C, siapa yang paling kecil?",
+        "jawaban": "C"
+    },
+    {
+        "pertanyaan": "Jika dua matahari bersinar di langit pada waktu yang sama, apakah itu berarti bahwa setiap waktu ada dua matahari?",
+        "jawaban": "tidak"
+    },
+    {
+        "pertanyaan": "Jika 10 burung duduk di sebuah pohon dan 3 terbang pergi, berapa banyak burung yang tersisa di pohon?",
+        "jawaban": "7 burung"
+    },
+    {
+        "pertanyaan": "Jika saya memiliki 4 kelereng dan teman saya memberikan saya 3 lagi, berapa banyak kelereng yang saya miliki?",
+        "jawaban": "7 kelereng"
+    },
+    {
+        "pertanyaan": "Jika seluruh angka genap dibagi 2, berapa hasilnya?",
+        "jawaban": "angka ganjil"
+    },
+    {
+        "pertanyaan": "Jika sebuah kotak berisi 10 bola merah, 5 bola biru, dan 15 bola hijau, berapa total bola yang ada di dalam kotak?",
+        "jawaban": "30 bola"
+    },
+    {
+        "pertanyaan": "Jika sebuah buku ditulis dengan tinta merah dan dibaca oleh seseorang, apa warna tinta yang digunakan?",
+        "jawaban": "merah"
+    },
+    {
+        "pertanyaan": "Jika semua ikan dapat berenang dan belut adalah ikan, apakah belut dapat berenang?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika A berlari 10 km dalam 1 jam, berapa jarak yang akan ditempuh dalam 5 jam?",
+        "jawaban": "50 km"
+    },
+    {
+        "pertanyaan": "Jika pada hari pertama hujan, dan pada hari kedua hujan, apakah pada hari ketiga hujan?",
+        "jawaban": "belum tentu"
+    },
+    {
+        "pertanyaan": "Jika seseorang membeli 4 baju dengan harga 50 ribu per baju, berapa total harga yang harus dibayar?",
+        "jawaban": "200 ribu"
+    },
+    {
+        "pertanyaan": "Jika 7 + 3 = 10, berapa 7 + 4?",
+        "jawaban": "11"
+    },
+    {
+        "pertanyaan": "Jika dua orang berlari pada kecepatan berbeda, siapa yang akan lebih cepat sampai?",
+        "jawaban": "orang yang berlari lebih cepat"
+    },
+    {
+        "pertanyaan": "Jika 2+2=4 dan 3+3=6, berapa 4+4?",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "Jika sebuah benda lebih ringan dari benda A dan benda A lebih ringan dari benda B, apakah benda yang pertama lebih ringan atau lebih berat dari benda B?",
+        "jawaban": "lebih ringan"
+    },
+    {
+        "pertanyaan": "Jika saya memiliki dua tangan dan setiap tangan memiliki lima jari, berapa total jari tangan yang saya miliki?",
+        "jawaban": "10 jari"
+    },
+    {
+        "pertanyaan": "Jika P lebih besar dari Q dan Q lebih besar dari R, siapa yang lebih kecil?",
+        "jawaban": "R"
+    },
+    {
+        "pertanyaan": "Jika pintu tertutup dan saya membukanya, apakah pintu itu terbuka?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika saya membeli dua buku seharga 25 ribu per buku, berapa total harga yang harus saya bayar?",
+        "jawaban": "50 ribu"
+    },
+    {
+        "pertanyaan": "Jika semua singa adalah karnivora, dan ada seekor binatang yang adalah singa, apakah binatang itu karnivora?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika 10 burung berada di sebuah pohon dan 3 burung terbang, berapa banyak burung yang masih ada di pohon?",
+        "jawaban": "7 burung"
+    },
+    {
+        "pertanyaan": "Jika seseorang mempunyai 10 apel dan memberi 4 apel kepada teman, berapa apel yang tersisa?",
+        "jawaban": "6 apel"
+    },
+    {
+        "pertanyaan": "Jika Anda memiliki dua bola, satu bola berwarna merah dan satu bola berwarna hijau, berapa banyak bola yang ada?",
+        "jawaban": "2 bola"
+    },
+    {
+        "pertanyaan": "Jika 5 ditambah 3 sama dengan 8, berapa 3 ditambah 5?",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "Jika dua angka dijumlahkan dan hasilnya adalah 10, dan salah satu angka tersebut adalah 3, berapa angka yang satunya?",
+        "jawaban": "7"
+    },
+    {
+        "pertanyaan": "Jika dua orang berjalan pada kecepatan yang sama, siapa yang akan sampai lebih dulu?",
+        "jawaban": "mereka akan sampai pada waktu yang sama"
+    },
+    {
+        "pertanyaan": "Jika semua kucing suka ikan dan aku melihat seekor kucing, apakah kucing itu suka ikan?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika ada 4 meja di ruangan dan setiap meja memiliki 3 kursi, berapa jumlah kursi yang ada di ruangan?",
+        "jawaban": "12 kursi"
+    },
+    {
+        "pertanyaan": "Jika Anda memotong satu roti menjadi dua bagian, berapa banyak bagian roti yang Anda miliki?",
+        "jawaban": "2 bagian"
+    },
+    {
+        "pertanyaan": "Jika semua ayam bertelur dan seekor ayam bertelur, apa yang dimiliki ayam tersebut?",
+        "jawaban": "telur"
+    },
+    {
+        "pertanyaan": "Jika saya memberi 5 kue kepada teman saya yang sudah memiliki 3 kue, berapa banyak kue yang teman saya miliki?",
+        "jawaban": "8 kue"
+    },
+    {
+        "pertanyaan": "Jika semua benda jatuh ke tanah, dan sebuah benda dilepaskan, apakah benda itu jatuh?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika sebuah angka dibagi dengan 1, hasilnya akan berapa?",
+        "jawaban": "angka itu sendiri"
+    },
+    {
+        "pertanyaan": "Jika semua buah berwarna, dan apel adalah buah, apakah apel berwarna?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika ayam berkokok, dan ayam adalah hewan, apakah hewan tersebut bisa berkokok?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika A lebih kecil dari B dan B lebih kecil dari C, siapa yang paling besar?",
+        "jawaban": "C"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 10 buah apel dan membagikan 2 apel kepada teman, berapa banyak apel yang saya miliki?",
+        "jawaban": "8 apel"
+    },
+    {
+        "pertanyaan": "Jika dua angka dijumlahkan dan hasilnya adalah 12, dan salah satu angka tersebut adalah 7, berapa angka yang satunya?",
+        "jawaban": "5"
+    },
+    {
+        "pertanyaan": "Jika semua mobil memiliki roda, dan sebuah kendaraan adalah mobil, apakah kendaraan itu memiliki roda?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika seorang pemain bola sepak mencetak gol, apakah dia seorang penjaga gawang?",
+        "jawaban": "tidak"
+    },
+    {
+        "pertanyaan": "Jika dua ekor kucing masing-masing memakan 2 ikan, berapa banyak ikan yang dimakan oleh 4 kucing?",
+        "jawaban": "8 ikan"
+    },
+    {
+        "pertanyaan": "Jika setiap bulan memiliki 30 hari, berapa banyak hari yang ada dalam 4 bulan?",
+        "jawaban": "120 hari"
+    },
+    {
+        "pertanyaan": "Jika sebuah kotak berisi 10 bola merah, 5 bola biru, dan 2 bola hijau, berapa banyak bola hijau yang ada?",
+        "jawaban": "2 bola"
+    },
+    {
+        "pertanyaan": "Jika semua burung dapat terbang dan penguin adalah burung, apakah penguin dapat terbang?",
+        "jawaban": "tidak"
+    },
+    {
+        "pertanyaan": "Jika 4 ditambah 5 sama dengan 9, berapa 5 ditambah 4?",
+        "jawaban": "9"
+    },
+    {
+        "pertanyaan": "Jika A lebih cepat dari B dan B lebih cepat dari C, siapa yang paling lambat?",
+        "jawaban": "C"
+    },
+    {
+        "pertanyaan": "Jika saya meminjam 3 buku dan kemudian mengembalikan 2 buku, berapa banyak buku yang saya miliki?",
+        "jawaban": "1 buku"
+    },
+    {
+        "pertanyaan": "Jika semua angka ganjil ditambah dengan angka genap, hasilnya adalah angka ganjil atau genap?",
+        "jawaban": "genap"
+    },
+    {
+        "pertanyaan": "Jika 10 burung duduk di sebuah pohon dan 6 terbang, berapa banyak burung yang tersisa di pohon?",
+        "jawaban": "4 burung"
+    },
+    {
+        "pertanyaan": "Jika saya memiliki 10 uang dan membeli 2 barang dengan harga masing-masing 3 uang, berapa uang yang tersisa?",
+        "jawaban": "4 uang"
+    },
+    {
+        "pertanyaan": "Jika semua angka genap dapat dibagi dua, apakah angka 6 dapat dibagi dua?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 2 pensil dengan harga 5 ribu per pensil, berapa harga totalnya?",
+        "jawaban": "10 ribu"
+    },
+    {
+        "pertanyaan": "Jika ada 6 buah jeruk, dan saya memberikan 3 jeruk kepada teman, berapa jeruk yang saya miliki?",
+        "jawaban": "3 jeruk"
+    },
+    {
+        "pertanyaan": "Jika seseorang memegang 3 bola, dan saya memberikan 2 bola kepada teman, berapa bola yang dia miliki?",
+        "jawaban": "1 bola"
+    },
+    {
+        "pertanyaan": "Jika 7 burung berada di pohon dan 3 terbang, berapa banyak burung yang tetap berada di pohon?",
+        "jawaban": "4 burung"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 4 buku, dan setiap buku berharga 5 ribu, berapa total harga buku tersebut?",
+        "jawaban": "20 ribu"
+    },
+    {
+        "pertanyaan": "Jika 12 dibagi dengan 4, berapa hasilnya?",
+        "jawaban": "3"
+    },
+    {
+        "pertanyaan": "Jika dua angka ditambah dan hasilnya adalah 20, dan salah satu angka tersebut adalah 12, berapa angka yang satunya?",
+        "jawaban": "8"
+    },
+    {
+        "pertanyaan": "Jika kucing lebih cepat dari anjing, dan anjing lebih cepat dari kelinci, siapa yang lebih cepat?",
+        "jawaban": "kucing"
+    },
+    {
+        "pertanyaan": "Jika dua orang berjalan pada kecepatan yang sama, siapa yang lebih dulu sampai?",
+        "jawaban": "mereka akan sampai bersamaan"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 3 kue dan teman saya memberi saya 2 lagi, berapa kue yang saya miliki?",
+        "jawaban": "5 kue"
+    },
+    {
+        "pertanyaan": "Jika saya memiliki 5 apel dan memberikan 2 apel kepada teman, berapa apel yang saya miliki?",
+        "jawaban": "3 apel"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 6 baju dengan harga 100 ribu per baju, berapa total harga yang harus saya bayar?",
+        "jawaban": "600 ribu"
+    },
+    {
+        "pertanyaan": "Jika tiga buah dadu dilemparkan, berapa total sisi yang muncul?",
+        "jawaban": "18 sisi"
+    },
+    {
+        "pertanyaan": "Jika 3 x 4 = 12, berapa 4 x 3?",
+        "jawaban": "12"
+    },
+    {
+        "pertanyaan": "Jika kamu memulai perjalanan dari titik A ke titik B, dan kemudian ke titik C, di manakah kamu berada?",
+        "jawaban": "di titik C"
+    },
+    {
+        "pertanyaan": "Jika mobil lebih cepat daripada sepeda dan sepeda lebih cepat daripada pejalan kaki, siapa yang lebih cepat?",
+        "jawaban": "mobil"
+    },
+    {
+        "pertanyaan": "Jika saya memiliki 10 apel dan membeli 5 apel lagi, berapa banyak apel yang saya miliki?",
+        "jawaban": "15 apel"
+    },
+    {
+        "pertanyaan": "Jika saya memberi 4 roti kepada teman dan saya memiliki 10 roti, berapa roti yang saya miliki?",
+        "jawaban": "6 roti"
+    },
+    {
+        "pertanyaan": "Jika kamu memiliki 5 bola dan temanmu memberikan 2 bola lagi, berapa banyak bola yang kamu miliki?",
+        "jawaban": "7 bola"
+    },
+    {
+        "pertanyaan": "Jika semua benda jatuh ke bawah, dan saya melepaskan sebuah benda, ke mana benda itu akan jatuh?",
+        "jawaban": "ke bawah"
+    },
+    {
+        "pertanyaan": "Jika seorang siswa mendapat nilai A, dan nilai A adalah nilai tertinggi, apa nilai tertinggi?",
+        "jawaban": "A"
+    },
+    {
+        "pertanyaan": "Jika 8 dikurangi 5, berapa hasilnya?",
+        "jawaban": "3"
+    },
+    {
+        "pertanyaan": "Jika semua mobil memiliki roda, dan kendaraan tersebut adalah mobil, apakah kendaraan itu memiliki roda?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika aku membeli 5 kue dan memakan 3, berapa banyak kue yang tersisa?",
+        "jawaban": "2 kue"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 10 buah jeruk dan memberi 4 buah kepada teman, berapa jeruk yang saya miliki?",
+        "jawaban": "6 jeruk"
+    },
+    {
+        "pertanyaan": "Jika sebuah benda lebih berat dari benda lainnya, dan benda tersebut lebih berat dari yang kedua, apakah benda pertama lebih ringan?",
+        "jawaban": "tidak"
+    },
+    {
+        "pertanyaan": "Jika 7 dikurangi 3, berapa hasilnya?",
+        "jawaban": "4"
+    },
+    {
+        "pertanyaan": "Jika semua hewan berbulu adalah mamalia, dan kelinci adalah hewan berbulu, apakah kelinci adalah mamalia?",
+        "jawaban": "ya"
+    },
+    {
+        "pertanyaan": "Jika seseorang memiliki 4 apel dan memberikan 2 apel kepada teman, berapa apel yang dia miliki?",
+        "jawaban": "2 apel"
+    },
+    {
+        "pertanyaan": "Jika saya membeli 3 buku dengan harga 50 ribu per buku, berapa total harga yang harus saya bayar?",
+        "jawaban": "150 ribu"
+    }
+]

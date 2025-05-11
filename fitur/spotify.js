@@ -17,14 +17,6 @@ let theoFitur = async ({ m, theo }) => {
         m.quo,
         {
             contextInfo: {
-                forwardingScore: 1,
-                mentionedJid: [m.sender],
-                isForwarded: true,
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363181509677367@newsletter',
-                    serverMessageId: null,
-                    newsletterName: '⫷_____😸 ' + namaBot + ' 😸_____⫸'
-                },
                 externalAdReply: {
                     thumbnail: await getBuffer(hasil.thumbnail),
                     thumbnailUrl: hasil.link,

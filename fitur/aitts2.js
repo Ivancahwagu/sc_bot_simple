@@ -1,3 +1,4 @@
+import { audio_effect } from "../tools/file.js"
 import { ai, tts } from "../tools/scrape.js"
 
 let theoFitur = async ({ m, theo }) => {
@@ -9,7 +10,7 @@ contoh: ${m.prefix}${m.command} pertanyaan`)
         let tags = data.jawab?.split("@").map(a => a.replace(/[^0-9]/g, "")).filter(a => a.length > 5).map(a => a + "@s.whatsapp.net")
         console.log(tags)
         db.user[m.sender].ai = data.payload
-        let hasil = await tts(data.jawab, 2)
+        let hasil = await audio_effect(await tts(data.jawab, 2), global.effects["fast"])
         await theo.sendMedia(m.chat, hasil, ``, m.quo, { ptt: true })
     }
 }

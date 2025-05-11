@@ -1,0 +1,406 @@
+[
+    {
+        "pertanyaan": "Aku memiliki tangan, tapi tidak bisa memegang. Aku menunjukkan waktu. Siapakah aku?",
+        "jawaban": "jam"
+    },
+    {
+        "pertanyaan": "Aku bisa terbang tanpa sayap, menangis tanpa mata. Siapakah aku?",
+        "jawaban": "awan"
+    },
+    {
+        "pertanyaan": "Aku berwarna putih, sering muncul di malam hari, dan menerangi bumi. Siapakah aku?",
+        "jawaban": "bulan"
+    },
+    {
+        "pertanyaan": "Aku tidak hidup, tapi bisa tumbuh. Aku tidak punya paru-paru, tapi butuh udara. Siapakah aku?",
+        "jawaban": "api"
+    },
+    {
+        "pertanyaan": "Semakin aku diambil, aku justru bertambah besar. Siapakah aku?",
+        "jawaban": "lubang"
+    },
+    {
+        "pertanyaan": "Aku ada di setiap tempat, tapi tak bisa disentuh atau dilihat. Siapakah aku?",
+        "jawaban": "udara"
+    },
+    {
+        "pertanyaan": "Aku bisa menyimpan banyak informasi, tapi aku bukan manusia. Aku bisa rusak karena virus. Siapakah aku?",
+        "jawaban": "komputer"
+    },
+    {
+        "pertanyaan": "Aku bisa bicara semua bahasa, tapi aku bukan manusia. Aku sering ada di saku orang. Siapakah aku?",
+        "jawaban": "ponsel"
+    },
+    {
+        "pertanyaan": "Aku bisa menyalakan lampu, tapi aku bukan lilin. Aku mengalir di kabel. Siapakah aku?",
+        "jawaban": "listrik"
+    },
+    {
+        "pertanyaan": "Aku memiliki banyak halaman, tapi bukan tumbuhan. Aku mengandung ilmu. Siapakah aku?",
+        "jawaban": "buku"
+    },
+    {
+        "pertanyaan": "Aku berwarna hijau di luar, merah di dalam, dan punya banyak biji hitam. Siapakah aku?",
+        "jawaban": "semangka"
+    },
+    {
+        "pertanyaan": "Aku bisa membawa banyak orang, berjalan di atas rel. Siapakah aku?",
+        "jawaban": "kereta"
+    },
+    {
+        "pertanyaan": "Aku berisik saat pagi, membangunkan orang, aku hidup di kandang. Siapakah aku?",
+        "jawaban": "ayam jantan"
+    },
+    {
+        "pertanyaan": "Aku kecil dan sering kau pakai menulis. Siapakah aku?",
+        "jawaban": "pensil"
+    },
+    {
+        "pertanyaan": "Aku punya ekor panjang, suka mencuri ikan. Siapakah aku?",
+        "jawaban": "kucing"
+    },
+    {
+        "pertanyaan": "Aku bulat, orang tendang aku, kadang jadi rebutan. Siapakah aku?",
+        "jawaban": "bola"
+    },
+    {
+        "pertanyaan": "Aku tinggi menjulang, berdaun rindang. Siapakah aku?",
+        "jawaban": "pohon"
+    },
+    {
+        "pertanyaan": "Aku sering dilihat di langit malam, memiliki bintang. Siapakah aku?",
+        "jawaban": "angkasa"
+    },
+    {
+        "pertanyaan": "Aku bisa bersinar terang, sangat panas, sumber cahaya utama. Siapakah aku?",
+        "jawaban": "matahari"
+    },
+    {
+        "pertanyaan": "Aku mengalir dari gunung, bisa deras atau tenang. Siapakah aku?",
+        "jawaban": "sungai"
+    },
+    {
+        "pertanyaan": "Aku bisa dikendarai, tapi tidak berjalan di jalan. Aku punya baling-baling. Siapakah aku?",
+        "jawaban": "helikopter"
+    },
+    {
+        "pertanyaan": "Aku bisa membawa pesan, bisa ditulis atau diketik. Siapakah aku?",
+        "jawaban": "surat"
+    },
+    {
+        "pertanyaan": "Aku punya roda dua dan bisa dikayuh. Siapakah aku?",
+        "jawaban": "sepeda"
+    },
+    {
+        "pertanyaan": "Aku ada di kamar mandi, digunakan untuk membersihkan tubuh. Siapakah aku?",
+        "jawaban": "sabun"
+    },
+    {
+        "pertanyaan": "Aku muncul saat hujan dan matahari muncul bersamaan. Siapakah aku?",
+        "jawaban": "pelangi"
+    },
+    {
+        "pertanyaan": "Aku bisa menampung air, biasanya dipakai untuk mandi. Siapakah aku?",
+        "jawaban": "ember"
+    },
+    {
+        "pertanyaan": "Aku benda panjang dan tajam, sering dipakai memotong. Siapakah aku?",
+        "jawaban": "pisau"
+    },
+    {
+        "pertanyaan": "Aku tempat tidurku di sarang, aku bisa terbang. Siapakah aku?",
+        "jawaban": "burung"
+    },
+    {
+        "pertanyaan": "Aku berwarna putih, keluar dari keran. Siapakah aku?",
+        "jawaban": "air"
+    },
+    {
+        "pertanyaan": "Aku datang di malam hari, membawa gelap. Siapakah aku?",
+        "jawaban": "malam"
+    },
+    {
+        "pertanyaan": "Aku pasanganku siang. Aku penuh bintang. Siapakah aku?",
+        "jawaban": "malam"
+    },
+    {
+        "pertanyaan": "Aku tumbuh di sawah, jadi makanan pokok. Siapakah aku?",
+        "jawaban": "padi"
+    },
+    {
+        "pertanyaan": "Aku berwarna cokelat, kecil, dan bisa bikin orang semangat. Siapakah aku?",
+        "jawaban": "kopi"
+    },
+    {
+        "pertanyaan": "Aku bisa menampung makanan. Aku sering ada di dapur. Siapakah aku?",
+        "jawaban": "piring"
+    },
+    {
+        "pertanyaan": "Aku dipakai untuk duduk. Aku punya kaki tapi tidak bisa berjalan. Siapakah aku?",
+        "jawaban": "kursi"
+    },
+    {
+        "pertanyaan": "Aku punya layar, banyak orang menonton aku. Siapakah aku?",
+        "jawaban": "televisi"
+    },
+    {
+        "pertanyaan": "Aku binatang bertelinga panjang dan suka wortel. Siapakah aku?",
+        "jawaban": "kelinci"
+    },
+    {
+        "pertanyaan": "Aku bisa mencium bau, aku ada di wajahmu. Siapakah aku?",
+        "jawaban": "hidung"
+    },
+    {
+        "pertanyaan": "Aku bisa mendengar, aku juga di wajahmu. Siapakah aku?",
+        "jawaban": "telinga"
+    },
+    {
+        "pertanyaan": "Aku tempat manusia belajar. Siapakah aku?",
+        "jawaban": "sekolah"
+    },
+    {
+        "pertanyaan": "Aku bisa membawamu ke mana saja, tapi aku perlu bensin. Siapakah aku?",
+        "jawaban": "mobil"
+    },
+    {
+        "pertanyaan": "Aku bisa mengeluarkan suara keras saat dipencet di kendaraan. Siapakah aku?",
+        "jawaban": "klakson"
+    },
+    {
+        "pertanyaan": "Aku punya halaman, buku tidak lengkap tanpaku. Siapakah aku?",
+        "jawaban": "kertas"
+    },
+    {
+        "pertanyaan": "Aku digunakan untuk mengetik. Biasanya ada di depan komputer. Siapakah aku?",
+        "jawaban": "keyboard"
+    },
+    {
+        "pertanyaan": "Aku muncul saat kamu bersin, tapi bukan benda. Siapakah aku?",
+        "jawaban": "suara"
+    },
+    {
+        "pertanyaan": "Aku bisa membuatmu basah, tapi aku bukan air. Siapakah aku?",
+        "jawaban": "hujan"
+    },
+    {
+        "pertanyaan": "Aku bisa jadi asin atau manis. Aku cair dan diminum. Siapakah aku?",
+        "jawaban": "minuman"
+    },
+    {
+        "pertanyaan": "Aku digunakan untuk melihat lebih jelas dari jauh. Siapakah aku?",
+        "jawaban": "teropong"
+    },
+    {
+        "pertanyaan": "Aku bulat, biasanya digunakan saat olahraga kaki. Siapakah aku?",
+        "jawaban": "bola"
+    },
+    {
+        "pertanyaan": "Aku naik ke langit dan meledak dengan cahaya warna-warni. Siapakah aku?",
+        "jawaban": "kembang api"
+    },
+    {
+        "pertanyaan": "Aku bisa digunakan untuk membuka pintu, tapi aku bukan tangan. Siapakah aku?",
+        "jawaban": "kunci"
+    },
+    {
+        "pertanyaan": "Aku bulat dan terbuat dari logam, digunakan untuk membeli barang. Siapakah aku?",
+        "jawaban": "koin"
+    },
+    {
+        "pertanyaan": "Aku memiliki halaman tapi bukan taman. Siapakah aku?",
+        "jawaban": "buku"
+    },
+    {
+        "pertanyaan": "Aku tempat menyimpan uang, bisa disimpan di kantong. Siapakah aku?",
+        "jawaban": "dompet"
+    },
+    {
+        "pertanyaan": "Aku benda tajam yang digunakan untuk menjahit. Siapakah aku?",
+        "jawaban": "jarum"
+    },
+    {
+        "pertanyaan": "Aku bisa menunjukkan arah, tapi aku bukan orang. Siapakah aku?",
+        "jawaban": "kompas"
+    },
+    {
+        "pertanyaan": "Aku punya gigi tapi tidak bisa makan. Siapakah aku?",
+        "jawaban": "sisir"
+    },
+    {
+        "pertanyaan": "Aku bisa menyala tapi aku bukan api. Aku digunakan untuk penerangan. Siapakah aku?",
+        "jawaban": "lampu"
+    },
+    {
+        "pertanyaan": "Aku berbunyi saat diinjak, biasanya di rumah. Siapakah aku?",
+        "jawaban": "lantai"
+    },
+    {
+        "pertanyaan": "Aku tempat tidur yang digantung. Siapakah aku?",
+        "jawaban": "ayunan"
+    },
+    {
+        "pertanyaan": "Aku bisa menampung orang, berjalan di jalan, tapi bukan mobil. Siapakah aku?",
+        "jawaban": "bus"
+    },
+    {
+        "pertanyaan": "Aku makhluk kecil yang bisa menyengat dan suka madu. Siapakah aku?",
+        "jawaban": "lebah"
+    },
+    {
+        "pertanyaan": "Aku binatang besar yang punya belalai. Siapakah aku?",
+        "jawaban": "gajah"
+    },
+    {
+        "pertanyaan": "Aku punya kaki banyak dan suka merayap. Siapakah aku?",
+        "jawaban": "kelabang"
+    },
+    {
+        "pertanyaan": "Aku binatang laut yang punya capit. Siapakah aku?",
+        "jawaban": "kepiting"
+    },
+    {
+        "pertanyaan": "Aku bisa membuat rambutmu rapi. Siapakah aku?",
+        "jawaban": "sisir"
+    },
+    {
+        "pertanyaan": "Aku dipakai untuk menutup kepala dari panas. Siapakah aku?",
+        "jawaban": "topi"
+    },
+    {
+        "pertanyaan": "Aku alat yang digunakan untuk melihat waktu. Siapakah aku?",
+        "jawaban": "jam"
+    },
+    {
+        "pertanyaan": "Aku tempat orang berlindung dari panas dan hujan. Siapakah aku?",
+        "jawaban": "rumah"
+    },
+    {
+        "pertanyaan": "Aku bisa membuatmu hangat, dipakai di malam hari. Siapakah aku?",
+        "jawaban": "selimut"
+    },
+    {
+        "pertanyaan": "Aku tempat menaruh bunga. Siapakah aku?",
+        "jawaban": "vas"
+    },
+    {
+        "pertanyaan": "Aku sering ada di depan rumah, banyak bunga di sekitarku. Siapakah aku?",
+        "jawaban": "taman"
+    },
+    {
+        "pertanyaan": "Aku binatang yang bisa berubah warna. Siapakah aku?",
+        "jawaban": "bunglon"
+    },
+    {
+        "pertanyaan": "Aku bisa kau bawa ke mana-mana, bisa menelpon dan kirim pesan. Siapakah aku?",
+        "jawaban": "handphone"
+    },
+    {
+        "pertanyaan": "Aku bagian tubuh yang digunakan untuk melihat. Siapakah aku?",
+        "jawaban": "mata"
+    },
+    {
+        "pertanyaan": "Aku bagian tubuh yang digunakan untuk mencium bau. Siapakah aku?",
+        "jawaban": "hidung"
+    },
+    {
+        "pertanyaan": "Aku sering dipakai anak sekolah untuk membawa buku. Siapakah aku?",
+        "jawaban": "tas"
+    },
+    {
+        "pertanyaan": "Aku bisa menampung tulisan, aku punya halaman kosong. Siapakah aku?",
+        "jawaban": "buku tulis"
+    },
+    {
+        "pertanyaan": "Aku alat untuk menulis, punya tinta. Siapakah aku?",
+        "jawaban": "pulpen"
+    },
+    {
+        "pertanyaan": "Aku digunakan untuk menghapus tulisan pensil. Siapakah aku?",
+        "jawaban": "penghapus"
+    },
+    {
+        "pertanyaan": "Aku benda datar untuk menulis atau makan. Siapakah aku?",
+        "jawaban": "meja"
+    },
+    {
+        "pertanyaan": "Aku benda yang menutupi jendela. Siapakah aku?",
+        "jawaban": "gorden"
+    },
+    {
+        "pertanyaan": "Aku tempat mencuci tangan dan wajah. Siapakah aku?",
+        "jawaban": "wastafel"
+    },
+    {
+        "pertanyaan": "Aku digunakan untuk menyapu lantai. Siapakah aku?",
+        "jawaban": "sapu"
+    },
+    {
+        "pertanyaan": "Aku alat untuk membersihkan debu. Siapakah aku?",
+        "jawaban": "kemoceng"
+    },
+    {
+        "pertanyaan": "Aku minuman panas yang biasa diminum saat pagi. Siapakah aku?",
+        "jawaban": "teh"
+    },
+    {
+        "pertanyaan": "Aku minuman hitam, bikin segar dan semangat. Siapakah aku?",
+        "jawaban": "kopi"
+    },
+    {
+        "pertanyaan": "Aku cairan manis yang dibuat oleh lebah. Siapakah aku?",
+        "jawaban": "madu"
+    },
+    {
+        "pertanyaan": "Aku buah berwarna kuning dan panjang. Siapakah aku?",
+        "jawaban": "pisang"
+    },
+    {
+        "pertanyaan": "Aku berkulit merah, punya biji besar di dalam. Siapakah aku?",
+        "jawaban": "apel"
+    },
+    {
+        "pertanyaan": "Aku buah yang sangat berduri dan bauku menyengat. Siapakah aku?",
+        "jawaban": "durian"
+    },
+    {
+        "pertanyaan": "Aku tempat tinggal raja dan ratu. Siapakah aku?",
+        "jawaban": "istana"
+    },
+    {
+        "pertanyaan": "Aku tempat untuk shalat umat Islam. Siapakah aku?",
+        "jawaban": "masjid"
+    },
+    {
+        "pertanyaan": "Aku rumah ibadah umat Kristen. Siapakah aku?",
+        "jawaban": "gereja"
+    },
+    {
+        "pertanyaan": "Aku hewan yang lambat dan bawa rumah di punggung. Siapakah aku?",
+        "jawaban": "siput"
+    },
+    {
+        "pertanyaan": "Aku tempat hewan tinggal di kebun binatang. Siapakah aku?",
+        "jawaban": "kandang"
+    },
+    {
+        "pertanyaan": "Aku bisa membuatmu tertawa, kadang juga sedih. Aku cerita bergerak. Siapakah aku?",
+        "jawaban": "film"
+    },
+    {
+        "pertanyaan": "Aku bulat, bisa dikupas dan manis rasanya. Siapakah aku?",
+        "jawaban": "jeruk"
+    },
+    {
+        "pertanyaan": "Aku bisa membantumu menyejukkan ruangan. Siapakah aku?",
+        "jawaban": "kipas"
+    },
+    {
+        "pertanyaan": "Aku keluar dari mulut saat kamu bicara. Siapakah aku?",
+        "jawaban": "suara"
+    },
+    {
+        "pertanyaan": "Aku bisa dipakai untuk mencetak tulisan. Siapakah aku?",
+        "jawaban": "printer"
+    }
+]

@@ -2,7 +2,7 @@ import { number_to_international, int_tanggal_now } from "../tools/func.js";
 
 export default async function theoFitur({ m, theo }) {
     if (!db.user[m.sender]) return
-    if (db.user[m.sender].afk && !(m.quoted && !m.quoted.bot)) {
+    if (db.user[m.sender].afk) {
         await m.reply(`🟢 @${m.sender.split('@')[0]}, kamu sudah tidak AFK lagi!
 
 📢 Sistem mendeteksi aktivitasmu.`, {
@@ -15,7 +15,11 @@ export default async function theoFitur({ m, theo }) {
 
     let afkList = Object.keys(db.user)
         .filter(a => db.user[a].afk)
-        .filter(b => b.includes(m.quoted?.sender) || m.text ? m.text.includes(b.split('@')[0]) : false);
+        .filter(b => {
+            if (m.quoted?.sender) return b === m.quoted.sender;
+            if (m.text) return m.text.includes(b.split('@')[0]);
+            return false;
+        });
 
     if (afkList.length > 0) {
         let teks = `🚫 *Jangan ganggu mereka yang sedang AFK!*\n\n` +
@@ -184,22 +188,24 @@ Giliran @${ttt_game.giliran.split('@')[0]}`, {
                             let hasil = []
                             let pisah = text.split(` `)
                             for (const kata of pisah) {
-                                let jumlah_kosong = kata.length - 2
-                                let awal = kata.substring(0, 1)
-                                let akhir = kata.substring(kata.length - 1, kata.length)
-                                let hasil_akhir = ``
-                                hasil_akhir += awal
-                                for (let i = 0; i < jumlah_kosong; i++) {
-                                    hasil_akhir += `_`
+                                if (kata.length <= 3) { hasil.push(`${kata.match(/.{1,1}/g).map(a => `_`).join('')}`) } else {
+                                    let jumlah_kosong = kata.length - 2
+                                    let awal = kata.substring(0, 1)
+                                    let akhir = kata.substring(kata.length - 1, kata.length)
+                                    let hasil_akhir = ``
+                                    hasil_akhir += awal
+                                    for (let i = 0; i < jumlah_kosong; i++) {
+                                        hasil_akhir += `_`
+                                    }
+                                    hasil_akhir += akhir
+                                    hasil.push(hasil_akhir)
                                 }
-                                hasil_akhir += akhir
-                                hasil.push(hasil_akhir)
                             }
                             return hasil.join(` `);
                         }
                         const petunjuk = buatPetunjuk(pertanyaan_gc.jawaban);
                         await m.reply(`💡 *Petunjuk Jawaban:*\n\n${petunjuk}\n\nSemangat yaa!\n\n📢 *Catatan:* Balas pesan *soal*, bukan pesan ini.`);
-                    } else if (jawaban === pertanyaan_gc.jawaban) {
+                    } else if (jawaban === pertanyaan_gc.jawaban.toLowerCase()) {
                         delete db.game.pertanyaan[m.chat];
                         await m.reply(`🏆 *Game Berakhir!*\n\nSelamat @${m.sender.split('@')[0]}, jawabanmu benar!\n\n🎁 Limit +1`, {
                             contextInfo: { mentionedJid: [m.sender] }
@@ -284,7 +290,9 @@ Giliran @${ttt_game.giliran.split('@')[0]}`, {
                             if (game.player.length === 1) return await akhiriGame(m, game)
 
                             let tampilKotak = game.kotak.map((v, i) => (i % Math.sqrt(game.kotak.length) === Math.sqrt(game.kotak.length) - 1 ? `${v}\n` : `${v}`)).join('')
+                            if (!game.player[game.giliran - 1]) game.giliran = 1
                             let giliran = game.player[game.giliran - 1]
+
 
                             let { key: { id } } = await m.reply(`${pesan}${isiKotak}
 
@@ -306,7 +314,7 @@ ${tampilKotak}
             async function akhiriGame(m, game) {
                 let pemenang = game.player[0]
                 let kotak = game.kotak
-                db.user[pemenang].limit += 10
+                db.user[pemenang].limit += 5
                 game.eliminasi.forEach(player => db.user[player].limit -= 5)
                 delete db.game.tebak_bom[m.chat]
 
@@ -315,7 +323,7 @@ ${tampilKotak}
 ${kotak.map((v, i) => (i % Math.sqrt(kotak.length) === Math.sqrt(kotak.length) - 1 ? `${v}\n` : `${v}`)).join('')}
 
 👑 *Pemenang Terakhir yang Bertahan:* @${pemenang.split('@')[0]}
-🎁 *Hadiah:* +10 Limit
+🎁 *Hadiah:* +5 Limit
 
 💀 *Yang Gugur:* -5 Limit
 

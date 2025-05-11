@@ -60,16 +60,18 @@ ${getUptime()}
 🙋 Admin Ramah
 
 👥 Mau gabung ke grup ${namaBot}?  
-🔗 ${link_gc}`;
+🔗 ${link_gc}
+
+📌 *Keterangan:*
+🪙 = Memakai limit  
+🔑 = Khusus pengguna premium
+⚙️ = Khusus admin
+👑 = Khusus owner`;
 
     switch (m.command.toLowerCase()) {
         case "menu":
         case "help":
             var { key } = await theo.sendMedia(m.chat, image, `${deskripsi}
-
-📌 *Petunjuk:*
-💠 = Fitur memakai limit  
-💎 = Fitur khusus Premium
 
 📑 *List Menu:*
 ${tags.map((item, i) => ` ${i + 1}. *${item}*`).join(`\n`)}
@@ -99,18 +101,14 @@ ${tags.map((item, i) => ` ${i + 1}. *${item}*`).join(`\n`)}
         case "allmenu":
             await theo.sendMedia(m.chat, image, `${deskripsi}
 
-📌 *Keterangan:*
-💠 = Memakai limit  
-💎 = Khusus pengguna premium  
-
 ╭───🎉 *DAFTAR MENU* ───╮
 ${tags.map(tag => `
-╭─❏ *${tag.toUpperCase()}*
+╭─❏ *${typeof tag === "string" ? tag.toUpperCase() : `MORE`}*
 ${menu
                     .filter(item => item.tags === tag)
-                    .map(c => `│ ⤷ ${m.prefix}${c.command} ${c.limit ? '💠' : c.premium ? '💎' : ''}`)
+                    .map(c => `│ ⤷ ${m.prefix}${c.command} ${c.limit ? '🪙' : c.premium ? '🔑' : c.admin ? '⚙️' : c.owner ? '👑' : ''}`)
                     .join('\n')}
-╰──`).join('\n\n')}
+╰───────────────╯`).join('\n\n')}
 _Terima kasih telah menggunakan ${namaBot}!_`, m.quo, {
                 contextInfo: {
                     externalAdReply: {

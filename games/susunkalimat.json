@@ -1,4400 +1,924 @@
 [
     {
         "pertanyaan": [
-            "makan",
-            "sedang",
-            "dia",
-            "nasi"
-        ],
-        "jawaban": "dia sedang makan nasi"
-    },
-    {
-        "pertanyaan": [
-            "sekolah",
+            "baru",
             "pergi",
-            "pagi",
-            "setiap",
+            "saja",
+            "apel",
             "aku"
         ],
-        "jawaban": "aku pergi sekolah setiap pagi"
+        "jawaban": "aku baru saja pergi apel"
     },
     {
         "pertanyaan": [
-            "air",
-            "minum",
-            "dia",
-            "dingin"
-        ],
-        "jawaban": "dia minum air dingin"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "anak",
-            "di",
-            "taman"
-        ],
-        "jawaban": "anak bermain di taman"
-    },
-    {
-        "pertanyaan": [
-            "buku",
-            "membaca",
-            "suka",
-            "saya"
-        ],
-        "jawaban": "saya suka membaca buku"
-    },
-    {
-        "pertanyaan": [
-            "membeli",
-            "ibu",
-            "sayur",
-            "di",
-            "pasar"
-        ],
-        "jawaban": "ibu membeli sayur di pasar"
-    },
-    {
-        "pertanyaan": [
-            "burung",
-            "itu",
-            "terbang",
-            "tinggi"
-        ],
-        "jawaban": "burung itu terbang tinggi"
-    },
-    {
-        "pertanyaan": [
-            "mandi",
-            "setiap",
-            "pagi",
-            "saya"
-        ],
-        "jawaban": "saya mandi setiap pagi"
-    },
-    {
-        "pertanyaan": [
-            "teman",
-            "dengan",
-            "bermain",
-            "saya"
-        ],
-        "jawaban": "saya bermain dengan teman"
-    },
-    {
-        "pertanyaan": [
-            "guru",
-            "sedang",
-            "kelas",
-            "di",
-            "mengajar"
-        ],
-        "jawaban": "guru sedang mengajar di kelas"
-    },
-    {
-        "pertanyaan": [
-            "bola",
-            "bermain",
-            "mereka",
-            "lapangan",
-            "di"
-        ],
-        "jawaban": "mereka bermain bola di lapangan"
-    },
-    {
-        "pertanyaan": [
-            "rumah",
-            "besar",
-            "itu",
-            "sekali"
-        ],
-        "jawaban": "rumah itu besar sekali"
-    },
-    {
-        "pertanyaan": [
-            "kucing",
-            "itu",
+            "akan",
             "tidur",
-            "nyenyak"
+            "dia",
+            "kue"
         ],
-        "jawaban": "kucing itu tidur nyenyak"
+        "jawaban": "dia akan tidur kue"
     },
     {
         "pertanyaan": [
-            "mobil",
-            "itu",
-            "cepat",
-            "sekali"
-        ],
-        "jawaban": "mobil itu cepat sekali"
-    },
-    {
-        "pertanyaan": [
-            "berenang",
-            "di",
-            "kolam",
-            "renang",
-            "saya"
-        ],
-        "jawaban": "saya berenang di kolam renang"
-    },
-    {
-        "pertanyaan": [
-            "malam",
-            "bulan",
-            "bersinar",
-            "di"
-        ],
-        "jawaban": "bulan bersinar di malam"
-    },
-    {
-        "pertanyaan": [
-            "bunga",
-            "itu",
-            "indah",
-            "sekali"
-        ],
-        "jawaban": "bunga itu indah sekali"
-    },
-    {
-        "pertanyaan": [
-            "adik",
-            "kecil",
-            "saya",
-            "lucu"
-        ],
-        "jawaban": "adik kecil saya lucu"
-    },
-    {
-        "pertanyaan": [
-            "gunung",
-            "itu",
-            "tinggi",
-            "sekali"
-        ],
-        "jawaban": "gunung itu tinggi sekali"
-    },
-    {
-        "pertanyaan": [
-            "pelajaran",
             "belajar",
-            "saya",
-            "setiap",
-            "malam"
+            "buku",
+            "kamu",
+            "sudah"
         ],
-        "jawaban": "saya belajar pelajaran setiap malam"
-    },
-    {
-        "pertanyaan": [
-            "ikan",
-            "itu",
-            "berenang",
-            "cepat"
-        ],
-        "jawaban": "ikan itu berenang cepat"
+        "jawaban": "kamu sudah belajar buku"
     },
     {
         "pertanyaan": [
             "makan",
-            "buah",
-            "sehat",
-            "itu"
+            "ayam",
+            "sedang",
+            "aku"
         ],
-        "jawaban": "buah itu sehat untuk makan"
+        "jawaban": "aku sedang makan ayam"
     },
     {
         "pertanyaan": [
-            "berbicara",
-            "teman",
-            "dengan",
-            "saya"
+            "belajar",
+            "sudah",
+            "komputer",
+            "aku"
         ],
-        "jawaban": "saya berbicara dengan teman"
+        "jawaban": "aku sudah belajar komputer"
     },
     {
         "pertanyaan": [
-            "pohon",
-            "itu",
-            "rindang",
-            "sekali"
-        ],
-        "jawaban": "pohon itu rindang sekali"
-    },
-    {
-        "pertanyaan": [
-            "nonton",
-            "tv",
-            "saya",
-            "setiap",
-            "malam"
-        ],
-        "jawaban": "saya nonton tv setiap malam"
-    },
-    {
-        "pertanyaan": [
-            "kuda",
-            "itu",
-            "berlari",
-            "kencang"
-        ],
-        "jawaban": "kuda itu berlari kencang"
-    },
-    {
-        "pertanyaan": [
-            "minum",
-            "teh",
-            "hangat",
-            "saya"
-        ],
-        "jawaban": "saya minum teh hangat"
-    },
-    {
-        "pertanyaan": [
-            "laut",
-            "itu",
-            "luas",
-            "sekali"
-        ],
-        "jawaban": "laut itu luas sekali"
-    },
-    {
-        "pertanyaan": [
-            "menulis",
-            "surat",
-            "saya",
-            "untuk",
-            "teman"
-        ],
-        "jawaban": "saya menulis surat untuk teman"
-    },
-    {
-        "pertanyaan": [
-            "kereta",
-            "itu",
-            "panjang",
-            "sekali"
-        ],
-        "jawaban": "kereta itu panjang sekali"
-    },
-    {
-        "pertanyaan": [
-            "masak",
-            "nasi",
-            "goreng",
-            "ibu"
-        ],
-        "jawaban": "ibu masak nasi goreng"
-    },
-    {
-        "pertanyaan": [
-            "terbang",
-            "pesawat",
-            "itu",
-            "tinggi"
-        ],
-        "jawaban": "pesawat itu terbang tinggi"
-    },
-    {
-        "pertanyaan": [
-            "baca",
-            "koran",
-            "ayah",
-            "setiap",
-            "pagi"
-        ],
-        "jawaban": "ayah baca koran setiap pagi"
-    },
-    {
-        "pertanyaan": [
-            "api",
-            "itu",
-            "panas",
-            "sekali"
-        ],
-        "jawaban": "api itu panas sekali"
-    },
-    {
-        "pertanyaan": [
-            "jalan",
-            "kaki",
-            "saya",
-            "ke",
-            "sekolah"
-        ],
-        "jawaban": "saya jalan kaki ke sekolah"
-    },
-    {
-        "pertanyaan": [
-            "ular",
-            "itu",
-            "panjang",
-            "dan",
-            "menyeramkan"
-        ],
-        "jawaban": "ular itu panjang dan menyeramkan"
-    },
-    {
-        "pertanyaan": [
-            "beli",
-            "baju",
+            "saja",
+            "pergi",
+            "dia",
             "baru",
-            "saya"
+            "teh"
         ],
-        "jawaban": "saya beli baju baru"
+        "jawaban": "dia baru saja pergi teh"
     },
     {
         "pertanyaan": [
-            "langit",
-            "itu",
-            "biru",
-            "dan",
-            "cerah"
+            "baru",
+            "pergi",
+            "komputer",
+            "saja",
+            "kita"
         ],
-        "jawaban": "langit itu biru dan cerah"
+        "jawaban": "kita baru saja pergi komputer"
     },
     {
         "pertanyaan": [
-            "dengar",
-            "musik",
-            "saya",
-            "setiap",
-            "hari"
+            "saja",
+            "baru",
+            "komputer",
+            "pergi",
+            "kami"
         ],
-        "jawaban": "saya dengar musik setiap hari"
+        "jawaban": "kami baru saja pergi komputer"
     },
     {
         "pertanyaan": [
-            "singa",
-            "itu",
-            "kuat",
-            "dan",
-            "gagah"
-        ],
-        "jawaban": "singa itu kuat dan gagah"
-    },
-    {
-        "pertanyaan": [
-            "ambil",
-            "foto",
-            "saya",
-            "di",
-            "taman"
-        ],
-        "jawaban": "saya ambil foto di taman"
-    },
-    {
-        "pertanyaan": [
-            "awan",
-            "itu",
-            "putih",
-            "dan",
-            "lembut"
-        ],
-        "jawaban": "awan itu putih dan lembut"
-    },
-    {
-        "pertanyaan": [
-            "main",
-            "game",
-            "saya",
-            "di",
-            "rumah"
-        ],
-        "jawaban": "saya main game di rumah"
-    },
-    {
-        "pertanyaan": [
-            "gajah",
-            "itu",
-            "besar",
-            "dan",
-            "pintar"
-        ],
-        "jawaban": "gajah itu besar dan pintar"
-    },
-    {
-        "pertanyaan": [
-            "tanam",
-            "bunga",
-            "saya",
-            "di",
-            "kebun"
-        ],
-        "jawaban": "saya tanam bunga di kebun"
-    },
-    {
-        "pertanyaan": [
-            "sungai",
-            "itu",
-            "panjang",
-            "dan",
-            "dalam"
-        ],
-        "jawaban": "sungai itu panjang dan dalam"
-    },
-    {
-        "pertanyaan": [
-            "buat",
             "kue",
-            "saya",
-            "untuk",
-            "ulang",
-            "tahun"
+            "kamu",
+            "sedang",
+            "makan"
         ],
-        "jawaban": "saya buat kue untuk ulang tahun"
+        "jawaban": "kamu sedang makan kue"
     },
     {
         "pertanyaan": [
-            "bintang",
-            "itu",
-            "berkilau",
-            "di",
-            "malam",
-            "hari"
-        ],
-        "jawaban": "bintang itu berkilau di malam hari"
-    },
-    {
-        "pertanyaan": [
-            "cuci",
-            "mobil",
-            "saya",
-            "di",
-            "garasi"
-        ],
-        "jawaban": "saya cuci mobil di garasi"
-    },
-    {
-        "pertanyaan": [
-            "ikan",
-            "paus",
-            "itu",
-            "besar",
-            "sekali"
-        ],
-        "jawaban": "ikan paus itu besar sekali"
-    },
-    {
-        "pertanyaan": [
+            "kita",
+            "teh",
             "belajar",
-            "bahasa",
-            "asing",
-            "saya"
+            "sudah"
         ],
-        "jawaban": "saya belajar bahasa asing"
+        "jawaban": "kita sudah belajar teh"
     },
     {
         "pertanyaan": [
-            "air terjun",
-            "itu",
-            "indah",
-            "dan",
-            "segar"
-        ],
-        "jawaban": "air terjun itu indah dan segar"
-    },
-    {
-        "pertanyaan": [
-            "latih",
-            "anjing",
-            "saya",
-            "di",
-            "halaman"
-        ],
-        "jawaban": "saya latih anjing di halaman"
-    },
-    {
-        "pertanyaan": [
-            "gunung berapi",
-            "itu",
-            "aktif",
-            "dan",
-            "berbahaya"
-        ],
-        "jawaban": "gunung berapi itu aktif dan berbahaya"
-    },
-    {
-        "pertanyaan": [
-            "buat",
-            "kerajinan",
-            "saya",
-            "dari",
-            "kertas"
-        ],
-        "jawaban": "saya buat kerajinan dari kertas"
-    },
-    {
-        "pertanyaan": [
-            "danau",
-            "itu",
-            "tenang",
-            "dan",
-            "dalam"
-        ],
-        "jawaban": "danau itu tenang dan dalam"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pantai",
-            "saya",
-            "saat",
-            "liburan"
-        ],
-        "jawaban": "saya pergi ke pantai saat liburan"
-    },
-    {
-        "pertanyaan": [
-            "hutan",
-            "itu",
-            "lebat",
-            "dan",
-            "hijau"
-        ],
-        "jawaban": "hutan itu lebat dan hijau"
-    },
-    {
-        "pertanyaan": [
-            "kirim",
-            "paket",
-            "saya",
-            "ke",
-            "teman"
-        ],
-        "jawaban": "saya kirim paket ke teman"
-    },
-    {
-        "pertanyaan": [
-            "padang pasir",
-            "itu",
-            "luas",
-            "dan",
-            "kering"
-        ],
-        "jawaban": "padang pasir itu luas dan kering"
-    },
-    {
-        "pertanyaan": [
-            "bersepeda",
-            "di",
-            "taman",
-            "saya"
-        ],
-        "jawaban": "saya bersepeda di taman"
-    },
-    {
-        "pertanyaan": [
-            "terumbu karang",
-            "itu",
-            "berwarna-warni",
-            "dan",
-            "cantik"
-        ],
-        "jawaban": "terumbu karang itu berwarna-warni dan cantik"
-    },
-    {
-        "pertanyaan": [
-            "buat",
-            "puisi",
-            "saya",
-            "tentang",
-            "alam"
-        ],
-        "jawaban": "saya buat puisi tentang alam"
-    },
-    {
-        "pertanyaan": [
-            "gua",
-            "itu",
-            "gelap",
-            "dan",
-            "misterius"
-        ],
-        "jawaban": "gua itu gelap dan misterius"
-    },
-    {
-        "pertanyaan": [
-            "naik",
-            "gunung",
-            "saya",
-            "bersama",
-            "teman"
-        ],
-        "jawaban": "saya naik gunung bersama teman"
-    },
-    {
-        "pertanyaan": [
-            "air terjun",
-            "itu",
-            "tinggi",
-            "dan",
-            "deras"
-        ],
-        "jawaban": "air terjun itu tinggi dan deras"
-    },
-    {
-        "pertanyaan": [
-            "buat",
-            "lukisan",
-            "saya",
-            "tentang",
-            "pemandangan"
-        ],
-        "jawaban": "saya buat lukisan tentang pemandangan"
-    },
-    {
-        "pertanyaan": [
-            "rawa",
-            "itu",
-            "lembab",
-            "dan",
-            "berlumpur"
-        ],
-        "jawaban": "rawa itu lembab dan berlumpur"
-    },
-    {
-        "pertanyaan": [
-            "berlayar",
-            "di",
-            "laut",
-            "saya",
-            "dengan",
-            "perahu"
-        ],
-        "jawaban": "saya berlayar di laut dengan perahu"
-    },
-    {
-        "pertanyaan": [
-            "bukit",
-            "itu",
-            "hijau",
-            "dan",
-            "berombak"
-        ],
-        "jawaban": "bukit itu hijau dan berombak"
-    },
-    {
-        "pertanyaan": [
-            "buat",
-            "lagu",
-            "saya",
-            "tentang",
-            "cinta"
-        ],
-        "jawaban": "saya buat lagu tentang cinta"
-    },
-    {
-        "pertanyaan": [
-            "ngarai",
-            "itu",
-            "dalam",
-            "dan",
-            "curam"
-        ],
-        "jawaban": "ngarai itu dalam dan curam"
-    },
-    {
-        "pertanyaan": [
-            "berkemah",
-            "di",
-            "hutan",
-            "saya",
-            "bersama",
-            "keluarga"
-        ],
-        "jawaban": "saya berkemah di hutan bersama keluarga"
-    },
-    {
-        "pertanyaan": [
-            "pulau",
-            "itu",
-            "kecil",
-            "dan",
-            "indah"
-        ],
-        "jawaban": "pulau itu kecil dan indah"
-    },
-    {
-        "pertanyaan": [
-            "buat",
-            "cerita",
-            "saya",
-            "tentang",
-            "petualangan"
-        ],
-        "jawaban": "saya buat cerita tentang petualangan"
-    },
-    {
-        "pertanyaan": [
-            "tebing",
-            "itu",
-            "tinggi",
-            "dan",
-            "berbahaya"
-        ],
-        "jawaban": "tebing itu tinggi dan berbahaya"
-    },
-    {
-        "pertanyaan": [
-            "memancing",
-            "ikan",
-            "saya",
-            "di",
-            "sungai"
-        ],
-        "jawaban": "saya memancing ikan di sungai"
-    },
-    {
-        "pertanyaan": [
-            "dataran tinggi",
-            "itu",
-            "sejuk",
-            "dan",
-            "berangin"
-        ],
-        "jawaban": "dataran tinggi itu sejuk dan berangin"
-    },
-    {
-        "pertanyaan": [
-            "buat",
-            "patung",
-            "saya",
-            "dari",
-            "tanah liat"
-        ],
-        "jawaban": "saya buat patung dari tanah liat"
-    },
-    {
-        "pertanyaan": [
-            "air terjun",
-            "itu",
-            "jernih",
-            "dan",
-            "menyegarkan"
-        ],
-        "jawaban": "air terjun itu jernih dan menyegarkan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "museum",
-            "saya",
-            "untuk",
+            "sudah",
+            "teh",
             "belajar",
-            "sejarah"
+            "aku"
         ],
-        "jawaban": "saya pergi ke museum untuk belajar sejarah"
+        "jawaban": "aku sudah belajar teh"
     },
     {
         "pertanyaan": [
-            "buku",
-            "itu",
-            "menarik",
-            "dan",
-            "informatif"
+            "sedang",
+            "makan",
+            "dia",
+            "bola"
         ],
-        "jawaban": "buku itu menarik dan informatif"
+        "jawaban": "dia sedang makan bola"
     },
     {
         "pertanyaan": [
-            "nonton",
-            "film",
-            "saya",
-            "di",
-            "bioskop",
-            "dengan",
-            "teman"
+            "mie",
+            "akan",
+            "aku",
+            "memasak"
         ],
-        "jawaban": "saya nonton film di bioskop dengan teman"
+        "jawaban": "aku akan memasak mie"
     },
     {
         "pertanyaan": [
-            "musik",
-            "itu",
-            "indah",
-            "dan",
-            "menenangkan"
+            "kopi",
+            "sedang",
+            "kami",
+            "bermain"
         ],
-        "jawaban": "musik itu indah dan menenangkan"
+        "jawaban": "kami sedang bermain kopi"
     },
     {
         "pertanyaan": [
-            "bermain",
-            "musik",
-            "saya",
-            "di",
-            "band",
-            "dengan",
-            "teman"
-        ],
-        "jawaban": "saya bermain musik di band dengan teman"
-    },
-    {
-        "pertanyaan": [
-            "lukisan",
-            "itu",
-            "indah",
-            "dan",
-            "menginspirasi"
-        ],
-        "jawaban": "lukisan itu indah dan menginspirasi"
-    },
-    {
-        "pertanyaan": [
+            "komputer",
             "pergi",
-            "ke",
-            "galeri",
-            "seni",
-            "saya",
-            "untuk",
-            "melihat",
-            "lukisan"
-        ],
-        "jawaban": "saya pergi ke galeri seni untuk melihat lukisan"
-    },
-    {
-        "pertanyaan": [
-            "tari",
-            "itu",
-            "indah",
-            "dan",
-            "ekspresif"
-        ],
-        "jawaban": "tari itu indah dan ekspresif"
-    },
-    {
-        "pertanyaan": [
-            "nonton",
-            "pertunjukan",
-            "tari",
-            "saya",
-            "di",
-            "teater",
-            "dengan",
-            "keluarga"
-        ],
-        "jawaban": "saya nonton pertunjukan tari di teater dengan keluarga"
-    },
-    {
-        "pertanyaan": [
-            "teater",
-            "itu",
-            "menarik",
-            "dan",
-            "menghibur"
-        ],
-        "jawaban": "teater itu menarik dan menghibur"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pertunjukan",
-            "teater",
-            "saya",
-            "untuk",
-            "melihat",
-            "drama"
-        ],
-        "jawaban": "saya pergi ke pertunjukan teater untuk melihat drama"
-    },
-    {
-        "pertanyaan": [
-            "sirkus",
-            "itu",
-            "seru",
-            "dan",
-            "menegangkan"
-        ],
-        "jawaban": "sirkus itu seru dan menegangkan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sirkus",
-            "saya",
-            "untuk",
-            "melihat",
-            "atraksi"
-        ],
-        "jawaban": "saya pergi ke sirkus untuk melihat atraksi"
-    },
-    {
-        "pertanyaan": [
-            "olahraga",
-            "itu",
-            "sehat",
-            "dan",
-            "menyenangkan"
-        ],
-        "jawaban": "olahraga itu sehat dan menyenangkan"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "sepak",
-            "bola",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "teman"
-        ],
-        "jawaban": "saya bermain sepak bola di lapangan dengan teman"
-    },
-    {
-        "pertanyaan": [
-            "renang",
-            "itu",
-            "menyegarkan",
-            "dan",
-            "menyehatkan"
-        ],
-        "jawaban": "renang itu menyegarkan dan menyehatkan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kolam",
-            "renang",
-            "saya",
-            "untuk",
-            "berenang",
-            "saat",
-            "panas"
-        ],
-        "jawaban": "saya pergi ke kolam renang untuk berenang saat panas"
-    },
-    {
-        "pertanyaan": [
-            "basket",
-            "itu",
-            "cepat",
-            "dan",
-            "seru"
-        ],
-        "jawaban": "basket itu cepat dan seru"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "basket",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "teman",
-            "sekolah"
-        ],
-        "jawaban": "saya bermain basket di lapangan dengan teman sekolah"
-    },
-    {
-        "pertanyaan": [
-            "voli",
-            "itu",
-            "kompetitif",
-            "dan",
-            "menegangkan"
-        ],
-        "jawaban": "voli itu kompetitif dan menegangkan"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "voli",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "teman",
-            "kantor"
-        ],
-        "jawaban": "saya bermain voli di lapangan dengan teman kantor"
-    },
-    {
-        "pertanyaan": [
-            "tenis",
-            "itu",
-            "elegan",
-            "dan",
-            "menantang"
-        ],
-        "jawaban": "tenis itu elegan dan menantang"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "tenis",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "guru",
-            "olahraga"
-        ],
-        "jawaban": "saya bermain tenis di lapangan dengan guru olahraga"
-    },
-    {
-        "pertanyaan": [
-            "bulu",
-            "tangkis",
-            "itu",
-            "cepat",
-            "dan",
-            "lincah"
-        ],
-        "jawaban": "bulu tangkis itu cepat dan lincah"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "bulu",
-            "tangkis",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "teman"
-        ],
-        "jawaban": "saya bermain bulu tangkis di lapangan dengan teman"
-    },
-    {
-        "pertanyaan": [
-            "badminton",
-            "itu",
-            "cepat",
-            "dan",
-            "seru"
-        ],
-        "jawaban": "badminton itu cepat dan seru"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pertandingan",
-            "badminton",
-            "saya",
-            "untuk",
-            "menonton",
-            "atlet"
-        ],
-        "jawaban": "saya pergi ke pertandingan badminton untuk menonton atlet"
-    },
-    {
-        "pertanyaan": [
-            "hoki",
-            "es",
-            "itu",
-            "cepat",
-            "dan",
-            "keras"
-        ],
-        "jawaban": "hoki es itu cepat dan keras"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "hoki",
-            "es",
-            "saya",
-            "di",
-            "arena",
-            "es",
-            "dengan",
-            "tim"
-        ],
-        "jawaban": "saya bermain hoki es di arena es dengan tim"
-    },
-    {
-        "pertanyaan": [
-            "baseball",
-            "itu",
-            "strategis",
-            "dan",
-            "menegangkan"
-        ],
-        "jawaban": "baseball itu strategis dan menegangkan"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "baseball",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "teman",
-            "sekelas"
-        ],
-        "jawaban": "saya bermain baseball di lapangan dengan teman sekelas"
-    },
-    {
-        "pertanyaan": [
-            "itu",
-            "menarik",
-            "dan",
-            "unik",
-            "kriket"
-        ],
-        "jawaban": "kriket itu unik dan menarik"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "kriket",
-            "saya",
-            "di",
-            "lapangan",
-            "dengan",
-            "teman",
-            "komunitas"
-        ],
-        "jawaban": "saya bermain kriket di lapangan dengan teman komunitas"
-    },
-    {
-        "pertanyaan": [
-            "golf",
-            "itu",
-            "santai",
-            "dan",
-            "menenangkan"
-        ],
-        "jawaban": "golf itu santai dan menenangkan"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "golf",
-            "saya",
-            "di",
-            "lapangan",
-            "golf",
-            "dengan",
-            "keluarga"
-        ],
-        "jawaban": "saya bermain golf di lapangan golf dengan keluarga"
-    },
-    {
-        "pertanyaan": [
-            "tebing",
-            "panjat",
-            "itu",
-            "memacu",
-            "dan",
-            "menantang",
-            "adrenalin"
-        ],
-        "jawaban": "panjat tebing itu menantang dan memacu adrenalin"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dinding",
-            "panjat",
-            "saya",
-            "untuk",
-            "melatih",
-            "kekuatan"
-        ],
-        "jawaban": "saya pergi ke dinding panjat untuk melatih kekuatan"
-    },
-    {
-        "pertanyaan": [
-            "skateboard",
-            "itu",
-            "keren",
-            "dan",
-            "bebas"
-        ],
-        "jawaban": "skateboard itu keren dan bebas"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "skateboard",
-            "saya",
-            "di",
-            "skatepark",
-            "dengan",
-            "teman",
-            "komunitas",
-            "skateboard"
-        ],
-        "jawaban": "saya bermain skateboard di skatepark dengan teman komunitas skateboard"
-    },
-    {
-        "pertanyaan": [
-            "selancar",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "menantang",
-            "ombak"
-        ],
-        "jawaban": "selancar itu menyenangkan dan menantang ombak"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pantai",
-            "saya",
-            "untuk",
-            "belajar",
-            "selancar"
-        ],
-        "jawaban": "saya pergi ke pantai untuk belajar selancar"
-    },
-    {
-        "pertanyaan": [
-            "ski",
-            "itu",
-            "seru",
-            "dan",
-            "memacu",
-            "kecepatan"
-        ],
-        "jawaban": "ski itu seru dan memacu kecepatan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "gunung",
-            "saya",
-            "untuk",
-            "bermain",
-            "ski",
-            "saat",
-            "musim",
-            "dingin"
-        ],
-        "jawaban": "saya pergi ke gunung untuk bermain ski saat musim dingin"
-    },
-    {
-        "pertanyaan": [
-            "snowboard",
-            "itu",
-            "keren",
-            "dan",
-            "menantang",
-            "salju"
-        ],
-        "jawaban": "snowboard itu keren dan menantang salju"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "gunung",
-            "saya",
-            "untuk",
-            "bermain",
-            "snowboard",
-            "dengan",
-            "teman"
-        ],
-        "jawaban": "saya pergi ke gunung untuk bermain snowboard dengan teman"
-    },
-    {
-        "pertanyaan": [
-            "panahan",
-            "itu",
-            "fokus",
-            "dan",
-            "presisi"
-        ],
-        "jawaban": "panahan itu fokus dan presisi"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "lapangan",
-            "panahan",
-            "saya",
-            "untuk",
-            "melatih",
-            "konsentrasi"
-        ],
-        "jawaban": "saya pergi ke lapangan panahan untuk melatih konsentrasi"
-    },
-    {
-        "pertanyaan": [
-            "tinju",
-            "itu",
-            "kuat",
-            "dan",
-            "cepat"
-        ],
-        "jawaban": "tinju itu kuat dan cepat"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "gym",
-            "saya",
-            "untuk",
-            "melatih",
-            "tinju",
-            "dengan",
-            "pelatih"
-        ],
-        "jawaban": "saya pergi ke gym untuk melatih tinju dengan pelatih"
-    },
-    {
-        "pertanyaan": [
-            "gulat",
-            "itu",
-            "kuat",
-            "dan",
-            "teknis"
-        ],
-        "jawaban": "gulat itu kuat dan teknis"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "matras",
-            "gulat",
-            "saya",
-            "untuk",
-            "melatih",
-            "gulat",
-            "dengan",
-            "teman"
-        ],
-        "jawaban": "saya pergi ke matras gulat untuk melatih gulat dengan teman"
-    },
-    {
-        "pertanyaan": [
-            "judo",
-            "itu",
-            "kuat",
-            "dan",
-            "elegan"
-        ],
-        "jawaban": "judo itu kuat dan elegan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dojo",
-            "judo",
-            "saya",
-            "untuk",
-            "melatih",
-            "judo",
-            "dengan",
-            "sensei"
-        ],
-        "jawaban": "saya pergi ke dojo judo untuk melatih judo dengan sensei"
-    },
-    {
-        "pertanyaan": [
-            "karate",
-            "itu",
-            "kuat",
-            "dan",
-            "disiplin"
-        ],
-        "jawaban": "karate itu kuat dan disiplin"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dojo",
-            "karate",
-            "saya",
-            "untuk",
-            "melatih",
-            "karate",
-            "dengan",
-            "sempai"
-        ],
-        "jawaban": "saya pergi ke dojo karate untuk melatih karate dengan sempai"
-    },
-    {
-        "pertanyaan": [
-            "taekwondo",
-            "itu",
-            "cepat",
-            "dan",
-            "kuat",
-            "tendangan"
-        ],
-        "jawaban": "taekwondo itu cepat dan kuat tendangan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dojang",
-            "taekwondo",
-            "saya",
-            "untuk",
-            "melatih",
-            "taekwondo",
-            "dengan",
-            "sabuk",
-            "hitam"
-        ],
-        "jawaban": "saya pergi ke dojang taekwondo untuk melatih taekwondo dengan sabuk hitam"
-    },
-    {
-        "pertanyaan": [
-            "kungfu",
-            "itu",
-            "indah",
-            "dan",
-            "kuat"
-        ],
-        "jawaban": "kungfu itu indah dan kuat"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sekolah",
-            "kungfu",
-            "saya",
-            "untuk",
-            "melatih",
-            "kungfu",
-            "dengan",
-            "shifu"
-        ],
-        "jawaban": "saya pergi ke sekolah kungfu untuk melatih kungfu dengan shifu"
-    },
-    {
-        "pertanyaan": [
-            "silat",
-            "itu",
-            "tradisional",
-            "dan",
-            "mematikan"
-        ],
-        "jawaban": "silat itu tradisional dan mematikan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "padepokan",
-            "silat",
-            "saya",
-            "untuk",
-            "melatih",
-            "silat",
-            "dengan",
-            "guru"
-        ],
-        "jawaban": "saya pergi ke padepokan silat untuk melatih silat dengan guru"
-    },
-    {
-        "pertanyaan": [
-            "muay",
-            "thai",
-            "itu",
-            "keras",
-            "dan",
-            "kuat"
-        ],
-        "jawaban": "muay thai itu keras dan kuat"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kamp",
-            "muay",
-            "thai",
-            "saya",
-            "untuk",
-            "melatih",
-            "muay",
-            "thai",
-            "dengan",
-            "master"
-        ],
-        "jawaban": "saya pergi ke kamp muay thai untuk melatih muay thai dengan master"
-    },
-    {
-        "pertanyaan": [
-            "kickboxing",
-            "itu",
-            "cepat",
-            "dan",
-            "kuat",
-            "tendangan",
-            "dan",
-            "pukulan"
-        ],
-        "jawaban": "kickboxing itu cepat dan kuat tendangan dan pukulan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "gym",
-            "kickboxing",
-            "saya",
-            "untuk",
-            "melatih",
-            "kickboxing",
-            "dengan",
-            "pelatih",
-            "profesional"
-        ],
-        "jawaban": "saya pergi ke gym kickboxing untuk melatih kickboxing dengan pelatih profesional"
-    },
-    {
-        "pertanyaan": [
-            "jiu",
-            "jitsu",
-            "itu",
-            "teknis",
-            "dan",
-            "membutuhkan",
-            "kontrol"
-        ],
-        "jawaban": "jiu jitsu itu teknis dan membutuhkan kontrol"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "akademi",
-            "jiu",
-            "jitsu",
-            "saya",
-            "untuk",
-            "melatih",
-            "jiu",
-            "jitsu",
-            "brasil",
-            "dengan",
-            "sabuk",
-            "hitam"
-        ],
-        "jawaban": "saya pergi ke akademi jiu jitsu brasil untuk melatih jiu jitsu brasil dengan sabuk hitam"
-    },
-    {
-        "pertanyaan": [
-            "mma",
-            "itu",
-            "campuran",
-            "dari",
-            "berbagai",
-            "beladiri"
-        ],
-        "jawaban": "mma itu campuran dari berbagai beladiri"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sasana",
-            "mma",
-            "saya",
-            "untuk",
-            "melatih",
-            "mma",
-            "dengan",
-            "petarung",
-            "profesional"
-        ],
-        "jawaban": "saya pergi ke sasana mma untuk melatih mma dengan petarung profesional"
-    },
-    {
-        "pertanyaan": [
-            "anggar",
-            "itu",
-            "elegan",
-            "dan",
-            "cepat"
-        ],
-        "jawaban": "anggar itu elegan dan cepat"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "klub",
-            "anggar",
-            "saya",
-            "untuk",
-            "melatih",
-            "anggar",
-            "dengan",
-            "pelatih",
-            "anggar"
-        ],
-        "jawaban": "saya pergi ke klub anggar untuk melatih anggar dengan pelatih anggar"
-    },
-    {
-        "pertanyaan": [
-            "senam",
-            "itu",
-            "fleksibel",
-            "dan",
-            "kuat"
-        ],
-        "jawaban": "senam itu fleksibel dan kuat"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pusat",
-            "senam",
-            "saya",
-            "untuk",
-            "melatih",
-            "senam",
-            "artistik",
-            "dengan",
-            "instruktur"
-        ],
-        "jawaban": "saya pergi ke pusat senam untuk melatih senam artistik dengan instruktur"
-    },
-    {
-        "pertanyaan": [
-            "akrobatik",
-            "itu",
-            "menakjubkan",
-            "dan",
-            "membutuhkan",
-            "keseimbangan"
-        ],
-        "jawaban": "akrobatik itu menakjubkan dan membutuhkan keseimbangan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sekolah",
-            "akrobatik",
-            "saya",
-            "untuk",
-            "melatih",
-            "akrobatik",
-            "dengan",
-            "penampil",
-            "sirkus"
-        ],
-        "jawaban": "saya pergi ke sekolah akrobatik untuk melatih akrobatik dengan penampil sirkus"
-    },
-    {
-        "pertanyaan": [
-            "yoga",
-            "itu",
-            "menenangkan",
-            "dan",
-            "baik",
-            "untuk",
-            "tubuh",
-            "dan",
-            "pikiran"
-        ],
-        "jawaban": "yoga itu menenangkan dan baik untuk tubuh dan pikiran"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "studio",
-            "yoga",
-            "saya",
-            "untuk",
-            "melatih",
-            "yoga",
-            "dengan",
-            "guru",
-            "yoga"
-        ],
-        "jawaban": "saya pergi ke studio yoga untuk melatih yoga dengan guru yoga"
-    },
-    {
-        "pertanyaan": [
-            "pilates",
-            "itu",
-            "baik",
-            "untuk",
-            "kekuatan",
-            "inti",
-            "dan",
-            "fleksibilitas"
-        ],
-        "jawaban": "pilates itu baik untuk kekuatan inti dan fleksibilitas"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "studio",
-            "pilates",
-            "saya",
-            "untuk",
-            "melatih",
-            "pilates",
-            "dengan",
-            "instruktur",
-            "pilates"
-        ],
-        "jawaban": "saya pergi ke studio pilates untuk melatih pilates dengan instruktur pilates"
-    },
-    {
-        "pertanyaan": [
-            "zumba",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "baik",
-            "untuk",
-            "kardio"
-        ],
-        "jawaban": "zumba itu menyenangkan dan baik untuk kardio"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "zumba",
-            "saya",
-            "untuk",
-            "melatih",
-            "zumba",
-            "dengan",
-            "instruktur",
-            "zumba"
-        ],
-        "jawaban": "saya pergi ke kelas zumba untuk melatih zumba dengan instruktur zumba"
-    },
-    {
-        "pertanyaan": [
-            "aerobik",
-            "itu",
-            "baik",
-            "untuk",
-            "kesehatan",
-            "jantung"
-        ],
-        "jawaban": "aerobik itu baik untuk kesehatan jantung"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "aerobik",
-            "saya",
-            "untuk",
-            "melatih",
-            "aerobik",
-            "dengan",
-            "instruktur",
-            "aerobik"
-        ],
-        "jawaban": "saya pergi ke kelas aerobik untuk melatih aerobik dengan instruktur aerobik"
-    },
-    {
-        "pertanyaan": [
-            "lari",
-            "itu",
-            "baik",
-            "untuk",
-            "kesehatan",
-            "jantung",
-            "dan",
-            "paru-paru"
-        ],
-        "jawaban": "lari itu baik untuk kesehatan jantung dan paru-paru"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "taman",
-            "saya",
-            "untuk",
-            "lari",
-            "pagi",
-            "atau",
-            "sore"
-        ],
-        "jawaban": "saya pergi ke taman untuk lari pagi atau sore"
-    },
-    {
-        "pertanyaan": [
-            "jalan",
-            "cepat",
-            "itu",
-            "mudah",
-            "dan",
-            "bisa",
-            "dilakukan",
-            "di",
-            "mana",
+            "dia",
+            "baru",
             "saja"
         ],
-        "jawaban": "jalan cepat itu mudah dan bisa dilakukan di mana saja"
+        "jawaban": "dia baru saja pergi komputer"
     },
     {
         "pertanyaan": [
-            "pergi",
-            "ke",
-            "mall",
-            "saya",
-            "untuk",
-            "jalan",
-            "cepat",
-            "saat",
-            "cuaca",
-            "buruk"
-        ],
-        "jawaban": "saya pergi ke mall untuk jalan cepat saat cuaca buruk"
-    },
-    {
-        "pertanyaan": [
-            "mendaki",
-            "gunung",
-            "itu",
-            "menantang",
-            "dan",
-            "memberi",
-            "pemandangan",
-            "indah"
-        ],
-        "jawaban": "mendaki gunung itu menantang dan memberi pemandangan indah"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "gunung",
-            "saya",
-            "untuk",
-            "mendaki",
-            "bersama",
-            "teman"
-        ],
-        "jawaban": "saya pergi ke gunung untuk mendaki bersama teman"
-    },
-    {
-        "pertanyaan": [
-            "bersepeda",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "baik",
-            "untuk",
-            "kesehatan",
-            "jantung",
-            "dan",
-            "otot"
-        ],
-        "jawaban": "bersepeda itu menyenangkan dan baik untuk kesehatan jantung dan otot"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "jalan",
-            "raya",
-            "saya",
-            "untuk",
-            "bersepeda",
-            "saat",
-            "akhir",
-            "pekan"
-        ],
-        "jawaban": "saya pergi ke jalan raya untuk bersepeda saat akhir pekan"
-    },
-    {
-        "pertanyaan": [
-            "renang",
-            "itu",
-            "menyegarkan",
-            "dan",
-            "baik",
-            "untuk",
-            "seluruh",
-            "tubuh"
-        ],
-        "jawaban": "renang itu menyegarkan dan baik untuk seluruh tubuh"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kolam",
-            "renang",
-            "saya",
-            "untuk",
-            "berenang",
-            "saat",
-            "cuaca",
-            "panas"
-        ],
-        "jawaban": "saya pergi ke kolam renang untuk berenang saat cuaca panas"
-    },
-    {
-        "pertanyaan": [
-            "angkat",
-            "beban",
-            "itu",
-            "baik",
-            "untuk",
-            "kekuatan",
-            "dan",
-            "massa",
-            "otot"
-        ],
-        "jawaban": "angkat beban itu baik untuk kekuatan dan massa otot"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "gym",
-            "saya",
-            "untuk",
-            "angkat",
-            "beban",
-            "dengan",
-            "instruktur"
-        ],
-        "jawaban": "saya pergi ke gym untuk angkat beban dengan instruktur"
-    },
-    {
-        "pertanyaan": [
-            "crossfit",
-            "itu",
-            "intens",
-            "dan",
-            "melatih",
-            "seluruh",
-            "tubuh"
-        ],
-        "jawaban": "crossfit itu intens dan melatih seluruh tubuh"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "crossfit",
-            "saya",
-            "untuk",
-            "melatih",
-            "crossfit",
-            "dengan",
-            "komunitas"
-        ],
-        "jawaban": "saya pergi ke kelas crossfit untuk melatih crossfit dengan komunitas"
-    },
-    {
-        "pertanyaan": [
-            "senam",
-            "aerobik",
-            "itu",
-            "enerjik",
-            "dan",
-            "baik",
-            "untuk",
-            "kardio"
-        ],
-        "jawaban": "senam aerobik itu energik dan baik untuk kardio"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "senam",
-            "aerobik",
-            "saya",
-            "untuk",
-            "melatih",
-            "senam",
-            "aerobik",
-            "dengan",
-            "musik",
-            "yang",
-            "menghentak"
-        ],
-        "jawaban": "saya pergi ke kelas senam aerobik untuk melatih senam aerobik dengan musik yang menghentak"
-    },
-    {
-        "pertanyaan": [
-            "zumba",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "melatih",
-            "seluruh",
-            "tubuh",
-            "dengan",
-            "gerakan",
-            "tari"
-        ],
-        "jawaban": "zumba itu menyenangkan dan melatih seluruh tubuh dengan gerakan tari"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "zumba",
-            "saya",
-            "untuk",
-            "melatih",
-            "zumba",
-            "dengan",
-            "instruktur",
-            "yang",
-            "bersemangat"
-        ],
-        "jawaban": "saya pergi ke kelas zumba untuk melatih zumba dengan instruktur yang bersemangat"
-    },
-    {
-        "pertanyaan": [
-            "yoga",
-            "itu",
-            "menenangkan",
-            "dan",
-            "baik",
-            "untuk",
-            "fleksibilitas",
-            "dan",
-            "keseimbangan"
-        ],
-        "jawaban": "yoga itu menenangkan dan baik untuk fleksibilitas dan keseimbangan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "yoga",
-            "saya",
-            "untuk",
-            "melatih",
-            "yoga",
-            "dengan",
-            "guru",
-            "yang",
-            "berpengalaman"
-        ],
-        "jawaban": "saya pergi ke kelas yoga untuk melatih yoga dengan guru yang berpengalaman"
-    },
-    {
-        "pertanyaan": [
-            "pilates",
-            "itu",
-            "baik",
-            "untuk",
-            "kekuatan",
-            "inti",
-            "dan",
-            "postur",
-            "tubuh",
-            "yang",
-            "baik"
-        ],
-        "jawaban": "pilates itu baik untuk kekuatan inti dan postur tubuh yang baik"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "pilates",
-            "saya",
-            "untuk",
-            "melatih",
-            "pilates",
-            "dengan",
-            "instruktur",
-            "yang",
-            "profesional"
-        ],
-        "jawaban": "saya pergi ke kelas pilates untuk melatih pilates dengan instruktur yang profesional"
-    },
-    {
-        "pertanyaan": [
-            "tari",
-            "perut",
-            "itu",
-            "indah",
-            "dan",
-            "melatih",
-            "otot",
-            "perut",
-            "dan",
-            "pinggul"
-        ],
-        "jawaban": "tari perut itu indah dan melatih otot perut dan pinggul"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "tari",
-            "perut",
-            "saya",
-            "untuk",
-            "melatih",
-            "tari",
-            "perut",
-            "dengan",
-            "guru",
-            "yang",
-            "cantik"
-        ],
-        "jawaban": "saya pergi ke kelas tari perut untuk melatih tari perut dengan guru yang cantik"
-    },
-    {
-        "pertanyaan": [
-            "tari",
-            "salsa",
-            "itu",
-            "enerjik",
-            "dan",
-            "menyenangkan",
-            "untuk",
-            "dilakukan",
-            "bersama",
-            "pasangan"
-        ],
-        "jawaban": "tari salsa itu energik dan menyenangkan untuk dilakukan bersama pasangan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "tari",
-            "salsa",
-            "saya",
-            "untuk",
-            "melatih",
-            "tari",
-            "salsa",
-            "dengan",
-            "instruktur",
-            "yang",
-            "ahli"
-        ],
-        "jawaban": "saya pergi ke kelas tari salsa untuk melatih tari salsa dengan instruktur yang ahli"
-    },
-    {
-        "pertanyaan": [
-            "tari",
-            "balet",
-            "itu",
-            "elegan",
-            "dan",
-            "melatih",
-            "fleksibilitas",
-            "dan",
-            "kekuatan"
-        ],
-        "jawaban": "tari balet itu elegan dan melatih fleksibilitas dan kekuatan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "tari",
-            "balet",
-            "saya",
-            "untuk",
-            "melatih",
-            "tari",
-            "balet",
-            "dengan",
-            "guru",
-            "yang",
-            "berpengalaman",
-            "di",
-            "bidangnya"
-        ],
-        "jawaban": "saya pergi ke kelas tari balet untuk melatih tari balet dengan guru yang berpengalaman di bidangnya"
-    },
-    {
-        "pertanyaan": [
-            "tari",
-            "modern",
-            "itu",
-            "ekspresif",
-            "dan",
-            "bebas",
-            "untuk",
-            "mengekspresikan",
-            "diri"
-        ],
-        "jawaban": "tari modern itu ekspresif dan bebas untuk mengekspresikan diri"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "tari",
-            "modern",
-            "saya",
-            "untuk",
-            "melatih",
-            "tari",
-            "modern",
-            "dengan",
-            "koreografer",
-            "yang",
-            "kreatif"
-        ],
-        "jawaban": "saya pergi ke kelas tari modern untuk melatih tari modern dengan koreografer yang kreatif"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sanggar",
-            "tari",
-            "saya",
-            "untuk",
-            "melatih",
-            "tari",
-            "tradisional",
-            "dari",
-            "berbagai",
-            "daerah",
-            "di",
-            "indonesia"
-        ],
-        "jawaban": "saya pergi ke sanggar tari untuk melatih tari tradisional dari berbagai daerah di indonesia"
-    },
-    {
-        "pertanyaan": [
-            "panjat",
-            "tebing",
-            "itu",
-            "menantang",
-            "dan",
-            "melatih",
-            "kekuatan",
-            "dan",
-            "ketahanan"
-        ],
-        "jawaban": "panjat tebing itu menantang dan melatih kekuatan dan ketahanan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dinding",
-            "panjat",
-            "saya",
-            "untuk",
-            "melatih",
-            "panjat",
-            "tebing",
-            "dengan",
-            "peralatan",
-            "yang",
-            "aman"
-        ],
-        "jawaban": "saya pergi ke dinding panjat untuk melatih panjat tebing dengan peralatan yang aman"
-    },
-    {
-        "pertanyaan": [
-            "parkour",
-            "itu",
-            "bebas",
-            "dan",
-            "melatih",
-            "kelincahan",
-            "dan",
-            "keberanian"
-        ],
-        "jawaban": "parkour itu bebas dan melatih kelincahan dan keberanian"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "taman",
-            "kota",
-            "saya",
-            "untuk",
-            "melatih",
-            "parkour",
-            "dengan",
-            "teman-teman",
-            "yang",
-            "seprofesi"
-        ],
-        "jawaban": "saya pergi ke taman kota untuk melatih parkour dengan teman-teman yang seprofesi"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "skateboard",
-            "itu",
-            "keren",
-            "dan",
-            "melatih",
-            "keseimbangan",
-            "dan",
-            "koordinasi"
-        ],
-        "jawaban": "bermain skateboard itu keren dan melatih keseimbangan dan koordinasi"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "skatepark",
-            "saya",
-            "untuk",
-            "bermain",
-            "skateboard",
-            "dengan",
-            "teman-teman",
-            "yang",
-            "hobi",
-            "sama"
-        ],
-        "jawaban": "saya pergi ke skatepark untuk bermain skateboard dengan teman-teman yang hobi sama"
-    },
-    {
-        "pertanyaan": [
-            "selancar",
-            "itu",
-            "menantang",
-            "dan",
-            "memacu",
-            "adrenalin",
-            "saat",
-            "menaklukkan",
-            "ombak"
-        ],
-        "jawaban": "selancar itu menantang dan memacu adrenalin saat menaklukkan ombak"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pantai",
-            "saya",
-            "untuk",
-            "belajar",
-            "selancar",
-            "dengan",
-            "instruktur",
-            "yang",
-            "berpengalaman",
-            "di",
-            "laut"
-        ],
-        "jawaban": "saya pergi ke pantai untuk belajar selancar dengan instruktur yang berpengalaman di laut"
-    },
-    {
-        "pertanyaan": [
-            "arung",
-            "jeram",
-            "itu",
-            "seru",
-            "dan",
-            "melatih",
-            "kerja",
-            "sama",
-            "tim",
-            "saat",
-            "menaklukkan",
-            "arus",
-            "sungai"
-        ],
-        "jawaban": "arung jeram itu seru dan melatih kerja sama tim saat menaklukkan arus sungai"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sungai",
-            "saya",
-            "untuk",
-            "arung",
-            "jeram",
-            "bersama",
-            "keluarga",
-            "atau",
-            "teman-teman",
-            "yang",
-            "suka",
-            "petualangan"
-        ],
-        "jawaban": "saya pergi ke sungai untuk arung jeram bersama keluarga atau teman-teman yang suka petualangan"
-    },
-    {
-        "pertanyaan": [
-            "diving",
-            "itu",
-            "menakjubkan",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menjelajahi",
-            "keindahan",
-            "bawah",
-            "laut"
-        ],
-        "jawaban": "diving itu menakjubkan dan memberi kesempatan untuk menjelajahi keindahan bawah laut"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "laut",
-            "saya",
-            "untuk",
-            "diving",
-            "dengan",
-            "peralatan",
-            "yang",
-            "lengkap",
-            "dan",
-            "bersertifikasi"
-        ],
-        "jawaban": "saya pergi ke laut untuk diving dengan peralatan yang lengkap dan bersertifikasi"
-    },
-    {
-        "pertanyaan": [
-            "snorkeling",
-            "itu",
-            "mudah",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "melihat",
-            "terumbu",
-            "karang",
-            "dan",
-            "ikan",
-            "warna-warni"
-        ],
-        "jawaban": "snorkeling itu mudah dan memberi kesempatan untuk melihat terumbu karang dan ikan warna-warni"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "pantai",
-            "saya",
-            "untuk",
-            "snorkeling",
-            "bersama",
-            "keluarga",
-            "atau",
-            "teman-teman",
-            "yang",
-            "ingin",
-            "bersantai"
-        ],
-        "jawaban": "saya pergi ke pantai untuk snorkeling bersama keluarga atau teman-teman yang ingin bersantai"
-    },
-    {
-        "pertanyaan": [
-            "memancing",
-            "itu",
-            "menenangkan",
-            "dan",
-            "melatih",
-            "kesabaran"
-        ],
-        "jawaban": "memancing itu menenangkan dan melatih kesabaran"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "sungai",
-            "atau",
-            "laut",
-            "saya",
-            "untuk",
-            "memancing",
-            "ikan",
-            "dengan",
-            "alat",
-            "pancing",
-            "yang",
-            "tepat"
-        ],
-        "jawaban": "saya pergi ke sungai atau laut untuk memancing ikan dengan alat pancing yang tepat"
-    },
-    {
-        "pertanyaan": [
-            "berkemah",
-            "itu",
-            "seru",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menikmati",
-            "alam",
-            "terbuka"
-        ],
-        "jawaban": "berkemah itu seru dan memberi kesempatan untuk menikmati alam terbuka"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "hutan",
-            "atau",
-            "gunung",
-            "saya",
-            "untuk",
-            "berkemah",
-            "bersama",
-            "keluarga",
-            "atau",
-            "teman-teman",
-            "yang",
-            "suka",
-            "petualangan",
-            "di",
-            "alam"
-        ],
-        "jawaban": "saya pergi ke hutan atau gunung untuk berkemah bersama keluarga atau teman-teman yang suka petualangan di alam"
-    },
-    {
-        "pertanyaan": [
-            "piknik",
-            "itu",
-            "santai",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menikmati",
-            "makanan",
-            "dan",
-            "udara",
-            "segar",
-            "di",
-            "luar"
-        ],
-        "jawaban": "piknik itu santai dan memberi kesempatan untuk menikmati makanan dan udara segar di luar"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "taman",
-            "atau",
-            "pantai",
-            "saya",
-            "untuk",
-            "piknik",
-            "bersama",
-            "keluarga",
-            "atau",
-            "teman-teman",
-            "yang",
-            "ingin",
-            "bersantai",
-            "di",
-            "alam"
-        ],
-        "jawaban": "saya pergi ke taman atau pantai untuk piknik bersama keluarga atau teman-teman yang ingin bersantai di alam"
-    },
-    {
-        "pertanyaan": [
-            "berkebun",
-            "itu",
-            "bermanfaat",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menanam",
-            "sayuran",
-            "atau",
-            "bunga",
-            "sendiri"
-        ],
-        "jawaban": "berkebun itu bermanfaat dan memberi kesempatan untuk menanam sayuran atau bunga sendiri"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kebun",
-            "saya",
-            "untuk",
-            "berkebun",
-            "saat",
-            "waktu",
-            "luang",
-            "di",
-            "rumah"
-        ],
-        "jawaban": "saya pergi ke kebun saya untuk berkebun saat waktu luang di rumah"
-    },
-    {
-        "pertanyaan": [
-            "memasak",
-            "itu",
-            "kreatif",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mencoba",
-            "resep",
-            "baru",
-            "dan",
-            "menikmati",
-            "makanan",
-            "buat",
-            "sendiri"
-        ],
-        "jawaban": "memasak itu kreatif dan memberi kesempatan untuk mencoba resep baru dan menikmati makanan buat sendiri"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dapur",
-            "saya",
-            "untuk",
-            "memasak",
-            "saat",
-            "ingin",
-            "mencoba",
-            "resep",
-            "baru",
-            "atau",
-            "membuat",
-            "makanan",
-            "kesukaan"
-        ],
-        "jawaban": "saya pergi ke dapur saya untuk memasak saat ingin mencoba resep baru atau membuat makanan kesukaan"
-    },
-    {
-        "pertanyaan": [
-            "membuat",
-            "kue",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menghias",
-            "kue",
-            "sesuai",
-            "dengan",
-            "selera"
-        ],
-        "jawaban": "membuat kue itu menyenangkan dan memberi kesempatan untuk menghias kue sesuai dengan selera"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "dapur",
-            "saya",
-            "untuk",
-            "membuat",
-            "kue",
-            "saat",
-            "ada",
-            "acara",
-            "spesial",
-            "atau",
-            "ingin",
-            "memberi",
-            "hadiah"
-        ],
-        "jawaban": "saya pergi ke dapur saya untuk membuat kue saat ada acara spesial atau ingin memberi hadiah"
-    },
-    {
-        "pertanyaan": [
-            "merajut",
-            "itu",
-            "tenang",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "membuat",
-            "pakaian",
-            "atau",
-            "aksesoris",
-            "yang",
-            "unik"
-        ],
-        "jawaban": "merajut itu tenang dan memberi kesempatan untuk membuat pakaian atau aksesoris yang unik"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "ruang",
-            "kerja",
-            "saya",
-            "untuk",
-            "merajut",
-            "saat",
-            "ingin",
-            "bersantai",
-            "atau",
-            "membuat",
-            "sesuatu",
-            "yang",
-            "bermanfaat"
-        ],
-        "jawaban": "saya pergi ke ruang kerja saya untuk merajut saat ingin bersantai atau membuat sesuatu yang bermanfaat"
-    },
-    {
-        "pertanyaan": [
-            "menyulam",
-            "itu",
-            "indah",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menghias",
-            "pakaian",
-            "atau",
-            "kain",
-            "dengan",
-            "motif",
-            "yang",
-            "cantik"
-        ],
-        "jawaban": "menyulam itu indah dan memberi kesempatan untuk menghias pakaian atau kain dengan motif yang cantik"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "ruang",
-            "kerja",
-            "saya",
-            "untuk",
-            "menyulam",
-            "saat",
-            "ingin",
-            "berkreasi",
-            "atau",
-            "membuat",
-            "sesuatu",
-            "yang",
-            "istimewa"
-        ],
-        "jawaban": "saya pergi ke ruang kerja saya untuk menyulam saat ingin berkreasi atau membuat sesuatu yang istimewa"
-    },
-    {
-        "pertanyaan": [
-            "melukis",
-            "itu",
-            "ekspresif",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mengekspresikan",
-            "emosi",
-            "dan",
-            "ide",
-            "melalui",
-            "warna",
-            "dan",
-            "goresan"
-        ],
-        "jawaban": "melukis itu ekspresif dan memberi kesempatan untuk mengekspresikan emosi dan ide melalui warna dan goresan"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "studio",
-            "lukis",
-            "saya",
-            "untuk",
-            "melukis",
-            "saat",
-            "ingin",
-            "berkreasi",
-            "atau",
-            "menenangkan",
-            "diri"
-        ],
-        "jawaban": "saya pergi ke studio lukis saya untuk melukis saat ingin berkreasi atau menenangkan diri"
-    },
-    {
-        "pertanyaan": [
-            "menggambar",
-            "itu",
-            "seru",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menciptakan",
-            "karakter",
-            "atau",
-            "komik",
-            "sendiri"
-        ],
-        "jawaban": "menggambar itu seru dan memberi kesempatan untuk menciptakan karakter atau komik sendiri"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "ruang",
-            "kerja",
-            "saya",
-            "untuk",
-            "menggambar",
-            "saat",
-            "ingin",
-            "berimajinasi",
-            "atau",
-            "membuat",
-            "sesuatu",
-            "yang",
-            "unik",
-            "dan",
-            "menarik"
-        ],
-        "jawaban": "saya pergi ke ruang kerja saya untuk menggambar saat ingin berimajinasi atau membuat sesuatu yang unik dan menarik"
-    },
-    {
-        "pertanyaan": [
-            "fotografi",
-            "itu",
-            "menarik",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mengabadikan",
-            "momen",
-            "indah",
-            "atau",
-            "menangkap",
-            "keindahan",
-            "dunia",
-            "di",
-            "sekitar"
-        ],
-        "jawaban": "fotografi itu menarik dan memberi kesempatan untuk mengabadikan momen indah atau menangkap keindahan dunia di sekitar"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "tempat",
-            "yang",
-            "indah",
-            "atau",
-            "menarik",
-            "saya",
-            "untuk",
-            "fotografi",
-            "saat",
-            "ingin",
-            "berkeliling",
-            "atau",
-            "mencari",
-            "inspirasi"
-        ],
-        "jawaban": "saya pergi ke tempat yang indah atau menarik saya untuk fotografi saat ingin berkeliling atau mencari inspirasi"
-    },
-    {
-        "pertanyaan": [
-            "menulis",
-            "itu",
-            "ekspresif",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menuangkan",
-            "pikiran",
-            "dan",
-            "perasaan",
-            "dalam",
-            "bentuk",
-            "cerita",
-            "atau",
-            "puisi"
-        ],
-        "jawaban": "menulis itu ekspresif dan memberi kesempatan untuk menuangkan pikiran dan perasaan dalam bentuk cerita atau puisi"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "perpustakaan",
-            "atau",
-            "kafe",
-            "saya",
-            "untuk",
-            "menulis",
-            "saat",
-            "ingin",
-            "fokus",
-            "atau",
-            "mencari",
-            "suasana",
-            "yang",
-            "mendukung"
-        ],
-        "jawaban": "saya pergi ke perpustakaan atau kafe untuk menulis saat ingin fokus atau mencari suasana yang mendukung"
-    },
-    {
-        "pertanyaan": [
-            "membaca",
-            "itu",
-            "bermanfaat",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menambah",
-            "pengetahuan",
-            "dan",
-            "wawasan",
-            "tentang",
-            "berbagai",
-            "hal"
-        ],
-        "jawaban": "membaca itu bermanfaat dan memberi kesempatan untuk menambah pengetahuan dan wawasan tentang berbagai hal"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "perpustakaan",
-            "atau",
-            "toko",
-            "buku",
-            "saya",
-            "untuk",
-            "membaca",
-            "saat",
-            "ingin",
-            "belajar",
-            "atau",
-            "bersantai",
-            "dengan",
-            "buku",
-            "yang",
-            "menarik"
-        ],
-        "jawaban": "saya pergi ke perpustakaan atau toko buku saya untuk membaca saat ingin belajar atau bersantai dengan buku yang menarik"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "musik",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mengekspresikan",
-            "diri",
-            "melalui",
-            "nada",
-            "dan",
-            "irama"
-        ],
-        "jawaban": "bermain musik itu menyenangkan dan memberi kesempatan untuk mengekspresikan diri melalui nada dan irama"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "studio",
-            "musik",
-            "saya",
-            "untuk",
-            "bermain",
-            "musik",
-            "saat",
-            "ingin",
-            "berlatih",
-            "atau",
-            "berkreasi",
-            "dengan",
-            "alat",
-            "musik",
-            "kesukaan"
-        ],
-        "jawaban": "saya pergi ke studio musik saya untuk bermain musik saat ingin berlatih atau berkreasi dengan alat musik kesukaan"
-    },
-    {
-        "pertanyaan": [
-            "mendengarkan",
-            "musik",
-            "itu",
-            "menenangkan",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "menikmati",
-            "lagu-lagu",
-            "favorit",
-            "atau",
-            "mencari",
-            "inspirasi"
-        ],
-        "jawaban": "mendengarkan musik itu menenangkan dan memberi kesempatan untuk menikmati lagu-lagu favorit atau mencari inspirasi"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "konser",
-            "atau",
-            "festival",
-            "musik",
-            "saya",
-            "untuk",
-            "mendengarkan",
-            "musik",
-            "secara",
-            "langsung",
-            "dan",
-            "merasakan",
-            "suasana",
-            "yang",
-            "seru"
-        ],
-        "jawaban": "saya pergi ke konser atau festival musik saya untuk mendengarkan musik secara langsung dan merasakan suasana yang seru"
-    },
-    {
-        "pertanyaan": [
-            "bernyanyi",
-            "itu",
-            "menyenangkan",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mengekspresikan",
-            "diri",
-            "melalui",
-            "suara",
-            "dan",
-            "lagu"
-        ],
-        "jawaban": "bernyanyi itu menyenangkan dan memberi kesempatan untuk mengekspresikan diri melalui suara dan lagu"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "karaoke",
-            "atau",
-            "panggung",
-            "terbuka",
-            "saya",
-            "untuk",
-            "bernyanyi",
-            "saat",
-            "ingin",
-            "bersenang-senang",
-            "atau",
-            "menunjukkan",
-            "bakat"
-        ],
-        "jawaban": "saya pergi ke karaoke atau panggung terbuka saya untuk bernyanyi saat ingin bersenang-senang atau menunjukkan bakat"
-    },
-    {
-        "pertanyaan": [
-            "menari",
-            "itu",
-            "ekspresif",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mengekspresikan",
-            "diri",
-            "melalui",
-            "gerakan",
-            "dan",
-            "irama"
-        ],
-        "jawaban": "menari itu ekspresif dan memberi kesempatan untuk mengekspresikan diri melalui gerakan dan irama"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "tari",
-            "atau",
-            "acara",
-            "tari",
-            "saya",
-            "untuk",
-            "menari",
-            "saat",
-            "ingin",
-            "belajar",
-            "atau",
-            "menikmati",
-            "pertunjukan",
-            "yang",
-            "indah"
-        ],
-        "jawaban": "saya pergi ke kelas tari atau acara tari saya untuk menari saat ingin belajar atau menikmati pertunjukan yang indah"
-    },
-    {
-        "pertanyaan": [
-            "kenyataan",
-            "dan",
-            "menikmati",
-            "cerita",
-            "yang",
-            "menarik",
-            "dari",
-            "berbagai",
-            "genre"
-        ],
-        "jawaban": "kenyataan dan menikmati cerita yang menarik dari berbagai genre"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "bioskop",
-            "atau",
-            "menonton",
-            "film",
-            "di",
-            "rumah",
-            "saya",
-            "saat",
-            "ingin",
-            "bersantai",
-            "atau",
-            "menghabiskan",
-            "waktu",
-            "bersama",
-            "keluarga",
-            "atau",
-            "teman"
-        ],
-        "jawaban": "pergi ke bioskop atau menonton film di rumah saya saat ingin bersantai atau menghabiskan waktu bersama keluarga atau teman"
-    },
-    {
-        "pertanyaan": [
-            "bermain",
-            "game",
-            "itu",
-            "seru",
-            "dan",
-            "menghibur",
-            "untuk",
-            "mengisi",
-            "waktu",
-            "luang",
-            "atau",
-            "melepas",
-            "penat"
-        ],
-        "jawaban": "bermain game itu seru dan menghibur untuk mengisi waktu luang atau melepas penat"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "warnet",
-            "atau",
-            "bermain",
-            "game",
-            "di",
-            "rumah",
-            "saya",
-            "saat",
-            "ingin",
-            "bersenang-senang",
-            "atau",
-            "menantang",
-            "diri",
-            "sendiri"
-        ],
-        "jawaban": "pergi ke warnet atau bermain game di rumah saya saat ingin bersenang-senang atau menantang diri sendiri"
-    },
-    {
-        "pertanyaan": [
-            "berkumpul",
-            "bersama",
-            "keluarga",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "hubungan",
-            "yang",
-            "baik",
-            "dan",
-            "saling",
-            "mendukung"
-        ],
-        "jawaban": "berkumpul bersama keluarga itu penting untuk menjaga hubungan yang baik dan saling mendukung"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "rumah",
-            "keluarga",
-            "atau",
-            "mengadakan",
-            "acara",
-            "keluarga",
-            "di",
-            "rumah",
-            "saya",
-            "saat",
-            "ada",
-            "kesempatan",
-            "atau",
-            "ingin",
-            "merayakan",
-            "sesuatu"
-        ],
-        "jawaban": "pergi ke rumah keluarga atau mengadakan acara keluarga di rumah saya saat ada kesempatan atau ingin merayakan sesuatu"
-    },
-    {
-        "pertanyaan": [
-            "berkumpul",
-            "bersama",
-            "teman",
-            "itu",
-            "menyenangkan",
-            "untuk",
-            "berbagi",
-            "cerita",
-            "dan",
-            "pengalaman",
-            "atau",
-            "sekadar",
-            "menghabiskan",
-            "waktu",
-            "bersama"
-        ],
-        "jawaban": "berkumpul bersama teman itu menyenangkan untuk berbagi cerita dan pengalaman atau sekadar menghabiskan waktu bersama"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kafe",
-            "atau",
-            "restoran",
-            "atau",
-            "mengadakan",
-            "acara",
-            "bersama",
-            "teman",
-            "di",
-            "rumah",
-            "saya",
-            "saat",
-            "ingin",
-            "bersosialisasi",
-            "atau",
-            "mencari",
-            "hiburan"
-        ],
-        "jawaban": "pergi ke kafe atau restoran atau mengadakan acara bersama teman di rumah saya saat ingin bersosialisasi atau mencari hiburan"
-    },
-    {
-        "pertanyaan": [
-            "berwisata",
-            "itu",
-            "seru",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "melihat",
-            "tempat",
-            "baru",
-            "dan",
-            "mempelajari",
-            "budaya",
-            "yang",
-            "berbeda"
-        ],
-        "jawaban": "berwisata itu seru dan memberi kesempatan untuk melihat tempat baru dan mempelajari budaya yang berbeda"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "tempat",
-            "wisata",
-            "alam",
-            "atau",
-            "budaya",
-            "saya",
-            "saat",
-            "liburan",
-            "atau",
-            "ingin",
-            "mencari",
-            "pengalaman",
-            "yang",
-            "berkesan"
-        ],
-        "jawaban": "pergi ke tempat wisata alam atau budaya saya saat liburan atau ingin mencari pengalaman yang berkesan"
-    },
-    {
-        "pertanyaan": [
-            "berbelanja",
-            "itu",
-            "menyenangkan",
-            "untuk",
-            "mencari",
-            "barang-barang",
-            "yang",
-            "diinginkan",
-            "atau",
-            "sekadar",
-            "melihat-lihat",
-            "barang",
-            "baru"
-        ],
-        "jawaban": "berbelanja itu menyenangkan untuk mencari barang-barang yang diinginkan atau sekadar melihat-lihat barang baru"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "mall",
-            "atau",
-            "pasar",
-            "tradisional",
-            "saya",
-            "saat",
-            "ingin",
-            "membeli",
-            "sesuatu",
-            "atau",
-            "mencari",
-            "barang",
-            "yang",
-            "unik"
-        ],
-        "jawaban": "pergi ke mall atau pasar tradisional saya saat ingin membeli sesuatu atau mencari barang yang unik"
-    },
-    {
-        "pertanyaan": [
-            "mencoba",
-            "hal",
-            "baru",
-            "itu",
-            "menantang",
-            "dan",
-            "memberi",
-            "kesempatan",
-            "untuk",
-            "mengembangkan",
-            "diri",
-            "dan",
-            "menambah",
-            "pengalaman"
-        ],
-        "jawaban": "mencoba hal baru itu menantang dan memberi kesempatan untuk mengembangkan diri dan menambah pengalaman"
-    },
-    {
-        "pertanyaan": [
-            "pergi",
-            "ke",
-            "kelas",
-            "atau",
-            "workshop",
-            "atau",
-            "mencoba",
-            "aktivitas",
-            "baru",
-            "saya",
-            "saat",
-            "ingin",
-            "belajar",
-            "sesuatu",
-            "yang",
-            "baru",
-            "atau",
-            "mencari",
-            "hobi",
-            "baru"
-        ],
-        "jawaban": "pergi ke kelas atau workshop atau mencoba aktivitas baru saya saat ingin belajar sesuatu yang baru atau mencari hobi baru"
-    },
-    {
-        "pertanyaan": [
-            "bersantai",
-            "di",
-            "rumah",
-            "itu",
-            "penting",
-            "untuk",
-            "memulihkan",
-            "energi",
-            "dan",
-            "menjaga",
-            "kesehatan",
-            "mental"
-        ],
-        "jawaban": "bersantai di rumah itu penting untuk memulihkan energi dan menjaga kesehatan mental"
-    },
-    {
-        "pertanyaan": [
-            "menghabiskan",
-            "waktu",
-            "di",
-            "rumah",
-            "saya",
-            "saat",
-            "ingin",
-            "beristirahat",
-            "atau",
-            "melakukan",
-            "aktivitas",
-            "yang",
-            "disukai",
-            "di",
-            "rumah"
-        ],
-        "jawaban": "menghabiskan waktu di rumah saya saat ingin beristirahat atau melakukan aktivitas yang disukai di rumah"
-    },
-    {
-        "pertanyaan": [
+            "akan",
             "tidur",
-            "yang",
-            "cukup",
-            "itu",
-            "penting",
-            "untuk",
-            "kesehatan",
-            "fisik",
-            "dan",
-            "mental",
-            "yang",
-            "baik"
+            "kita",
+            "komputer"
         ],
-        "jawaban": "tidur yang cukup itu penting untuk kesehatan fisik dan mental yang baik"
+        "jawaban": "kita akan tidur komputer"
     },
     {
         "pertanyaan": [
-            "tidur",
-            "di",
-            "rumah",
-            "saya",
-            "dengan",
-            "nyenyak",
-            "saat",
-            "malam",
-            "hari",
-            "untuk",
-            "memastikan",
-            "tubuh",
-            "dan",
-            "pikiran",
-            "beristirahat",
-            "dengan",
-            "baik"
+            "bola",
+            "bermain",
+            "sedang",
+            "dia"
         ],
-        "jawaban": "tidur di rumah saya dengan nyenyak saat malam hari untuk memastikan tubuh dan pikiran beristirahat dengan baik"
+        "jawaban": "dia sedang bermain bola"
     },
     {
         "pertanyaan": [
-            "makan",
-            "makanan",
-            "yang",
-            "sehat",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "kesehatan",
-            "tubuh",
-            "dan",
-            "mendapatkan",
-            "energi",
-            "yang",
-            "cukup"
-        ],
-        "jawaban": "makan makanan yang sehat itu penting untuk menjaga kesehatan tubuh dan mendapatkan energi yang cukup"
-    },
-    {
-        "pertanyaan": [
+            "aku",
             "memasak",
-            "makanan",
-            "sendiri",
-            "atau",
-            "makan",
-            "di",
-            "restoran",
-            "yang",
-            "menyajikan",
-            "makanan",
-            "sehat",
-            "saya",
-            "saat",
-            "ingin",
-            "menjaga",
-            "pola",
-            "makan",
-            "yang",
-            "baik"
+            "ayam",
+            "akan"
         ],
-        "jawaban": "memasak makanan sendiri atau makan di restoran yang menyajikan makanan sehat saya saat ingin menjaga pola makan yang baik"
+        "jawaban": "aku akan memasak ayam"
     },
     {
         "pertanyaan": [
-            "minum",
-            "air",
-            "putih",
-            "yang",
-            "cukup",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "hidrasi",
-            "tubuh",
-            "dan",
-            "fungsi",
-            "organ",
-            "yang",
-            "baik"
+            "sedang",
+            "buku",
+            "dia",
+            "bermain"
         ],
-        "jawaban": "minum air putih yang cukup itu penting untuk menjaga hidrasi tubuh dan fungsi organ yang baik"
+        "jawaban": "dia sedang bermain buku"
     },
     {
         "pertanyaan": [
-            "membawa",
-            "botol",
-            "air",
-            "putih",
-            "saya",
-            "ke",
-            "mana",
+            "mereka",
+            "baru",
+            "pergi",
             "saja",
-            "saat",
-            "beraktivitas",
-            "atau",
-            "minum",
-            "air",
-            "putih",
-            "secara",
-            "teratur",
-            "di",
-            "rumah"
+            "nasi"
         ],
-        "jawaban": "membawa botol air putih saya ke mana saja saat beraktivitas atau minum air putih secara teratur di rumah"
+        "jawaban": "mereka baru saja pergi nasi"
     },
     {
         "pertanyaan": [
-            "berolahraga",
-            "secara",
-            "teratur",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "kesehatan",
-            "fisik",
-            "dan",
-            "mental",
-            "yang",
-            "baik",
-            "dan",
-            "meningkatkan",
-            "kualitas",
-            "hidup"
-        ],
-        "jawaban": "berolahraga secara teratur itu penting untuk menjaga kesehatan fisik dan mental yang baik dan meningkatkan kualitas hidup"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "olahraga",
-            "yang",
-            "disukai",
-            "saya",
-            "secara",
-            "teratur",
-            "di",
-            "gym",
-            "atau",
-            "di",
-            "luar",
-            "ruangan",
-            "untuk",
-            "mendapatkan",
-            "manfaat",
-            "kesehatan",
-            "yang",
-            "optimal"
-        ],
-        "jawaban": "melakukan olahraga yang disukai saya secara teratur di gym atau di luar ruangan untuk mendapatkan manfaat kesehatan yang optimal"
-    },
-    {
-        "pertanyaan": [
-            "mengelola",
-            "stres",
-            "dengan",
-            "baik",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "kesehatan",
-            "mental",
-            "dan",
-            "mencegah",
-            "dampak",
-            "negatif",
-            "pada",
-            "tubuh"
-        ],
-        "jawaban": "mengelola stres dengan baik itu penting untuk menjaga kesehatan mental dan mencegah dampak negatif pada tubuh"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "aktivitas",
-            "yang",
-            "menenangkan",
-            "seperti",
-            "yoga",
-            "atau",
-            "meditasi",
-            "atau",
-            "berbicara",
-            "dengan",
-            "teman",
-            "atau",
-            "keluarga",
-            "saya",
-            "saat",
-            "merasa",
-            "stres",
-            "atau",
-            "tertekan"
-        ],
-        "jawaban": "melakukan aktivitas yang menenangkan seperti yoga atau meditasi atau berbicara dengan teman atau keluarga saya saat merasa stres atau tertekan"
-    },
-    {
-        "pertanyaan": [
-            "bersosialisasi",
-            "dengan",
-            "orang",
-            "lain",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "hubungan",
-            "yang",
-            "baik",
-            "dan",
-            "mendapatkan",
-            "dukungan",
-            "sosial"
-        ],
-        "jawaban": "bersosialisasi dengan orang lain itu penting untuk menjaga hubungan yang baik dan mendapatkan dukungan sosial"
-    },
-    {
-        "pertanyaan": [
-            "menghabiskan",
-            "waktu",
-            "bersama",
-            "keluarga",
-            "atau",
-            "teman",
-            "atau",
-            "mengikuti",
-            "kegiatan",
-            "sosial",
-            "saya",
-            "untuk",
-            "memperluas",
-            "lingkaran",
-            "pertemanan",
-            "dan",
-            "mendapatkan",
-            "pengalaman",
-            "yang",
-            "berharga"
-        ],
-        "jawaban": "menghabiskan waktu bersama keluarga atau teman atau mengikuti kegiatan sosial saya untuk memperluas lingkaran pertemanan dan mendapatkan pengalaman yang berharga"
-    },
-    {
-        "pertanyaan": [
-            "belajar",
-            "hal",
+            "kami",
+            "pergi",
             "baru",
-            "itu",
-            "bermanfaat",
-            "untuk",
-            "mengembangkan",
-            "diri",
-            "dan",
-            "menambah",
-            "pengetahuan",
-            "dan",
-            "wawasan"
+            "ayam",
+            "saja"
         ],
-        "jawaban": "belajar hal baru itu bermanfaat untuk mengembangkan diri dan menambah pengetahuan dan wawasan"
+        "jawaban": "kami baru saja pergi ayam"
     },
     {
         "pertanyaan": [
-            "membaca",
-            "buku",
-            "atau",
-            "mengikuti",
-            "kursus",
-            "atau",
-            "belajar",
-            "bahasa",
-            "asing",
-            "saya",
-            "untuk",
-            "meningkatkan",
-            "kemampuan",
-            "dan",
-            "pengetahuan",
-            "di",
-            "bidang",
-            "yang",
-            "diminati"
-        ],
-        "jawaban": "membaca buku atau mengikuti kursus atau belajar bahasa asing saya untuk meningkatkan kemampuan dan pengetahuan di bidang yang diminati"
-    },
-    {
-        "pertanyaan": [
-            "bersyukur",
-            "atas",
-            "apa",
-            "yang",
-            "dimiliki",
-            "itu",
-            "penting",
-            "untuk",
-            "menjaga",
-            "kesehatan",
-            "mental",
-            "yang",
-            "positif",
-            "dan",
-            "menghargai",
-            "hidup"
-        ],
-        "jawaban": "bersyukur atas apa yang dimiliki itu penting untuk menjaga kesehatan mental yang positif dan menghargai hidup"
-    },
-    {
-        "pertanyaan": [
-            "mencatat",
-            "hal-hal",
-            "yang",
-            "disyukuri",
-            "setiap",
-            "hari",
-            "atau",
-            "mengungkapkan",
-            "rasa",
-            "terima",
-            "kasih",
-            "kepada",
-            "orang-orang",
-            "di",
-            "sekitar",
-            "saya",
-            "untuk",
-            "menumbuhkan",
-            "rasa",
-            "syukur",
-            "dan",
-            "kebahagiaan"
-        ],
-        "jawaban": "mencatat hal-hal yang disyukuri setiap hari atau mengungkapkan rasa terima kasih kepada orang-orang di sekitar saya untuk menumbuhkan rasa syukur dan kebahagiaan"
-    },
-    {
-        "pertanyaan": [
-            "memberi",
-            "kepada",
-            "orang",
-            "lain",
-            "itu",
-            "bermanfaat",
-            "untuk",
-            "membantu",
-            "sesama",
-            "dan",
-            "merasakan",
-            "kebahagiaan",
-            "yang",
-            "tulus"
-        ],
-        "jawaban": "memberi kepada orang lain itu bermanfaat untuk membantu sesama dan merasakan kebahagiaan yang tulus"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "kegiatan",
-            "sosial",
-            "atau",
-            "memberikan",
-            "sumbangan",
-            "atau",
-            "menjadi",
-            "relawan",
-            "saya",
-            "untuk",
-            "berkontribusi",
-            "pada",
-            "masyarakat",
-            "dan",
-            "membantu",
-            "orang-orang",
-            "yang",
-            "membutuhkan"
-        ],
-        "jawaban": "melakukan kegiatan sosial atau memberikan sumbangan atau menjadi relawan saya untuk berkontribusi pada masyarakat dan membantu orang-orang yang membutuhkan"
-    },
-    {
-        "pertanyaan": [
-            "menjaga",
-            "lingkungan",
-            "itu",
-            "penting",
-            "untuk",
-            "masa",
-            "depan",
-            "bumi",
-            "dan",
-            "generasi",
-            "mendatang"
-        ],
-        "jawaban": "menjaga lingkungan itu penting untuk masa depan bumi dan generasi mendatang"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "kegiatan",
-            "yang",
-            "ramah",
-            "lingkungan",
-            "seperti",
-            "mendaur",
-            "ulang",
-            "atau",
-            "mengurangi",
-            "penggunaan",
-            "plastik",
-            "atau",
-            "menanam",
-            "pohon",
-            "saya",
-            "untuk",
-            "berkontribusi",
-            "pada",
-            "pelestarian",
-            "lingkungan"
-        ],
-        "jawaban": "melakukan kegiatan yang ramah lingkungan seperti mendaur ulang atau mengurangi penggunaan plastik atau menanam pohon saya untuk berkontribusi pada pelestarian lingkungan"
-    },
-    {
-        "pertanyaan": [
-            "menikmati",
-            "hidup",
-            "sepenuhnya",
-            "itu",
-            "penting",
-            "untuk",
-            "merasakan",
-            "kebahagiaan",
-            "dan",
-            "kepuasan",
-            "dalam",
-            "setiap",
-            "momen"
-        ],
-        "jawaban": "menikmati hidup sepenuhnya itu penting untuk merasakan kebahagiaan dan kepuasan dalam setiap momen"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "hal-hal",
-            "yang",
-            "disukai",
-            "atau",
-            "mencoba",
-            "hal",
+            "mereka",
             "baru",
-            "atau",
-            "menghabiskan",
-            "waktu",
-            "bersama",
-            "orang-orang",
-            "yang",
-            "dicintai",
-            "saya",
-            "untuk",
-            "merasakan",
-            "kebahagiaan",
-            "dan",
-            "kepuasan",
-            "dalam",
-            "hidup"
+            "teh",
+            "saja",
+            "pergi"
         ],
-        "jawaban": "melakukan hal-hal yang disukai atau mencoba hal baru atau menghabiskan waktu bersama orang-orang yang dicintai saya untuk merasakan kebahagiaan dan kepuasan dalam hidup"
-    },
-    {
-        "pertanyaan": [
-            "menjaga",
-            "keseimbangan",
-            "antara",
-            "pekerjaan",
-            "dan",
-            "kehidupan",
-            "pribadi",
-            "itu",
-            "penting",
-            "untuk",
-            "kesejahteraan",
-            "secara",
-            "keseluruhan"
-        ],
-        "jawaban": "menjaga keseimbangan antara pekerjaan dan kehidupan pribadi itu penting untuk kesejahteraan secara keseluruhan"
-    },
-    {
-        "pertanyaan": [
-            "mengatur",
-            "waktu",
-            "dengan",
-            "baik",
-            "dan",
-            "menetapkan",
-            "prioritas",
-            "yang",
-            "jelas",
-            "saya",
-            "untuk",
-            "memastikan",
-            "pekerjaan",
-            "dan",
-            "kehidupan",
-            "pribadi",
-            "berjalan",
-            "seimbang"
-        ],
-        "jawaban": "mengatur waktu dengan baik dan menetapkan prioritas yang jelas saya untuk memastikan pekerjaan dan kehidupan pribadi berjalan seimbang"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "pemeriksaan",
-            "kesehatan",
-            "secara",
-            "berkala",
-            "itu",
-            "penting",
-            "untuk",
-            "mendeteksi",
-            "masalah",
-            "kesehatan",
-            "sejak",
-            "dini",
-            "dan",
-            "mendapatkan",
-            "perawatan",
-            "yang",
-            "tepat"
-        ],
-        "jawaban": "melakukan pemeriksaan kesehatan secara berkala itu penting untuk mendeteksi masalah kesehatan sejak dini dan mendapatkan perawatan yang tepat"
+        "jawaban": "mereka baru saja pergi teh"
     },
     {
         "pertanyaan": [
             "pergi",
-            "ke",
-            "dokter",
-            "atau",
-            "klinik",
-            "saya",
-            "secara",
-            "teratur",
-            "untuk",
-            "pemeriksaan",
-            "kesehatan",
-            "rutin",
-            "dan",
-            "konsultasi",
-            "jika",
-            "ada",
-            "keluhan"
-        ],
-        "jawaban": "pergi ke dokter atau klinik saya secara teratur untuk pemeriksaan kesehatan rutin dan konsultasi jika ada keluhan"
-    },
-    {
-        "pertanyaan": [
-            "menjaga",
-            "kebersihan",
-            "diri",
-            "dan",
-            "lingkungan",
-            "itu",
-            "penting",
-            "untuk",
-            "mencegah",
-            "penyakit",
-            "dan",
-            "menjaga",
-            "kesehatan",
-            "secara",
-            "keseluruhan"
-        ],
-        "jawaban": "menjaga kebersihan diri dan lingkungan itu penting untuk mencegah penyakit dan menjaga kesehatan secara keseluruhan"
-    },
-    {
-        "pertanyaan": [
-            "mandi",
-            "secara",
-            "teratur",
-            "mencuci",
-            "tangan",
-            "sebelum",
-            "dan",
-            "sesudah",
-            "makan",
-            "dan",
-            "membersihkan",
-            "rumah",
-            "secara",
-            "rutin",
-            "saya",
-            "untuk",
-            "menjaga",
-            "kebersihan"
-        ],
-        "jawaban": "mandi secara teratur mencuci tangan sebelum dan sesudah makan dan membersihkan rumah secara rutin saya untuk menjaga kebersihan"
-    },
-    {
-        "pertanyaan": [
-            "menghindari",
-            "kebiasaan",
-            "buruk",
-            "seperti",
-            "merokok",
-            "dan",
-            "mengkonsumsi",
-            "alkohol",
-            "berlebihan",
-            "itu",
-            "penting",
-            "untuk",
-            "kesehatan",
-            "jangka",
-            "panjang"
-        ],
-        "jawaban": "menghindari kebiasaan buruk seperti merokok dan mengkonsumsi alkohol berlebihan itu penting untuk kesehatan jangka panjang"
-    },
-    {
-        "pertanyaan": [
-            "tidak",
-            "merokok",
-            "dan",
-            "membatasi",
-            "konsumsi",
-            "alkohol",
-            "saya",
-            "untuk",
-            "menjaga",
-            "tubuh",
-            "tetap",
-            "sehat",
-            "dan",
-            "terhindar",
-            "dari",
-            "penyakit"
-        ],
-        "jawaban": "tidak merokok dan membatasi konsumsi alkohol saya untuk menjaga tubuh tetap sehat dan terhindar dari penyakit"
-    },
-    {
-        "pertanyaan": [
-            "menjaga",
-            "kesehatan",
-            "mental",
-            "itu",
-            "sama",
-            "pentingnya",
-            "dengan",
-            "menjaga",
-            "kesehatan",
-            "fisik"
-        ],
-        "jawaban": "menjaga kesehatan mental itu sama pentingnya dengan menjaga kesehatan fisik"
-    },
-    {
-        "pertanyaan": [
-            "melakukan",
-            "aktivitas",
-            "yang",
-            "menyenangkan",
-            "berolahraga",
-            "secara",
-            "teratur",
-            "dan",
-            "berbicara",
-            "dengan",
-            "orang",
-            "yang",
-            "dipercaya",
-            "saya",
-            "untuk",
-            "menjaga",
-            "kesehatan",
-            "mental"
-        ],
-        "jawaban": "melakukan aktivitas yang menyenangkan berolahraga secara teratur dan berbicara dengan orang yang dipercaya saya untuk menjaga kesehatan mental"
-    },
-    {
-        "pertanyaan": [
-            "memiliki",
-            "tujuan",
-            "hidup",
-            "yang",
-            "jelas",
-            "itu",
-            "penting",
-            "untuk",
-            "memberi",
-            "arah",
-            "dan",
-            "makna",
-            "dalam",
-            "hidup"
-        ],
-        "jawaban": "memiliki tujuan hidup yang jelas itu penting untuk memberi arah dan makna dalam hidup"
-    },
-    {
-        "pertanyaan": [
-            "menetapkan",
-            "tujuan",
-            "yang",
-            "realistis",
-            "dan",
-            "mencapainya",
-            "secara",
-            "bertahap",
-            "saya",
-            "untuk",
-            "merasa",
-            "puas",
-            "dan",
-            "termotivasi"
-        ],
-        "jawaban": "menetapkan tujuan yang realistis dan mencapainya secara bertahap saya untuk merasa puas dan termotivasi"
-    },
-    {
-        "pertanyaan": [
-            "belajar",
-            "dari",
-            "kesalahan",
-            "dan",
-            "terus",
-            "berkembang",
-            "itu",
-            "penting",
-            "untuk",
-            "pertumbuhan",
-            "pribadi"
-        ],
-        "jawaban": "belajar dari kesalahan dan terus berkembang itu penting untuk pertumbuhan pribadi"
-    },
-    {
-        "pertanyaan": [
-            "tidak",
-            "takut",
-            "untuk",
-            "mencoba",
-            "hal",
+            "mereka",
+            "saja",
             "baru",
-            "dan",
-            "melihat",
-            "kegagalan",
-            "sebagai",
-            "peluang",
-            "untuk",
+            "mie"
+        ],
+        "jawaban": "mereka baru saja pergi mie"
+    },
+    {
+        "pertanyaan": [
+            "baru",
+            "saja",
+            "pergi",
+            "kami",
+            "kopi"
+        ],
+        "jawaban": "kami baru saja pergi kopi"
+    },
+    {
+        "pertanyaan": [
+            "teh",
+            "memasak",
+            "akan",
+            "kita"
+        ],
+        "jawaban": "kita akan memasak teh"
+    },
+    {
+        "pertanyaan": [
+            "kue",
+            "kami",
+            "sedang",
+            "makan"
+        ],
+        "jawaban": "kami sedang makan kue"
+    },
+    {
+        "pertanyaan": [
+            "kopi",
             "belajar",
-            "saya",
-            "untuk",
-            "terus",
-            "berkembang"
+            "kamu",
+            "sudah"
         ],
-        "jawaban": "tidak takut untuk mencoba hal baru dan melihat kegagalan sebagai peluang untuk belajar saya untuk terus berkembang"
+        "jawaban": "kamu sudah belajar kopi"
     },
     {
         "pertanyaan": [
-            "menjaga",
-            "hubungan",
-            "yang",
-            "baik",
-            "dengan",
-            "orang",
-            "lain",
-            "itu",
-            "penting",
-            "untuk",
-            "dukungan",
-            "sosial",
-            "dan",
-            "kebahagiaan"
+            "sedang",
+            "teh",
+            "aku",
+            "makan"
         ],
-        "jawaban": "menjaga hubungan yang baik dengan orang lain itu penting untuk dukungan sosial dan kebahagiaan"
+        "jawaban": "aku sedang makan teh"
     },
     {
         "pertanyaan": [
-            "menghabiskan",
-            "waktu",
-            "bersama",
-            "keluarga",
-            "dan",
-            "teman",
-            "dan",
-            "berkomunikasi",
-            "secara",
-            "terbuka",
-            "dan",
-            "jujur",
-            "saya",
-            "untuk",
-            "memperkuat",
-            "hubungan"
+            "kami",
+            "akan",
+            "kopi",
+            "memasak"
         ],
-        "jawaban": "menghabiskan waktu bersama keluarga dan teman dan berkomunikasi secara terbuka dan jujur saya untuk memperkuat hubungan"
+        "jawaban": "kami akan memasak kopi"
     },
     {
         "pertanyaan": [
-            "menghargai",
-            "waktu",
-            "itu",
-            "penting",
-            "karena",
-            "waktu",
-            "tidak",
-            "bisa",
-            "diulang"
+            "sedang",
+            "makan",
+            "kami",
+            "kopi"
         ],
-        "jawaban": "menghargai waktu itu penting karena waktu tidak bisa diulang"
+        "jawaban": "kami sedang makan kopi"
     },
     {
         "pertanyaan": [
-            "mengelola",
-            "waktu",
-            "dengan",
-            "baik",
-            "dan",
-            "tidak",
-            "menunda-nunda",
-            "pekerjaan",
-            "saya",
-            "untuk",
-            "menggunakan",
-            "waktu",
-            "secara",
-            "efektif"
+            "kue",
+            "makan",
+            "sedang",
+            "mereka"
         ],
-        "jawaban": "mengelola waktu dengan baik dan tidak menunda-nunda pekerjaan saya untuk menggunakan waktu secara efektif"
+        "jawaban": "mereka sedang makan kue"
     },
     {
         "pertanyaan": [
-            "bersyukur",
-            "atas",
-            "apa",
-            "yang",
-            "dimiliki",
-            "itu",
-            "penting",
-            "untuk",
-            "merasakan",
-            "kebahagiaan",
-            "dan",
-            "kepuasan"
+            "kami",
+            "tidur",
+            "akan",
+            "kopi"
         ],
-        "jawaban": "bersyukur atas apa yang dimiliki itu penting untuk merasakan kebahagiaan dan kepuasan"
+        "jawaban": "kami akan tidur kopi"
     },
     {
         "pertanyaan": [
-            "fokus",
-            "pada",
-            "hal-hal",
-            "positif",
-            "dan",
-            "mengungkapkan",
-            "rasa",
-            "terima",
-            "kasih",
-            "saya",
-            "untuk",
-            "menghargai",
-            "hidup"
+            "ayam",
+            "kita",
+            "bermain",
+            "sedang"
         ],
-        "jawaban": "fokus pada hal-hal positif dan mengungkapkan rasa terima kasih saya untuk menghargai hidup"
+        "jawaban": "kita sedang bermain ayam"
     },
     {
         "pertanyaan": [
-            "menikmati",
-            "setiap",
-            "momen",
-            "dalam",
-            "hidup",
-            "itu",
-            "penting",
-            "karena",
-            "hidup",
-            "ini",
-            "singkat"
+            "kamu",
+            "kue",
+            "saja",
+            "baru",
+            "pergi"
         ],
-        "jawaban": "menikmati setiap momen dalam hidup itu penting karena hidup ini singkat"
+        "jawaban": "kamu baru saja pergi kue"
+    },
+    {
+        "pertanyaan": [
+            "kami",
+            "memasak",
+            "akan",
+            "nasi"
+        ],
+        "jawaban": "kami akan memasak nasi"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "tidur",
+            "apel",
+            "aku"
+        ],
+        "jawaban": "aku akan tidur apel"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "apel",
+            "kamu",
+            "memasak"
+        ],
+        "jawaban": "kamu akan memasak apel"
+    },
+    {
+        "pertanyaan": [
+            "sudah",
+            "kita",
+            "teh",
+            "belajar"
+        ],
+        "jawaban": "kita sudah belajar teh"
+    },
+    {
+        "pertanyaan": [
+            "sudah",
+            "ayam",
+            "belajar",
+            "dia"
+        ],
+        "jawaban": "dia sudah belajar ayam"
+    },
+    {
+        "pertanyaan": [
+            "sedang",
+            "aku",
+            "ayam",
+            "bermain"
+        ],
+        "jawaban": "aku sedang bermain ayam"
+    },
+    {
+        "pertanyaan": [
+            "buku",
+            "kita",
+            "sedang",
+            "bermain"
+        ],
+        "jawaban": "kita sedang bermain buku"
+    },
+    {
+        "pertanyaan": [
+            "kamu",
+            "buku",
+            "sedang",
+            "bermain"
+        ],
+        "jawaban": "kamu sedang bermain buku"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "memasak",
+            "aku",
+            "teh"
+        ],
+        "jawaban": "aku akan memasak teh"
+    },
+    {
+        "pertanyaan": [
+            "pergi",
+            "teh",
+            "aku",
+            "saja",
+            "baru"
+        ],
+        "jawaban": "aku baru saja pergi teh"
+    },
+    {
+        "pertanyaan": [
+            "teh",
+            "sedang",
+            "makan",
+            "dia"
+        ],
+        "jawaban": "dia sedang makan teh"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "tidur",
+            "kue",
+            "mereka"
+        ],
+        "jawaban": "mereka akan tidur kue"
+    },
+    {
+        "pertanyaan": [
+            "belajar",
+            "sudah",
+            "ayam",
+            "kamu"
+        ],
+        "jawaban": "kamu sudah belajar ayam"
+    },
+    {
+        "pertanyaan": [
+            "kami",
+            "ayam",
+            "baru",
+            "saja",
+            "pergi"
+        ],
+        "jawaban": "kami baru saja pergi ayam"
+    },
+    {
+        "pertanyaan": [
+            "mie",
+            "mereka",
+            "belajar",
+            "sudah"
+        ],
+        "jawaban": "mereka sudah belajar mie"
+    },
+    {
+        "pertanyaan": [
+            "sedang",
+            "ayam",
+            "bermain",
+            "dia"
+        ],
+        "jawaban": "dia sedang bermain ayam"
+    },
+    {
+        "pertanyaan": [
+            "kopi",
+            "bermain",
+            "sedang",
+            "kamu"
+        ],
+        "jawaban": "kamu sedang bermain kopi"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "bola",
+            "tidur",
+            "kita"
+        ],
+        "jawaban": "kita akan tidur bola"
+    },
+    {
+        "pertanyaan": [
+            "bermain",
+            "mereka",
+            "nasi",
+            "sedang"
+        ],
+        "jawaban": "mereka sedang bermain nasi"
+    },
+    {
+        "pertanyaan": [
+            "teh",
+            "sudah",
+            "dia",
+            "belajar"
+        ],
+        "jawaban": "dia sudah belajar teh"
+    },
+    {
+        "pertanyaan": [
+            "aku",
+            "akan",
+            "memasak",
+            "nasi"
+        ],
+        "jawaban": "aku akan memasak nasi"
+    },
+    {
+        "pertanyaan": [
+            "sudah",
+            "mereka",
+            "komputer",
+            "belajar"
+        ],
+        "jawaban": "mereka sudah belajar komputer"
+    },
+    {
+        "pertanyaan": [
+            "buku",
+            "makan",
+            "kamu",
+            "sedang"
+        ],
+        "jawaban": "kamu sedang makan buku"
+    },
+    {
+        "pertanyaan": [
+            "memasak",
+            "dia",
+            "akan",
+            "ayam"
+        ],
+        "jawaban": "dia akan memasak ayam"
+    },
+    {
+        "pertanyaan": [
+            "sudah",
+            "belajar",
+            "kita",
+            "apel"
+        ],
+        "jawaban": "kita sudah belajar apel"
+    },
+    {
+        "pertanyaan": [
+            "dia",
+            "sedang",
+            "kue",
+            "makan"
+        ],
+        "jawaban": "dia sedang makan kue"
+    },
+    {
+        "pertanyaan": [
+            "saja",
+            "aku",
+            "pergi",
+            "buku",
+            "baru"
+        ],
+        "jawaban": "aku baru saja pergi buku"
+    },
+    {
+        "pertanyaan": [
+            "baru",
+            "saja",
+            "mie",
+            "aku",
+            "pergi"
+        ],
+        "jawaban": "aku baru saja pergi mie"
+    },
+    {
+        "pertanyaan": [
+            "kita",
+            "mie",
+            "akan",
+            "memasak"
+        ],
+        "jawaban": "kita akan memasak mie"
+    },
+    {
+        "pertanyaan": [
+            "mereka",
+            "sedang",
+            "makan",
+            "apel"
+        ],
+        "jawaban": "mereka sedang makan apel"
+    },
+    {
+        "pertanyaan": [
+            "pergi",
+            "saja",
+            "baru",
+            "komputer",
+            "mereka"
+        ],
+        "jawaban": "mereka baru saja pergi komputer"
+    },
+    {
+        "pertanyaan": [
+            "aku",
+            "mie",
+            "bermain",
+            "sedang"
+        ],
+        "jawaban": "aku sedang bermain mie"
+    },
+    {
+        "pertanyaan": [
+            "sudah",
+            "buku",
+            "belajar",
+            "dia"
+        ],
+        "jawaban": "dia sudah belajar buku"
+    },
+    {
+        "pertanyaan": [
+            "dia",
+            "ayam",
+            "tidur",
+            "akan"
+        ],
+        "jawaban": "dia akan tidur ayam"
+    },
+    {
+        "pertanyaan": [
+            "baru",
+            "nasi",
+            "pergi",
+            "saja",
+            "kita"
+        ],
+        "jawaban": "kita baru saja pergi nasi"
+    },
+    {
+        "pertanyaan": [
+            "dia",
+            "sedang",
+            "ayam",
+            "bermain"
+        ],
+        "jawaban": "dia sedang bermain ayam"
+    },
+    {
+        "pertanyaan": [
+            "buku",
+            "kami",
+            "memasak",
+            "akan"
+        ],
+        "jawaban": "kami akan memasak buku"
+    },
+    {
+        "pertanyaan": [
+            "teh",
+            "memasak",
+            "akan",
+            "mereka"
+        ],
+        "jawaban": "mereka akan memasak teh"
+    },
+    {
+        "pertanyaan": [
+            "kami",
+            "makan",
+            "kue",
+            "sedang"
+        ],
+        "jawaban": "kami sedang makan kue"
+    },
+    {
+        "pertanyaan": [
+            "dia",
+            "pergi",
+            "saja",
+            "baru",
+            "mie"
+        ],
+        "jawaban": "dia baru saja pergi mie"
+    },
+    {
+        "pertanyaan": [
+            "pergi",
+            "saja",
+            "baru",
+            "teh",
+            "kamu"
+        ],
+        "jawaban": "kamu baru saja pergi teh"
+    },
+    {
+        "pertanyaan": [
+            "mereka",
+            "mie",
+            "baru",
+            "saja",
+            "pergi"
+        ],
+        "jawaban": "mereka baru saja pergi mie"
+    },
+    {
+        "pertanyaan": [
+            "pergi",
+            "ayam",
+            "aku",
+            "saja",
+            "baru"
+        ],
+        "jawaban": "aku baru saja pergi ayam"
+    },
+    {
+        "pertanyaan": [
+            "bola",
+            "belajar",
+            "aku",
+            "sudah"
+        ],
+        "jawaban": "aku sudah belajar bola"
+    },
+    {
+        "pertanyaan": [
+            "kamu",
+            "makan",
+            "sedang",
+            "mie"
+        ],
+        "jawaban": "kamu sedang makan mie"
+    },
+    {
+        "pertanyaan": [
+            "kue",
+            "baru",
+            "pergi",
+            "mereka",
+            "saja"
+        ],
+        "jawaban": "mereka baru saja pergi kue"
+    },
+    {
+        "pertanyaan": [
+            "sedang",
+            "nasi",
+            "kami",
+            "makan"
+        ],
+        "jawaban": "kami sedang makan nasi"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "bola",
+            "mereka",
+            "tidur"
+        ],
+        "jawaban": "mereka akan tidur bola"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "tidur",
+            "kita",
+            "bola"
+        ],
+        "jawaban": "kita akan tidur bola"
+    },
+    {
+        "pertanyaan": [
+            "kami",
+            "bermain",
+            "sedang",
+            "buku"
+        ],
+        "jawaban": "kami sedang bermain buku"
+    },
+    {
+        "pertanyaan": [
+            "belajar",
+            "apel",
+            "dia",
+            "sudah"
+        ],
+        "jawaban": "dia sudah belajar apel"
+    },
+    {
+        "pertanyaan": [
+            "kamu",
+            "sudah",
+            "komputer",
+            "belajar"
+        ],
+        "jawaban": "kamu sudah belajar komputer"
+    },
+    {
+        "pertanyaan": [
+            "kita",
+            "belajar",
+            "sudah",
+            "mie"
+        ],
+        "jawaban": "kita sudah belajar mie"
+    },
+    {
+        "pertanyaan": [
+            "nasi",
+            "aku",
+            "tidur",
+            "akan"
+        ],
+        "jawaban": "aku akan tidur nasi"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "kita",
+            "teh",
+            "memasak"
+        ],
+        "jawaban": "kita akan memasak teh"
+    },
+    {
+        "pertanyaan": [
+            "kue",
+            "sudah",
+            "aku",
+            "belajar"
+        ],
+        "jawaban": "aku sudah belajar kue"
+    },
+    {
+        "pertanyaan": [
+            "apel",
+            "akan",
+            "tidur",
+            "dia"
+        ],
+        "jawaban": "dia akan tidur apel"
+    },
+    {
+        "pertanyaan": [
+            "makan",
+            "mereka",
+            "apel",
+            "sedang"
+        ],
+        "jawaban": "mereka sedang makan apel"
+    },
+    {
+        "pertanyaan": [
+            "sedang",
+            "kami",
+            "bermain",
+            "mie"
+        ],
+        "jawaban": "kami sedang bermain mie"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "kamu",
+            "kopi",
+            "memasak"
+        ],
+        "jawaban": "kamu akan memasak kopi"
+    },
+    {
+        "pertanyaan": [
+            "mereka",
+            "kopi",
+            "sudah",
+            "belajar"
+        ],
+        "jawaban": "mereka sudah belajar kopi"
+    },
+    {
+        "pertanyaan": [
+            "sedang",
+            "buku",
+            "bermain",
+            "kami"
+        ],
+        "jawaban": "kami sedang bermain buku"
+    },
+    {
+        "pertanyaan": [
+            "sedang",
+            "kue",
+            "makan",
+            "kami"
+        ],
+        "jawaban": "kami sedang makan kue"
+    },
+    {
+        "pertanyaan": [
+            "akan",
+            "dia",
+            "memasak",
+            "nasi"
+        ],
+        "jawaban": "dia akan memasak nasi"
+    },
+    {
+        "pertanyaan": [
+            "tidur",
+            "aku",
+            "teh",
+            "akan"
+        ],
+        "jawaban": "aku akan tidur teh"
+    },
+    {
+        "pertanyaan": [
+            "dia",
+            "teh",
+            "belajar",
+            "sudah"
+        ],
+        "jawaban": "dia sudah belajar teh"
     }
 ]

@@ -32,6 +32,6 @@ ${aspect_ratio.map((val, i) => `${i + 1}. *${val}*`).join('\n')}
 
 theoFitur.command = ["imageai", "imgai"]
 theoFitur.tags = "ai"
-theoFitur.limit = true
+theoFitur.premium = true
 
 export default theoFitur
