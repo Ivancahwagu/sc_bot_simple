@@ -8,6 +8,7 @@ import { jadwal_sholat_kota } from "./tools/scrape.js";
 // Global constants
 global.__dirname = path.dirname(url.fileURLToPath(import.meta.url));
 global.namaBot = "TheoBot V3";
+global.maxUseRam = 500 //MB
 
 global.owner = [
     "6285876830674",
