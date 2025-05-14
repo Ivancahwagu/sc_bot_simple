@@ -8,12 +8,14 @@ import './../setting.js'
 import fs from "fs";
 
 export async function getBuffer(url) {
+    if (Buffer.isBuffer(url)) return url
     try {
-        return Buffer.from(await (await fetch(url)).arrayBuffer())
-    } catch (e) {
-        return await (await import("axios")).default.get(url, { responseType: "arraybuffer" })
+        return Buffer.from(await (await fetch(url)).arrayBuffer());
+    } catch {
+        const axios = (await import("axios")).default;
+        return axios.get(url, { responseType: "arraybuffer" });
     }
-}
+};
 
 
 export function getYtId(url) {

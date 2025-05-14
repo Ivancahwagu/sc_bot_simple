@@ -62,6 +62,7 @@ global.delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // Buffer fetcher
 global.getBuffer = async function (url) {
+    if (Buffer.isBuffer(url)) return url
     try {
         return Buffer.from(await (await fetch(url)).arrayBuffer());
     } catch {
@@ -130,6 +131,11 @@ if (!db.jadwalSholat || db.jadwalSholat.hari !== tanggal.getDay()) {
         hari: tanggal.getDay(),
         sholat: await jadwal_sholat_kota(global.kota),
     };
+}
+
+global.doc = {
+    js: `application/javascript`,
+    json: `application/json`
 }
 
 /* EFFECT AUDIO FFMPEG */
@@ -210,4 +216,61 @@ global.effects = {
     vibrato_deep: "vibrato=f=5:d=0.6",
     autowah: "bandpass=f=1000:width=800,lowpass=f=2000,highpass=f=500,volume=1.1",
     vocal_reduce: "pan=stereo|c0=c0-c1|c1=c0-c1" // Sebelumnya vocal_reducer_pan
+};
+
+global.color = {
+    merah: "#FF0000",
+    merahTua: "#8B0000",
+    pink: "#FFC0CB",
+    pinkTua: "#FF69B4",
+    oranye: "#FFA500",
+    oranyeTua: "#FF8C00",
+    kuning: "#FFFF00",
+    emas: "#FFD700",
+    hijau: "#008000",
+    hijauMuda: "#90EE90",
+    hijauTua: "#006400",
+    hijauLaut: "#20B2AA",
+    biru: "#0000FF",
+    biruMuda: "#ADD8E6",
+    biruLangit: "#87CEEB",
+    biruTua: "#00008B",
+    ungu: "#800080",
+    unguTua: "#4B0082",
+    violet: "#EE82EE",
+    coklat: "#A52A2A",
+    coklatMuda: "#D2B48C",
+    abu: "#808080",
+    abuTua: "#A9A9A9",
+    putih: "#FFFFFF",
+    hitam: "#000000",
+    cyan: "#00FFFF",
+    magenta: "#FF00FF",
+    coral: "#FF7F50",
+    peach: "#FFDAB9",
+    navy: "#000080",
+    teal: "#008080",
+    olive: "#808000",
+    lime: "#00FF00",
+    maroon: "#800000",
+    indigo: "#4B0082",
+    salmon: "#FA8072",
+    chocolate: "#D2691E",
+    tan: "#D2B48C",
+    gold: "#FFD700",
+    silver: "#C0C0C0",
+    lavender: "#E6E6FA",
+    plum: "#DDA0DD",
+    turquoise: "#40E0D0",
+    beige: "#F5F5DC",
+    mint: "#98FF98",
+    khaki: "#F0E68C",
+    skyblue: "#87CEEB",
+    royalblue: "#4169E1",
+    crimson: "#DC143C",
+    aquamarine: "#7FFFD4",
+    seashell: "#FFF5EE",
+    linen: "#FAF0E6",
+    ivory: "#FFFFF0",
+    wheat: "#F5DEB3"
 };

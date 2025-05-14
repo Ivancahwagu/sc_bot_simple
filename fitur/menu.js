@@ -1,44 +1,38 @@
-import { textImageAdvanced } from "../tools/image.js";
+import { imgRezize, readImage, roundedImg, textImageAdvanced, timpaImg } from "../tools/image.js";
 import PhoneNumber from "awesome-phonenumber";
+import os from "os"
 import fs from 'fs';
-import { getUptime } from './../tools/func.js';
+import { getUptime, tanggal_now } from './../tools/func.js';
+import path from "path";
 
 let theoFitur = async function ({ m, theo }) {
     let menu = global.menu
-    const waktu = new Date();
+    const waktu = tanggal_now();
     const userData = db.user[m.sender];
     const nomorUser = PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber(`international`);
-    const statusUser = m.owner ? `Owner` : userData?.premium ? `Premium` : `Free User`;
-
-    let image = await textImageAdvanced(
-        fs.readFileSync(__dirname + `/img/menu.jpg`),
-        `${namaBot}`, 934, 538,
-        `./font/menu.fnt`, `center`, `top`, 50, 50, 70, 50
-    );
-
-    image = await textImageAdvanced(
-        image,
-        userData
-            ? `Nama: ${m.name}
-Status: ${statusUser}
-Nomor: ${nomorUser}
-Limit: ${userData.limit}`
-            : `Anda belum terdaftar di bot ini.`,
-        null, null,
-        `./font/menu2.fnt`, `left`, `top`, 260, 260, 150, 50
-    );
-
-    image = await textImageAdvanced(image, `${waktu.getDate()}/${waktu.getMonth() + 1}/${waktu.getFullYear()}`, null, null, `./font/menu2.fnt`, `left`, `top`, 20, 20, 20, 20);
-    image = await textImageAdvanced(image, `Created by Ivan`, null, null, `./font/menu2.fnt`, `right`, `bottom`, 20, 20, 20, 20);
-
+    const statusUser = m.owner ? `DEVELOPER BOT` : userData?.premium ? `PREMIUM USER` : userData ? `FREE USER` : `BELUM DAFTAR`;
+    let pp = await roundedImg(await getBuffer(await theo.getPP(m.sender).catch(e => fs.readFileSync(path.join(__dirname, "img", "pp.jpg")))), 40)
+    let image = fs.readFileSync(path.join("img", "menu.png"));
+    let { width, height } = await readImage(image)
+    let pp_size = (width / 4)
+    image = await timpaImg(image, await roundedImg(await imgRezize(pp, pp_size - 20, pp_size - 20), 100), null, null, 80, 80, "left", "top")
+    image = await textImageAdvanced(image, nomorUser, null, null, path.join(__dirname, "font", `s_font4.fnt`), "center", "center", 60, pp_size + 560, pp_size + 215, pp_size)
+    image = await textImageAdvanced(image, statusUser, null, null, path.join(__dirname, "font", `s_font3.fnt`), "center", "center", 60, pp_size + 560, pp_size + 185, 175)
+    image = await textImageAdvanced(image, `LIMIT: ${userData ? userData.limit : 0}`, null, null, path.join(__dirname, "font", `s_font3.fnt`), "center", "center", 60, pp_size + 560, pp_size + 255, 125)
+    image = await textImageAdvanced(image, `${waktu.getDate()}-${waktu.getMonth() + 1}-${waktu.getFullYear()}`, null, null, path.join(__dirname, "font", 's_font2.fnt'), "center", "center", 840, 60, 50, 625)
+    image = await textImageAdvanced(image, namaBot, null, null, path.join(__dirname, "font", `b_font3.fnt`), "center", "top", pp_size + 50, 0, 150, 0)
+    image = await textImageAdvanced(image, `RUNTIME
+${getUptime()}
+CPU
+${os.cpus()[0].model}
+TOTAL USER
+${Object.keys(db.user).length}
+TOTAL FITUR
+${fs.readdirSync(__dirname + `/fitur`).filter(a => !a.startsWith(`_`)).length}`, null, null, `./font/s_font3.fnt`, "center", "top", pp_size + 50, 0, 300, 0)
     const tags = [...new Set(menu.filter(tag => tag.tags).map(tag => tag.tags))];
-
     const deskripsi = `🌟 *Selamat datang di ${namaBot}!*  
 
 ╭─❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
-│🤖 Nama Bot: *${namaBot}*
-│📜 Total Fitur: *${fs.readdirSync(__dirname + `/fitur`).filter(a => !a.startsWith(`_`)).length}*
-│📱 Total User: *${Object.keys(db.user).length}*
 │🌐 Web Api: *${webApi}*
 │🎮 Server MC:
 │   ├ IP   : 147.139.179.157
@@ -49,9 +43,6 @@ Limit: ${userData.limit}`
 📽️ chanel yt: *${youtube_chanel}*
 📷 instagram: *${instagram}*
 🐈‍⬛ github: *${github}*
-
-🕐 *Runtime:*  
-${getUptime()}
 
 📢 *JASA PEMBUATAN WEBSITE, BOT, API*  
 🌐 https://www.dins.my.id  

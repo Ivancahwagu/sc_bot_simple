@@ -21,21 +21,22 @@ export default async function ({ theo }) {
             let sholat = db['jadwalSholat'].sholat[waktu_sholat]
             if (sholat.waktu === waktuNow) {
                 if (!sholat.notif) {
-                    console.log(`ingatkan notif sholat ${waktu_sholat} di: ${waktuNow}`);
                     db['jadwalSholat'].sholat[waktu_sholat].notif = true
                     savedb()
                     for (const id_group of list_gc) {
-                        let metadata;
-                        if (theo.group[id_group]) {
-                            metadata = theo.group[id_group];
-                        } else {
-                            metadata = await theo.groupMetadata(id_group);
-                            theo.group[id_group] = metadata;
-                        }
-                        if (metadata) {
-                            if (db.group[id_group].sewa || !db.group[id_group].banned) {
-                                const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
-                                const pesan = `🔔 *Pengingat Sholat*
+                        try {
+                            let metadata;
+                            if (theo.group[id_group]) {
+                                metadata = theo.group[id_group];
+                            } else {
+                                metadata = await theo.groupMetadata(id_group);
+                                theo.group[id_group] = metadata;
+                            }
+                            if (metadata) {
+                                if (db.group[id_group].sewa || !db.group[id_group].banned) {
+                                    console.log(`ingatkan notif sholat ${waktu_sholat} di: ${waktuNow}`);
+                                    const hariJumat = waktu_sholat.toLowerCase() === 'dzuhur' && db['jadwalSholat'].hari === 5;
+                                    const pesan = `🔔 *Pengingat Sholat*
 
 Pesan ini ditujukan untuk member grup 
 *${theo.group[id_group].subject}* 
@@ -44,18 +45,21 @@ yang beragama *Islam*.
 ${hariJumat ? `📿 Bagi para pria Muslim, inilah waktu mulia untuk menunaikan *Sholat Jumat*. Jangan lewatkan keutamaannya.\n` : ''}⏳ Tinggalkan sejenak aktivitasmu, mari tunaikan kewajiban ini.
 📿 *Sholatlah sebelum engkau disholatkan.*
 🤲 Semoga Allah menerima ibadahmu hari ini. *Aamiin.*`;
-                                await delay(1000);
-                                await theo.sendText(id_group, pesan, null, {
-                                    contextInfo: {
-                                        externalAdReply: {
-                                            title: "Panggilan Sholat",
-                                            body: "Jangan tunda, sholatlah sebelum disholatkan.",
-                                            thumbnailUrl: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/69/2024/03/13/IMG_20240313_202025-4271336681.jpg",
-                                            sourceUrl: "https://www.youtube.com/@theo_dev-id"
+                                    await delay(1000);
+                                    await theo.sendText(id_group, pesan, null, {
+                                        contextInfo: {
+                                            externalAdReply: {
+                                                title: "Panggilan Sholat",
+                                                body: "Jangan tunda, sholatlah sebelum disholatkan.",
+                                                thumbnailUrl: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/69/2024/03/13/IMG_20240313_202025-4271336681.jpg",
+                                                sourceUrl: "https://www.youtube.com/@theo_dev-id"
+                                            }
                                         }
-                                    }
-                                });
+                                    });
+                                }
                             }
+                        } catch (e) {
+                            console.log(`error di ${id_group}`)
                         }
                     }
                 }

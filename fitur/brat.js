@@ -8,7 +8,7 @@ let theoFitur = async function ({ m, theo }) {
     if (!m.res) return await m.reply(`format salah!
     
 contoh: ${m.prefix}${m.command} text`)
-    let image = fs.readFileSync(path.join(__dirname, `img`, `brat.jpg`))
+    let image = fs.readFileSync(path.join(__dirname, `img`, `bgputih.jpg`))
     image = await toImage_kotak(image)
     image = await textImageAdvanced(image, m.res, null, null, `./font/brat.fnt`, "center", "middle", 5, 5, 5, 5)
     let exif = {
