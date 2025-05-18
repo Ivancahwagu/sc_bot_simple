@@ -3,6 +3,8 @@ import path from "path"
 export default async function ({ m, theo }) {
     sinkronkanData(db.user, global.struktur_db.user)
     sinkronkanData(db.group, global.struktur_db.group)
+    if (!m.sender) return
+    if (!m.name) return
     try {
         if (!m.owner) {
             const user = db.user[m.sender];
@@ -160,23 +162,67 @@ export default async function ({ m, theo }) {
                 } catch (e) {
                     console.error(`❌ Error saat menjalankan fileRun dengan command:`, e);
                     await m.react('🔴');
+                    let res = await (await fetch(`${webApi}/user/cek?apikey=${global.apikey}`)).json()
+
+                    if (res.failed) {
+                        await m.reply(`❌ *API Key Tidak Valid!*
+
+🔒 Kunci API yang kamu gunakan *tidak ditemukan* atau *tidak valid*.
+
+🏪 Toko Admin: ${webApi}/store
+
+${m.owner
+                                ? `🔁 Silakan *perbarui API key* kamu secepatnya!`
+                                : `📞 Minta *owner bot* untuk memperbarui API key-nya.`}`);
+                        return;
+                    }
+
+                    res = res.data;
+
+                    if (res.limit <= 0) {
+                        await m.reply(`🚫 *Limit API Key Telah Habis!*
+
+💡 API key kamu sudah *tidak memiliki sisa limit* untuk digunakan.
+
+${m.owner
+                                ? `🛒 Silakan hubungi *admin API key* untuk membeli limit baru.
+
+🏪 Toko Admin: ${webApi}/store`
+                                : `📞 Minta *owner bot* untuk membeli ulang limit API key-nya.`}`);
+                    }
                 }
 
             }
         }
     } catch (e) {
         console.error(e)
-        let cek = await (await fetch(`${webApi}/check-api?apikeys=${apikeys}`)).json()
-        if (!cek.valid) await m.reply(`apikeys anda tidak valid`)
-        if (!m.owner) {
-            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys bot ini habis
-    
-silahkan lapor owner untuk beli premium apikeys`)
+        let res = await (await fetch(`${webApi}/user/cek?apikey=${global.apikey}`)).json()
+
+        if (res.failed) {
+            await m.reply(`❌ *API Key Tidak Valid!*
+
+🔒 Kunci API yang kamu gunakan *tidak ditemukan* atau *tidak valid*.
+
+🏪 Toko Admin: ${webApi}/store
+
+${m.owner
+                    ? `🔁 Silakan *perbarui API key* kamu secepatnya!`
+                    : `📞 Minta *owner bot* untuk memperbarui API key-nya.`}`);
+            return;
         }
-        else {
-            if (cek.limit === 0 && !cek.premium) await m.reply(`limit apikeys kamu habis
-    
-silahkan beli premium apikeys`)
+
+        res = res.data;
+
+        if (res.limit <= 0) {
+            await m.reply(`🚫 *Limit API Key Telah Habis!*
+
+💡 API key kamu sudah *tidak memiliki sisa limit* untuk digunakan.
+
+${m.owner
+                    ? `🛒 Silakan hubungi *admin API key* untuk membeli limit baru.
+
+🏪 Toko Admin: ${webApi}/store`
+                    : `📞 Minta *owner bot* untuk membeli ulang limit API key-nya.`}`);
         }
     }
 }

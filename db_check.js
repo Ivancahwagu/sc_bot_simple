@@ -22,6 +22,12 @@ export default async function ({ theo }) {
             if (sholat.waktu === waktuNow) {
                 if (!sholat.notif) {
                     db['jadwalSholat'].sholat[waktu_sholat].notif = true
+                    Object.keys(db.user).forEach(async (users) => {
+                        let user = db.user[users];
+                        if (user.limit < 20) {
+                            user.limit += 4;
+                        }
+                    })
                     savedb()
                     for (const id_group of list_gc) {
                         try {
@@ -74,6 +80,7 @@ ${hariJumat ? `📿 Bagi para pria Muslim, inilah waktu mulia untuk menunaikan *
     }
     Object.keys(db.user).forEach(async (users) => {
         let user = db.user[users];
+        user.limit = parseInt(user.limit)
         if (user.premium && typeof user.premium === "number" && user.premium !== "permanen" && user.premium < int_tanggal_now()) {
             user.premium = false;
             await theo.sendMessage(users, {
@@ -89,10 +96,6 @@ Jangan sedih! Kamu bisa mengaktifkannya kembali kapan saja untuk menikmati:
 Hubungi owner sekarang untuk memperpanjang masa aktifmu 💼`
 
             });
-            savedb();
-        }
-        if (user.limit < 5) {
-            user.limit += 0.1;
             savedb();
         }
     });
@@ -178,9 +181,16 @@ Jawaban: *${game.jawaban}*`, game.pesan_soal)
             }
 
         }
-
     })
-
-
     savedb();
+    let Ram = (process.memoryUsage().rss / 1024 / 1024).toFixed(2)
+    if (Ram > maxUseRam) {
+        for (const i of global.owner) {
+            theo.sendText(i + "@s.whatsapp.net", `Ram sudah terpkaai lebih dari ${maxUseRam}MB
+                
+Memulai ulang bot otomatis`)
+            await delay(1000)
+        }
+        process.send("restart")
+    }
 }

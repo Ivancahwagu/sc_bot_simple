@@ -3,5 +3,6 @@ let theoFitur = async function ({ m, theo }) {
 }
 theoFitur.tags = "admin"
 theoFitur.botAdmin = true
+theoFitur.admin = true
 theoFitur.command = ["buka", "tutup"]
 export default theoFitur

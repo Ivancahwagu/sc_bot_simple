@@ -1,4 +1,7 @@
 let theoFitur = async ({ m, theo }) => {
+    if (!theo.group[m.chat].joinApprovalMode) return await m.reply(`🤷‍♂️ *Tidak akan ada orang yang meminta bergabung ke grup ini.*
+        
+Perlu persetujuan admin: ❌`)
     await m.reply(`🚀 *Mengambil data peserta yang ingin bergabung ke grup...*`);
     let request = await theo.groupRequestParticipantsList(m.chat);
     if (request.length === 0) {

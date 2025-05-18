@@ -7,20 +7,21 @@ import { jadwal_sholat_kota } from "./tools/scrape.js";
 
 // Global constants
 global.__dirname = path.dirname(url.fileURLToPath(import.meta.url));
+//
+await import(`file://${__dirname}/data_lain.js?v=${Date.now()}`)
 global.namaBot = "TheoBot V3";
 global.maxUseRam = 500 //MB
-
+global.pairingCode = true //pairing code
+global.qr = path.join(__dirname, "QR_LOGIN.jpg")
 global.owner = [
     "6285876830674",
     "6285809011357",
     // "201027441522"
-]//ISI DENGAN NOMOR OWNER
-    .map(a => a.replace(/\D/g, ""));
+].map(a => a.replace(/\D/g, ""));
 
 global.ownerPrefix = true;
-global.apikeys = "ojj4yupad25";
-global.nomorBot = "201027441522" //ISI DENGAN NOMOR BOTMU
-    .replace(/\D/g, "");
+global.apikey = "isi dengan apikeys kamu";
+global.nomorBot = "201027441522".replace(/\D/g, "");
 
 global.sesiPath = path.join(__dirname, "SESSION");
 global.dataPath = path.join(__dirname, "data.json");
@@ -30,7 +31,7 @@ global.surahPath = path.join(__dirname, "surah");
 global.kota = "rembang";
 
 // Web & Sosmed
-global.webApi = "https://party-mc.fun"; // jangan di ubah
+global.webApi = "https://berapi.my.id"; // jangan di ubah
 global.youtube_chanel = "https://www.youtube.com/channel/UCNLkbDNckYj1GpJ-7x5fnMQ";
 global.instagram = "https://www.instagram.com/ivantheo159/";
 global.github = "https://github.com/Ivancahwagu";
@@ -138,140 +139,3 @@ global.doc = {
     js: `application/javascript`,
     json: `application/json`
 }
-
-/* EFFECT AUDIO FFMPEG */
-global.effects = {
-    // Efek asli (atau dengan nama lebih simpel)
-    bass: "equalizer=f=50:width_type=h:width=100:g=10",
-    tupai: "asetrate=44100*1.6,atempo=1/1.6",
-    slow: "atempo=0.7",
-    fast: "atempo=1.2",
-    instrument: "pan=stereo|c0=FL|c1=FL",
-    echo: "aecho=0.8:0.9:1000:0.3",
-    reverse: "areverse",
-    nightcore: "asetrate=44100*1.25,atempo=1.1,equalizer=f=1200:width_type=h:width=200:g=3",
-    robot: "afftfilt=real='hypot(re,im)*sin(0)':imag='hypot(re,im)*cos(0)':win_size=1024:overlap=0.75",
-    vaporwave: "asetrate=44100*0.8,atempo=1.0,aecho=0.8:0.8:40:0.4",
-    "8d": "apulsator=hz=0.12,pan=stereo|c0=c0*cos(2*PI*t*0.1)+c1*sin(2*PI*t*0.1)|c1=c1*cos(2*PI*t*0.1)-c0*sin(2*PI*t*0.1)",
-    explode: "volume=3.0,acrusher=1:1:8:0:log,bass=g=20",
-    underwater: "lowpass=f=500,highpass=f=200,volume=0.7,equalizer=f=300:width_type=h:width=200:g=-15",
-    radio: "highpass=f=300,lowpass=f=3000,volume=0.9,equalizer=f=1000:width_type=h:width=2000:g=5",
-    cave: "aecho=0.8:0.9:1500:0.4:1200:0.3",
-    flanger: "flanger=delay=5:depth=4:regen=50:width=70:speed=1:shape=triangular",
-    phaser: "aphaser=type=t:speed=0.5:decay=0.4",
-    tremolo: "tremolo=f=7:d=0.6",
-    vibrato: "vibrato=f=6:d=0.4",
-    distortion: "acrusher=bits=8:mix=0.7:mode=log",
-    telephone: "highpass=f=300,lowpass=f=3400,equalizer=f=1000:width_type=q:width=1:g=10",
-
-    // Pitch Shift
-    pitch_up: "asetrate=44100*1.2,aresample=44100",
-    pitch_down: "asetrate=44100*0.8,aresample=44100",
-    high_pitch: "asetrate=44100*1.4,aresample=44100,atempo=0.8", // Sebelumnya high_pitched
-    deep: "asetrate=44100*0.9,aresample=44100,atempo=1.1,bass=g=5", // Sebelumnya deep_voice
-    pitch_very_high: "asetrate=44100*1.8,aresample=44100,atempo=0.6", // Sebelumnya very_high_pitched
-    pitch_very_deep: "asetrate=44100*0.6,aresample=44100,atempo=1.8", // Sebelumnya very_deep_voice
-    chipmunk_extreme: "asetrate=44100*3.0,aresample=44100,atempo=0.3", // Tetap
-
-    // Kombinasi dan Efek Lain
-    ghost: "aecho=0.8:0.9:1000:0.3,areverse,aecho=0.6:0.7:1500:0.2,areverse",
-    stadium: "aecho=0.8:0.9:800:0.3:600:0.2",
-    megaphone: "highpass=f=400,lowpass=f=2500,volume=1.2,acrusher=bits=16:mix=0.3",
-    whisper: "volume=0.5,highpass=f=100,lowpass=f=5000,equalizer=f=3000:width_type=h:width=1000:g=5",
-    chorus: "chorus=0.5:0.9:50|60|40:0.4:0.3:0.25",
-    delay: "adelay=500|500", // Sebelumnya delay_simple
-    reverb: "reverb=room_size=0.7:damping=0.6:wet_gain=0.5", // Sebelumnya reverb_basic
-    compressor: "acompressor=ratio=4:threshold=-18dB:attack=20ms:release=100ms:makeup=3dB",
-    gate: "agate=threshold=-40dB:range=15dB:attack=5ms:hold=50ms:release=200ms",
-    widen: "stereowiden=i=3", // Sebelumnya stereo_widen
-    overdrive: "ove.r.drive=gain=10:color=0.5",
-    fuzz: "afuzz=gain=15",
-    muffled: "lowpass=f=800",
-    tinny: "highpass=f=2500",
-    distortion_heavy: "distorsion=l=25", // Sebelumnya distorsion_heavy
-    gargle: "bandpass=f=400:width=300,tremolo=f=8:d=0.8",
-    underwater_alt: "lowpass=f=550,highpass=f=180,volume=0.65,equalizer=f=350:width_type=h:width=250:g=-12", // Tetap
-    echo_long: "aecho=0.8:0.7:1500:0.4:2000:0.3", // Tetap
-    arena: "aecho=0.7:0.8:900:0.3:700:0.2",
-    canyon: "aecho=0.8:0.9:3000:0.5:3500:0.4:4000:0.3",
-    demonic: "asetrate=44100*0.7,aresample=44100,atempo=1.3,acrusher=bits=10:mix=0.6,aecho=0.6:0.7:900:0.4",
-    walkie_talkie: "highpass=f=350,lowpass=f=2800,acrusher=bits=14:mix=0.4,volume=1.05", // Tetap
-    lofi: "asetrate=22050,aresample=44100,acrusher=bits=12:mix=0.4,equalizer=f=80:width_type=h:width=80:g=6,equalizer=f=12000:width_type=h:width=1500:g=-8",
-    haunted: "asetrate=44100*0.9,aresample=44100,aecho=0.7:0.8:1200:0.3:1400:0.2,reverb=room_size=0.7:wet_gain=0.6",
-    alien: "asetrate=44100*1.4,aresample=44100,aphaser=type=n:speed=1.2:decay=0.6,acrusher=bits=16:mix=0.25",
-    darth_vader: "asetrate=44100*0.8,aresample=44100,atempo=1.2,acrusher=bits=8:mix=0.7", // Tetap
-    tunnel: "aecho=0.8:0.9:600:0.4:500:0.3",
-    megaphone_alt: "highpass=f=350,lowpass=f=2200,volume=1.3,acrusher=bits=14:mix=0.4", // Tetap
-    bass_heavy: "equalizer=f=60:width_type=h:width=120:g=12", // Sebelumnya bass_boost_more
-    treble_boost: "equalizer=f=8000:width_type=h:width=2000:g=10",
-    mid_cut: "equalizer=f=1000:width_type=h:width=500:g=-10",
-    phone_old: "highpass=f=400,lowpass=f=2800,volume=0.9,equalizer=f=1000:width_type=q:width=2:g=8", // Sebelumnya phone_call_old
-    sci_fi: "aphaser=type=t:speed=1:decay=0.5,aecho=0.7:0.8:400:0.3",
-    underwater_bubble: "lowpass=f=400,highpass=f=100,volume=0.5,aecho=0.6:0.7:300:0.2,aecho=0.5:0.6:500:0.2", // Tetap
-    robot2: "asetrate=44100*1.05,aresample=44100,afftfilt=real='re*cos(2*PI*t*100)':imag='im*sin(2*PI*t*100)'", // Sebelumnya robot_alt
-    duck: "asetrate=44100*1.1,aresample=44100,equalizer=f=600:width_type=h:width=300:g=10,atempo=0.9",
-    reverb_deep: "reverb=room_size=1:damping=0.8:wet_gain=0.7:dry_gain=0.3", // Sebelumnya deep_reverb
-    flanger_deep: "flanger=delay=10:depth=8:regen=70:width=80:speed=0.5:shape=sinusoidal",
-    phaser_sweep: "aphaser=type=t:speed=1.5:decay=0.6:fb=0.7:wet=1:dry=0",
-    tremolo_fast: "tremolo=f=12:d=0.7",
-    vibrato_deep: "vibrato=f=5:d=0.6",
-    autowah: "bandpass=f=1000:width=800,lowpass=f=2000,highpass=f=500,volume=1.1",
-    vocal_reduce: "pan=stereo|c0=c0-c1|c1=c0-c1" // Sebelumnya vocal_reducer_pan
-};
-
-global.color = {
-    merah: "#FF0000",
-    merahTua: "#8B0000",
-    pink: "#FFC0CB",
-    pinkTua: "#FF69B4",
-    oranye: "#FFA500",
-    oranyeTua: "#FF8C00",
-    kuning: "#FFFF00",
-    emas: "#FFD700",
-    hijau: "#008000",
-    hijauMuda: "#90EE90",
-    hijauTua: "#006400",
-    hijauLaut: "#20B2AA",
-    biru: "#0000FF",
-    biruMuda: "#ADD8E6",
-    biruLangit: "#87CEEB",
-    biruTua: "#00008B",
-    ungu: "#800080",
-    unguTua: "#4B0082",
-    violet: "#EE82EE",
-    coklat: "#A52A2A",
-    coklatMuda: "#D2B48C",
-    abu: "#808080",
-    abuTua: "#A9A9A9",
-    putih: "#FFFFFF",
-    hitam: "#000000",
-    cyan: "#00FFFF",
-    magenta: "#FF00FF",
-    coral: "#FF7F50",
-    peach: "#FFDAB9",
-    navy: "#000080",
-    teal: "#008080",
-    olive: "#808000",
-    lime: "#00FF00",
-    maroon: "#800000",
-    indigo: "#4B0082",
-    salmon: "#FA8072",
-    chocolate: "#D2691E",
-    tan: "#D2B48C",
-    gold: "#FFD700",
-    silver: "#C0C0C0",
-    lavender: "#E6E6FA",
-    plum: "#DDA0DD",
-    turquoise: "#40E0D0",
-    beige: "#F5F5DC",
-    mint: "#98FF98",
-    khaki: "#F0E68C",
-    skyblue: "#87CEEB",
-    royalblue: "#4169E1",
-    crimson: "#DC143C",
-    aquamarine: "#7FFFD4",
-    seashell: "#FFF5EE",
-    linen: "#FAF0E6",
-    ivory: "#FFFFF0",
-    wheat: "#F5DEB3"
-};

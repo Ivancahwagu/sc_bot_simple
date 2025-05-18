@@ -7,8 +7,7 @@ let theoFitur = async function ({ m, theo }) {
         limit: { harga: 100, tipe: 'buah' },
         premium: { harga: 1000, tipe: 'hari' },
         sewa: { harga: 1000, tipe: 'hari' },
-        apikeys: { harga: 1000, tipe: 'hari' },
-        server: { harga: 20000, tipe: 'bulan' },
+        server: { harga: 30000, tipe: 'bulan' },
     }
 
     let [item, jumlah] = m.res.split(" ")

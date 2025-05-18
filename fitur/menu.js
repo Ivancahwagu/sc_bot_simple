@@ -11,33 +11,26 @@ let theoFitur = async function ({ m, theo }) {
     const userData = db.user[m.sender];
     const nomorUser = PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber(`international`);
     const statusUser = m.owner ? `DEVELOPER BOT` : userData?.premium ? `PREMIUM USER` : userData ? `FREE USER` : `BELUM DAFTAR`;
-    let pp = await roundedImg(await getBuffer(await theo.getPP(m.sender).catch(e => fs.readFileSync(path.join(__dirname, "img", "pp.jpg")))), 40)
-    let image = fs.readFileSync(path.join("img", "menu.png"));
+    let pp = await getBuffer(await theo.getPP(m.sender).catch(e => fs.readFileSync(path.join(__dirname, "img", "pp.jpg"))))
+    let image = fs.readFileSync(path.join(__dirname, "img", "menu.png"));
     let { width, height } = await readImage(image)
-    let pp_size = (width / 4)
-    image = await timpaImg(image, await roundedImg(await imgRezize(pp, pp_size - 20, pp_size - 20), 100), null, null, 80, 80, "left", "top")
-    image = await textImageAdvanced(image, nomorUser, null, null, path.join(__dirname, "font", `s_font4.fnt`), "center", "center", 60, pp_size + 560, pp_size + 215, pp_size)
-    image = await textImageAdvanced(image, statusUser, null, null, path.join(__dirname, "font", `s_font3.fnt`), "center", "center", 60, pp_size + 560, pp_size + 185, 175)
-    image = await textImageAdvanced(image, `LIMIT: ${userData ? userData.limit : 0}`, null, null, path.join(__dirname, "font", `s_font3.fnt`), "center", "center", 60, pp_size + 560, pp_size + 255, 125)
-    image = await textImageAdvanced(image, `${waktu.getDate()}-${waktu.getMonth() + 1}-${waktu.getFullYear()}`, null, null, path.join(__dirname, "font", 's_font2.fnt'), "center", "center", 840, 60, 50, 625)
-    image = await textImageAdvanced(image, namaBot, null, null, path.join(__dirname, "font", `b_font3.fnt`), "center", "top", pp_size + 50, 0, 150, 0)
-    image = await textImageAdvanced(image, `RUNTIME
-${getUptime()}
-CPU
-${os.cpus()[0].model}
-TOTAL USER
-${Object.keys(db.user).length}
-TOTAL FITUR
-${fs.readdirSync(__dirname + `/fitur`).filter(a => !a.startsWith(`_`)).length}`, null, null, `./font/s_font3.fnt`, "center", "top", pp_size + 50, 0, 300, 0)
+    let totalFitur = fs.readdirSync(__dirname + `/fitur`).filter(a => !a.startsWith(`_`)).length
+    image = await timpaImg(image, await roundedImg(await imgRezize(pp, 286, 286), 99, 3), null, null, 0, 60, "center", "top")
+    image = await textImageAdvanced(image, nomorUser, null, null, path.join(__dirname, 'font', 'b_font1.fnt'), "center", "top", 50, 50, 380, 50)
+    image = await textImageAdvanced(image, statusUser ? statusUser : "BELUM DAFTAR", null, null, path.join(__dirname, 'font', 'b_font2.fnt'), "center", "top", 50, 50, 500, 50)
+    image = await textImageAdvanced(image, `Terima kasih sudah menggunakan bot ini. Saya jadi bersemangat untuk terus membuatnya lebih baik`, null, null, path.join(__dirname, `font`, `s_font1.fnt`), "center", "top", 300, 300, 600, 50)
+    image = await textImageAdvanced(image, userData ? userData.limit.toString() : `0`, null, null, path.join(__dirname, 'font', 'b_font3.fnt'), "center", "top", (width / 2) + 20, 150, 860, 50)
+    image = await textImageAdvanced(image, totalFitur.toString(), null, null, path.join(__dirname, 'font', 'b_font3.fnt'), "center", "top", 150, (width / 2) + 20, 860, 50)
+
+
     const tags = [...new Set(menu.filter(tag => tag.tags).map(tag => tag.tags))];
     const deskripsi = `🌟 *Selamat datang di ${namaBot}!*  
 
 ╭─❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
 │🌐 Web Api: *${webApi}*
 │🎮 Server MC:
-│   ├ IP   : 147.139.179.157
+│   ├ IP   : https://${webApi}/join-minecraft-server
 │   ├ Port : 19132
-│   ├ URL  : ${webApi}/mc
 │   └ Platform: *BEDROCK ONLY*
 ╰─────────────
 📽️ chanel yt: *${youtube_chanel}*

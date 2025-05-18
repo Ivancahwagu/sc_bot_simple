@@ -24,11 +24,11 @@ export function getYtId(url) {
 export function getThumbnailYt(url) {
     return `https://i.ytimg.com/vi_webp/${getYtId(url)}/sddefault.webp`
 }
-export async function yts(input) {
+export async function yts(text) {
 
-    let { data } = await axios.post(webApi + "/api/yts", {
-        query: input,
-        apikeys
+    let { data } = await axios.post(webApi + "/api/ytsearch", {
+        text,
+        apikey
     })
 
     return data
@@ -36,102 +36,81 @@ export async function yts(input) {
 
 
 export async function youtube(url, quality) {
-    let { data } = await axios.post(webApi + "/api/youtube", {
+    let { data } = await axios.post(webApi + "/api/youtubedl", {
         url: url,
-        quality: quality,
-        apikeys
+        quality,
+        apikey
     })
     return data
 }
 
 export async function ttdl(url) {
-    let { data } = await axios.post(webApi + "/api/tiktok", {
-        url: url,
-        apikeys
+    let { data } = await axios.post(webApi + "/api/tiktokdl", {
+        url,
+        apikey
     })
     return data
 }
 
 
-export async function igdl(link) {
-    let { data } = await axios.post(webApi + "/api/instagram", {
-        url: link,
-        apikeys
+export async function igdl(url) {
+    let { data } = await axios.post(webApi + "/api/instagramdl", {
+        url,
+        apikey
     })
     return data
 }
 export async function fbdl(url) {
-    let { data } = await axios.post(webApi + "/api/facebook", {
-        url: url,
-        apikeys
+    let { data } = await axios.post(webApi + "/api/facebookdl", {
+        url,
+        apikey
     })
     return data
 }
 
-export async function pindl(query) {
-    let { data } = await axios.post(webApi + "/api/pinterest", {
-        url: query,
-        apikeys
+export async function pindl(url) {
+    let { data } = await axios.post(webApi + "/api/pinterestdl", {
+        url,
+        apikey
     })
     return data
 }
 
 export async function ai(nomor, nama, payload, text, namaBot) {
 
-    let { data } = await axios.post(webApi + "/api/ai", {
-        nama: nama,
-        nomor: nomor,
-        data_ai: payload, //kamu bisa melanjutkan percakapan sebelumnya dengan mengisi ini dengan data payload yang dihasilkan
-        query: text,
-        namaBot: namaBot,
-        apikeys
+    let { data } = await axios.post(webApi + "/api/chatai", {
+        nomor, nama, payload, text, namaBot, apikey
     })
 
     console.log(data)
     return data
 }
-export async function ai_fast(nomor, nama, payload, text, namaBot) {
+// export async function ai_fast(nomor, nama, payload, text, namaBot) {
 
-    let { data } = await axios.post(webApi + "/api/ai-fast", {
-        nama: nama,
-        nomor: nomor,
-        data_ai: payload, //kamu bisa melanjutkan percakapan sebelumnya dengan mengisi ini dengan data payload yang dihasilkan
+//     let { data } = await axios.post(webApi + "/api/ai-fast", {
+//         nama: nama,
+//         nomor: nomor,
+//         data_ai: payload, //kamu bisa melanjutkan percakapan sebelumnya dengan mengisi ini dengan data payload yang dihasilkan
+//         query: text,
+//         namaBot: namaBot,
+//         apikey
+//     })
+
+//     console.log(data)
+//     return data
+// }
+
+export async function tts(text, nomor = 1) {
+    let { data } = await axios.post(webApi + "/api/tts", {
         query: text,
-        namaBot: namaBot,
-        apikeys
+        nomor,
+        apikey
+    }, {
+        responseType: "arraybuffer"
     })
 
     console.log(data)
     return data
-}
-
-export async function tts(text, no = 1) {
-
-    if (no == 1) {
-
-        let { data } = await axios.post(webApi + "/api/tts1", {
-            query: text,
-            apikeys
-        }, {
-            responseType: "arraybuffer"
-        })
-
-        console.log(data)
-        return data
-    }
-    else {
-
-        let { data } = await axios.post(webApi + "/api/tts2", {
-            query: text,
-            apikeys
-        }, {
-            responseType: "arraybuffer"
-        })
-
-        console.log(data)
-        return data
-    }
-
 }
 
 export async function toVillager(buffer) {
@@ -182,8 +161,8 @@ export async function toVillager(buffer) {
 
 export async function remove_bg(buffer) {
     let { data } = await axios.post(webApi + "/api/removebg", {
-        buffer: buffer,
-        apikeys
+        buffer,
+        apikey
     }, {
         responseType: "arraybuffer"
     })
@@ -191,9 +170,9 @@ export async function remove_bg(buffer) {
 }
 
 export async function image_hd(buffer) {
-    let { data } = await axios.post(webApi + "/api/hd", {
-        buffer: buffer,
-        apikeys
+    let { data } = await axios.post(webApi + "/api/upscale", {
+        buffer,
+        apikey
     }, {
         responseType: "arraybuffer"
     })
@@ -204,8 +183,8 @@ export async function image_hd(buffer) {
 
 export async function image_unblur(buffer) {
     let { data } = await axios.post(webApi + "/api/unblur", {
-        buffer: buffer,
-        apikeys
+        buffer,
+        apikey
     }, {
         responseType: "arraybuffer"
     })
@@ -214,8 +193,8 @@ export async function image_unblur(buffer) {
 
 export async function pinterest_search(text) {
     let { data } = await axios.post(webApi + "/api/pinsearch", {
-        query: text,
-        apikeys
+        text,
+        apikey
     })
     return data
 }
@@ -223,18 +202,18 @@ export async function pinterest_search(text) {
 
 export async function spotify(url) {
     let { data } = await axios.post(webApi + "/api/spotify", {
-        url: url,
-        apikeys
+        url,
+        apikey
     })
     return data
 }
 
 
 
-export async function encjs(code) {
+export async function encjs(text) {
     let { data } = await axios.post(webApi + "/api/encjs", {
-        query: code,
-        apikeys
+        text,
+        apikey
     })
     return data
 }
@@ -242,7 +221,7 @@ export async function encjs(code) {
 export async function upload_to_url(buffer) {
     let { data } = await axios.post(webApi + "/api/upload", {
         buffer,
-        apikeys
+        apikey
     })
     return data
 }
@@ -250,8 +229,9 @@ export async function upload_to_url(buffer) {
 export async function emojiMix(emoji1, emoji2) {
     if (!emoji1 || !emoji2) return false
     let { data } = await axios.post(`${webApi}/api/emojimix`, {
-        query: `${emoji1}+${emoji2}`,
-        apikeys
+        emoji1,
+        emoji2,
+        apikey
     }, {
         responseType: "arraybuffer"
     })
@@ -259,12 +239,12 @@ export async function emojiMix(emoji1, emoji2) {
     return data
 }
 
-export async function create_img_ai(query, nomor) {
+export async function create_img_ai(text, nomor) {
     nomor = parseInt(nomor)
     if (nomor > 9) return false
     if (1 > nomor) return false
     let { data } = await axios.post(`${webApi}/api/imgai`, {
-        query, nomor, apikeys
+        text, nomor, apikey
     }, {
         responseType: "arraybuffer"
     })
@@ -287,29 +267,11 @@ export async function download_termux() {
 }
 
 export async function id_to_en(text) {
-    let { data, headers } = await axios.post(`https://web-api.itranslateapp.com/v3/texts/translate`, {
-        "source": {
-            "dialect": "id",
-            "text": text,
-            "with": [
-                "synonyms"
-            ]
-        },
-        "target": {
-            "dialect": "en-UK"
-        }
-    }, {
-        headers: {
-            "accept": `application/json`,
-            "api-key": `d2aefeac9dc661bc98eebd6cc12f0b82`,
-            "content-type": `application/json`,
-            "origin": `https://itranslate.com`,
-            "referer": `https://itranslate.com/`,
-            "user-agent": `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36`,
-        }
+    let { data } = await axios.post(`${webApi}/api/translate`, {
+        text,
+        apikey
     })
-    let hasil = data.target.text
-    return hasil
+    return data
 }
 
 export async function npm_search(query) {

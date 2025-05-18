@@ -12,48 +12,33 @@ let theoFitur = async function ({ m, theo }) {
         .slice(0, 3);
     console.log(top_banyak)
 
-    let image = fs.readFileSync(path.join(__dirname, "img", "top.jpg"));
-    let { width, height } = await readImage(image);
-    let pp_size = width / 5;
-
-    const posisi = [
-        { x: 0, y: 280, align: "center" }, // posisi juara 1
-        { x: 70, y: 360, align: "left" },  // posisi juara 2
-        { x: 70, y: 400, align: "right" }  // posisi juara 3
-    ];
-
-    const teks = [
-        { x: 0, y: 0, offsetX: 280, offsetY: 0, align: "center" },   // nama juara 1
-        { x: 30, y: 480, offsetX: 360, offsetY: 0, align: "center" },// nama juara 2
-        { x: 480, y: 30, offsetX: 400, offsetY: 0, align: "center" } // nama juara 3
-    ];
-
-    for (let i = 0; i < top_banyak.length; i++) {
-        try {
-            let pp = await theo.getPP(top_banyak[i]);
-            let bulat = await roundedImg(await imgRezize(pp, 150, 150), 100);
-            image = await timpaImg(image, bulat, null, null, posisi[i].x, posisi[i].y, posisi[i].align, "top");
-
-            image = await textImageAdvanced(
-                image,
-                number_to_international(top_banyak[i]),
-                null,
-                null,
-                './font/s_font5.fnt',
-                teks[i].align,
-                "top",
-                teks[i].x,
-                teks[i].y,
-                teks[i].offsetX,
-                teks[i].offsetY
-            );
-        } catch (e) {
-            console.error(`Gagal menampilkan user ke-${i + 1}:`, e.message);
-            continue;
+    let image = fs.readFileSync(path.join(__dirname, "img", "top.png"));
+    try {
+        if (top_banyak[0]) {
+            let pp1 = await theo.getPP(top_banyak[0]);
+            image = await timpaImg(image, await roundedImg(await imgRezize(pp1, 227, 227), 99, 3), null, null, 0, 396, "center", "top");
+            image = await textImageAdvanced(image, number_to_international(top_banyak[0]), null, null, `${__dirname}/font/s_font5.fnt`, "center", "center", 50, 50, 500, 50);
+            image = await textImageAdvanced(image, db.user[top_banyak[0]].limit.toString(), null, null, `${__dirname}/font/b_font3.fnt`, "center", "center", 50, 50, 650, 50);
         }
+
+        if (top_banyak[1]) {
+            let pp2 = await theo.getPP(top_banyak[1]);
+            image = await timpaImg(image, await roundedImg(await imgRezize(pp2, 217, 217), 99, 3), null, null, 87, 654, "left", "top");
+            image = await textImageAdvanced(image, number_to_international(top_banyak[1]), null, null, `${__dirname}/font/s_font5.fnt`, "center", "center", 50, 670, 900, 50);
+            image = await textImageAdvanced(image, db.user[top_banyak[1]].limit.toString(), null, null, `${__dirname}/font/b_font3.fnt`, "center", "center", 50, 670, 1050, 50);
+        }
+
+        if (top_banyak[2]) {
+            let pp3 = await theo.getPP(top_banyak[2]);
+            image = await timpaImg(image, await roundedImg(await imgRezize(pp3, 217, 217), 99, 3), null, null, 87, 660, "right", "top");
+            image = await textImageAdvanced(image, number_to_international(top_banyak[2]), null, null, `${__dirname}/font/s_font5.fnt`, "center", "center", 670, 50, 900, 50);
+            image = await textImageAdvanced(image, db.user[top_banyak[2]].limit.toString(), null, null, `${__dirname}/font/b_font3.fnt`, "center", "center", 670, 50, 1050, 50);
+        }
+        await theo.sendMedia(m.chat, image, `TOP LIMIT USER TERBANYAK`, m.quo);
+    } catch (e) {
+        await m.reply("Gagal membuat leaderboard:" + e.message);
     }
 
-    await theo.sendMedia(m.chat, image, `TOP LIMIT USER TERBANYAK`, m.quo);
 };
 
 theoFitur.command = ["lb", "leaderboard", "top"];
