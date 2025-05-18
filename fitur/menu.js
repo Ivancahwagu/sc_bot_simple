@@ -29,10 +29,11 @@ let theoFitur = async function ({ m, theo }) {
 ╭─❖ 𝐈𝐧𝐟𝐨 𝐁𝐨𝐭
 │🌐 Web Api: *${webApi}*
 │🎮 Server MC:
-│   ├ IP   : https://${webApi}/join-minecraft-server
+│   ├ IP   : party-mc.fun
 │   ├ Port : 19132
 │   └ Platform: *BEDROCK ONLY*
 ╰─────────────
+🎮 ${webApi}/join-minecraft-server
 📽️ chanel yt: *${youtube_chanel}*
 📷 instagram: *${instagram}*
 🐈‍⬛ github: *${github}*

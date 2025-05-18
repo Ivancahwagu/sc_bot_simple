@@ -74,22 +74,25 @@ export async function theoRun() {
                 await delay(3000)
                 let kode = await theo.requestPairingCode(nomorBot)
                 console.log(`🔑 Kode pairing Anda: \x1b[32m${kode.match(/.{1,4}/g).join('-')}\x1b[0m\n`)
+                await delay(30000)
+                return await pairing_request()
             } else {
-                console.log(`✅ Sudah terhubung ke WhatsApp ${theo.user.name}, tidak perlu pairing ulang.`)
+                return console.log(`✅ Sudah terhubung ke WhatsApp ${theo.user.name}, tidak perlu pairing ulang.`)
             }
+        }
+        if (global.pairingCode && !theo.authState.creds.registered) {
+            await pairing_request()
         }
 
         theo.ev.on('connection.update', async (koneksi) => {
-            if (koneksi.qr) {
-                if (global.pairingCode) {
-                    await pairing_request()
-                }
+            if (koneksi.qr && !global.pairingCode) {
                 fs.writeFileSync(global.qr, await QRCode.toBuffer(koneksi.qr, {
                     color: {
                         dark: `${global.color.merahTua}`,
                         light: `#FFF`
                     }
                 }))
+                console.log(`qr untuk login berhasil dibuat di ${global.qr}`)
             }
             if (koneksi.connection === "connecting") {
                 await delay(300)

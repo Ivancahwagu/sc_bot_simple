@@ -20,7 +20,7 @@ global.owner = [
 ].map(a => a.replace(/\D/g, ""));
 
 global.ownerPrefix = true;
-global.apikey = "isi dengan apikeys kamu";
+global.apikey = "A3EI95";
 global.nomorBot = "201027441522".replace(/\D/g, "");
 
 global.sesiPath = path.join(__dirname, "SESSION");

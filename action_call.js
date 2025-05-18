@@ -1,8 +1,9 @@
 export default async function name({ call, theo }) {
+    console.log(call)
     if (call.status === "offer") {
         if (!db.config.anticall) return
         await theo.sendText(
-            call.from,
+            call.groupJid ?? call.from,
             `📞 Halo @${call.chatId.split("@")[0]}, kami mendeteksi adanya panggilan masuk.
 
 Mohon maaf, bot ini **tidak dapat menerima panggilan suara maupun video**.
