@@ -1,7 +1,7 @@
 import theoBot, { useMultiFileAuthState, jidNormalizedUser, fetchLatestBaileysVersion, delay, Browsers } from "baileys"
 import Pino from "pino"
 import "./setting.js"
-import fs from "fs"
+import fs, { cpSync } from "fs"
 import QRCode from "qrcode"
 import { random_huruf_besar_nomor } from "./tools/func.js"
 import { list_kota } from "./tools/scrape.js"
@@ -30,11 +30,11 @@ export async function theoRun() {
         const theo = await theoBot.default({
             markOnlineOnConnect: false,
             version,
-            browser: Browsers.windows("Chrome"),
             auth: state,
             printQRInTerminal: !global.pairingCode,
             logger: Pino({ level: 'silent' }),
-            syncFullHistory: true,
+            browser: Browsers.windows('Chrome'),
+            // markOnlineOnConnect: false,
             generateHighQualityLinkPreview: true,
             shouldSyncHistoryMessage: function (isi) {
                 console.log(`memuat chat: \x1b[32m${isi.progress}%`)
@@ -74,16 +74,13 @@ export async function theoRun() {
                 await delay(3000)
                 let kode = await theo.requestPairingCode(nomorBot)
                 console.log(`🔑 Kode pairing Anda: \x1b[32m${kode.match(/.{1,4}/g).join('-')}\x1b[0m\n`)
-                await delay(30000)
-                return await pairing_request()
             } else {
-                return console.log(`✅ Sudah terhubung ke WhatsApp ${theo.user.name}, tidak perlu pairing ulang.`)
+                console.log(`✅ Sudah terhubung ke WhatsApp ${theo.user?.name}, tidak perlu pairing ulang.`)
             }
         }
         if (global.pairingCode && !theo.authState.creds.registered) {
             await pairing_request()
         }
-
         theo.ev.on('connection.update', async (koneksi) => {
             if (koneksi.qr && !global.pairingCode) {
                 fs.writeFileSync(global.qr, await QRCode.toBuffer(koneksi.qr, {
@@ -113,14 +110,18 @@ export async function theoRun() {
                 console.log(koneksi.lastDisconnect.error.output)
                 await delay(300)
                 console.log(`🔄  Mencoba menghubungkan ulang...`)
-                if (koneksi.lastDisconnect.error.output.payload.error == 'Method Not Allowed' || koneksi.lastDisconnect.error.output.payload.error === "Unauthorized") {
-                    if (fs.existsSync(sesiPath)) {
-                        fs.rmdirSync(sesiPath, { recursive: true, force: true })
-                    }
+                switch (koneksi.lastDisconnect.error.output.payload.error) {
+                    case "Unauthorized": case "Service Unavailable":
+                        if (fs.existsSync(sesiPath)) {
+                            fs.rmdirSync(sesiPath, { recursive: true, force: true })
+                        }
                 }
                 return await theoRun()
             }
         })
+
+        theo.ev.on('creds.update', saveCreds)
+
         theo.ev.on('group-participants.update', async (group_update) => {
             await (await import(`file://${__dirname}/detect.js?v=${Date.now()}`)).default({ theo, group_update }).catch(e => console.log(e))
         })
@@ -154,9 +155,10 @@ export async function theoRun() {
 
         }
 
-        theo.ev.on('creds.update', saveCreds)
     } catch (e) {
+        console.log(e.error)
         console.log(`error`)
+        theoRun()
     }
 }
 await theoRun()
