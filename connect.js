@@ -1,10 +1,9 @@
 import theoBot, { useMultiFileAuthState, jidNormalizedUser, fetchLatestBaileysVersion, delay, Browsers } from "baileys"
 import Pino from "pino"
 import "./setting.js"
-import fs, { cpSync } from "fs"
+import fs from "fs"
 import QRCode from "qrcode"
 import { random_huruf_besar_nomor } from "./tools/func.js"
-import { list_kota } from "./tools/scrape.js"
 import path from "path"
 console.log(`\n📂  Menjalankan bot di direktori: ${__dirname}`)
 console.log(`🚀  Mengaktifkan *${namaBot}*...`)
@@ -111,7 +110,7 @@ export async function theoRun() {
                 await delay(300)
                 console.log(`🔄  Mencoba menghubungkan ulang...`)
                 switch (koneksi.lastDisconnect.error.output.payload.error) {
-                    case "Unauthorized": case "Service Unavailable":
+                    case "Unauthorized":
                         if (fs.existsSync(sesiPath)) {
                             fs.rmdirSync(sesiPath, { recursive: true, force: true })
                         }
