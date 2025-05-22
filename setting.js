@@ -9,19 +9,19 @@ import { jadwal_sholat_kota } from "./tools/scrape.js";
 global.__dirname = path.dirname(url.fileURLToPath(import.meta.url));
 //
 await import(`file://${__dirname}/data_lain.js?v=${Date.now()}`)
-global.namaBot = "TheoBot V3";
-global.maxUseRam = 500 //MB
+global.namaBot = "TheoBot V4";
+global.maxUseRam = 1000 //MB
 global.pairingCode = true //pairing code
 global.qr = path.join(__dirname, "QR_LOGIN.jpg")
 global.owner = [
     "6285876830674",
     "6285809011357",
-    // "201027441522"
+    "201027441522"
 ].map(a => a.replace(/\D/g, ""));
 
 global.ownerPrefix = true;
-global.apikey = "A3EI95";
-global.nomorBot = "201027441522".replace(/\D/g, "");
+global.apikey = "apikey kamu";
+global.nomorBot = "+62 888-8888-8888".replace(/\D/g, "");
 
 global.sesiPath = path.join(__dirname, "SESSION");
 global.dataPath = path.join(__dirname, "data.json");
@@ -125,7 +125,7 @@ if (!db.chat) {
     await delay(300);
     console.log("✅  Database chat berhasil dibuat");
 }
-
+savedb()
 // Jadwal sholat
 let tanggal = tanggal_now();
 if (!db.jadwalSholat || db.jadwalSholat.hari !== tanggal.getDay()) {

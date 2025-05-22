@@ -16,6 +16,7 @@ export default async function theoFitur({ m, theo }) {
     let afkList = Object.keys(db.user)
         .filter(a => db.user[a].afk)
         .filter(b => {
+            if (m.quoted?.sender && m.text) return b === m.quoted.sender || m.text.includes(b.split('@')[0]);
             if (m.quoted?.sender) return b === m.quoted.sender;
             if (m.text) return m.text.includes(b.split('@')[0]);
             return false;

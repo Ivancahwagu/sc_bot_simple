@@ -34,5 +34,5 @@ pakai awalan +62 atau sesuai kode negara nomor tujuan`);
 
 theoFitur.private = true;
 theoFitur.tags = "fun";
-theoFitur.command = ["chatrahasia"];
+theoFitur.command = ["chatrahasia", "confes"];
 export default theoFitur;

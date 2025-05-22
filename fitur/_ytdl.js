@@ -1,4 +1,4 @@
-import { youtube } from "../tools/scrape.js";
+import { shortlink, youtube } from "../tools/scrape.js";
 
 let theoFitur = async function ({ m, theo }) {
     if (m.quoted) {
@@ -23,12 +23,20 @@ let theoFitur = async function ({ m, theo }) {
                 if (res.title.toLowerCase().includes(`playlist`) ||
                     res.title.toLowerCase().includes(`kumpulan`) ||
                     kualitas.endsWith("p")) {
+                    let shortUrl;
+                    try {
+                        const { result } = await shortlink(res.download);
+                        shortUrl = result;
+                    } catch (e) {
+                        shortUrl = res.download;
+                    }
+
 
                     return await m.reply(
                         `⚠️ *File video terdeteksi!* \n\n` +
                         `Untuk mencegah overlaod.` +
                         `Gunakan link berikut untuk mengunduh secara manual:\n` +
-                        `${res.download}`,
+                        `${shortUrl}`,
                         {
                             contextInfo: {
                                 externalAdReply: {

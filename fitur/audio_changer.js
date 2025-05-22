@@ -1,4 +1,4 @@
-import { audio_effect } from "../tools/file.js";
+import { audioChanger } from "../tools/file.js";
 
 let theoFitur = async function ({ m, theo }) {
     if (!m.quoted || !m.quoted.message.audioMessage) return m.reply("Balas audio untuk mengubahnya");
@@ -19,7 +19,7 @@ let theoFitur = async function ({ m, theo }) {
         if (inputBuffer.length === 0) {
             throw new Error("File audio yang diunduh kosong.");
         }
-        let outputBuffer = await audio_effect(inputBuffer, effect);
+        let outputBuffer = await audioChanger(inputBuffer, effect);
         await theo.sendMedia(m.chat, outputBuffer, null, { quoted: m }); // Sesuaikan parameter m.quo jika diperlukan
 
     } catch (error) {

@@ -1,4 +1,4 @@
-import { create_img_ai, id_to_en } from "../tools/scrape.js";
+import { create_img_ai, id_to_en, shortlink } from "../tools/scrape.js";
 
 let theoFitur = async function ({ m, theo }) {
     if (!db.user[m.sender]) return;
@@ -19,9 +19,20 @@ let theoFitur = async function ({ m, theo }) {
                 let hasil = await create_img_ai(await id_to_en(data.prompt), no)
                 await theo.sendMedia(m.chat, hasil, `✅ Gambar berhasil dibuat berdasarkan deskripsi:\n\n📝 "${data.prompt}"`, m.quo)
             } else {
-                data.type?.toLowerCase().includes(`hd`)
-                    ? await m.reply(`⚡ *Kualitas HD terdeteksi!* \n🙏 Maaf, untuk menghindari overload bot, gunakan link berikut untuk mengunduh:\n${data.url}`)
-                    : await theo.sendMedia(m.chat, data.url, `📩 Media berhasil dikirim!`, m.quo);
+
+
+                if (data.type?.toLowerCase().includes(`hd`)) {
+                    let shortUrl;
+                    try {
+                        const { result } = await shortlink(data.url);
+                        shortUrl = result;
+                    } catch (e) {
+                        shortUrl = res.download;
+                    }
+                    await m.reply(`⚡ *Kualitas HD terdeteksi!* \n🙏 Maaf, untuk menghindari overload bot, gunakan link berikut untuk mengunduh:\n${shortUrl}`)
+                } else {
+                    await theo.sendMedia(m.chat, data.url, `📩 Media berhasil dikirim!`, m.quo);
+                }
             }
         }
     }

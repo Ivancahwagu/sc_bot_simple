@@ -4,7 +4,6 @@ import { selisih_waktu_now } from '../tools/func.js';
 
 
 let theoFitur = async function ({ m, theo }) {
-    if (!db.user[m.sender]) return m.reply(`anda belum terdaftar di bot ini`)
     await m.reply(`╭「 *👤 PROFIL PENGGUNA* 」
 │ 📱 Nomor   : ${PhoneNumber(`+` + m.sender.split(`@`)[0]).getNumber('international')}
 │ 💎 Premium : ${typeof db.user[m.sender].premium === "number" ? selisih_waktu_now(db.user[m.sender].premium) : db.user[m.sender].premium ? `✅ Aktif` : `❌ Tidak aktif`}
@@ -12,9 +11,8 @@ let theoFitur = async function ({ m, theo }) {
 │ 🎯 Limit   : ${db.user[m.sender].limit}
 │ 👑 Owner   : ${m.owner ? `✅ Ya` : `❌ Bukan`}
 ╰───────────────────╯`)
-
 }
-
+theoFitur.daftar = true
 theoFitur.tags = "main"
 theoFitur.command = ["profile", "me"]
 export default theoFitur

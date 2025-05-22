@@ -14,7 +14,6 @@ Silakan *balas pesan media* yang ingin di-upload.
 
         await m.reply(`✅ *Berhasil Upload!*
 
-🆔 File ID: *${hasil.id}*
 🔗 URL: ${hasil.result}
 
 Kamu bisa gunakan URL ini untuk dibagikan atau digunakan kembali.`)

@@ -25,7 +25,7 @@ ${m.res}
                 }
             });
             sukses++;
-            await delay(1000); // hindari spam detection
+            await delay(5000); // hindari spam detection
         } catch (err) {
             console.error(`❌ Gagal kirim ke ${user}:`, err);
         }
